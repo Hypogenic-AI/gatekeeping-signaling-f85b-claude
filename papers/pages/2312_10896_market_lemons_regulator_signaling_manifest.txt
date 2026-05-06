@@ -1,0 +1,9 @@
+PDF: papers/2312_10896_market_lemons_regulator_signaling.pdf
+Total pages: 18
+Pages per chunk: 5
+
+Chunks:
+  2312_10896_market_lemons_regulator_signaling_chunk_001.pdf: pages 1-5
+  2312_10896_market_lemons_regulator_signaling_chunk_002.pdf: pages 6-10
+  2312_10896_market_lemons_regulator_signaling_chunk_003.pdf: pages 11-15
+  2312_10896_market_lemons_regulator_signaling_chunk_004.pdf: pages 16-18

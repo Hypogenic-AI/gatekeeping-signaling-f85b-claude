@@ -1,0 +1,7 @@
+PDF: papers/2401_14952_AI_change_scientific_publishing_market.pdf
+Total pages: 5
+Pages per chunk: 4
+
+Chunks:
+  2401_14952_AI_change_scientific_publishing_market_chunk_001.pdf: pages 1-4
+  2401_14952_AI_change_scientific_publishing_market_chunk_002.pdf: page 5

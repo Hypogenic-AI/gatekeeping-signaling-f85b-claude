@@ -1,0 +1,19 @@
+PDF: papers/heckman_moktan_top_five_economics.pdf
+Total pages: 68
+Pages per chunk: 5
+
+Chunks:
+  heckman_moktan_top_five_economics_chunk_001.pdf: pages 1-5
+  heckman_moktan_top_five_economics_chunk_002.pdf: pages 6-10
+  heckman_moktan_top_five_economics_chunk_003.pdf: pages 11-15
+  heckman_moktan_top_five_economics_chunk_004.pdf: pages 16-20
+  heckman_moktan_top_five_economics_chunk_005.pdf: pages 21-25
+  heckman_moktan_top_five_economics_chunk_006.pdf: pages 26-30
+  heckman_moktan_top_five_economics_chunk_007.pdf: pages 31-35
+  heckman_moktan_top_five_economics_chunk_008.pdf: pages 36-40
+  heckman_moktan_top_five_economics_chunk_009.pdf: pages 41-45
+  heckman_moktan_top_five_economics_chunk_010.pdf: pages 46-50
+  heckman_moktan_top_five_economics_chunk_011.pdf: pages 51-55
+  heckman_moktan_top_five_economics_chunk_012.pdf: pages 56-60
+  heckman_moktan_top_five_economics_chunk_013.pdf: pages 61-65
+  heckman_moktan_top_five_economics_chunk_014.pdf: pages 66-68

@@ -1,0 +1,20 @@
+Resource finding phase completed successfully.
+Timestamp: 2026-05-06T20:19:47+00:00
+Papers downloaded: 45
+Datasets catalogued: 7 (Paper Copilot paperlists cloned with full data, ~570 MB)
+Repositories cloned: 4 (AgentReview, openreview-py, pyalex, paperlists)
+
+Key deliverables:
+- literature_review.md (synthesis of theory + empirical evidence + recommendations)
+- resources.md (catalog of all resources)
+- papers/README.md (papers organized by relevance bucket A-H)
+- code/README.md (per-repo notes and integration plan)
+- datasets/README.md (per-dataset documentation with download instructions)
+
+Foundational theory papers (highest priority for the model):
+- Heckman & Moktan 2019 (Tyranny of the Top Five) — empirical T5 gatekeeping baseline
+- Kwiek & Roszka 2026 (top performers concentration) — persistent stratification
+- Long 2023 (Lemons + DMV signaling) — closed-form theoretical template
+- Bornmann & Mutz 2015 (growth rates of science) — quantifies N(t)
+- Fu et al. 2021 (productivity vs knowledge) — direct evidence info-per-paper drops with volume
+- Yang et al. 2025 (Paper Copilot) — provides the AI-conference data anchor

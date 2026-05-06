@@ -1,0 +1,1194 @@
+You are an academic paper writer. Generate a complete NEURIPS style paper
+based on the experiment results provided.
+
+════════════════════════════════════════════════════════════════════════════════
+                         IMPORTANT: BEFORE YOU START
+════════════════════════════════════════════════════════════════════════════════
+
+Before writing any content, you MUST complete these steps:
+
+1. READ THE SKILL: Review the paper-writer skill at .claude/skills/paper-writer/SKILL.md
+2. READ THE STYLE GUIDE: Study templates/paper_writing/lab_style_guide.md carefully
+3. REVIEW EXAMPLES: Browse paper_examples/ for formatting and language patterns:
+   - Look at sections/1.introduction.tex for language style
+   - Look at tables/*.tex for table formatting
+   - Look at commands/*.tex for macro usage
+4. VERIFY COMMAND TEMPLATES: Command templates (math.tex, general.tex, macros.tex) are pre-copied to paper_draft/commands/
+
+CRITICAL: Reference example papers for FORMATTING and LANGUAGE STYLE only.
+Do NOT copy content, phrasing, or narrative structure from the example papers.
+The examples are in a different research domain - focus only on presentation style.
+
+════════════════════════════════════════════════════════════════════════════════
+                            EXPERIMENT REPORT
+════════════════════════════════════════════════════════════════════════════════
+
+# Signaling Effect of Gate-keeping in the Publication System
+
+**A mathematical model with empirical calibration on AI-conference data**
+
+*Theory project — research session 2026-05-06*
+
+---
+
+## 1. Executive Summary
+
+We formalize gate-keeping in scientific publishing as a capacity-constrained
+Bayesian signaling problem and show, both analytically and on data from
+14 years of ICLR submissions (`67 → 19,814` papers), that the
+*signaling effect of acceptance* degrades systematically as submission
+volume `N` grows. Three mechanisms compound:
+
+1. **Paper-level (analytical):** for fixed venue capacity `K` and
+   reviewer noise `σ`, the mutual information `I(θ; A)` between paper
+   quality `θ` and acceptance decision `A`, and the recall on the
+   true top‑1% of papers, both fall monotonically in `N` (Kendall
+   `τ ≤ −0.95`, `p &lt; 10⁻⁶` for every `(σ, distribution)` cell).
+2. **Reader-level:** even when per‑paper precision is preserved, a
+   reader with a fixed time budget `B` can only consume a vanishing
+   fraction of the accepted pool under a constant-acceptance-rate
+   policy (`B/K → 0`); the venue label alone cannot select what to
+   read.
+3. **Researcher-level (bean counting):** under fixed capacity, the
+   Spearman correlation between true researcher ability `α` and
+   publication count drops from `0.77` at `M=200` researchers to
+   `0.26` at `M=20,000` (Mann–Whitney U `p = 0.004`); the order
+   statistic ceases to identify good researchers.
+
+**Empirical confirmation (ICLR 2017–2026):** the standardized posterior
+contrast `Δ̂ = (E[r|accept] − E[r|reject]) / σ̂_rating` falls log-linearly
+in `N` with slope `−0.32` per `e`-fold (`R² = 0.85, p = 1.1 × 10⁻³`),
+from `2.55` at `N=490` to `1.08` at `N=19,814`. The mean per-paper
+reviewer SD grows from `0.86` to `1.53` over the same window. Both
+patterns match the theory.
+
+The model also yields a constructive policy implication: among the
+three capacity policies we test, only a *linearly expanding* capacity
+(`K = a · N`, constant accept rate) preserves both per-paper
+information and researcher-level identifiability — but at the cost
+of forcing readers to use signals beyond the venue label.
+
+---
+
+## 2. Research Question &amp; Motivation
+
+**Question.** As the number of papers in prestigious venues grows,
+how rapidly does the signaling effect of gate-keeping diminish, and
+through what mechanisms?
+
+**Why it matters.** Modern science delegates much of its quality
+certification to a handful of prestigious venues (T5 in economics,
+Nature/Science/Cell in biology, NeurIPS/ICLR in AI). If volume growth
+silently destroys this certification, three things break: (i) readers
+cannot allocate attention; (ii) hiring committees cannot identify
+talent; (iii) the system as a whole cannot reward quality. AI
+conferences are the cleanest natural experiment — ICLR submissions
+grew almost 300× from 2013 to 2026 — so they let us test the model
+on real data.
+
+**Gap.** As surveyed in `literature_review.md`: Akerlof (1970), Spence
+(1973), and Long (2023) give static signaling models that do not vary
+volume `N`; Heckman &amp; Moktan (2019) and Kwiek &amp; Roszka (2026)
+describe gate-keeping at single snapshots; Bornmann &amp; Mutz (2015)
+quantify volume growth without a signaling mechanism. **No prior work
+combines** capacity-constrained Bayesian signaling, a reader
+consumption model, and a researcher-level identifiability analysis
+into a single framework parameterized by `N`.
+
+---
+
+## 3. Methodology
+
+### 3.1 The model
+
+**Paper layer.** `N` papers are submitted; paper `i` has latent
+quality `θ_i ~ F`. A reviewer produces a noisy score
+`s_i = θ_i + ε_i` with `ε_i ~ N(0, σ²)`. A capacity-constrained
+gatekeeper accepts the top `K` by score; the marginal acceptance
+rate is `a = K/N`.
+
+**Reader layer.** Each of `M` readers has a fixed budget `B`
+papers/year. A strategy is a sampling rule over the venue&#39;s accepted
+pool (or, for a baseline, all submissions). We track total true
+quality consumed and an optional negative-experience trust-loss
+state.
+
+**Researcher layer.** Each of `M_r` researchers has latent ability
+`α_i ~ N(0, σ_α²)` and submits `S` papers/year for `T` years. Paper
+quality is `θ_{ij} = α_i + ν_{ij}` with `ν ~ N(0, σ_ν²)`. The
+researcher&#39;s *publication count* `c_i` is the number of their
+accepted papers across `T` years; we measure how well `c_i` ranks
+`α_i` (Spearman `ρ`, top‑decile recall).
+
+### 3.2 Quantities
+
+| Symbol | Definition | Interpretation |
+|---|---|---|
+| `Δ` | `E[θ\|A=1] − E[θ\|A=0]` | Posterior contrast — how &#34;informative&#34; acceptance is on average. |
+| `I(θ; A)` | Mutual information | Per-decision bits of information about quality. |
+| `Pr(top-1% \| A=1)` | Precision on tail | Fraction of accepted papers in true top‑1%. |
+| `Pr(A=1 \| top-1%)` | Recall on tail | Fraction of true top‑1% papers that get accepted. |
+| `ρ(α, c)` | Spearman corr. of ability and count | Researcher-level identifiability. |
+
+### 3.3 Implementation
+
+All code is in `src/` (Python 3.12, `numpy 2.x`, `scipy 1.17`,
+`pandas 2.x`, `matplotlib`).
+- `src/analytical_signaling.py` — closed-form numerical computation
+  via 4001-point integration; supports Gaussian, log-normal, Pareto.
+- `src/consumption_model.py` — Monte Carlo reader simulation with
+  optional negative-experience feedback.
+- `src/researcher_bean_counting.py` — Monte Carlo researcher
+  simulation; 5 trials per `(M, regime)` cell.
+- `src/empirical_extraction.py` — extracts `N`, accept rate, mean
+  rating, mean per-paper reviewer SD, and `Δ̂` from
+  `code/paperlists/` JSON dumps for ICLR, NeurIPS, ICML, AAAI, CVPR,
+  EMNLP, ACL.
+- `src/statistical_tests.py` — Kendall trend tests, OLS regressions,
+  Mann–Whitney comparisons.
+- `src/make_figures.py` — generates Figs. 1–8 in `figures/`.
+
+**Reproducibility.** Every Monte Carlo uses `np.random.default_rng`
+with explicit seeds. `pyproject.toml` pins direct dependencies.
+
+### 3.4 Datasets and baselines used
+
+- **Paper Copilot paperlists** (cloned in `code/paperlists/`):
+  ICLR 2013–2026, NeurIPS 1987–2025, ICML 2013–2025, plus AAAI,
+  CVPR, EMNLP, ACL.
+- **Spence/Akerlof closed form** (Long 2023) — in the
+  no-capacity-constraint limit our model reproduces their result that
+  signal value is invariant in `N`. This is our negative control.
+- **Cortes &amp; Lawrence NeurIPS 2014 noise floor** (~50% disagreement)
+  — used to anchor a plausible reviewer noise `σ`.
+
+---
+
+## 4. Results
+
+### 4.1 H1 — Closed-form decay of paper-level signal under fixed capacity
+
+For Gaussian `θ`, fixed capacity `K = 200`, reviewer noise
+`σ ∈ {0.3, 0.7, 1.0, 1.5, 2.0}`, sweeping
+`N ∈ {200, 400, …, 102400}`:
+
+![Fig 3](figures/fig3_analytical_signaling.png)
+
+- **Mutual information `I(θ; A)` decreases** in `N` for every `σ`
+  (Kendall `τ` from `−0.51` at `σ=0.3` to `−0.78` at `σ=1.5`;
+  `p &lt; 0.005` for `σ ≤ 1.5`).
+- **Tail capture (recall) collapses** uniformly. Kendall
+  `τ = −1.0`, `p = 5.5 × 10⁻⁷` for *every* `σ`. By `N = 102 400`
+  only ~5% of true top‑1% papers are accepted.
+- **Posterior contrast `Δ` increases**, because as `a → 0` the
+  gatekeeper pulls deeper into the right tail. This is consistent
+  with `I(θ; A) → 0`: per acceptance the posterior is sharp, but
+  acceptances are vanishingly rare.
+
+**Robustness across distributions.** Replacing Gaussian `θ` with
+log-normal (heavy-tailed but light right tail) and Pareto
+(power-law) preserves the qualitative pattern. Mutual information
+peaks around `N ≈ K / a*` (some `a*`) and then decays in all three
+distributions; tail capture decreases monotonically.
+
+![Fig 4](figures/fig4_distribution_robustness.png)
+
+### 4.2 H1&#39; — Capacity policy as a moderator
+
+Repeating the analytical sweep under three capacity policies
+(`K = 200` constant, `K = 20·√N` sublinear, `K = 0.30·N` linear):
+
+![Fig 5](figures/fig5_capacity_policies.png)
+
+- **Linear capacity** (`K = a·N`, constant acceptance rate) keeps
+  `I(θ; A)` and tail capture at fixed levels for all `N`.
+- **Sublinear** `K ∝ √N` decays slowly.
+- **Constant** `K` decays the fastest.
+
+**Implication:** the per-paper signal degradation is not
+inevitable — it is a property of *how capacity scales with volume*.
+Top venues that hold capacity fixed (e.g. journals capped at a
+fixed number of issues) trade higher per-paper precision for
+catastrophic recall.
+
+### 4.3 H3 — Researcher-level &#34;bean counting&#34; failure
+
+`M ∈ {200, 500, 1000, 2000, 5000, 10000, 20000}`, `S = 2`
+papers/yr, `T = 5` yrs, `K_yr = 200` (fixed-capacity venue) vs
+`K_yr = 0.30 · N` (linear). 5 trials per cell.
+
+![Fig 6](figures/fig6_bean_counting.png)
+
+| Metric | `M=200` (fixed K) | `M=20,000` (fixed K) | `M=20,000` (linear K) |
+|---|---|---|---|
+| Spearman `ρ(α, count)` | **0.775 ± 0.005** | **0.256 ± 0.003** | **0.775 ± 0.002** |
+| Top-10% recall | 0.57 | 0.28 | 0.57 |
+| % researchers with 0 publications | 2.2% | 95.5% | 12.0% |
+
+- Under **fixed `K`**, `ρ(α, count)` falls monotonically (Kendall
+  `τ = −1.0`, `p = 4 × 10⁻⁴`) and the Mann–Whitney U test
+  rejects equality of small-`M` and large-`M` distributions
+  (`p = 0.004`, one-sided).
+- Under **linear `K`** (capacity expands with `N`), `ρ` is
+  statistically flat (`p = 0.38`).
+- The catastrophic mode under fixed `K` is **mass tying at
+  zero**: 95.5% of researchers publish nothing in `T = 5` years,
+  so any rank built from publication count is essentially a
+  random-tie-breaking exercise on most of the population.
+
+This formalizes the user&#39;s claim: when prestigious venues do not
+expand with the field, *publication count ceases to identify
+ability*, and the system reduces to &#34;bean counting&#34; with no
+signal.
+
+### 4.4 H2 — Reader consumption under finite budget
+
+`B = 20` papers/year, `M = 200` readers, `T = 12` years, `σ = 1.5`.
+
+![Fig 7](figures/fig7_consumption.png)
+
+| Regime | Strategy | Total quality consumed (12 yrs × B=20) |
+|---|---|---|
+| Fixed K=200, N=25 600 | accepted pool | **368.7 ± 1.0** |
+|  | all submissions | 0.21 ± 1.13 |
+| Linear K=0.30·N, N=25 600 | accepted pool | 154.0 ± 1.0 |
+|  | all submissions | −0.66 ± 1.17 |
+
+Two regimes, two qualitatively different reader experiences.
+
+- **Fixed `K`:** the *gap* between accepted and random sampling
+  *grows* in `log N` (slope `+69.4`, `p = 1.0 × 10⁻⁵`). Per
+  accepted paper, label informativeness explodes — but this is a
+  Pyrrhic victory because there are vanishing few of them and
+  recall on top papers collapses.
+- **Linear `K` (constant accept rate):** the gap is roughly flat at
+  `~155` quality units (slope `+2.6`, `p = 0.13`). The reader
+  benefits from the venue label by a fixed multiple, regardless
+  of `N`. But because `B/K → 0`, the reader can only sample a
+  vanishing fraction of accepted papers — *the label tells them
+  to read accepted ones, but cannot tell them which of the
+  thousands of accepted ones to read*.
+- **Negative-experience feedback** (`bad_threshold = −0.3`) does
+  not trigger reader collapse because the average accepted paper
+  has positive quality under both regimes. **However**, this
+  finding is itself diagnostic: trust collapse requires a
+  *threshold gap* between expected and realized quality. As
+  reviewer noise `σ` grows (which is what the empirical data
+  show), the *worst* accepted papers approach 0, and one can
+  show that for a more demanding threshold (e.g. expecting
+  top-quartile quality from a &#34;prestigious&#34; venue) collapse
+  becomes generic — we leave a fuller derivation as future work.
+
+### 4.5 H4 — Empirical calibration on ICLR
+
+ICLR submissions grew from 67 (2013) to 19,814 (2026) — 296×.
+
+![Fig 1](figures/fig1_empirical_growth.png)
+
+Acceptance rates have stayed near 25–35% across all measured
+years; the venue is operating at *constant accept rate*, the
+linear-`K` regime in our taxonomy. The per-paper reviewer SD has
+grown:
+
+![Fig 2](figures/fig2_empirical_dispersion.png)
+
+| Year | `N` | mean reviewer SD | `Δ̂` (raw) | `Δ̂ / σ̂_rating` |
+|---|---|---|---|---|
+| 2017 | 490 | 0.86 | 2.19 | **2.55** |
+| 2020 | 2 594 | 1.40 | 2.82 | 2.02 |
+| 2024 | 7 407 | 1.21 | 1.92 | 1.59 |
+| 2026 | 19 814 | 1.53 | 1.65 | **1.08** |
+
+Trend tests:
+
+- **Reviewer SD vs year**: Kendall `τ = +0.64`, `p = 0.031`.
+- **Standardized `Δ̂` vs `log N`**: OLS slope `= −0.318`,
+  `p = 1.14 × 10⁻³`, `R² = 0.85`. **Per `e`-fold growth in `N`,
+  the standardized signaling contrast falls by 0.32 SD units.**
+
+### 4.6 Calibration of the model to ICLR
+
+When we fix the model&#39;s capacity policy to ICLR&#39;s actual yearly
+acceptance rate and search for the reviewer noise `σ` that best
+matches `Δ̂ / σ̂_rating`, the inferred `σ` jumps from 0.5
+(2017–2025) to 1.0 (2026), tracking the rise in measured per-paper
+reviewer SD (0.86 → 1.53):
+
+![Fig 8](figures/fig8_calibration_iclr.png)
+
+This is consistent with the **load-induced noise mechanism**: at
+ICLR, capacity has scaled roughly with submissions, so the
+*per-paper precision* the analytical model predicts under linear-`K`
+should hold — *if reviewer noise stayed constant*. The empirical
+signal degradation is exactly accounted for by reviewer noise
+`σ` growing, which is the natural consequence of asking a fixed
+reviewer pool to handle 300× more papers (Wang et al. 2025
+estimate ~100M reviewer-hours/year are already spent globally).
+
+---
+
+## 5. Analysis &amp; Discussion
+
+### 5.1 Three compounding mechanisms
+
+Reading the H1–H4 results jointly, the user&#39;s intuition resolves
+into three formally distinct effects, each with a different rate:
+
+1. **Bayesian decay (H1).** Under *fixed* capacity, `I(θ; A)` and
+   tail recall fall as `O(1/N)`-ish power laws. This is the
+   classical capacity-strain effect and is **escapable by
+   expanding capacity linearly with `N`**.
+2. **Load-induced noise (H4 mechanism).** When capacity expands
+   linearly but the reviewer pool does not, `σ²(N)` grows; this
+   re-injects the same `Δ → 0` behaviour through the back door.
+   ICLR shows this empirically.
+3. **Bean counting (H3) and reader budget (H2).** Even if `Δ`
+   were preserved, the *aggregator-level* signal (publication
+   count) and the *reader-level* allocator (which paper to read)
+   both fail at a finite `N` because of fixed budgets — `B`
+   papers per reader, `T` years per researcher.
+
+### 5.2 What the empirical data say
+
+- **Volume**: ICLR is a clear outlier — 296× growth in 14 years.
+  Other venues with reliable rating data are smaller but show
+  similar patterns.
+- **Capacity policy**: ICLR has held acceptance rate roughly
+  constant at 25–35%. *Capacity has expanded with submissions.*
+  The linear-`K` row in the H1&#39; analysis applies.
+- **Reviewer noise has grown**: `0.86 → 1.53` (SD units of the
+  rating scale), `τ = +0.64`, `p = 0.031`.
+- **Standardized posterior contrast has fallen**: `2.55 → 1.08`,
+  with a `−0.32` per `e`-fold slope on `log N`, `R² = 0.85`.
+
+The pattern matches the model under a **linear-`K` policy with
+load-induced reviewer noise**.
+
+### 5.3 Why &#34;bean counting&#34; fails
+
+Under fixed capacity, in our simulation a researcher with mean
+ability `α = 0` submits `S·T = 10` papers and is accepted at rate
+`a = K/N → 0`. As `N → ∞`, almost everyone has `c = 0`. The rank
+defined by `c` then has enormous tied mass at the bottom and
+random tie-breaking dominates. The Spearman correlation falls
+monotonically because the *informative* events (acceptances)
+become sparse relative to the population.
+
+This is a formal analogue of the user&#39;s claim: *&#34;the system will
+provide no signal about whether a researcher is good as it
+reduces to bean counting and bean counting does not surface
+actually good researchers.&#34;*
+
+The fix in our model is `K = a · N`. Empirically that is what AI
+conferences do, but they pay for it through the noise channel
+(point 2 above).
+
+### 5.4 Why the venue label cannot guide reading
+
+The reader&#39;s budget `B = 20` papers/year is independent of `N`.
+Under linear-`K`, `K = 0.30 · N` so `B/K → 0`. The accepted pool
+genuinely has higher quality on average than the rejected pool
+(gap is `~155` quality units, stable in `N`), so reading from
+accepted papers is uniformly better than not. But picking *which
+20* of 6000 accepted papers to read requires *additional* signal:
+author identity, topic, social network. The venue label survives
+as a *necessary* filter and ceases to be a *sufficient* one.
+
+### 5.5 Comparison to prior work
+
+- We reproduce the Akerlof/Spence/Long 2023 result that with no
+  capacity constraint the signal is invariant in `N`. This is
+  visible as the green flat line in Fig 5(a).
+- We reproduce the Heckman &amp; Moktan finding that &#34;the screen is
+  far from reliable&#34; via the tail-capture metric: at moderate
+  `N` and `σ`, recall on the true top-1% is `~50%`, matching
+  their numerical observation that the T5 captures only ~50%
+  of the top-1% influential articles.
+- We provide a quantitative explanation for the AI Conference
+  Peer Review Crisis paper (Mohanty 2025): the predicted decay
+  of `Δ̂` under load-induced noise matches what we measure.
+
+### 5.6 Surprises
+
+- **`Δ` increases, not decreases, under fixed `K`.** A naive read
+  of the user&#39;s hypothesis would predict `Δ → 0`. The opposite
+  happens (the gatekeeper is increasingly selective per
+  acceptance), and the *operationally* important quantity that
+  *does* decay is mutual information / tail recall.
+  Operationalizing the hypothesis as &#34;informativeness&#34; rather
+  than &#34;average difference&#34; is essential.
+- **Linear-`K` rescues researcher identifiability completely**
+  in our simulation (`ρ ≈ 0.77` flat in `M`). This is a stronger
+  positive result than we expected.
+
+---
+
+## 6. Limitations
+
+- **Modeling.** We assume reviewer scores are conditionally
+  independent given `θ`. Real reviews are correlated through
+  shared author/institution/topic priors; this would *increase*
+  the effective `σ` and accelerate the decay we see.
+- **Quality distribution.** We used Gaussian, log-normal, and
+  Pareto, but real paper quality is multidimensional (novelty,
+  rigor, impact). Our `θ` is best read as the projection onto a
+  single useful dimension.
+- **Bean-counting model.** We fix `S` (papers/year) per
+  researcher; in practice `S(α)` is increasing in ability — the
+  Lotka and Kwiek-Roszka findings — which would *partly*
+  rescue identifiability under fixed `K`. We did not implement
+  this; doing so would only soften the H3 conclusion, not
+  reverse it.
+- **Empirical N.** The pre-2017 ICLR JSON files have no rating
+  fields; we cannot test the dispersion claim there. Eight
+  years of usable rating data is enough for a `−0.32 ± 0.08`
+  slope estimate but not for a fully saturated time series.
+- **Reader feedback.** Our trust-collapse trigger
+  (`bad_threshold = −0.3`) was conservative and did not
+  activate; fitting a more aggressive prior (matching reader
+  *expectations* of a prestigious venue) would change pct‑collapsed
+  meaningfully and is the natural next experiment.
+- **Causality.** All ICLR trend results are observational. The
+  load-induced noise channel is the most plausible explanation
+  for the empirical degradation, but other contributors (paper
+  topic broadening, ML reviewer pool changes, LLM-assisted
+  reviewing — Latona et al. 2024) coexist.
+- **Generalization.** ICLR may not generalize. We provide
+  parallel data for NeurIPS/ICML/CVPR/AAAI/EMNLP/ACL but only
+  the high-`N` AI conferences have the resolution to show the
+  trend cleanly.
+
+---
+
+## 7. Conclusions &amp; Next Steps
+
+**Answer to the research question.** The signaling effect of
+gate-keeping diminishes through (1) Bayesian decay under fixed
+capacity, (2) load-induced reviewer noise under expanded
+capacity, (3) bean-counting failure at the researcher level, and
+(4) reader-budget dilution. ICLR data over 2017–2026 show the
+predicted signal-degradation pattern (`Δ̂ / σ̂` falls 58% as `N`
+grows 40-fold, `R² = 0.85`).
+
+**Practical implications.**
+
+1. **Per-paper signaling** at top AI conferences has measurably
+   degraded; treating &#34;venue acceptance&#34; as decisive is harder
+   to defend in 2026 than in 2017.
+2. **Researcher evaluation by publication count** is dangerous
+   under any policy that does not expand capacity proportionally
+   to the field — and the only mathematically clean fix
+   (capacity expansion) trades signal degradation through a
+   reviewer-noise channel that is now visibly active.
+3. **Readers** cannot rely on the venue label alone to allocate
+   attention — *necessary but not sufficient*. The label survives
+   as a coarse filter; finer-grained signals (author, topic,
+   social) carry the rest of the load.
+
+**Open questions.**
+
+1. Can structured review formats (rebuttal, AC discussion,
+   OpenReview transparency) reduce `σ²(load)`? An empirical
+   ablation across venue formats would extend H4.
+2. Does an adaptive capacity policy (`K(N) = α · log N`?) trade
+   off precision and recall optimally? We have the analytical
+   machinery to answer this — it is a one-parameter sweep
+   beyond what we ran.
+3. The user&#39;s negative-experience-feedback story deserves a
+   rigorous closed-form treatment — when does trust collapse
+   become generic rather than threshold-gated? A Bayesian
+   reader with a prior on venue quality and a misspecification
+   penalty is the natural next model.
+
+---
+
+## 8. Reproducibility
+
+```bash
+source .venv/bin/activate
+python src/empirical_extraction.py
+python src/analytical_signaling.py
+python src/consumption_model.py
+python src/researcher_bean_counting.py
+python src/make_figures.py
+python src/statistical_tests.py
+```
+
+Random seeds are set explicitly (`seed=0`, `seed=42` for the
+trial-RNG generator). Total wall-clock to reproduce all
+experiments and figures: `&lt; 60 s` on CPU.
+
+**Hardware used.** CPU-only (Linux x86_64); GPUs were available
+(4× RTX A6000) but not needed.
+
+**Software.** Python 3.12.8, `numpy 2.x`, `scipy 1.17`,
+`pandas 2.x`, `matplotlib 3.x`. Pinned in `pyproject.toml` /
+`uv.lock`.
+
+**Data.** `code/paperlists/` (Paper Copilot, MIT licensed) is
+in-repo. `code/AgentReview` and `code/openreview-py` are present
+as references but not invoked by these scripts.
+
+---
+
+## 9. References
+
+Selected — see `literature_review.md` and `papers/` for the full
+catalogue.
+
+- Akerlof, G. A. (1970). &#34;The Market for Lemons.&#34; *QJE.*
+- Bornmann, L., &amp; Mutz, R. (2015). &#34;Growth rates of modern
+  science.&#34; *JASIST.* arXiv:1402.4578.
+- Cortes, C., &amp; Lawrence, N. (2014). NeurIPS 2014
+  reproducibility experiment. inverseprobability.com/2014/12/16
+- Fu, X., Liu, Y., et al. (2021). &#34;Disproportion Between
+  Scientific Productivity and Knowledge Amount.&#34;
+  arXiv:2106.02989.
+- Heckman, J. J., &amp; Moktan, S. (2019). &#34;Publishing and Promotion
+  in Economics: The Tyranny of the Top Five.&#34; NBER WP 25093.
+- Jin, Y., Zhao, Q., et al. (2024). &#34;AgentReview.&#34; *EMNLP.*
+  arXiv:2406.12708.
+- Kwiek, M., &amp; Roszka, W. (2026). &#34;Top performers and top
+  journals.&#34; arXiv:2603.00069.
+- Latona, G. R., et al. (2024). &#34;The AI Review Lottery.&#34;
+  arXiv:2405.02150.
+- Long, X. (2023). &#34;The Market for Lemons and the Regulator&#39;s
+  Signaling Problem.&#34; arXiv:2312.10896.
+- Mohanty, S., et al. (2025). &#34;AI Conference Peer Review Crisis.&#34;
+  arXiv:2505.04966.
+- Spence, M. (1973). &#34;Job Market Signaling.&#34; *QJE.*
+- Wang, X., Ma, J., Wang, Z., &amp; Uzzi, B. (2025). &#34;Peer Review and
+  the Diffusion of Ideas.&#34; arXiv:2507.11825.
+- Yang, J., Wei, L., &amp; Pei, J. (2025). &#34;Paper Copilot.&#34;
+  arXiv:2510.13201.
+
+
+════════════════════════════════════════════════════════════════════════════════
+                            RESEARCH PLAN
+════════════════════════════════════════════════════════════════════════════════
+
+# Research Plan — Signaling Effect of Gate-keeping in the Publication System
+
+## Motivation &amp; Novelty Assessment
+
+### Why This Research Matters
+Modern science relies on a few prestigious venues to certify quality. If
+volume growth degrades that signal — empirically observed in AI conferences
+(&gt;10K submissions/year at NeurIPS, ICLR) — the system silently loses its
+ability to allocate attention and recognize talent. Quantifying *how fast*
+the signal degrades, and *what feature of consumption* drives it, has direct
+implications for venue policy (capacity expansion, structured review,
+researcher-level vs. paper-level evaluation) and for individual scholars
+trying to allocate reading time.
+
+### Gap in Existing Work
+From `literature_review.md`:
+- Akerlof, Spence, Long (2023) give static signaling models that do **not**
+  vary submission volume `N` as the explanatory variable.
+- Heckman &amp; Moktan (2019) and Kwiek &amp; Roszka (2026) describe gatekeeping
+  empirically at single snapshots, not as a function of `N`.
+- Bornmann &amp; Mutz (2015) and Fu et al. (2021) describe the volume growth and
+  the per-paper information drop, but not via a signaling mechanism.
+- AgentReview (2024) and Grimaldo et al. (2018) simulate review pipelines
+  but do not vary load `N` and do not include a *reader* consumption model
+  with negative-experience feedback.
+
+**No prior work** combines (i) capacity-constrained Bayesian signaling with
+explicit `N`, (ii) a reader-side consumption model where bad-paper exposure
+erodes the venue prior, and (iii) a researcher-level &#34;bean counting&#34;
+identifiability analysis.
+
+### Our Novel Contribution
+1. **Closed-form Bayesian signaling model** parameterised by `N` (volume)
+   and `C` (capacity). We derive the mutual information `I(θ; A)` and the
+   posterior contrast `Δ = E[θ|A=1] − E[θ|A=0]` analytically and show
+   `Δ → 0` as `N → ∞` for fixed `C` (and any reviewer noise σ² &gt; 0).
+2. **Reader consumption model with negative-experience feedback.** Each
+   reader has a fixed time budget; their decision to read a paper from
+   venue `V` follows a Bayesian update using both the venue prior and
+   their own past sampling history. Negative experiences shift the prior
+   downward and create an absorbing &#34;stop reading from V&#34; state. We show
+   the venue&#39;s effective signal collapses faster than the raw
+   `I(θ; A)` because of feedback.
+3. **Researcher-level bean-counting identifiability theorem.** Treating
+   each researcher as having latent ability `α`, we show that when papers
+   become near-uninformative as a quality signal, the order statistic
+   &#34;publication count in venue V&#34; becomes asymptotically uninformative
+   about `α` for fixed observation horizon — i.e., gatekeeping ceases to
+   identify good researchers.
+4. **Empirical calibration.** We extract submission-count time series and
+   reviewer-rating distributions from `code/paperlists/` (ICLR 2013–2026,
+   NeurIPS 2018–2024) and show our model&#39;s predicted signal degradation
+   tracks the empirical reviewer-disagreement growth.
+
+### Experiment Justification
+
+| # | Experiment | Why needed |
+|---|---|---|
+| E1 | Closed-form derivation + numerical sweep of `I(θ; A)` and `Δ(N)` for Gaussian and heavy-tailed quality distributions | Establishes core theorem and shows it does not depend on the Gaussian assumption |
+| E2 | Reader consumption simulation with negative-experience feedback | Shows the *effective* signal (probability a researcher reads accepted papers) collapses faster than `I(θ;A)` alone |
+| E3 | Researcher-level bean-counting Monte Carlo | Quantifies how many true high-`α` researchers are misranked at high `N` and tests the identifiability claim |
+| E4 | Empirical calibration on ICLR/NeurIPS Paper Copilot data | Tests whether predicted degradation rates match observed reviewer disagreement and inflation in submission volume |
+| E5 | Robustness sweep: vary capacity policy `C(N)` (constant vs. linear in `N` vs. sublinear) | Tests whether expanding capacity restores the signal — informs policy |
+
+---
+
+## Research Question
+*As the number of papers in prestigious venues grows, how rapidly does the
+signaling effect of gate-keeping diminish, and through what mechanisms
+(paper-level Bayesian decay, reader-feedback collapse, researcher-level
+bean-counting) does it diminish?*
+
+Decomposed sub-hypotheses:
+- **H1 (paper-level):** For fixed capacity `C` and reviewer noise σ² &gt; 0,
+  the mutual information `I(θ; A)` and posterior contrast `Δ` strictly
+  decrease in `N` and tend to zero.
+- **H2 (consumption):** When a reader&#39;s reading decision incorporates
+  negative-experience feedback, the *effective* venue signal collapses
+  for the reader before `I(θ; A)` itself collapses.
+- **H3 (researcher-level):** The publication-count rank of researchers
+  becomes asymptotically uninformative about ability `α` as the per-paper
+  signal vanishes (&#34;bean counting fails&#34;).
+- **H4 (empirical):** Reviewer-rating dispersion and rejection rates in
+  ICLR/NeurIPS over 2013–2026 follow patterns consistent with the model
+  (specifically: reviewer disagreement σ̂² and acceptance-rate-conditioned
+  posterior contrast trend in the predicted direction).
+
+## Background and Motivation
+See `literature_review.md`. Top-line: the volume of submissions to
+prestigious venues has grown 1000× in some AI conferences over a decade
+(`code/paperlists/iclr/iclr2013.json` vs `iclr2024.json`), capacity has
+not kept pace, and reviewer noise is empirically high (Cortes &amp; Lawrence
+~50% disagreement). Our model is the first to tie all three to a
+single signal-degradation prediction.
+
+## Proposed Methodology
+
+### Approach
+Two-layer construction (per `literature_review.md` §8):
+- **Layer 1 (analytical):** Spence-Akerlof-style Bayesian signaling with
+  capacity-constrained gatekeeper. Gaussian-quality and reviewer-noise
+  setup admits closed forms; we then verify the qualitative result for
+  Pareto/log-normal quality.
+- **Layer 2 (simulation):** Stochastic agent simulation. Authors draw
+  quality, reviewers produce noisy scores, top-K accepted, readers
+  consume with bounded budget and update their venue prior from
+  experience. Researcher-level analysis takes the resulting publication
+  records.
+
+### Experimental Steps
+1. **E1 — Closed-form &amp; numerical signaling.** Derive `Δ(N, C, σ²)` and
+   `I(θ; A)` for Gaussian. Numerically compute for Pareto and log-normal
+   quality. Plot vs. `N` for several capacity policies.
+2. **E2 — Reader consumption with feedback.** Simulate `M` readers with
+   time budget `B`. Each round: a reader picks a venue based on prior,
+   reads a paper from that venue (drawn from the venue&#39;s accepted pool),
+   updates prior using observed quality. Measure: probability of reading,
+   total quality consumed, time-to-prior-collapse.
+3. **E3 — Researcher-level bean counting.** Sample researchers with latent
+   `α`, generate paper qualities `θ ∼ p(·|α)`, run them through the
+   gatekeeper, and rank by acceptance count. Compute Spearman ρ between
+   true `α` rank and acceptance-count rank as a function of `N`.
+4. **E4 — Empirical calibration.** Extract ICLR/NeurIPS submission counts
+   per year and (where available) reviewer-rating dispersion. Fit the
+   model&#39;s `σ²` and capacity policy and compare predicted vs. empirical
+   trajectories.
+5. **E5 — Capacity policy sweep.** Repeat E1–E3 under three capacity
+   policies (constant, sublinear, linear in `N`) to test whether
+   expanding capacity rescues the signal.
+
+### Baselines
+- **Pure Spence (no capacity):** `I(θ; A)` is flat in `N`.
+- **No-capacity-constraint Bayesian:** acceptance probability follows
+  the calibration curve set by σ² alone.
+- **Heckman &amp; Moktan empirical reference:** target T5 vs non-T5
+  citation overlap (top-5 captures only ~50% of top-1% papers).
+- **Cortes &amp; Lawrence noise floor:** reviewer disagreement ~50% at
+  NeurIPS 2014 — used to anchor σ².
+
+### Evaluation Metrics
+- `I(θ; A)`: mutual information between true quality and acceptance.
+- `Δ = E[θ|A=1] − E[θ|A=0]`: posterior contrast.
+- `Pr(top-1% accepted)`: tail capture.
+- `Spearman ρ(true α, acceptance-count)`: researcher-level identifiability.
+- `Pr(reader reads accepted paper at time t)`: effective signal under
+  reader feedback.
+- Calibration curve `Pr(A=1 | θ)`.
+
+### Statistical Analysis Plan
+- All Monte Carlo: 1000 trials per (N, C, σ²) cell, report mean ± 95% CI
+  via bootstrap (10K resamples).
+- Hypothesis tests: two-sided test on slope of `Δ(N)`, Mann-Kendall
+  trend test for monotonicity. α = 0.05.
+- Empirical calibration: report predicted vs. observed correlation and
+  RMSE.
+
+## Expected Outcomes
+- **Supports H1**: closed form yields `Δ(N) = O(1/√N)` for fixed `C` and
+  Gaussian `θ`.
+- **Supports H2**: reader-feedback simulations show effective signal
+  collapses at a *threshold* `N` rather than smoothly.
+- **Supports H3**: Spearman ρ between α and publication count drops
+  below 0.5 well before `Δ` does, because rank statistics amplify
+  per-paper noise.
+- **H4 partially testable**: ICLR rating-dispersion data only covers
+  2017–2026 with structured reviews; we expect dispersion increases.
+
+## Timeline and Milestones
+| Step | Time |
+|---|---|
+| Plan + setup (this file + env) | 30 min |
+| Empirical N(t) extraction | 30 min |
+| E1 closed-form + plotting | 45 min |
+| E2 reader simulation | 45 min |
+| E3 researcher-level Monte Carlo | 30 min |
+| E4 empirical calibration | 45 min |
+| E5 capacity sweep | 30 min |
+| Analysis + REPORT.md | 60 min |
+
+## Potential Challenges
+- *Heavy-tailed quality* may break Gaussian closed form — addressed by
+  numerical computation.
+- *ICLR rating data structure* varies by year — early years (2013–2016)
+  lack rating fields. Addressed by graceful degradation: use submission
+  counts and acceptance rates only for those years.
+- *Capacity policy* is empirically not constant; some venues do expand.
+  We document the empirical capacity trajectory and use it as the
+  calibration target rather than assuming constancy.
+
+## Success Criteria
+- Closed-form derivation complete and `Δ(N) → 0` shown rigorously.
+- Three simulation experiments (E2, E3, E5) execute without error and
+  produce monotone-trend results.
+- Empirical extraction (E4) yields a consistent ICLR/NeurIPS time
+  series and a calibration plot.
+- REPORT.md contains all results with figures and statistical tests.
+
+
+════════════════════════════════════════════════════════════════════════════════
+                          LITERATURE REVIEW
+════════════════════════════════════════════════════════════════════════════════
+
+# Literature Review: Signaling Effect of Gate-keeping in the Publication System
+
+**Hypothesis under study.** *As the number of papers in prestigious journals/conferences grows, the signaling effect of gate-keeping diminishes, making it increasingly difficult to assess paper quality or researcher ability based on acceptance, ultimately reducing the publication system&#39;s effectiveness as a quality signal.*
+
+This review synthesizes the relevant theoretical and empirical literature in five strands: (1) the underlying signaling theory; (2) the empirical growth of scientific publishing; (3) the empirical role of &#34;top-tier&#34; venues as career screens; (4) the noise floor of peer review; (5) the modern AI-conference reviewing crisis as a real-world stress test of the hypothesis.
+
+## 1. Research Area Overview
+
+Academic publication serves dual functions: **dissemination** of new knowledge and **certification** of quality (Wang et al. 2025; Heckman &amp; Moktan 2019). The certification function is what we call *gatekeeping signaling* — the proposition that &#34;this paper appeared in venue V&#34; carries credible information about its quality. From an information-economic standpoint, gatekeeping is a Spence-style signal (Spence 1973) backed by costly screening (peer review). When the screen is effective and capacity is fixed, acceptance is a strong indicator of quality. When the screen is noisy or capacity inflates, the indicator weakens — exactly the mechanism our hypothesis claims.
+
+Three independent literatures bear directly on this:
+
+- **Information economics**: Akerlof (1970), Spence (1973), Stiglitz (1975) — markets with asymmetric information collapse without credible signals; introducing a noisy signal partially restores the market but does not fully eliminate the lemons problem.
+- **Sociology of science / bibliometrics**: Merton (1968), Cole &amp; Cole (1973), de Solla Price (1963), Lotka (1926), Bornmann &amp; Mutz (2015) — productivity is heavy-tailed, prestige is concentrated, and the volume of science doubles every ~10 years.
+- **Mechanism design for peer review**: more recent work (Shah 2022; Stelmakh et al. 2021; AgentReview 2024; Auctions &amp; Peer Prediction 2021) — explicit attempts to model and improve peer-review allocation given bounded reviewer attention.
+
+The core intuition of the hypothesis is therefore well-grounded in classical theory but has not been systematically modeled as a function of *publication volume* in a single framework.
+
+## 2. Key Papers
+
+### Heckman &amp; Moktan (2019) — *Publishing and Promotion in Economics: The Tyranny of the Top Five*
+
+- **Source**: NBER WP 25093.
+- **Core claim**: T5 publications (AER, Econometrica, JPE, QJE, REStud) are powerful predictors of tenure in top-35 US economics departments — yet &#34;the T5 screen is far from reliable: a substantial share of influential publications appear in non-T5 outlets.&#34;
+- **Methodology**: Logit and Weibull duration models on tenure-track histories; comparison of citation distributions across 30 economics journals; survey of junior-faculty perceptions.
+- **Key quantitative finding**: Median-cited articles in non-T5 journals like *JEL* and *JOF* sit at the 70th and 61st percentile of the T5 citation distribution respectively. Top-1% influential articles are spread across many journals — the T5 captures only ~50% of them.
+- **Why central**: Provides the empirical proof that gatekeeping signals are *already* leaky in a domain (economics) where T5 status is treated as decisive. Any model that predicts further degradation as N grows must reproduce these baseline numbers.
+
+### Kwiek &amp; Roszka (2026) — *Top performers and top journals: Persistent concentration in scientific publishing*
+
+- **Source**: arXiv 2603.00069 (cs.DL).
+- **Population**: 144,314 Polish scientists, 433,546 articles, 1992–2021.
+- **Findings**: The top 10% of scientists (by output) account for ~50% of all publications, and dominate publishing in top-decile journals. The differences between top performers and the rest are *qualitative* (where they publish), not just quantitative. Importantly: &#34;In most extreme examples, this logic takes the form of *career gatekeeping through a narrow set of elite journals*.&#34;
+- **Why central**: Shows the gatekeeping mechanism is *persistent across decades* and disciplines, not a transient feature of one field. This persistence is a constraint our model must explain alongside the predicted degradation.
+
+### Bornmann &amp; Mutz (2015) — *Growth rates of modern science*
+
+- **Source**: arXiv 1402.4578, JASIST.
+- **Method**: Segmented regression on Web-of-Science publication counts, 38.5M publications 1980–2012.
+- **Result**: Three growth phases — &lt;1% pre-1750, 2–3% interwar, **8–9% post-WWII**. Doubling time ≈ 8–13 years.
+- **Why central**: Quantifies the explanatory variable N(t). The hypothesis claims the gatekeeping signal degrades *as a function of this growth*. Without these rates, we cannot calibrate the model.
+
+### Fu et al. (2021) — *Disproportion Between Scientific Productivity and Knowledge Amount*
+
+- **Source**: arXiv 2106.02989.
+- **Method**: KQI (Knowledge Quantification Index) using structural + Shannon entropy on citation networks for 185M articles, 19 disciplines, 1970–2020.
+- **Result**: &#34;Although the published literature shows an explosive growth, the amount of knowledge (KQI) contained in it obviously slows down.&#34;
+- **Why central**: Direct empirical evidence that the *information content per paper* is decreasing as volume grows. This is precisely the mechanism our hypothesis posits at the level of acceptance signals.
+
+### Wang, Ma, Wang &amp; Uzzi (2025) — *Peer Review and the Diffusion of Ideas*
+
+- **Source**: arXiv 2507.11825.
+- **Data**: 551K peer-review invitations, 37K submissions, 10 years from a major medical journal.
+- **Finding**: Peer review&#39;s secondary function is *idea diffusion* — even reviewers who decline propagate citations to the manuscripts they were briefly exposed to. Notes that ~100M reviewer-hours/year are spent globally, and over 9000 journals route ~3M manuscripts/year through ScholarOne alone.
+- **Relevance**: Establishes the *scale* of the modern review system and its role beyond filtering. Useful for modeling the cost side of peer review.
+
+### Akerlof&#39;s &#34;Lemons&#34; applied (Long 2023) — *The Market for Lemons and the Regulator&#39;s Signaling Problem*
+
+- **Source**: arXiv 2312.10896 (econ.TH).
+- **Model**: Akerlof&#39;s car-market with a regulator (DMV) issuing costly quality certificates. With cost c &gt; 0, only sellers with θ ≥ 2c disclose; the DMV&#39;s profit-maximizing fee is c = 1/4, leaving the bottom half undisclosed.
+- **Why central**: Provides the cleanest closed-form template for our model. *Researcher* maps to *seller*, *peer review* to *DMV certification*, *publication cost (effort, time, rejection probability)* to *c*. The mechanism by which higher submission volume effectively raises c is what we need to formalize.
+
+### Grimaldo, Paolucci &amp; Sabater-Mir (2018) — *Reputation or peer review? The role of outliers* (Scientometrics)
+
+- **Not yet downloaded** (closed-access). Available in `paper_search_results/*.jsonl`.
+- **Method**: Agent-based model of paper publication and consumption with two evaluation mechanisms: peer review vs. reputation. Calibrated on mono- and multidisciplinary datasets.
+- **Finding**: Reputation outperforms traditional peer review in mono-disciplinary settings; peer review wins in multidisciplinary contexts because it catches outliers.
+- **Why central**: One of the few prior agent-based simulations of paper publishing. We will likely build on the architecture conceptually even if we cannot access the code.
+
+### Yang, Wei &amp; Pei (2025) — *Paper Copilot: Tracking the Evolution of Peer Review in AI Conferences*
+
+- **Source**: arXiv 2510.13201.
+- **Contribution**: Open dataset of submissions/reviews/scores across major AI/ML/CS venues (ICLR 2013–2026, NeurIPS 1987–present, ICML, etc.), available as `code/paperlists/`.
+- **Key fact for hypothesis**: &#34;AI conferences—now exceeding 10,000 per venue annually&#34;. The dataset directly captures the explosive submission growth that motivates our hypothesis (ICLR file-line counts grow ~1000× from 2013 to 2026).
+- **Why central**: This is the empirical anchor for the modern AI/ML manifestation of the hypothesis.
+
+### Position: AI Conference Peer Review Crisis (2025) — arXiv 2505.04966
+
+- **Argument**: Current AI-conference reviewing is unsustainable; demands author feedback and reviewer rewards.
+- **Relevance**: Independent confirmation that researchers themselves perceive the signaling system as failing under volume pressure.
+
+### The AI Review Lottery (Latona et al. 2024) — arXiv 2405.02150
+
+- **Finding**: AI-assisted (LLM) peer reviews systematically *boost* paper scores and acceptance probability. This is *additional* signal noise: the same paper gets a higher score with an LLM-using reviewer than with a careful human reviewer.
+- **Relevance**: Provides empirical magnitude of one specific noise source that we can include in the simulation.
+
+### AgentReview (Jin et al. 2024, EMNLP) — arXiv 2406.12708
+
+- **Contribution**: LLM-agent simulator of the multi-stage peer-review pipeline.
+- **Relevance**: Closest existing computational tool. Code at `code/AgentReview/`. We will likely fork and modify it (or replicate its structure with cheaper non-LLM agents) to vary the volume parameter N.
+
+## 3. Common Methodologies
+
+The literature uses three broadly different methodologies, each of which we should consider:
+
+1. **Bibliometric / segmented-regression analysis** of publication counts and citations over time (Bornmann &amp; Mutz 2015; Fu et al. 2021; Kwiek &amp; Roszka 2026; Heckman &amp; Moktan 2019). Pros: empirically grounded. Cons: only describes outcomes, doesn&#39;t model mechanism.
+2. **Agent-based simulation** of paper publication / peer-review (Grimaldo et al. 2018; AgentReview 2024). Pros: captures dynamics, lets us vary parameters. Cons: validation is hard; LLM-based variants are expensive.
+3. **Closed-form information-economic models** (Akerlof 1970; Spence 1973; Long 2023; Bayesian information cascades 2105.03166). Pros: clean comparative statics; results easy to interpret. Cons: usually requires strong simplifying assumptions.
+
+For a *theory* paper testing our hypothesis, the natural plan is a **closed-form signaling model + agent-based simulation that calibrates against the empirical N(t) series**. Closed-form gives the comparative statics; the simulation provides realism.
+
+## 4. Standard Baselines
+
+There is no single canonical baseline against which a new signaling-of-gatekeeping model would be compared. The relevant comparison points are:
+
+- **Spence (1973) / Akerlof (1970)** — pure signaling / lemons baseline; assumes a single screening cost.
+- **Heckman &amp; Moktan (2019)** — empirical baseline for &#34;T5 power&#34; in economics (probability of tenure given T5 publications).
+- **Cortes &amp; Lawrence (2014/2021) NeurIPS experiment** — empirical baseline for review-system noise: ~50% of accepted papers would have been rejected by a second committee.
+- **AgentReview (2024)** — existing simulation baseline for review-pipeline LLM simulation.
+
+Our model should reproduce these baselines as limiting cases (e.g., low-N regime ≈ Spence; medium-N regime ≈ Heckman &amp; Moktan; very-high-N regime ≈ Cortes &amp; Lawrence noise floor).
+
+## 5. Evaluation Metrics
+
+The hypothesis is fundamentally about *information loss*, so the natural metrics are:
+
+- **Mutual information** I(true quality θ ; acceptance decision A) — degrades as N grows.
+- **Posterior contrast** E[θ | A=accept] − E[θ | A=reject] — should shrink as N grows.
+- **Reviewer agreement / inter-rater reliability** Cohen&#39;s κ or ICC — degrades as load increases (Bornmann &amp; Mutz 2010, Stelmakh 2019).
+- **Tail capture** Pr(top-1% paper is accepted) — should decrease as N grows but capacity stays fixed.
+- **Career predictive value** of acceptance for downstream productivity / impact (Heckman &amp; Moktan style).
+- **Calibration**: Pr(accepted | θ) vs θ — should be nearly step-function in low-N regime, smooth in high-N regime.
+
+## 6. Datasets in the Literature
+
+The literature uses (and our project should use):
+
+- **Web of Science / Scopus** — Bornmann &amp; Mutz, Heckman &amp; Moktan, Kwiek &amp; Roszka. Largely paywalled; OpenAlex is the open alternative.
+- **OpenAlex** — open replacement for MAG, ~250M works. We will use `pyalex`.
+- **OpenReview** — ICLR, NeurIPS, COLM, AISTATS, UAI peer-review traces. Captured in `code/paperlists/` and accessible via `code/openreview-py/`.
+- **NBER WP 25093 online appendix** — Heckman &amp; Moktan tenure-tracking data.
+- **PeerRead, MOPRD, ORB** — older peer-review datasets (NLP/ML and high-energy physics). Subsumed by Paper Copilot for our purposes.
+- **F1000 / F1000Prime** — open peer-review dataset, used by Bornmann for inter-rater studies.
+
+## 7. Gaps and Opportunities
+
+- **No prior model varies N as the explicit independent variable.** Akerlof, Spence, Heckman &amp; Moktan, Kwiek &amp; Roszka all *describe* the gatekeeping system at a snapshot or compare across snapshots; none ask &#34;how does the signal value change as a function of submission volume *per se*?&#34; This is the gap our hypothesis fills.
+- **Empirical calibration of reviewer noise as a function of load is missing.** Grimaldo et al. assume a fixed noise level; AgentReview doesn&#39;t vary load. We can calibrate σ²(N) against the Cortes &amp; Lawrence data and the AI Review Lottery results.
+- **The connection between bibliometric growth (Bornmann &amp; Mutz, Fu et al.) and individual-level signaling (Heckman &amp; Moktan, Kwiek) is largely untheorized.** Fu et al. show information per paper drops with volume; Heckman &amp; Moktan show top-5 are imperfect filters; nobody has linked these via a unified signaling model.
+- **The AI conference setting (ICLR, NeurIPS) is an unusually clean natural experiment** because the volume increase is recent, dramatic, and captured at high resolution by Paper Copilot. Existing literature treats it anecdotally; our project can use it as the primary empirical anchor.
+
+## 8. Recommendations for Our Experiment
+
+Based on the above, the experiment runner should:
+
+### Recommended datasets
+
+1. **Primary**: `code/paperlists/` (Paper Copilot) for AI-conference submission/acceptance/score series.
+2. **Supplementary**: OpenAlex via `pyalex` for journal-level publication-volume time series across multiple disciplines (Nature, Science, Cell, NEJM; AER, QJE, Econometrica; Physical Review Letters, etc.).
+3. **Calibration**: NeurIPS 2014 reproducibility experiment numbers (50% disagreement) as a noise-floor anchor.
+
+### Recommended model
+
+A two-layer construction:
+
+- **Layer 1 (analytical)**: Spence-Akerlof signaling with a capacity-constrained gatekeeper. Show analytically that as submission volume N grows but capacity C stays roughly constant (top journal doesn&#39;t double its issues), the posterior E[θ | accept] converges toward the population mean. This is the *core theoretical contribution*.
+- **Layer 2 (computational)**: Lightweight agent-based simulation. Researchers draw quality θ ~ F. Reviewers receive noisy signals s = θ + ε, ε ~ N(0, σ²). Top-K papers (K = capacity) are accepted. Vary N, measure I(θ; accept) and E[θ | accept] − E[θ | reject]. Calibrate σ² to inter-rater data.
+
+### Recommended baselines for comparison
+
+- **Pure Spence** (no capacity constraint): infinite-capacity acceptance → signal quality flat in N.
+- **Heckman &amp; Moktan empirical**: snapshot of T5 vs non-T5 quality distributions.
+- **Cortes &amp; Lawrence**: bound on reviewer disagreement at a single high-volume conference.
+
+### Recommended evaluation metrics
+
+- I(θ; A) as a function of N.
+- Posterior contrast E[θ | A=1] − E[θ | A=0].
+- Calibration curve Pr(accept | θ) for various N.
+- Tail capture: Pr(top-1% paper accepted | N).
+- Career-predictive R² of acceptance for downstream impact (only if we have multi-year data).
+
+### Methodological considerations
+
+- Be explicit about whether we model *paper-level* signaling (does this paper deserve attention?) or *researcher-level* signaling (is this researcher capable?). They differ when researchers&#39; submission rates are heterogeneous.
+- Capacity C of &#34;top venues&#34; is *not* literally constant — top journals do expand. Document the empirical C(t) trajectory (top-5 journal pages per year) so the model is realistic.
+- The hypothesis predicts degradation but is silent on possible *adaptive responses* (more journals, structured reviews, AC discussion, post-publication review, OpenReview transparency). The model should at minimum mention these as natural extensions and ideally show that they cannot fully restore signal quality without expanding capacity proportionally.
+- AI-assisted reviewing is a current, important wrinkle (AI Review Lottery, 2024). Worth noting but not necessary for the central claim.
+
+---
+
+*Last updated: 2026-05-06 (resource-finder phase). This review is intentionally focused on the signaling/gatekeeping core. A separate, broader review on related topics (open science, predatory publishing, mechanism design) lives in `papers/README.md`.*
+
+
+════════════════════════════════════════════════════════════════════════════════
+                          PAPER REQUIREMENTS
+════════════════════════════════════════════════════════════════════════════════
+
+Generate a complete academic paper with the following structure:
+
+1. TITLE
+   - Clear, specific, informative
+   - Should convey main finding or contribution
+
+2. AUTHOR
+   - Use this exact author line in the \author{} block: Chenhao Tan and NeuriCo
+
+3. ABSTRACT (150-250 words)
+   - Problem statement
+   - Approach
+   - Key results
+   - Significance
+
+4. INTRODUCTION
+   - Research problem and motivation
+   - Gap in existing work
+   - Our contribution (be specific)
+   - Paper organization
+
+5. RELATED WORK
+   - Organized by theme/approach
+   - Position our work relative to prior work
+   - Cite papers from literature review
+
+6. METHODOLOGY
+   - Clear description of approach
+   - Experimental setup
+   - Datasets used
+   - Evaluation metrics
+   - Baselines
+
+7. RESULTS
+   - Present results with tables and figures
+   - Statistical analysis
+   - Comparison to baselines
+   - Ablation studies (if applicable)
+
+8. DISCUSSION
+   - Interpretation of results
+   - Limitations
+   - Broader implications
+
+9. CONCLUSION
+   - Summary of contributions
+   - Key findings
+   - Future work
+
+10. REFERENCES
+   - BibTeX format
+   - All cited papers
+
+════════════════════════════════════════════════════════════════════════════════
+                          OUTPUT FORMAT
+════════════════════════════════════════════════════════════════════════════════
+
+Create a MODULAR LaTeX project with the following directory structure:
+
+paper_draft/
+├── main.tex              # Main file that imports all sections
+├── references.bib        # BibTeX references
+├── sections/
+│   ├── abstract.tex      # Abstract content
+│   ├── introduction.tex  # Introduction section
+│   ├── related_work.tex  # Related work section
+│   ├── methodology.tex   # Methodology section
+│   ├── results.tex       # Results section
+│   ├── discussion.tex    # Discussion section
+│   └── conclusion.tex    # Conclusion section
+├── figures/              # Directory for any generated figures
+├── tables/               # Directory for complex standalone tables
+└── appendix/             # Directory for appendix sections (if needed)
+
+INSTRUCTIONS:
+1. First, create the directory structure above (mkdir -p paper_draft/sections paper_draft/figures paper_draft/tables paper_draft/appendix)
+2. Write main.tex using the EXACT preamble for NEURIPS:
+
+   \documentclass{article}
+   \usepackage[final]{neurips_2025}  % NEURIPS style (neurips_2025.sty is in paper_draft/)
+   \usepackage[hidelinks]{hyperref}  % REQUIRED: clickable links
+   \usepackage{booktabs}  % REQUIRED: professional tables
+   \usepackage{graphicx}
+   \usepackage{amsmath,amssymb}
+
+   % Import command files
+   \input{commands/math}
+   \input{commands/general}
+   \input{commands/macros}
+
+   % Use this bibliography style:
+   \bibliographystyle{plainnat}
+
+   \author{Chenhao Tan and NeuriCo}
+
+   - Use \input{sections/...} to include each section
+   - Use \bibliography{references} for references
+3. Write each section file with COMPLETE content (no placeholders)
+4. Each section file should include its \section{} command
+5. Write references.bib with all citations in BibTeX format
+6. After writing all files, compile the paper:
+   cd paper_draft && pdflatex -interaction=nonstopmode main.tex && bibtex main && pdflatex -interaction=nonstopmode main.tex && pdflatex -interaction=nonstopmode main.tex
+
+This modular structure allows humans to easily:
+- Edit individual sections without navigating a large file
+- Track changes per section
+- Reuse sections across different paper versions
+
+════════════════════════════════════════════════════════════════════════════════
+                          QUALITY REQUIREMENTS
+════════════════════════════════════════════════════════════════════════════════
+
+- Academic tone throughout
+- All claims must be supported by data from the experiment report
+- Proper citations using \cite{} commands
+- Clear figures and tables with proper captions
+- NO placeholder text - every section must have real content
+- The paper MUST compile without errors
+- If compilation fails, debug and fix the LaTeX errors
+
+════════════════════════════════════════════════════════════════════════════════
+                          LAB WRITING STYLE
+════════════════════════════════════════════════════════════════════════════════
+
+Follow these lab-specific conventions to match our paper style:
+
+1. LANGUAGE STYLE:
+   - Use active voice: "We propose", "We examine", "We focus on"
+   - Be direct and confident: "Our main question is...", "We hypothesize that..."
+   - State things clearly and simply - prefer plain language over jargon
+   - Use bold questions as paragraph organizers: {\bf what is X?}
+   - Include specific quantitative claims: "8.97% over baseline"
+   - Avoid fancy wording: "utilize" → "use", "facilitate" → "help"
+
+2. INTRODUCTION STRUCTURE:
+   - Engaging hook (get to the point quickly)
+   - Problem importance
+   - Gap identification
+   - Your approach with method figure reference
+   - Quantitative preview of results
+   - Contribution bullets (3-4 items, action verbs)
+
+3. CONTRIBUTION LISTS:
+   \begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+       \item We propose...
+       \item We conduct...
+       \item We complement...
+   \end{itemize}
+
+4. MODULAR COMMANDS STRUCTURE:
+   Command templates are pre-copied to paper_draft/commands/:
+   - math.tex: Math notation macros
+   - general.tex: Formatting macros
+   - macros.tex: Project-specific term definitions (customize this for your paper)
+
+   In main.tex, include:
+   \input{commands/math}
+   \input{commands/general}
+   \input{commands/macros}
+
+5. REFERENCE CONVENTIONS:
+   Use reference macros from math.tex:
+   - \figref{fig:name} for "figure 1" (lowercase, in-sentence)
+   - \Figref{fig:name} for "Figure 1" (capitalized, start of sentence)
+   - \secref{sec:name} for "section 2"
+
+6. TEXT FORMATTING:
+   - Use \para{Header text} for bold paragraph headers
+   - Define method/dataset names with \textsc and \xspace:
+     \newcommand{\methodname}{\textsc{MethodName}\xspace}
+
+7. TABLE FORMATTING:
+   - Use booktabs package (no vertical lines)
+   - Use \resizebox{\textwidth}{!}{...} for wide tables
+   - Use @{} to remove padding at table edges
+   - Use \cmidrule(lr){x-y} for sub-headers
+   - Use \textsc{} for dataset/method names in headers
+   - Bold best results with {\bf ...}
+
+8. FIGURE FORMATTING:
+   - Use 0.32\textwidth for 3-column subfigures
+   - Use 0.95\linewidth for full-width figures
+   - Use \input{figures/legend} for shared legends
+   - Write self-contained captions explaining key observations
+
+9. RESULTS PRESENTATION:
+   - Define \increase and \decrease for colored arrows (green up, red down)
+   - Bold best results in tables
+   - Report confidence intervals when available
+
+10. ALGORITHM STYLING:
+    - Use algpseudocode with [noend]
+    - Use \triangleright for comments
+
+11. HYPERLINKS (REQUIRED):
+    - Always use \usepackage[hidelinks]{hyperref} or with colored links
+    - All citations, section refs, figure refs, table refs must be clickable
+    - This is essential for reader navigation
+
+════════════════════════════════════════════════════════════════════════════════
+                          WORKFLOW: REVIEW AND REFLECT
+════════════════════════════════════════════════════════════════════════════════
+
+Before calling finish, you MUST complete these review steps:
+
+1. REVIEW RESOURCES (at the start):
+   - Read .claude/skills/paper-writer/SKILL.md for detailed guidance
+   - Study templates/paper_writing/lab_style_guide.md for style conventions
+   - Browse paper_examples/ for formatting and language patterns
+
+2. SELF-REFLECTION (before finishing):
+   After writing all sections, review your work against these criteria:
+
+   LANGUAGE CHECK:
+   - [ ] Is the writing clear and jargon-free?
+   - [ ] Are claims specific with quantitative support?
+   - [ ] Is active voice used throughout?
+
+   FORMATTING CHECK:
+   - [ ] Does main.tex include \input{commands/math}, \input{commands/general}, \input{commands/macros}?
+   - [ ] Is hyperref package included for clickable references?
+   - [ ] Do tables use booktabs (no vertical lines)?
+   - [ ] Are best results bolded in tables?
+   - [ ] Are figures/tables properly captioned?
+
+   STRUCTURE CHECK:
+   - [ ] Does introduction follow: hook → importance → gap → approach → preview → contributions?
+   - [ ] Are contribution bullets specific with action verbs?
+   - [ ] Does the paper compile without errors?
+
+3. FIX ISSUES:
+   - Address any issues found in the self-reflection
+   - Re-compile and verify the PDF looks correct
+
+Only after completing this review should you consider the paper finished.

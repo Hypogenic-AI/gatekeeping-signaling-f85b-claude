@@ -1,0 +1,10 @@
+PDF: papers/2510_13201_paper_copilot_ai_conferences_evolution.pdf
+Total pages: 17
+Pages per chunk: 4
+
+Chunks:
+  2510_13201_paper_copilot_ai_conferences_evolution_chunk_001.pdf: pages 1-4
+  2510_13201_paper_copilot_ai_conferences_evolution_chunk_002.pdf: pages 5-8
+  2510_13201_paper_copilot_ai_conferences_evolution_chunk_003.pdf: pages 9-12
+  2510_13201_paper_copilot_ai_conferences_evolution_chunk_004.pdf: pages 13-16
+  2510_13201_paper_copilot_ai_conferences_evolution_chunk_005.pdf: page 17

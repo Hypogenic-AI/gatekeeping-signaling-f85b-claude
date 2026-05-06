@@ -1,0 +1,1640 @@
+[
+  {
+    "title": "IPPOG : Bridging the gap between science education at school and modern scientific research",
+    "authors": [
+      "Barbora Bruant Gulejova"
+    ],
+    "summary": "The International Particle Physics Outreach Group (IPPOG) has been making concerted and systematic efforts to present and popularise particle physics across all audiences and age groups since 1997. Today the scientific community has in IPPOG a strategic pillar in fostering long-term, sustainable support for fundamental research around the world. One of the main tools IPPOG has been offering to the scientific community, teachers and educators for almost 10 years is the Resource Database (RDB), an online platform containing a collection of high quality engaging education and outreach materials in particle physics and related sciences.",
+    "published": "2020-11-30 12:56:40+00:00",
+    "entry_id": "http://arxiv.org/abs/2011.14743v1",
+    "pdf_url": "https://arxiv.org/pdf/2011.14743v1",
+    "categories": [
+      "physics.ed-ph"
+    ],
+    "query": "information cascade scientific peer review"
+  },
+  {
+    "title": "A Semi-automated Peer-review System",
+    "authors": [
+      "Bradly Alicea"
+    ],
+    "summary": "A semi-supervised model of peer review is introduced that is intended to overcome the bias and incompleteness of traditional peer review. Traditional approaches are reliant on human biases, while consensus decision-making is constrained by sparse information. Here, the architecture for one potential improvement (a semi-supervised, human-assisted classifier) to the traditional approach will be introduced and evaluated. To evaluate the potential advantages of such a system, hypothetical receiver operating characteristic (ROC) curves for both approaches will be assessed. This will provide more specific indications of how automation would be beneficial in the manuscript evaluation process. In conclusion, the implications for such a system on measurements of scientific impact and improving the quality of open submission repositories will be discussed.",
+    "published": "2013-11-11 17:07:16+00:00",
+    "entry_id": "http://arxiv.org/abs/1311.2504v1",
+    "pdf_url": "https://arxiv.org/pdf/1311.2504v1",
+    "categories": [
+      "cs.DL",
+      "cs.HC",
+      "cs.SI",
+      "physics.soc-ph"
+    ],
+    "query": "information cascade scientific peer review"
+  },
+  {
+    "title": "Peer-to-Peer Secure Multi-Party Numerical Computation",
+    "authors": [
+      "Danny Bickson",
+      "Genia Bezman",
+      "Danny Dolev",
+      "Benny Pinkas"
+    ],
+    "summary": "We propose an efficient framework for enabling secure multi-party numerical computations in a Peer-to-Peer network. This problem arises in a range of applications such as collaborative filtering, distributed computation of trust and reputation, monitoring and numerous other tasks, where the computing nodes would like to preserve the privacy of their inputs while performing a joint computation of a certain function.\n  Although there is a rich literature in the field of distributed systems security concerning secure multi-party computation, in practice it is hard to deploy those methods in very large scale Peer-to-Peer networks. In this work, we examine several possible approaches and discuss their feasibility. Among the possible approaches, we identify a single approach which is both scalable and theoretically secure.\n  An additional novel contribution is that we show how to compute the neighborhood based collaborative filtering, a state-of-the-art collaborative filtering algorithm, winner of the Netflix progress prize of the year 2007. Our solution computes this algorithm in a Peer-to-Peer network, using a privacy preserving computation, without loss of accuracy.\n  Using extensive large scale simulations on top of real Internet topologies, we demonstrate the applicability of our approach. As far as we know, we are the first to implement such a large scale secure multi-party simulation of networks of millions of nodes and hundreds of millions of edges.",
+    "published": "2008-10-09 13:07:36+00:00",
+    "entry_id": "http://arxiv.org/abs/0810.1624v1",
+    "pdf_url": "https://arxiv.org/pdf/0810.1624v1",
+    "categories": [
+      "cs.CR",
+      "cs.DC"
+    ],
+    "query": "information cascade scientific peer review"
+  },
+  {
+    "title": "Optimizing Peer Grading: A Systematic Literature Review of Reviewer Assignment Strategies and Quantity of Reviewers",
+    "authors": [
+      "Uchswas Paul",
+      "Shail Shah",
+      "Sri Vaishnavi Mylavarapu",
+      "M. Parvez Rashid",
+      "Edward Gehringer"
+    ],
+    "summary": "Peer assessment has established itself as a critical pedagogical tool in academic settings, offering students timely, high-quality feedback to enhance learning outcomes. However, the efficacy of this approach depends on two factors: (1) the strategic allocation of reviewers and (2) the number of reviews per artifact. This paper presents a systematic literature review of 87 studies (2010--2024) to investigate how reviewer-assignment strategies and the number of reviews per submission impact the accuracy, fairness, and educational value of peer assessment. We identified four common reviewer-assignment strategies: random assignment, competency-based assignment, social-network-based assignment, and bidding. Drawing from both quantitative data and qualitative insights, we explored the trade-offs involved in each approach. Random assignment, while widely used, often results in inconsistent grading and fairness concerns. Competency-based strategies can address these issues. Meanwhile, social and bidding-based methods have the potential to improve fairness and timeliness -- existing empirical evidence is limited. In terms of review count, assigning three reviews per submission emerges as the most common practice. A range of three to five reviews per student or per submission is frequently cited as a recommended spot that balances grading accuracy, student workload, learning outcomes, and engagement.",
+    "published": "2025-08-08 15:28:39+00:00",
+    "entry_id": "http://arxiv.org/abs/2508.11678v2",
+    "pdf_url": "https://arxiv.org/pdf/2508.11678v2",
+    "categories": [
+      "cs.CY"
+    ],
+    "query": "information cascade scientific peer review"
+  },
+  {
+    "title": "Can We Automate Scientific Reviewing?",
+    "authors": [
+      "Weizhe Yuan",
+      "Pengfei Liu",
+      "Graham Neubig"
+    ],
+    "summary": "The rapid development of science and technology has been accompanied by an exponential growth in peer-reviewed scientific publications. At the same time, the review of each paper is a laborious process that must be carried out by subject matter experts. Thus, providing high-quality reviews of this growing number of papers is a significant challenge. In this work, we ask the question \"can we automate scientific reviewing?\", discussing the possibility of using state-of-the-art natural language processing (NLP) models to generate first-pass peer reviews for scientific papers. Arguably the most difficult part of this is defining what a \"good\" review is in the first place, so we first discuss possible evaluation measures for such reviews. We then collect a dataset of papers in the machine learning domain, annotate them with different aspects of content covered in each review, and train targeted summarization models that take in papers to generate reviews. Comprehensive experimental results show that system-generated reviews tend to touch upon more aspects of the paper than human-written reviews, but the generated text can suffer from lower constructiveness for all aspects except the explanation of the core ideas of the papers, which are largely factually correct. We finally summarize eight challenges in the pursuit of a good review generation system together with potential solutions, which, hopefully, will inspire more future research on this subject. We make all code, and the dataset publicly available: https://github.com/neulab/ReviewAdvisor, as well as a ReviewAdvisor system: http://review.nlpedia.ai/.",
+    "published": "2021-01-30 07:16:53+00:00",
+    "entry_id": "http://arxiv.org/abs/2102.00176v1",
+    "pdf_url": "https://arxiv.org/pdf/2102.00176v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "information cascade scientific peer review"
+  },
+  {
+    "title": "Locating Data in (Small-World?) Peer-to-Peer Scientific Collaborations",
+    "authors": [
+      "Adriana Iamnitchi",
+      "Matei Ripeanu",
+      "Ian Foster"
+    ],
+    "summary": "Data-sharing scientific collaborations have particular characteristics, potentially different from the current peer-to-peer environments. In this paper we advocate the benefits of exploiting emergent patterns in self-configuring networks specialized for scientific data-sharing collaborations. We speculate that a peer-to-peer scientific collaboration network will exhibit small-world topology, as do a large number of social networks for which the same pattern has been documented. We propose a solution for locating data in decentralized, scientific, data-sharing environments that exploits the small-worlds topology. The research challenge we raise is: what protocols should be used to allow a self-configuring peer-to-peer network to form small worlds similar to the way in which the humans that use the network do in their social interactions?",
+    "published": "2002-09-26 19:14:00+00:00",
+    "entry_id": "http://arxiv.org/abs/cs/0209031v1",
+    "pdf_url": "https://arxiv.org/pdf/cs/0209031v1",
+    "categories": [
+      "cs.DC",
+      "cond-mat"
+    ],
+    "query": "information cascade scientific peer review"
+  },
+  {
+    "title": "Analysis of the ALMA Cycle 8 Distributed Peer Review Process",
+    "authors": [
+      "Jennifer Donovan Meyer",
+      "Andrea Corvill\u00f3n",
+      "John M. Carpenter",
+      "Adele L. Plunkett",
+      "Robert Kurowski",
+      "Alex Chalevin",
+      "Jakob Bruenker",
+      "D. -C. Kim",
+      "Enrique Mac\u00edas"
+    ],
+    "summary": "In response to the challenges presented by high reviewer workloads in traditional panel reviews and increasing numbers of submitted proposals, ALMA implemented distributed peer review to assess the majority of proposals submitted to the Cycle 8 Main Call. In this paper, we present an analysis of this review process. Over 1000 reviewers participated in the process to review 1497 proposals, making it the largest implementation of distributed peer review to date in astronomy, and marking the first time this process has been used to award the majority of observing time at an observatory. We describe the process to assign proposals to reviewers, analyze the nearly 15,000 ranks and comments submitted by reviewers to identify any trends and systematics, and gather feedback on the process from reviewers and Principal Investigators (PIs) through surveys. Approximately 90% of the proposal assignments were aligned with the expertise of the reviewer, as measured both by the expertise keywords provided by the reviewers and the reviewers' self-assessment of their expertise on their assigned proposals. PIs rated 73% of the individual review comments as helpful, and even though the reviewers had a broad range of experience levels, PIs rated the quality of the comments received from students and senior researchers similarly. The primary concerns raised by PIs were the quality of some reviewer comments and high dispersions in the ranks. The ranks and comments are correlated with various demographics to identify the main areas in which the review process can be improved in future cycles.",
+    "published": "2022-04-11 20:17:27+00:00",
+    "entry_id": "http://arxiv.org/abs/2204.05390v2",
+    "pdf_url": "https://arxiv.org/pdf/2204.05390v2",
+    "categories": [
+      "astro-ph.IM"
+    ],
+    "query": "information cascade scientific peer review"
+  },
+  {
+    "title": "A Bayesian model of information cascades",
+    "authors": [
+      "Sriashalya Srivathsan",
+      "Stephen Cranefield",
+      "Jeremy Pitt"
+    ],
+    "summary": "An information cascade is a circumstance where agents make decisions in a sequential fashion by following other agents. Bikhchandani et al., predict that once a cascade starts it continues, even if it is wrong, until agents receive an external input such as public information. In an information cascade, even if an agent has its own personal choice, it is always overridden by observation of previous agents' actions. This could mean agents end up in a situation where they may act without valuing their own information. As information cascades can have serious social consequences, it is important to have a good understanding of what causes them. We present a detailed Bayesian model of the information gained by agents when observing the choices of other agents and their own private information. Compared to prior work, we remove the high impact of the first observed agent's action by incorporating a prior probability distribution over the information of unobserved agents and investigate an alternative model of choice to that considered in prior work: weighted random choice. Our results show that, in contrast to Bikhchandani's results, cascades will not necessarily occur and adding prior agents' information will delay the effects of cascades.",
+    "published": "2021-05-07 11:18:20+00:00",
+    "entry_id": "http://arxiv.org/abs/2105.03166v1",
+    "pdf_url": "https://arxiv.org/pdf/2105.03166v1",
+    "categories": [
+      "cs.MA"
+    ],
+    "query": "information cascade scientific peer review"
+  },
+  {
+    "title": "Ants-Review: a Protocol for Incentivized Open Peer-Reviews on Ethereum",
+    "authors": [
+      "Bianca Trov\u00f2",
+      "Nazzareno Massari"
+    ],
+    "summary": "Peer-review is a necessary and essential quality control step for scientific publications but lacks proper incentives. Indeed, the process, which is very costly in terms of time and intellectual investment, not only is not remunerated by the journals but is also not openly recognized by the academic community as a relevant scientific output for a researcher. Therefore, scientific dissemination is affected in timeliness, quality, and fairness. Here, to solve this issue, we propose a blockchain-based incentive system that rewards scientists for peer-reviewing other scientists' work and that builds up trust and reputation. We designed a privacy-oriented protocol of smart contracts called Ants-Review that allows authors to issue a bounty for open anonymous peer-reviews on Ethereum. If requirements are met, peer-reviews will be accepted and paid by the approver proportionally to their assessed quality. To promote ethical behavior and inclusiveness the system implements a gamified mechanism that allows the whole community to evaluate the peer-reviews and vote for the best ones.",
+    "published": "2021-01-22 23:32:41+00:00",
+    "entry_id": "http://arxiv.org/abs/2101.09378v1",
+    "pdf_url": "https://arxiv.org/pdf/2101.09378v1",
+    "categories": [
+      "cs.DL",
+      "cs.CR",
+      "cs.CY",
+      "cs.DC",
+      "cs.GT"
+    ],
+    "query": "information cascade scientific peer review"
+  },
+  {
+    "title": "Automatically Annotating Articles Towards Opening and Reusing Transparent Peer Reviews",
+    "authors": [
+      "Afshin Sadeghi",
+      "Sarven Capadisli",
+      "Johannes Wilm",
+      "Christoph Lange",
+      "Philipp Mayr"
+    ],
+    "summary": "An increasing number of scientific publications are created in open and transparent peer review models: a submission is published first, and then reviewers are invited, or a submission is reviewed in a closed environment but then these reviews are published with the final article, or combinations of these. Reasons for open peer review include giving better credit to reviewers and enabling readers to better appraise the quality of a publication. In most cases, the full, unstructured text of an open review is published next to the full, unstructured text of the article reviewed. This approach prevents human readers from getting a quick impression of the quality of parts of an article, and it does not easily support secondary exploitation, e.g., for scientometrics on reviews. While document formats have been proposed for publishing structured articles including reviews, integrated tool support for entire open peer review workflows resulting in such documents is still scarce. We present AR-Annotator, the Automatic Article and Review Annotator which employs a semantic information model of an article and its reviews, using semantic markup and unique identifiers for all entities of interest. The fine-grained article structure is not only exposed to authors and reviewers but also preserved in the published version. We publish articles and their reviews in a Linked Data representation and thus maximize their reusability by third-party applications. We demonstrate this reusability by running quality-related queries against the structured representation of articles and their reviews.",
+    "published": "2018-12-03 19:04:59+00:00",
+    "entry_id": "http://arxiv.org/abs/1812.01027v1",
+    "pdf_url": "https://arxiv.org/pdf/1812.01027v1",
+    "categories": [
+      "cs.IR",
+      "cs.DL"
+    ],
+    "query": "information cascade scientific peer review"
+  },
+  {
+    "title": "Pragmatic Information Rates, Generalizations of the Kelly Criterion, and Financial Market Efficiency",
+    "authors": [
+      "Edward D. Weinberger"
+    ],
+    "summary": "This paper is part of an ongoing investigation of \"pragmatic information\", defined in Weinberger (2002) as \"the amount of information actually used in making a decision\". Because a study of information rates led to the Noiseless and Noisy Coding Theorems, two of the most important results of Shannon's theory, we begin the paper by defining a pragmatic information rate, showing that all of the relevant limits make sense, and interpreting them as the improvement in compression obtained from using the correct distribution of transmitted symbols.\n  The first of two applications of the theory extends the information theoretic analysis of the Kelly Criterion, and its generalization, the horse race, to a series of races where the stochastic process of winning horses, payoffs, and strategies depend on some stationary process, including, but not limited to the history of previous races. If the bettor is receiving messages (side information) about the probability distribution of winners, the doubling rate of the bettor's winnings is bounded by the pragmatic information of the messages.\n  A second application is to the question of market efficiency. An efficient market is, by definition, a market in which the pragmatic information of the \"tradable past\" with respect to current prices is zero. Under this definition, markets whose returns are characterized by a GARCH(1,1) process cannot be efficient.\n  Finally, a pragmatic informational analogue to Shannon's Noisy Coding Theorem suggests that a cause of market inefficiency is that the underlying fundamentals are changing so fast that the price discovery mechanism simply cannot keep up. This may happen most readily in the run-up to a financial bubble, where investors' willful ignorance degrade the information processing capabilities of the market.",
+    "published": "2009-03-12 18:27:02+00:00",
+    "entry_id": "http://arxiv.org/abs/0903.2243v5",
+    "pdf_url": "https://arxiv.org/pdf/0903.2243v5",
+    "categories": [
+      "cs.IT",
+      "q-fin.PM",
+      "q-fin.TR"
+    ],
+    "query": "lemons market academic publishing asymmetric information"
+  },
+  {
+    "title": "The Market for Lemons and the Regulator's Signalling Problem",
+    "authors": [
+      "Roy Long"
+    ],
+    "summary": "The Market for Lemons is a classic model of asymmetric information first studied by Nobel Prize economist George Akerlof. It shows that information asymmetry between the seller and buyer may result in market collapse or some sellers leaving the market. \"Lemons\" in the used car market are cars of poor quality. The information asymmetry present is that the buyer is uncertain of the cars' true quality. I first offer a simple baseline model that illustrates the market collapse, and then examine what happens when regulation, ie. a DMV is introduced to reveal (signal) the true car quality to the buyer. The effect on the market varies based on the assumptions about the regulator. The central focus is on the DMV's signal structure, which can have interesting effects on the market and the information asymmetry. I show that surprisingly, when the DMV actually decreases the quality of their signal in a well constructed way, it can substantially increase their profit. On the other hand, this negatively effects overall welfare.",
+    "published": "2023-12-18 02:55:01+00:00",
+    "entry_id": "http://arxiv.org/abs/2312.10896v1",
+    "pdf_url": "https://arxiv.org/pdf/2312.10896v1",
+    "categories": [
+      "econ.TH"
+    ],
+    "query": "lemons market academic publishing asymmetric information"
+  },
+  {
+    "title": "The Homogenous Properties of Automated Market Makers",
+    "authors": [
+      "Johannes Rude Jensen",
+      "Mohsen Pourpouneh",
+      "Kurt Nielsen",
+      "Omri Ross"
+    ],
+    "summary": "Automated market makers (AMM) have grown to obtain significant market share within the cryptocurrency ecosystem, resulting in a proliferation of new products pursuing exotic strategies for horizontal differentiation. Yet, their theoretical properties are curiously homogeneous when a set of basic assumptions are met. In this paper, we start by presenting a universal approach to deriving a formula for liquidity provisioning for AMMs. Next, we show that the constant function market maker and token swap market maker models are theoretically equivalent when liquidity reserves are uniform. Proceeding with an examination of AMM market microstructure, we show how non-linear price effect translates into slippage for traders and impermanent losses for liquidity providers. We proceed by showing how impermanent losses are a function of both volatility and market depth and discuss the implications of these findings within the context of the literature.",
+    "published": "2021-03-31 09:39:10+00:00",
+    "entry_id": "http://arxiv.org/abs/2105.02782v1",
+    "pdf_url": "https://arxiv.org/pdf/2105.02782v1",
+    "categories": [
+      "q-fin.TR",
+      "cs.CE"
+    ],
+    "query": "lemons market academic publishing asymmetric information"
+  },
+  {
+    "title": "Grasping asymmetric information in market impacts",
+    "authors": [
+      "Shanshan Wang",
+      "Sebastian Neus\u00fc\u00df",
+      "Thomas Guhr"
+    ],
+    "summary": "The price impact for a single trade is estimated by the immediate response on an event time scale, i.e., the immediate change of midpoint prices before and after a trade. We work out the price impacts across a correlated financial market. We quantify the asymmetries of the distributions and of the market structures of cross-impacts, and find that the impacts across the market are asymmetric and non-random. Using spectral statistics and Shannon entropy, we visualize the asymmetric information in price impacts. Also, we introduce an entropy of impacts to estimate the randomness between stocks. We show that the useful information is encoded in the impacts corresponding to small entropy. The stocks with large number of trades are more likely to impact others, while the less traded stocks have higher probability to be impacted by others.",
+    "published": "2017-10-22 15:10:56+00:00",
+    "entry_id": "http://arxiv.org/abs/1710.07959v2",
+    "pdf_url": "https://arxiv.org/pdf/1710.07959v2",
+    "categories": [
+      "q-fin.TR",
+      "q-fin.ST"
+    ],
+    "query": "lemons market academic publishing asymmetric information"
+  },
+  {
+    "title": "Slow decay of impact in equity markets",
+    "authors": [
+      "X. Brokmann",
+      "E. Serie",
+      "J. Kockelkoren",
+      "J. -P. Bouchaud"
+    ],
+    "summary": "Using a proprietary dataset of meta-orders and prediction signals, and assuming a quasi-linear impact model, we deconvolve market impact from past correlated trades and a predictable return component to elicit the temporal dependence of the market impact of a single daily meta-order, over a ten day horizon in various equity markets. We find that the impact of single meta-orders is to a first approximation universal and slowly decays to zero (or to a small value), possibly as a power-law. We show that auto-correlated order-flows and trade information contents fully accounts for the apparent plateau observed in the raw data. We discuss the possible bias introduced by the quasi-linear assumption.",
+    "published": "2014-07-12 14:32:20+00:00",
+    "entry_id": "http://arxiv.org/abs/1407.3390v1",
+    "pdf_url": "https://arxiv.org/pdf/1407.3390v1",
+    "categories": [
+      "q-fin.TR",
+      "cond-mat.stat-mech"
+    ],
+    "query": "lemons market academic publishing asymmetric information"
+  },
+  {
+    "title": "Empirical comparison of three models for determining market clearing prices in Turkish day-ahead electricity market",
+    "authors": [
+      "G\u00f6khan Ceyhan",
+      "Nermin Elif Kurt",
+      "H. Bahadir Sahin",
+      "K\u00fcr\u015fad Derinkuyu"
+    ],
+    "summary": "Bidders in day-ahead electricity markets want to sell/buy electricity when their bids generate positive surplus and not to take an action when the reverse holds. However, non-convexities in these markets cause conflicts between the actions that the bidders want to take and the actual market results. In this work, we investigate the non-convex market clearing problem of Turkish market operator and propose three different rule sets. The first rule set allows both rejection of bids with positive surplus and acceptance of bids with negative surplus. The second and the third sets only allow one of these conflicted cases. By using total surplus maximization as the objective, we formulate three models and statistically explore their performance with the real data taken from Turkish market operator.",
+    "published": "2017-12-01 09:01:16+00:00",
+    "entry_id": "http://arxiv.org/abs/1712.00235v1",
+    "pdf_url": "https://arxiv.org/pdf/1712.00235v1",
+    "categories": [
+      "q-fin.TR"
+    ],
+    "query": "lemons market academic publishing asymmetric information"
+  },
+  {
+    "title": "Answering Should Self-Publishing Video Game Developers Market Their Game on Twitter",
+    "authors": [
+      "Nathaniel Francis Golding"
+    ],
+    "summary": "In the marketing of video games made by self-publishing, independent developers, there is common advice to market a game using the social media platform Twitter. However, the advice that stems from industry sources is somewhat contradictory, and many self-publishing independent developers elect not to use Twitter at all. This presents an opportunity for researchers to investigate this tension and determine if using Twitter does have a causal influence on the successful release of a game by using relatively recent developments in causal data science techniques. In this sense, this paper highlights these causal inference developments while simultaneously informing self-publishing independent developers whether they should indeed market their games using Twitter. It was found that using Twitter results in an average increase of 85.4 reviews during release week, corresponding to a 314% positive difference. Using Twitter also doubles the chance of reaching a critical 10-review inflection point threshold on release week. These effects, however, are moderated by the characteristics of the game, expressed as 'tags', yet in no case is the effect of Twitter use reduced to 0. Based on these findings, it is advised that new, self-publishing video game developers do use Twitter to market their games.",
+    "published": "2022-03-25 12:37:47+00:00",
+    "entry_id": "http://arxiv.org/abs/2203.13619v1",
+    "pdf_url": "https://arxiv.org/pdf/2203.13619v1",
+    "categories": [
+      "cs.SI"
+    ],
+    "query": "lemons market academic publishing asymmetric information"
+  },
+  {
+    "title": "Can Microsoft Academic help to assess the citation impact of academic books?",
+    "authors": [
+      "Kayvan Kousha",
+      "Mike Thelwall"
+    ],
+    "summary": "Despite recent evidence that Microsoft Academic is an extensive source of citation counts for journal articles, it is not known if the same is true for academic books. This paper fills this gap by comparing citations to 16,463 books from 2013-2016 in the Book Citation Index (BKCI) against automatically extracted citations from Microsoft Academic and Google Books in 17 fields. About 60% of the BKCI books had records in Microsoft Academic, varying by year and field. Citation counts from Microsoft Academic were 1.5 to 3.6 times higher than from BKCI in nine subject areas across all years for books indexed by both. Microsoft Academic found more citations than BKCI because it indexes more scholarly publications and combines citations to different editions and chapters. In contrast, BKCI only found more citations than Microsoft Academic for books in three fields from 2013-2014. Microsoft Academic also found more citations than Google Books in six fields for all years. Thus, Microsoft Academic may be a useful source for the impact assessment of books when comprehensive coverage is not essential.",
+    "published": "2018-08-04 12:37:24+00:00",
+    "entry_id": "http://arxiv.org/abs/1808.01474v1",
+    "pdf_url": "https://arxiv.org/pdf/1808.01474v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "lemons market academic publishing asymmetric information"
+  },
+  {
+    "title": "An Optimal Execution Problem with Market Impact",
+    "authors": [
+      "Takashi Kato"
+    ],
+    "summary": "We study an optimal execution problem in a continuous-time market model that considers market impact. We formulate the problem as a stochastic control problem and investigate properties of the corresponding value function. We find that right-continuity at the time origin is associated with the strength of market impact for large sales, otherwise the value function is continuous. Moreover, we show the semi-group property (Bellman principle) and characterise the value function as a viscosity solution of the corresponding Hamilton-Jacobi-Bellman equation. We introduce some examples where the forms of the optimal strategies change completely, depending on the amount of the trader's security holdings and where optimal strategies in the Black-Scholes type market with nonlinear market impact are not block liquidation but gradual liquidation, even when the trader is risk-neutral.",
+    "published": "2009-07-20 09:56:35+00:00",
+    "entry_id": "http://arxiv.org/abs/0907.3282v8",
+    "pdf_url": "https://arxiv.org/pdf/0907.3282v8",
+    "categories": [
+      "q-fin.TR",
+      "math.OC",
+      "math.PR"
+    ],
+    "query": "lemons market academic publishing asymmetric information"
+  },
+  {
+    "title": "Repetitive Dilemma Games in Distribution Information Using Interplay of Droop Quota: Meek's Method in Impact of Maximum Compensation and Minimum Cost Routes in Information Role of Marginal Contribution in Two-Sided Matching Markets",
+    "authors": [
+      "Yasuko Kawahata"
+    ],
+    "summary": "This paper is a preliminary report of the research plan and a digest of the results and discussions. On research note explores the complex dynamics of fake news dissemination and fact-checking costs within the framework of information markets and analyzes the equilibrium between supply and demand using the concepts of droop quotas, Meek's method, and marginal contributions. By adopting a two-sided matching market perspective, we delve into scenarios in which markets are stable under the influence of fake news perceived as truth and those in which credibility prevails. Through the application of iterated dilemma game theory, we investigate the strategic choices of news providers affected by the costs associated with spreading fake news and fact-checking efforts. We further examine the maximum reward problem and strategies to minimize the cost path for spreading fake news, and consider a nuanced understanding of market segmentation into \"cheap\" and \"premium\" segments based on the nature of the information being spread. Our analysis uses mathematical models and computational processes to identify stable equilibrium points that ensure market stability in the face of deceptive information practices and provide insight into effective strategies to enhance the informational health of the market. Through this comprehensive approach, this paper aims for a more truthful and reliable perspective from which to observe information markets. This paper is partially an attempt to utilize \"Generative AI\" and was written with educational intent. There are currently no plans for it to become a peer-reviewed paper.",
+    "published": "2024-02-19 15:14:20+00:00",
+    "entry_id": "http://arxiv.org/abs/2403.18837v2",
+    "pdf_url": "https://arxiv.org/pdf/2403.18837v2",
+    "categories": [
+      "econ.GN",
+      "cs.GT",
+      "econ.TH",
+      "physics.soc-ph"
+    ],
+    "query": "lemons market academic publishing asymmetric information"
+  },
+  {
+    "title": "A Semi-distributed Reputation Based Intrusion Detection System for Mobile Adhoc Networks",
+    "authors": [
+      "Animesh Kr Trivedi",
+      "Rajan Arora",
+      "Rishi Kapoor",
+      "Sudip Sanyal",
+      "Sugata Sanyal"
+    ],
+    "summary": "A Mobile Adhoc Network (MANET) is a cooperative engagement of a collection of mobile nodes without any centralized access point or infrastructure to coordinate among the peers. The underlying concept of coordination among nodes in a cooperative MANET has induced in them a vulnerability to attacks due to issues like lack of fixed infrastructure, dynamically changing network topology, cooperative algorithms, lack of centralized monitoring and management point, and lack of a clear line of defense. We propose a semi-distributed approach towards Reputation Based Intrusion Detection System (IDS) that combines with the DSR routing protocol for strengthening the defense of a MANET. Our system inherits the features of reputation from human behavior, hence making the IDS socially inspired. It has a semi-distributed architecture as the critical observation results of the system are neither spread globally nor restricted locally. The system assigns maximum weightage to self observation by nodes for updating any reputation values, thus avoiding the need of a trust relationship between nodes. Our system is also unique in the sense that it features the concepts of Redemption and Fading with a robust Path Manager and Monitor system. Simulation studies show that DSR fortified with our system outperforms normal DSR in terms of the packet delivery ratio and routing overhead even when up to half of nodes in the network behave as malicious. Various parameters introduced such as timing window size, reputation update values, congestion parameter and other thresholds have been optimized over several simulation test runs of the system. By combining the semi-distributed architecture and other design essentials like path manager, monitor module, redemption and fading concepts; Our system proves to be robust enough to counter most common attacks in MANETs.",
+    "published": "2010-06-10 06:03:44+00:00",
+    "entry_id": "http://arxiv.org/abs/1006.1956v2",
+    "pdf_url": "https://arxiv.org/pdf/1006.1956v2",
+    "categories": [
+      "cs.NI",
+      "cs.MA"
+    ],
+    "query": "reputation publishing impact factor"
+  },
+  {
+    "title": "The effect of publishing a highly cited paper on journal's impact factor: a case study of the Review of Particle Physics",
+    "authors": [
+      "Weishu Liu",
+      "Fang Liu",
+      "Chao Zuo",
+      "Junwen Zhu"
+    ],
+    "summary": "A single highly cited article can give a big but temporary lift in its host journal's impact factor evidenced by the striking example of \"A short history of SHELX\" published in Acta Crystallographica Section A. By using Journal Citation Reports and Web of Science's citation analysis tool, we find a more general and continuous form of this phenomenon in the Particle Physics field. The highly-cited \"Review of Particle Physics\" series have been published in one of the major Particle Physics journals biennially. This study analyses the effect of these articles on the Impact Factor (IF) of the host journals. The results show that the publication of Review of Particle Physics articles has a direct effect of lifting the IF of its host journal. However the effect on the IF varies according to whether the host journal already has a relatively high or low IF, and the number of articles that it publishes. The impact of these highly cited articles clearly demonstrates the limitations of journal impact factor, and endorses the need to use it more wisely when deciding where to publish and how to evaluate the relative impact of a journal.",
+    "published": "2017-12-11 07:47:53+00:00",
+    "entry_id": "http://arxiv.org/abs/1712.03666v1",
+    "pdf_url": "https://arxiv.org/pdf/1712.03666v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "reputation publishing impact factor"
+  },
+  {
+    "title": "Oblivion of Online Reputation: How Time Cues Improve Online Recruitment",
+    "authors": [
+      "Alexander Novotny",
+      "Sarah Spiekermann"
+    ],
+    "summary": "In online crowdsourcing labour markets, employers decide which job-seekers to hire based on their reputation profiles. If reputation systems neglect the aspect of time when displaying reputation profiles, though, employers risk taking false decisions, deeming an obsolete reputation to be still relevant. As a consequence, job-seekers might be unwarrantedly deprived of getting hired for new jobs and can be harmed in their professional careers in the long-run. This paper argues that exposing employers to the temporal context of job-seekers' reputation leads to better hiring decisions. The visible temporal context in reputation systems helps employers to ignore a job-seeker's obsolete reputation. An experimental lab study with 335 students shows that current reputation systems fall short of making them aware of obsolete reputation. In contrast, graphical time cues improve the social efficiency of hiring decisions.",
+    "published": "2020-05-13 13:23:05+00:00",
+    "entry_id": "http://arxiv.org/abs/2005.06302v1",
+    "pdf_url": "https://arxiv.org/pdf/2005.06302v1",
+    "categories": [
+      "cs.CY"
+    ],
+    "query": "reputation publishing impact factor"
+  },
+  {
+    "title": "MITRA: A Meta-Model for Information Flow in Trust and Reputation Architectures",
+    "authors": [
+      "Eugen Staab",
+      "Guillaume Muller"
+    ],
+    "summary": "We propose MITRA, a meta-model for the information flow in (computational) trust and reputation architectures. On an abstract level, MITRA describes the information flow as it is inherent in prominent trust and reputation models from the literature. We use MITRA to provide a structured comparison of these models. This makes it possible to get a clear overview of the complex research area. Furthermore, by doing so, we identify interesting new approaches for trust and reputation modeling that so far have not been investigated.",
+    "published": "2012-07-02 14:34:05+00:00",
+    "entry_id": "http://arxiv.org/abs/1207.0405v1",
+    "pdf_url": "https://arxiv.org/pdf/1207.0405v1",
+    "categories": [
+      "cs.MA"
+    ],
+    "query": "reputation publishing impact factor"
+  },
+  {
+    "title": "DISARM: A Social Distributed Agent Reputation Model based on Defeasible Logic",
+    "authors": [
+      "Kalliopi Kravari",
+      "Nick Bassiliades"
+    ],
+    "summary": "Intelligent Agents act in open and thus risky environments, hence making the appropriate decision about who to trust in order to interact with, could be a challenging process. As intelligent agents are gradually enriched with Semantic Web technology, acting on behalf of their users with limited or no human intervention, their ability to perform assigned tasks is scrutinized. Hence, trust and reputation models, based on interaction trust or witness reputation, have been proposed, yet they often presuppose the use of a centralized authority. Although such mechanisms are more popular, they are usually faced with skepticism, since users may question the trustworthiness and the robustness of a central authority. Distributed models, on the other hand, are more complex but they provide personalized estimations based on each agent's interests and preferences. To this end, this article proposes DISARM, a novel distributed reputation model. DISARM deals MASs as social networks, enabling agents to establish and maintain relationships, limiting the disadvantages of the common distributed approaches. Additionally, it is based on defeasible logic, modeling the way intelligent agents, like humans, draw reasonable conclusions from incomplete and possibly conflicting (thus inconclusive) information. Finally, we provide an evaluation that illustrates the usability of the proposed model.",
+    "published": "2014-10-13 14:56:03+00:00",
+    "entry_id": "http://arxiv.org/abs/1410.3334v1",
+    "pdf_url": "https://arxiv.org/pdf/1410.3334v1",
+    "categories": [
+      "cs.MA"
+    ],
+    "query": "reputation publishing impact factor"
+  },
+  {
+    "title": "Nodal cooperation equilibrium analysis in multihop wireless ad hoc networks with a reputation system",
+    "authors": [
+      "Jerzy Konorski",
+      "Karol Rydzewski"
+    ],
+    "summary": "Motivated by the concerns of cooperation security, this work examines selected principles of state-of-the-art reputation systems for multihop adhoc networks and their impact upon optimal strategies for rational nodes. An analytic framework is proposed and used for identification of effective cooperation-enforcement schemes. It is pointed out that an optimum rather than high reputation can be expected to be sought by rational nodes.",
+    "published": "2020-01-16 20:08:15+00:00",
+    "entry_id": "http://arxiv.org/abs/2001.06056v1",
+    "pdf_url": "https://arxiv.org/pdf/2001.06056v1",
+    "categories": [
+      "cs.NI",
+      "cs.MA"
+    ],
+    "query": "reputation publishing impact factor"
+  },
+  {
+    "title": "The Impact Failure Detector",
+    "authors": [
+      "Anubis G. M. Rossetto",
+      "Cl\u00e1udio F. R. Geyer",
+      "Luciana Arantes",
+      "Pierre Sens"
+    ],
+    "summary": "This work proposes a new and flexible unreliable failure detector whose output is related to the trust level of a set of processes. By expressing the relevance of each process of the set by an impact factor value, our approach allows the tuning of the detector output, making possible a softer or stricter monitoring. The idea behind our proposal is that, according to an acceptable margin of failures and the impact factor assigned to processes, in some scenarios, the failure of some low impact processes may not change the user confidence in the set of processes, while the crash of a high impact factor process may seriously affect it. We outline the application scenarios and the proposed unreliable failure detector, giving a detailed account of the concept on which it is based.",
+    "published": "2014-04-25 13:35:47+00:00",
+    "entry_id": "http://arxiv.org/abs/1404.6415v1",
+    "pdf_url": "https://arxiv.org/pdf/1404.6415v1",
+    "categories": [
+      "cs.DC"
+    ],
+    "query": "reputation publishing impact factor"
+  },
+  {
+    "title": "Reputation and Impact in Academic Careers",
+    "authors": [
+      "Alexander M. Petersen",
+      "Santo Fortunato",
+      "Raj K. Pan",
+      "Kimmo Kaski",
+      "Orion Penner",
+      "Armando Rungi",
+      "Massimo Riccaboni",
+      "H. Eugene Stanley",
+      "Fabio Pammolli"
+    ],
+    "summary": "Reputation is an important social construct in science, which enables informed quality assessments of both publications and careers of scientists in the absence of complete systemic information. However, the relation between reputation and career growth of an individual remains poorly understood, despite recent proliferation of quantitative research evaluation methods. Here we develop an original framework for measuring how a publication's citation rate $\u0394c$ depends on the reputation of its central author $i$, in addition to its net citation count $c$. To estimate the strength of the reputation effect, we perform a longitudinal analysis on the careers of 450 highly-cited scientists, using the total citations $C_{i}$ of each scientist as his/her reputation measure. We find a citation crossover $c_{\\times}$ which distinguishes the strength of the reputation effect. For publications with $c < c_{\\times}$, the author's reputation is found to dominate the annual citation rate. Hence, a new publication may gain a significant early advantage corresponding to roughly a 66% increase in the citation rate for each tenfold increase in $C_{i}$. However, the reputation effect becomes negligible for highly cited publications meaning that for $c\\geq c_{\\times}$ the citation rate measures scientific impact more transparently. In addition we have developed a stochastic reputation model, which is found to reproduce numerous statistical observations for real careers, thus providing insight into the microscopic mechanisms underlying cumulative advantage in science.",
+    "published": "2013-03-29 00:35:23+00:00",
+    "entry_id": "http://arxiv.org/abs/1303.7274v4",
+    "pdf_url": "https://arxiv.org/pdf/1303.7274v4",
+    "categories": [
+      "physics.soc-ph",
+      "cs.DL",
+      "physics.data-an"
+    ],
+    "query": "reputation publishing impact factor"
+  },
+  {
+    "title": "Extending ArXiv.org to Achieve Open Peer Review and Publishing",
+    "authors": [
+      "Axel Boldt"
+    ],
+    "summary": "Today's peer review process for scientific articles is unnecessarily opaque and offers few incentives to referees. Likewise, the publishing process is unnecessarily inefficient and its results are only rarely made freely available to the public. Here we outline a comparatively simple extension of arXiv.org, an online preprint archive widely used in the mathematical and physical sciences, that addresses both of these problems. Under the proposal, editors invite referees to write public and signed reviews to be attached to the posted preprints, and then elevate selected articles to \"published\" status.",
+    "published": "2010-11-23 14:23:07+00:00",
+    "entry_id": "http://arxiv.org/abs/1011.6590v1",
+    "pdf_url": "https://arxiv.org/pdf/1011.6590v1",
+    "categories": [
+      "cs.OH"
+    ],
+    "query": "reputation publishing impact factor"
+  },
+  {
+    "title": "Comparison Between Damping Coefficients of Measured Perforated Micromechanical Test Structures and Compact Models",
+    "authors": [
+      "T. Veijola",
+      "Giorgio De Pasquale",
+      "Aurelio Som\u00e0"
+    ],
+    "summary": "Measured damping coefficients of six different perforated micromechanical test structures are compared with damping coefficients given by published compact models. The motion of the perforated plates is almost translational, the surface shape is rectangular, and the perforation is uniform validating the assumptions made for compact models. In the structures, the perforation ratio varies from 24% - 59%. The study of the structure shows that the compressibility and inertia do not contribute to the damping at the frequencies used (130kHz - 220kHz). The damping coefficients given by all four compact models underestimate the measured damping coefficient by approximately 20%. The reasons for this underestimation are discussed by studying the various flow components in the models.",
+    "published": "2008-05-07 09:17:47+00:00",
+    "entry_id": "http://arxiv.org/abs/0805.0893v1",
+    "pdf_url": "https://arxiv.org/pdf/0805.0893v1",
+    "categories": [
+      "cs.OH"
+    ],
+    "query": "reputation publishing impact factor"
+  },
+  {
+    "title": "Fragment Descriptors in Virtual Screening",
+    "authors": [
+      "Igor I. Baskin",
+      "Alexandre Varnek"
+    ],
+    "summary": "This article reviews the application of fragment descriptors at different stages of virtual screening: filtering, similarity search, and direct activity assessment using QSAR/QSPR models. Several case studies are considered. It is demonstrated that the power of fragment descriptors stems from their universality, very high computational efficiency, simplicity of interpretation and versatility.",
+    "published": "2013-11-15 04:23:09+00:00",
+    "entry_id": "http://arxiv.org/abs/1311.3723v1",
+    "pdf_url": "https://arxiv.org/pdf/1311.3723v1",
+    "categories": [
+      "physics.chem-ph",
+      "stat.AP"
+    ],
+    "query": "screening selection academia tenure publication"
+  },
+  {
+    "title": "The role of Web of Science publications in China's tenure system",
+    "authors": [
+      "Fei Shu",
+      "Wei Quan",
+      "Bikun Chen",
+      "Junping Qiu",
+      "Cassidy Sugimoto",
+      "Vincent Larivi\u00e8re"
+    ],
+    "summary": "Tenure provides a permanent position to faculty in higher education institutions. In North America, it is granted to those who have established a record of excellence in research, teaching and services in a limited period. However, in China, research excellence represented by the number of Web of Science publications is highly weighted in the tenure assessment compared to excellence in teaching and services, but this has never been systematically investigated. By analyzing the tenure assessment documents from Chinese universities, this study reveals the role of Web of Science publications in China tenure system and presents the landscape of the tenure assessment process in Chinese higher education institutions.",
+    "published": "2019-12-12 21:42:42+00:00",
+    "entry_id": "http://arxiv.org/abs/1912.06231v1",
+    "pdf_url": "https://arxiv.org/pdf/1912.06231v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "screening selection academia tenure publication"
+  },
+  {
+    "title": "Tenure and Research Trajectories",
+    "authors": [
+      "Giorgio Tripodi",
+      "Xiang Zheng",
+      "Yifan Qian",
+      "Dakota Murray",
+      "Benjamin F. Jones",
+      "Chaoqun Ni",
+      "Dashun Wang"
+    ],
+    "summary": "Tenure is a cornerstone of the US academic system, yet its relationship to faculty research trajectories remains poorly understood. Conceptually, tenure systems may act as a selection mechanism, screening in high-output researchers; a dynamic incentive mechanism, encouraging high output prior to tenure but low output after tenure; and a creative search mechanism, encouraging tenured individuals to undertake high-risk work. Here, we integrate data from seven different sources to trace US tenure-line faculty and their research outputs at an unprecedented scale and scope, covering over 12,000 researchers across 15 disciplines. Our analysis reveals that faculty publication rates typically increase sharply during the tenure track and peak just before obtaining tenure. Post-tenure trends, however, vary across disciplines: in lab-based fields, such as biology and chemistry, research output typically remains high post-tenure, whereas in non-lab-based fields, such as mathematics and sociology, research output typically declines substantially post-tenure. Turning to creative search, faculty increasingly produce novel, high-risk research after securing tenure. However, this shift toward novelty and risk-taking comes with a decline in impact, with post-tenure research yielding fewer highly cited papers. Comparing outcomes across common career ages but different tenure years or comparing research trajectories in tenure-based and non-tenure-based research settings underscores that breaks in the research trajectories are sharply tied to the individual's tenure year. Overall, these findings provide a new empirical basis for understanding the tenure system, individual research trajectories, and the shape of scientific output.",
+    "published": "2024-11-15 20:50:24+00:00",
+    "entry_id": "http://arxiv.org/abs/2411.10575v2",
+    "pdf_url": "https://arxiv.org/pdf/2411.10575v2",
+    "categories": [
+      "physics.soc-ph",
+      "cs.DL",
+      "cs.SI"
+    ],
+    "query": "screening selection academia tenure publication"
+  },
+  {
+    "title": "The Selection of Tenured Astronomers in France",
+    "authors": [
+      "Gary A. Mamon"
+    ],
+    "summary": "The organization of the recruitment of tenured astronomers and astrophysicists in France is presented and compared with the setup in other countries. The ages for getting tenure have increased from 27-28 in 1980 to 31 today. Foreign scientists constitute at least 11% of the recruits and the delay in their hiring is quantified. The large reliance on national tenure committees is justified, while the increased targeting of positions is questioned and a compromise proposed.",
+    "published": "2003-03-25 15:47:59+00:00",
+    "entry_id": "http://arxiv.org/abs/astro-ph/0303552v4",
+    "pdf_url": "https://arxiv.org/pdf/astro-ph/0303552v4",
+    "categories": [
+      "astro-ph"
+    ],
+    "query": "screening selection academia tenure publication"
+  },
+  {
+    "title": "A Survey of H-index, Stress, Tenure & Reference Management software use in Academia",
+    "authors": [
+      "Jose Berengueres",
+      "Pavel Nesterov"
+    ],
+    "summary": "We describe the findings of a survey that covered the topics of stress, citation tool use habits, subjective happiness, h-index, research topic and tenure among a sample of 2286 authors of arxiv.org. Ph.D. students report the lowest subjective happiness score among all faculty roles, while tenured faculty report the highest. Tenured faculty report the lowest levels of stress. Undergraduate and graduate students report the highest levels of stress. Non-tenured faculty report stress similar to postdocs. No association between citation management tool usage and h-index was found. The average age at tenure start is 34.9 years. In addition, no significant association between stress levels and the research topic was found",
+    "published": "2020-10-01 12:44:37+00:00",
+    "entry_id": "http://arxiv.org/abs/2010.00358v3",
+    "pdf_url": "https://arxiv.org/pdf/2010.00358v3",
+    "categories": [
+      "cs.CY"
+    ],
+    "query": "screening selection academia tenure publication"
+  },
+  {
+    "title": "Putting a price on tenure",
+    "authors": [
+      "Thiago Marzagao"
+    ],
+    "summary": "Government employees in Brazil are granted tenure after three years on the job. Firing a tenured government employee is all but impossible, so tenure is a big employee benefit. But exactly how big is it? In other words: how much money is tenure worth to a government employee in Brazil? No one has ever attempted to answer that question. I do that in this paper. I use a modified version of the Sharpe ratio to estimate what the risk-adjusted salaries of government workers should be. The difference between actual salary and risk-adjusted salary gives us an estimate of how much tenure is worth to each employee. I find that in the 2005-2019 period the monthly value of tenure was 3980 reais to the median federal government employee, 1971 reais to the median state government employee, and 500 reais to the median municipal government employee.",
+    "published": "2021-03-25 16:45:34+00:00",
+    "entry_id": "http://arxiv.org/abs/2103.13965v3",
+    "pdf_url": "https://arxiv.org/pdf/2103.13965v3",
+    "categories": [
+      "econ.GN"
+    ],
+    "query": "screening selection academia tenure publication"
+  },
+  {
+    "title": "Return to Office and the Tenure Distribution",
+    "authors": [
+      "David Van Dijcke",
+      "Florian Gunsilius",
+      "Austin Wright"
+    ],
+    "summary": "With the official end of the COVID-19 pandemic, debates about the return to office have taken center stage among companies and employees. Despite their ubiquity, the economic implications of return to office policies are not fully understood. Using 260 million resumes matched to company data, we analyze the causal effects of such policies on employees' tenure and seniority levels at three of the largest US tech companies: Microsoft, SpaceX, and Apple. Our estimation procedure is nonparametric and captures the full heterogeneity of tenure and seniority of employees in a distributional synthetic controls framework. We estimate a reduction in counterfactual tenure that increases for employees with longer tenure. Similarly, we document a leftward shift in the seniority distribution towards positions below the senior level. These shifts appear to be driven by employees leaving to larger firms that are direct competitors. Our results suggest that return to office policies can lead to an outflow of senior employees, posing a potential threat to the productivity, innovation, and competitiveness of the wider firm.",
+    "published": "2024-05-07 14:31:18+00:00",
+    "entry_id": "http://arxiv.org/abs/2405.04352v1",
+    "pdf_url": "https://arxiv.org/pdf/2405.04352v1",
+    "categories": [
+      "econ.GN",
+      "stat.AP"
+    ],
+    "query": "screening selection academia tenure publication"
+  },
+  {
+    "title": "Classification of screening systems for lattice vertex operator algebras",
+    "authors": [
+      "Katrina Barron",
+      "Nathan Vander Werf"
+    ],
+    "summary": "We study and classify systems of certain screening operators arising in a generalized vertex operator algebra, or more generally an abelian intertwining algebra with an associated vertex operator (super)algebra. Screening pairs arising from weight one primary vectors acting commutatively on a lattice vertex operator algebra (the vacuum module) are classified into four general types, one type of which has been shown to play an important role in the construction and study of certain important families of $\\mathcal{W}$-vertex algebras. These types of screening pairs we go on to study in detail through the notion of a system of screeners, which are lattice elements or `screening momenta' which give rise to screening pairs. We classify screening systems for all positive definite integral lattices of rank two, and for all positive definite even lattices of arbitrary rank when these lattices are generated by a screening system.",
+    "published": "2017-10-13 01:22:13+00:00",
+    "entry_id": "http://arxiv.org/abs/1710.04769v2",
+    "pdf_url": "https://arxiv.org/pdf/1710.04769v2",
+    "categories": [
+      "math.QA",
+      "hep-th"
+    ],
+    "query": "screening selection academia tenure publication"
+  },
+  {
+    "title": "D-BIonic Screening of Scalar Fields",
+    "authors": [
+      "Clare Burrage",
+      "Justin Khoury"
+    ],
+    "summary": "We study a new screening mechanism which is present in Dirac-Born-Infeld (DBI)-like theories. A scalar field with a DBI-like Lagrangian is minimally coupled to matter. In the vicinity of sufficiently dense sources, non-linearities in the scalar dominate and result in an approximately constant acceleration on a test particle, thereby suppressing the scalar force relative to gravity. Unlike generic P(X) theories, screening happens within the regime of validity of the effective field theory, thanks to the DBI symmetry. This symmetry also allows the removal of a constant field gradient, like in galileons. Not surprisingly, perturbations around the spherically-symmetry background propagate superluminally, but we argue for a chronology protection analogous to galileons. We derive constraints on the theory parameters from tests of gravity and discuss various extensions.",
+    "published": "2014-03-24 20:00:21+00:00",
+    "entry_id": "http://arxiv.org/abs/1403.6120v2",
+    "pdf_url": "https://arxiv.org/pdf/1403.6120v2",
+    "categories": [
+      "hep-th",
+      "astro-ph.CO"
+    ],
+    "query": "screening selection academia tenure publication"
+  },
+  {
+    "title": "Non-mean-field screening by multivalent counterions",
+    "authors": [
+      "M. S. Loth",
+      "B. I. Shklovskii"
+    ],
+    "summary": "Screening of a strongly charged macroion by its multivalent counterions can not be described in the framework of mean field Poisson-Boltzmann (PB) theory because multivalent counterions form a strongly correlated liquid (SCL) on the surface of the macroion. It was predicted that a distant counterion polarizes the SCL as if it were a metallic surface and creates an electrostatic image. The attractive potential energy of the image is the reason why the charge density of counterions decreases faster with distance from the charged surface than in PB theory. Using the Monte Carlo method to find the equilibrium distribution of counterions around the macroion, we confirm the existence of the image potential energy. It is also shown that due to the negative screening length of the SCL, $-2\u03be$, the effective metallic surface is actually above the SCL by $|\u03be|$.",
+    "published": "2009-02-18 17:38:31+00:00",
+    "entry_id": "http://arxiv.org/abs/0902.3009v5",
+    "pdf_url": "https://arxiv.org/pdf/0902.3009v5",
+    "categories": [
+      "cond-mat.soft"
+    ],
+    "query": "screening selection academia tenure publication"
+  },
+  {
+    "title": "Does the use of open, non-anonymous peer review in scholarly publishing introduce bias? Evidence from the F1000 post-publication open peer review publishing model",
+    "authors": [
+      "Mike Thelwall",
+      "Verena Weigert",
+      "Liz Allen",
+      "Zena Nyakoojo",
+      "Eleanor-Rose Papas"
+    ],
+    "summary": "This study examines whether there is any evidence of bias in two areas of common critique of open, non-anonymous peer review - and used in the post-publication, peer review system operated by the open-access scholarly publishing platform F1000Research. First, is there evidence of bias where a reviewer based in a specific country assesses the work of an author also based in the same country? Second, are reviewers influenced by being able to see the comments and know the origins of previous reviewer? Methods: Scrutinising the open peer review comments published on F1000Research, we assess the extent of two frequently cited potential influences on reviewers that may be the result of the transparency offered by a fully attributable, open peer review publishing model: the national affiliations of authors and reviewers, and the ability of reviewers to view previously-published reviewer reports before submitting their own. The effects of these potential influences were investigated for all first versions of articles published by 8 July 2019 to F1000Research. In 16 out of the 20 countries with the most articles, there was a tendency for reviewers based in the same country to give a more positive review. The difference was statistically significant in one. Only 3 countries had the reverse tendency. Second, there is no evidence of a conformity bias. When reviewers mentioned a previous review in their peer review report, they were not more likely to give the same overall judgement. Although reviewers who had longer to potentially read a previously published reviewer reports were slightly less likely to agree with previous reviewer judgements, this could be due to these articles being difficult to judge rather than deliberate non-conformity.",
+    "published": "2019-11-08 16:59:50+00:00",
+    "entry_id": "http://arxiv.org/abs/1911.03379v1",
+    "pdf_url": "https://arxiv.org/pdf/1911.03379v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "diffusion innovation peer review model"
+  },
+  {
+    "title": "Seasonal Entropy, Diversity and Inequality Measures of Submitted and Accepted Papers Distributions In Peer-Reviewed Journals",
+    "authors": [
+      "Marcel Ausloos",
+      "Olgica Nedic",
+      "Aleksandar Dekanski"
+    ],
+    "summary": "This paper presents a novel method for finding features in the analysis of variable distributions stemming from time series. We apply the methodology to the case of submitted and accepted papers in peer-reviewed journals. We provide a comparative study of editorial decisions for papers submitted to two peer-reviewed journals: the Journal of the Serbian Chemical Society (JSCS) and this MDPI Entropy journal. We cover three recent years for which the fate of submitted papers, about 600 papers to JSCS and 2500 to Entropy, is completely determined. Instead of comparing the number distributions of these papers as a function of time with respect to a uniform distribution, we analyze the relevant probabilities, from which we derive the information entropy. It is argued that such probabilities are indeed more relevant for authors than the actual number of submissions. We tie this entropy analysis to the so called diversity of the variable distributions. Furthermore, we emphasize the correspondence between the entropy and the diversity with inequality measures, like the Herfindahl-Hirschman index and the Theil index, itself being in the class of entropy measures; the Gini coefficient which also measures the diversity in ranking is calculated for further discussion. In this sample, the seasonal aspects of the peer review process are outlined. It is found that the use of such indices, non linear transformations of the data distributions, allow to distinguish features and evolutions of peer review process as a function of time as well as comparing non-uniformity of distributions. Furthermore, t- and z- statistical tests are applied in order to measure the significance (p-level) of the findings, i.e. whether papers are more likely to be accepted if they are submitted during a few specific months or \"season\"; the predictability strength depends on the journal.",
+    "published": "2019-10-13 10:22:53+00:00",
+    "entry_id": "http://arxiv.org/abs/1910.05723v1",
+    "pdf_url": "https://arxiv.org/pdf/1910.05723v1",
+    "categories": [
+      "cs.DL",
+      "physics.soc-ph"
+    ],
+    "query": "diffusion innovation peer review model"
+  },
+  {
+    "title": "Peer Review and the Diffusion of Ideas",
+    "authors": [
+      "Binglu Wang",
+      "Zhengnan Ma",
+      "Dashun Wang",
+      "Brian Uzzi"
+    ],
+    "summary": "This study examines a fundamental yet overlooked function of peer review: its role in exposing reviewers to new and unexpected ideas. Leveraging a natural experiment involving over half a million peer review invitations covering both accepted and rejected manuscripts, and integrating high-scale bibliographic and editorial records for 37,279 submitting authors, we find that exposure to a manuscript's core ideas significantly influences the future referencing behavior and knowledge of reviewer invitees who decline the review invite. Specifically, declining reviewer invitees who could view concise summaries of the manuscript's core ideas not only increase their citations to the manuscript itself but also demonstrate expanded breadth, depth, diversity, and prominence of citations to the submitting author's broader body of work. Overall, these results suggest peer review substantially influences the spread of scientific knowledge. Ironically, while the massive scale of peer review, entailing millions of reviews annually, often drives policy debates about its costs and burdens, our findings demonstrate that precisely because of this scale, peer review serves as a powerful yet previously unrecognized engine for idea diffusion, which is central to scientific advances and scholarly communication.",
+    "published": "2025-07-16 01:02:51+00:00",
+    "entry_id": "http://arxiv.org/abs/2507.11825v1",
+    "pdf_url": "https://arxiv.org/pdf/2507.11825v1",
+    "categories": [
+      "physics.soc-ph",
+      "cs.SI"
+    ],
+    "query": "diffusion innovation peer review model"
+  },
+  {
+    "title": "Systematic Review of Approaches to Improve Peer Assessment at Scale",
+    "authors": [
+      "Manikandan Ravikiran"
+    ],
+    "summary": "Peer Assessment is a task of analysis and commenting on student's writing by peers, is core of all educational components both in campus and in MOOC's. However, with the sheer scale of MOOC's & its inherent personalised open ended learning, automatic grading and tools assisting grading at scale is highly important. Previously we presented survey on tasks of post classification, knowledge tracing and ended with brief review on Peer Assessment (PA), with some initial problems. In this review we shall continue review on PA from perspective of improving the review process itself. As such rest of this review focus on three facets of PA namely Auto grading and Peer Assessment Tools (we shall look only on how peer reviews/auto-grading is carried), strategies to handle Rogue Reviews, Peer Review Improvement using Natural Language Processing. The consolidated set of papers and resources so used are released in https://github.com/manikandan-ravikiran/cs6460-Survey-2.",
+    "published": "2020-01-27 15:59:24+00:00",
+    "entry_id": "http://arxiv.org/abs/2001.10617v1",
+    "pdf_url": "https://arxiv.org/pdf/2001.10617v1",
+    "categories": [
+      "cs.CY",
+      "cs.AI",
+      "cs.CL",
+      "cs.HC"
+    ],
+    "query": "diffusion innovation peer review model"
+  },
+  {
+    "title": "Erasing Undesirable Influence in Diffusion Models",
+    "authors": [
+      "Jing Wu",
+      "Trung Le",
+      "Munawar Hayat",
+      "Mehrtash Harandi"
+    ],
+    "summary": "Diffusion models are highly effective at generating high-quality images but pose risks, such as the unintentional generation of NSFW (not safe for work) content. Although various techniques have been proposed to mitigate unwanted influences in diffusion models while preserving overall performance, achieving a balance between these goals remains challenging. In this work, we introduce EraseDiff, an algorithm designed to preserve the utility of the diffusion model on retained data while removing the unwanted information associated with the data to be forgotten. Our approach formulates this task as a constrained optimization problem using the value function, resulting in a natural first-order algorithm for solving the optimization problem. By altering the generative process to deviate away from the ground-truth denoising trajectory, we update parameters for preservation while controlling constraint reduction to ensure effective erasure, striking an optimal trade-off. Extensive experiments and thorough comparisons with state-of-the-art algorithms demonstrate that EraseDiff effectively preserves the model's utility, efficacy, and efficiency.",
+    "published": "2024-01-11 09:30:36+00:00",
+    "entry_id": "http://arxiv.org/abs/2401.05779v4",
+    "pdf_url": "https://arxiv.org/pdf/2401.05779v4",
+    "categories": [
+      "cs.CV"
+    ],
+    "query": "diffusion innovation peer review model"
+  },
+  {
+    "title": "Deferred Acceptance Algorithm Improves Peer Review Process",
+    "authors": [
+      "Christoph Bartneck",
+      "Richard Watt",
+      "Etienne Borde",
+      "Pattara Klinpibul"
+    ],
+    "summary": "The peer review process is essential to the success of science, but it also delays publications and absorbs considerable effort. Journals find it increasingly difficult to recruit competent reviewers. This study presents the results of agent-based simulation that models the current peer review process. We compared it to the simulation of a new peer review process that uses the Deferred Acceptance Algorithm (DAA) to match papers to journals. The matches are just as good while dramatically reducing the required number of reviews and delays. The results show that it is possible for the scientific community to significantly optimise the peer review process.",
+    "published": "2026-01-19 19:07:12+00:00",
+    "entry_id": "http://arxiv.org/abs/2601.17035v1",
+    "pdf_url": "https://arxiv.org/pdf/2601.17035v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "Bayesian model peer review acceptance"
+  },
+  {
+    "title": "Bayesian Model Selection Based on Proper Scoring Rules",
+    "authors": [
+      "A. Philip Dawid",
+      "Monica Musio"
+    ],
+    "summary": "Bayesian model selection with improper priors is not well-defined because of the dependence of the marginal likelihood on the arbitrary scaling constants of the within-model prior densities. We show how this problem can be evaded by replacing marginal log-likelihood by a homogeneous proper scoring rule, which is insensitive to the scaling constants. Suitably applied, this will typically enable consistent selection of the true model.",
+    "published": "2014-09-18 12:58:14+00:00",
+    "entry_id": "http://arxiv.org/abs/1409.5291v2",
+    "pdf_url": "https://arxiv.org/pdf/1409.5291v2",
+    "categories": [
+      "math.ST"
+    ],
+    "query": "Bayesian model peer review acceptance"
+  },
+  {
+    "title": "Sequential Bayesian Model Selection of Regular Vine Copulas",
+    "authors": [
+      "Lutz Gruber",
+      "Claudia Czado"
+    ],
+    "summary": "Regular vine copulas can describe a wider array of dependency patterns than the multivariate Gaussian copula or the multivariate Student's t copula. This paper presents two contributions related to model selection of regular vine copulas. First, our pair copula family selection procedure extends existing Bayesian family selection methods by allowing pair families to be chosen from an arbitrary set of candidate families. Second, our method represents the first Bayesian model selection approach to include the regular vine density construction in its scope of inference. The merits of our approach are established in a simulation study that benchmarks against methods suggested in current literature. A real data example about forecasting of portfolio asset returns for risk measurement and investment allocation illustrates the viability and relevance of the proposed scheme.",
+    "published": "2015-12-03 07:39:13+00:00",
+    "entry_id": "http://arxiv.org/abs/1512.00976v1",
+    "pdf_url": "https://arxiv.org/pdf/1512.00976v1",
+    "categories": [
+      "math.ST",
+      "stat.ME"
+    ],
+    "query": "Bayesian model peer review acceptance"
+  },
+  {
+    "title": "The AI Review Lottery: Widespread AI-Assisted Peer Reviews Boost Paper Scores and Acceptance Rates",
+    "authors": [
+      "Giuseppe Russo Latona",
+      "Manoel Horta Ribeiro",
+      "Tim R. Davidson",
+      "Veniamin Veselovsky",
+      "Robert West"
+    ],
+    "summary": "Journals and conferences worry that peer reviews assisted by artificial intelligence (AI), in particular, large language models (LLMs), may negatively influence the validity and fairness of the peer-review system, a cornerstone of modern science. In this work, we address this concern with a quasi-experimental study of the prevalence and impact of AI-assisted peer reviews in the context of the 2024 International Conference on Learning Representations (ICLR), a large and prestigious machine-learning conference. Our contributions are threefold. Firstly, we obtain a lower bound for the prevalence of AI-assisted reviews at ICLR 2024 using the GPTZero LLM detector, estimating that at least $15.8\\%$ of reviews were written with AI assistance. Secondly, we estimate the impact of AI-assisted reviews on submission scores. Considering pairs of reviews with different scores assigned to the same paper, we find that in $53.4\\%$ of pairs the AI-assisted review scores higher than the human review ($p = 0.002$; relative difference in probability of scoring higher: $+14.4\\%$ in favor of AI-assisted reviews). Thirdly, we assess the impact of receiving an AI-assisted peer review on submission acceptance. In a matched study, submissions near the acceptance threshold that received an AI-assisted peer review were $4.9$ percentage points ($p = 0.024$) more likely to be accepted than submissions that did not. Overall, we show that AI-assisted reviews are consequential to the peer-review process and offer a discussion on future implications of current trends",
+    "published": "2024-05-03 14:56:43+00:00",
+    "entry_id": "http://arxiv.org/abs/2405.02150v1",
+    "pdf_url": "https://arxiv.org/pdf/2405.02150v1",
+    "categories": [
+      "cs.CY"
+    ],
+    "query": "Bayesian model peer review acceptance"
+  },
+  {
+    "title": "Bayesian Nonparametric Weighted Sampling Inference",
+    "authors": [
+      "Yajuan Si",
+      "Natesh S. Pillai",
+      "Andrew Gelman"
+    ],
+    "summary": "It has historically been a challenge to perform Bayesian inference in a design-based survey context. The present paper develops a Bayesian model for sampling inference in the presence of inverse-probability weights. We use a hierarchical approach in which we model the distribution of the weights of the nonsampled units in the population and simultaneously include them as predictors in a nonparametric Gaussian process regression. We use simulation studies to evaluate the performance of our procedure and compare it to the classical design-based estimator. We apply our method to the Fragile Family and Child Wellbeing Study. Our studies find the Bayesian nonparametric finite population estimator to be more robust than the classical design-based estimator without loss in efficiency, which works because we induce regularization for small cells and thus this is a way of automatically smoothing the highly variable weights.",
+    "published": "2013-09-07 01:14:31+00:00",
+    "entry_id": "http://arxiv.org/abs/1309.1799v4",
+    "pdf_url": "https://arxiv.org/pdf/1309.1799v4",
+    "categories": [
+      "stat.ME",
+      "stat.AP",
+      "stat.CO"
+    ],
+    "query": "Bayesian model peer review acceptance"
+  },
+  {
+    "title": "Reimagining Peer Review Process Through Multi-Agent Mechanism Design",
+    "authors": [
+      "Ahmad Farooq",
+      "Kamran Iqbal"
+    ],
+    "summary": "The software engineering research community faces a systemic crisis: peer review is failing under growing submissions, misaligned incentives, and reviewer fatigue. Community surveys reveal that researchers perceive the process as \"broken.\" This position paper argues that these dysfunctions are mechanism design failures amenable to computational solutions. We propose modeling the research community as a stochastic multi-agent system and applying multi-agent reinforcement learning to design incentive-compatible protocols. We outline three interventions: a credit-based submission economy, MARL-optimized reviewer assignment, and hybrid verification of review consistency. We present threat models, equity considerations, and phased pilot metrics. This vision charts a research agenda toward sustainable peer review.",
+    "published": "2026-01-27 16:43:11+00:00",
+    "entry_id": "http://arxiv.org/abs/2601.19778v1",
+    "pdf_url": "https://arxiv.org/pdf/2601.19778v1",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.CY",
+      "cs.GT",
+      "cs.SE"
+    ],
+    "query": "mechanism design peer review"
+  },
+  {
+    "title": "Peer-to-Peer Live Streaming and Video On Demand Design Issues and its Challenges",
+    "authors": [
+      "Hareesh. K",
+      "Manjaiah D. H"
+    ],
+    "summary": "Peer-to-Peer Live streaming and Video on Demand is the most popular media applications over the Internet in recent years. These systems reduce the load on the server and provide a scalable content distribution. A new paradigm of P2P network collaborates to build large distributed video applications on existing networks .But, the problem of designing the system are at par with the P2P media streaming, live and Video on demand systems. Hence a comprehensive design comparison is needed to build such kind of system architecture. Therefore, in this paper we elaborately studied the traditional approaches for P2P streaming architectures, and its critical design issues, as well as practicable challenges. Thus, our studies in this paper clearly point the tangible design issues and its challenges, and other intangible issues for providing P2P VoD services.",
+    "published": "2011-11-29 09:06:57+00:00",
+    "entry_id": "http://arxiv.org/abs/1111.6735v1",
+    "pdf_url": "https://arxiv.org/pdf/1111.6735v1",
+    "categories": [
+      "cs.NI",
+      "cs.MM"
+    ],
+    "query": "mechanism design peer review"
+  },
+  {
+    "title": "Auctions with Tokens: Monetary Policy as a Mechanism Design Choice",
+    "authors": [
+      "Andrea Canidio"
+    ],
+    "summary": "I study a repeated auction in which payments are made with a blockchain token created and initially owned by the auction designer. Unlike the ``virtual money'' previously examined in mechanism design, such tokens can be saved and traded outside the mechanism. I show that the present-discounted value of expected revenues equals that of a conventional dollar auction, but revenues accrue earlier and are less volatile. The optimal monetary policy burns the tokens used for payment, a practice common in blockchain-based protocols. I also show that the same outcome can be reproduced in a dollar auction if the auctioneer issues a suitable dollar-denominated security. This equivalence breaks down with moral hazard and contracting frictions: with severe contracting frictions the token auction dominates, whereas with mild contracting frictions the dollar auction combined with a dollar-denominated financial instrument is preferred.",
+    "published": "2023-01-31 17:37:48+00:00",
+    "entry_id": "http://arxiv.org/abs/2301.13794v4",
+    "pdf_url": "https://arxiv.org/pdf/2301.13794v4",
+    "categories": [
+      "econ.TH",
+      "cs.DC"
+    ],
+    "query": "mechanism design peer review"
+  },
+  {
+    "title": "Microstructure sensitive fatigue life prediction model for SLM fabricated Hastelloy-X",
+    "authors": [
+      "Chandrashekhar M. Pilgar",
+      "Ana Fernandez",
+      "Javier Segurado"
+    ],
+    "summary": "A microstructure-sensitive fatigue life prediction framework based on CP-FFT is proposed to study SLM fabricated Hastelloy-X. The microstructure enters in the model through the shape, size and orientation distributions of grains in the RVEs, which are generated from experimental EBSD data. The framework has been applied to specimens built in two different directions with different polycrystalline microstructures and is able to accurately predict their fatigue life, using just two experiments for calibration. The model reproduces the better fatigue performance found experimentally at high stresses for samples built in transverse direction, identifying the origin of this anisotropy in grain aspect ratios.",
+    "published": "2022-11-15 17:08:44+00:00",
+    "entry_id": "http://arxiv.org/abs/2211.08305v1",
+    "pdf_url": "https://arxiv.org/pdf/2211.08305v1",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "query": "review fatigue scientific publishing"
+  },
+  {
+    "title": "A phase field model for hydrogen-assisted fatigue",
+    "authors": [
+      "Alireza Golahmar",
+      "Philip K. Kristensen",
+      "Christian F. Niordson",
+      "Emilio Mart\u00ednez-Pa\u00f1eda"
+    ],
+    "summary": "We present a new theoretical and numerical phase field-based formulation for predicting hydrogen-assisted fatigue. The coupled deformation-diffusion-damage model presented enables predicting fatigue crack nucleation and growth for arbitrary loading patterns and specimen geometries. The role of hydrogen in increasing fatigue crack growth rates and decreasing the number of cycles to failure is investigated. Our numerical experiments enable mapping the three loading frequency regimes and naturally recover Paris law behaviour for various hydrogen concentrations. In addition, Virtual S-N curves are obtained for both notched and smooth samples, exhibiting a good agreement with experiments.",
+    "published": "2021-08-30 11:54:47+00:00",
+    "entry_id": "http://arxiv.org/abs/2109.14447v1",
+    "pdf_url": "https://arxiv.org/pdf/2109.14447v1",
+    "categories": [
+      "cs.CE",
+      "cond-mat.mtrl-sci",
+      "physics.chem-ph"
+    ],
+    "query": "review fatigue scientific publishing"
+  },
+  {
+    "title": "An investigation of fatigue damage growth in composites materials using the vibration response phase decay",
+    "authors": [
+      "Matias Lasen",
+      "Dario Di Maio",
+      "Damaso De Bono",
+      "Michelle Peluzzo"
+    ],
+    "summary": "The increasing use of polymer composites in industry asks for the creation of better, faster and cost-effective methods to detect the damage state of such materials. This work presents the investigation of the phase decay , $\u0394\u03a6$, as a new parameter to characterise crack growth in composites materials utilising an experimental framework of High Frequency Fatigue Testing (HFFT), a framework where the excitation occurs at vibration resonance. The proposed methodology empirically relates the crack growth measurements, from interrupted testing, with the structural phase decay response, distinctive of material strength degradation",
+    "published": "2024-04-23 08:40:30+00:00",
+    "entry_id": "http://arxiv.org/abs/2404.14834v1",
+    "pdf_url": "https://arxiv.org/pdf/2404.14834v1",
+    "categories": [
+      "physics.app-ph"
+    ],
+    "query": "review fatigue scientific publishing"
+  },
+  {
+    "title": "Mechanical Fatigue on Gold MEMS Devices: Experimental Results",
+    "authors": [
+      "Giorgio De Pasquale",
+      "Aurelio Som\u00e0",
+      "Alberto Ballestra"
+    ],
+    "summary": "The effect of mechanical fatigue on structural performances of gold devices is investigated. The pull-in voltage of special testing micro-systems is monitored during the cyclical load application. The mechanical collapse is identified as a dramatic loss of mechanical strength of the specimen. The fatigue limit is estimated through the stair-case method by means of the pull-in voltage measurements. Measurements are performed by means of the optical interferometric technique.",
+    "published": "2008-05-07 09:53:11+00:00",
+    "entry_id": "http://arxiv.org/abs/0805.0945v1",
+    "pdf_url": "https://arxiv.org/pdf/0805.0945v1",
+    "categories": [
+      "cs.OH"
+    ],
+    "query": "review fatigue scientific publishing"
+  },
+  {
+    "title": "Microstructure-based fatigue life model of metallic alloys with bilinear Coffin-Manson behavior",
+    "authors": [
+      "A. Cruzado",
+      "S. Lucarini",
+      "J. LLorca",
+      "J. Segurado"
+    ],
+    "summary": "A microstructure-based model is presented to predict the fatigue life of polycrystalline metallic alloys which present a bilinear Coffin-Manson relationship. The model is based in the determination of the maximum value of a fatigue indicator parameter obtained from the plastic energy dissipated by cycle in the microstructure. The fatigue indicator parameter was obtained by means of the computational homogenization of a representative volume element of the microstructure using a crystal-plasticity finite element model. The microstructure-based model was applied to predict the low cyclic fatigue behavior of IN718 at 400$^\\circ$C which exhibits a bilinear Coffin-Manson relationship under the assumption that this behavior is triggered by a transition from highly localized plasticity at low cyclic strain amplitudes to more homogeneous deformation at high cyclic strain amplitudes. The model predictions were in very good agreement with the experimental results for a wide range of cyclic strain amplitudes and two strain ratios ($R_\u03b5$ = 0 and -1) and corroborated the initial hypothesis. Moreover, they provided a micromechanical explanation for the influence of the strain ratio on the fatigue life at low cyclic strain amplitudes.",
+    "published": "2017-07-20 16:56:30+00:00",
+    "entry_id": "http://arxiv.org/abs/1707.06605v2",
+    "pdf_url": "https://arxiv.org/pdf/1707.06605v2",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "query": "review fatigue scientific publishing"
+  },
+  {
+    "title": "Crystal plasticity simulation of the effect of grain size on the fatigue behavior of polycrystalline Inconel 718",
+    "authors": [
+      "A. Cruzado",
+      "S. Lucarini",
+      "J. LLorca",
+      "J. Segurado"
+    ],
+    "summary": "A microstructure-based model that accounts for the effect of grain size has been developed to study the effect of grain size on the fatigue life of Inconel 718 alloys. The fatigue behavior of two alloys with different grain size was determined by means of uniaxial cyclic deformation tests under fully-reversed deformation ($R_\\varepsilon$ = -1) at 400$^\\circ$C in the low cycle fatigue regime. The model was based in the determination of the fatigue indicator parameter (based on the local crystallographic strain energy dissipated per cycle) by means of computational homogenization of a representative volume element of the microstructure. The mechanical response of the single crystal within the polycrystal was modelled through a phenomenological crystal plasticity model which was modified to account for the effect of grain size on the monotonic and cyclic hardening/softening mechanisms. The microstructure-based crack initiation model parameters were calibrated from the experimental tests of the material with fine grain size. The results of the fatigue simulations were in good agreement with the experimental results in terms of the cyclic stress-strain curves and of the number of cycles for fatigue crack initiation. The model did not show any grain size effect on the fatigue life for the largest cyclic strain ranges while the predicted fatigue life predicted was considerably longer in the case of the microstructure with fine grain size for the lowest strain ranges, in quantitative agreement with experimental data. These differences were attributed to changes in the deformation modes between homogeneous plastic deformation at large cyclic strain ranges and localized plasticity in a few grains at low cyclic strain ranges.",
+    "published": "2018-04-04 17:30:07+00:00",
+    "entry_id": "http://arxiv.org/abs/1804.01515v2",
+    "pdf_url": "https://arxiv.org/pdf/1804.01515v2",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "query": "review fatigue scientific publishing"
+  },
+  {
+    "title": "Adoption of the open access business model in scientific journal publishing: A cross-disciplinary study",
+    "authors": [
+      "Bo-Christer Bjork",
+      "Timo Korkeamaki"
+    ],
+    "summary": "Scientific journal publishers have over the past twenty-five years rapidly converted to predominantly electronic dissemination, but the reader-pays business model continues to dominate the market. Open Access (OA) publishing, where the articles are freely readable on the net, has slowly increased its market share to near 20%, but has failed to fulfill the visions of rapid proliferation predicted by many early proponents. The growth of OA has also been very uneven across fields of science. We report market shares of open access in eighteen Scopus-indexed disciplines ranging from 27% (agriculture) to 7% (business). The differences become far more pronounced for journals published in the four countries, which dominate commercial scholarly publishing (US, UK, Germany and the Netherlands). We present contrasting developments within six academic disciplines. Availability of funding to pay publication charges, pressure from research funding agencies, and the diversity of discipline-specific research communication cultures arise as potential explanations for the observed differences.",
+    "published": "2020-05-03 07:00:44+00:00",
+    "entry_id": "http://arxiv.org/abs/2005.01008v1",
+    "pdf_url": "https://arxiv.org/pdf/2005.01008v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "open access journal proliferation"
+  },
+  {
+    "title": "Research on Diamond Open Access in the Long Shadow of Science Policy",
+    "authors": [
+      "Niels Taubert"
+    ],
+    "summary": "This paper reviews research literature on Diamond Open Access (DOA) journals - sometimes also called Platinum Open Access - that was produced after this journal segment started to become a priority in European research policy around 2020. It contextualizes the current science policy debate, critically examines different understandings of DOA, and reviews studies on the role of such journals in scholarly communication. Most existing research consists of quantitative studies focusing on aspects such as the number of DOA journals, their publication output, the diversity of the landscape in terms of subject areas, languages, publishing entities, indexing in major databases, awareness and perception among scholars, cost analyses, as well as insights into the internal operations of DOA journals. The review shows that research on DOA journals is partly influenced by the science policy discourse in at least two ways: first, through the normativity inherent in that discourse, and second, through the temporality of policy-driven research of practical relevance, which leaves important aspects of the phenomenon understudied. Moreover, research on the DOA journal landscape has implications beyond understanding this particular journal segment, as it also challenges established views of the global system of scholarly communication.",
+    "published": "2025-11-28 08:16:29+00:00",
+    "entry_id": "http://arxiv.org/abs/2511.22965v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.22965v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "open access journal proliferation"
+  },
+  {
+    "title": "How Frequently are Articles in Predatory Open Access Journals Cited",
+    "authors": [
+      "Bo-Christer Bj\u00f6rk",
+      "Sari Kanto-Karvonen",
+      "J. Tuomas Harviainen"
+    ],
+    "summary": "Predatory journals are Open Access journals of highly questionable scientific quality. Such journals pretend to use peer review for quality assurance, and spam academics with requests for submissions, in order to collect author payments. In recent years predatory journals have received a lot of negative media. While much has been said about the harm that such journals cause to academic publishing in general, an overlooked aspect is how much articles in such journals are actually read and in particular cited, that is if they have any significant impact on the research in their fields. Other studies have already demonstrated that only some of the articles in predatory journals contain faulty and directly harmful results, while a lot of the articles present mediocre and poorly reported studies. We studied citation statistics over a five-year period in Google Scholar for 250 random articles published in such journals in 2014, and found an average of 2,6 citations per article and that 60 % of the articles had no citations at all. For comparison a random sample of articles published in the approximately 25,000 peer reviewed journals included in the Scopus index had an average of 18,1 citations in the same period with only 9 % receiving no citations. We conclude that articles published in predatory journals have little scientific impact.",
+    "published": "2019-12-21 09:22:00+00:00",
+    "entry_id": "http://arxiv.org/abs/1912.10228v1",
+    "pdf_url": "https://arxiv.org/pdf/1912.10228v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "open access journal proliferation"
+  },
+  {
+    "title": "Scientific Literature Text Mining and the Case for Open Access",
+    "authors": [
+      "Gopal P. Sarma"
+    ],
+    "summary": "\"Open access\" has become a central theme of journal reform in academic publishing. In this article, I examine the relationship between open access publishing and an important infrastructural element of a modern research enterprise, scientific literature text mining, or the use of data analytic techniques to conduct meta-analyses and investigations into the scientific corpus. I give a brief history of the open access movement, discuss novel journalistic practices, and an overview of data-driven investigation of the scientific corpus. I argue that particularly in an era where the veracity of many research studies has been called into question, scientific literature text mining should be one of the key motivations for open access publishing, not only in the basic sciences, but in the engineering and applied sciences as well. The enormous benefits of unrestricted access to the research literature should prompt scholars from all disciplines to lend their vocal support to enabling legal, wholesale access to the scientific literature as part of a data science pipeline.",
+    "published": "2016-11-01 01:15:53+00:00",
+    "entry_id": "http://arxiv.org/abs/1611.00097v3",
+    "pdf_url": "https://arxiv.org/pdf/1611.00097v3",
+    "categories": [
+      "cs.CY",
+      "cs.DL",
+      "physics.soc-ph"
+    ],
+    "query": "open access journal proliferation"
+  },
+  {
+    "title": "The current state of open access",
+    "authors": [
+      "Shigeki Sugita"
+    ],
+    "summary": "This article presents reflections from the perspective of a university librarian involved in the establishment and management of institutional repositories in Japan. It examines the historical evolution of scholarly communication, from the oral exchanges of ancient Greek philosophers, through the advent of printing and the rise of academic journals, to the contemporary digital era. The origins of the open access movement are emphasized as rooted in authors' desire to disseminate knowledge globally, rather than merely opening access for readers. The article critically discusses current practices in Japan, including institutional repositories, open access journals, and \"read-and-publish\" agreements, highlighting that many digital innovations still imitate the conventions of print-based scholarly communication. Furthermore, it explores the challenges and opportunities posed by electronic information dissemination, including the limitations of the Version of Record and the potential of diamond open access models. The article argues that genuine progress in scholarly communication requires rethinking publication practices, embracing the modifiability of digital content, and developing new communication models fully suited to the internet era. Ultimately, the goal is to realize a global, real-time, trustworthy scholarly communication system that transcends the historical constraints of print media.",
+    "published": "2025-11-14 03:43:07+00:00",
+    "entry_id": "http://arxiv.org/abs/2511.13754v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.13754v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "open access journal proliferation"
+  },
+  {
+    "title": "Do journals flipping to Gold Open Access show an OA Citation or Publication Advantage?",
+    "authors": [
+      "Nuria Bautista-Puig",
+      "Carmen Lopez-Illescas",
+      "Felix de Moya-Anegon",
+      "Vicente Guerrero-Bote",
+      "Henk F. Moed"
+    ],
+    "summary": "The effects of Open Access (OA) upon journal performance are investigated. The key research question holds: How does the citation impact and publication output of journals switching ('flipping') from non-OA to Gold-OA develop after their switch to Gold-OA? A review is given of the literature, with an emphasis on studies dealing with flipping journals. Two study sets with 119 and 100 flipping journals, derived from two different OA data sources (DOAJ and OAD), are compared with two control groups, one based on a standard bibliometric criterion, and a second controlling for a journal's national orientation. Comparing post-switch indicators with pre-switch ones in paired T-tests, evidence was obtained of an OA Citation advantage but not of an OA Publication Advantage. Shifts in the affiliation countries of publishing and citing authors are characterized in terms of countries' income class and geographical world region. Suggestions are made for qualitative follow-up studies to obtain more insight into OA flipping or reverse-flipping",
+    "published": "2020-05-18 14:26:56+00:00",
+    "entry_id": "http://arxiv.org/abs/2005.08753v1",
+    "pdf_url": "https://arxiv.org/pdf/2005.08753v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "open access journal proliferation"
+  },
+  {
+    "title": "From closed to open access: A case study of flipped journals",
+    "authors": [
+      "Fakhri Momeni",
+      "Nicholas Fraser",
+      "Isabella Peters",
+      "Philipp Mayr"
+    ],
+    "summary": "In recent years, increased stakeholder pressure to transition research to Open Access has led to many journals \"flipping\" from a toll access to an open access publishing model. Changing the publishing model can influence the decision of authors to submit their papers to a journal, and increased article accessibility may influence citation behaviour. The aim of this paper is to show changes in the number of published articles and citations after the flipping of a journal. We analysed a set of 171 journals in the Web of Science (WoS) which flipped to open access. In addition to comparing the number of articles, average relative citation (ARC) and normalized impact factor (IF) are applied, respectively, as bibliometric indicators at the article and journal level, to trace the transformation of flipped journals covered. Our results show that flipping mostly has had positive effects on journal's IF. But it has had no obvious citation advantage for the articles. We also see a decline in the number of published articles after flipping. We can conclude that flipping to open access can improve the performance of journals, despite decreasing the tendency of authors to submit their articles and no better citation advantages for articles.",
+    "published": "2019-03-27 20:08:58+00:00",
+    "entry_id": "http://arxiv.org/abs/1903.11682v3",
+    "pdf_url": "https://arxiv.org/pdf/1903.11682v3",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "open access journal proliferation"
+  },
+  {
+    "title": "Open Access repositories and journals for visibility: Implications for Malaysian libraries",
+    "authors": [
+      "A. N. Zainab"
+    ],
+    "summary": "This paper describes the growth of Open Access (OA) repositories and journals as reported by monitoring initiatives such as ROAR (Registry of Open Access Repositories), Open DOAR (Open Directory of Open Access Repositories), DOAJ (Directory of Open Access Journals), Directory of Web Ranking of World Repositories by the Cybermetrics Laboratory in Spain and published literature. The performance of Malaysian OA repositories and journals is highlighted. The strength of OA channels in increasing visibility and citations are evidenced by research findings. It is proposed that libraries champion OA initiatives by making university or institutional governance aware; encouraging institutional journal publishers to adopt OA platform; collaborating with research groups to jumpstart OA institutional initiatives and to embed OA awareness into user and researcher education programmes. By actively involved, libraries will be free of permission, licensing and archiving barriers usually imposed in traditional publishing situation.",
+    "published": "2013-01-23 02:36:55+00:00",
+    "entry_id": "http://arxiv.org/abs/1301.5387v1",
+    "pdf_url": "https://arxiv.org/pdf/1301.5387v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "open access journal proliferation"
+  },
+  {
+    "title": "Comment on \"Open is not forever: a study of vanished open access journals\"",
+    "authors": [
+      "Matan Shelomi"
+    ],
+    "summary": "We comment on a recent article by Laakso et al. (arXiv:2008.11933 [cs.DL]), in which the disappearance of 176 open access journals from the Internet is noted. We argue that one reason these journals may have vanished is that they were predatory journals. The de-listing of predators from the Directory of Open Access Journals in 2014 and the abundance of predatory journals and awareness thereof in North America parsimoniously explain the temporal and geographic patterns Laakso et al. observed.",
+    "published": "2020-09-16 09:09:03+00:00",
+    "entry_id": "http://arxiv.org/abs/2009.07561v1",
+    "pdf_url": "https://arxiv.org/pdf/2009.07561v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "open access journal proliferation"
+  },
+  {
+    "title": "Statistical Modelling of Citation Exchange Between Statistics Journals",
+    "authors": [
+      "Cristiano Varin",
+      "Manuela Cattelan",
+      "David Firth"
+    ],
+    "summary": "Rankings of scholarly journals based on citation data are often met with skepticism by the scientific community. Part of the skepticism is due to disparity between the common perception of journals' prestige and their ranking based on citation counts. A more serious concern is the inappropriate use of journal rankings to evaluate the scientific influence of authors. This paper focuses on analysis of the table of cross-citations among a selection of Statistics journals. Data are collected from the Web of Science database published by Thomson Reuters. Our results suggest that modelling the exchange of citations between journals is useful to highlight the most prestigious journals, but also that journal citation data are characterized by considerable heterogeneity, which needs to be properly summarized. Inferential conclusions require care in order to avoid potential over-interpretation of insignificant differences between journal ratings. Comparison with published ratings of institutions from the UK's Research Assessment Exercise shows strong correlation at aggregate level between assessed research quality and journal citation `export scores' within the discipline of Statistics.",
+    "published": "2013-12-06 07:58:12+00:00",
+    "entry_id": "http://arxiv.org/abs/1312.1794v4",
+    "pdf_url": "https://arxiv.org/pdf/1312.1794v4",
+    "categories": [
+      "stat.AP",
+      "cs.DL"
+    ],
+    "query": "open access journal proliferation"
+  },
+  {
+    "title": "The Unique Citing Documents Journal Impact Factor (Uniq-JIF) as a Supplement for the standard Journal Impact Factor",
+    "authors": [
+      "Zhesi Shen",
+      "Li Li",
+      "Yu Liao"
+    ],
+    "summary": "This paper introduces the Unique Citing Documents Journal Impact Factor(Uniq-JIF) as a supplement to the traditional Journal Impact Factor(JIF). The Uniq-JIF counts each citing document only once, aiming to reduce the effects of citation manipulations. Analysis of 2023 Journal Citation Reports data shows that for most journals, the Uniq-JIF is less than 20% lower than the JIF, though some journals show a drop of over 75%. The Uniq-JIF also highlights significant reductions for journals suppressed due to citation issues, indicating its effectiveness in identifying problematic journals. The Uniq-JIF offers a more nuanced view of a journal's influence and can help reveal journals needing further scrutiny.",
+    "published": "2024-08-05 08:27:54+00:00",
+    "entry_id": "http://arxiv.org/abs/2408.08884v1",
+    "pdf_url": "https://arxiv.org/pdf/2408.08884v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "journal impact factor inflation"
+  },
+  {
+    "title": "On the Behavior of Journal Impact Factor Rank-Order Distribution",
+    "authors": [
+      "R. Mansilla",
+      "E. K\u00f6ppen",
+      "G. Cocho",
+      "P. Miramontes"
+    ],
+    "summary": "An empirical law for the rank-order behavior of journal impact factors is found. Using an extensive data base on impact factors including journals on Education, Agrosciences, Geosciences, Biosciences and Environ- mental, Chemical, Computer, Engineering, Material, Mathematical, Medical and Physical Sciences we have found extremely good fits out- performing other rank-order models. Some extensions to other areas of knowledge are discussed.",
+    "published": "2006-10-14 17:03:46+00:00",
+    "entry_id": "http://arxiv.org/abs/cs/0610091v4",
+    "pdf_url": "https://arxiv.org/pdf/cs/0610091v4",
+    "categories": [
+      "cs.IR",
+      "physics.soc-ph"
+    ],
+    "query": "journal impact factor inflation"
+  },
+  {
+    "title": "Visualization of the Citation Impact Environments of Scientific Journals: An online mapping exercise",
+    "authors": [
+      "Loet Leydesdorff"
+    ],
+    "summary": "Aggregated journal-journal citation networks based on the Journal Citation Reports 2004 of the Science Citation Index (5968 journals) and the Social Science Citation Index (1712 journals) are made accessible from the perspective of any of these journals. The user is thus able to analyze the citation environment in terms of links and graphs. Furthermore, the local impact of a journal is defined as its share of the total citations in the specific journal's citation environments; the vertical size of the nodes is varied proportionally to this citation impact. The horizontal size of each node can be used to provide the same information after correction for within-journal (self)-citations. In the \"citing\" environment, the equivalents of this measure can be considered as a citation activity index which maps how the relevant journal environment is perceived by the collective of authors of a given journal. As a policy application, the mechanism of interdisciplinary developments among the sciences is elaborated for the case of nanotechnology journals.",
+    "published": "2009-11-13 23:20:36+00:00",
+    "entry_id": "http://arxiv.org/abs/0911.2731v1",
+    "pdf_url": "https://arxiv.org/pdf/0911.2731v1",
+    "categories": [
+      "cs.DL",
+      "physics.soc-ph"
+    ],
+    "query": "journal impact factor inflation"
+  },
+  {
+    "title": "Bias in the journal impact factor",
+    "authors": [
+      "Jerome K Vanclay"
+    ],
+    "summary": "The ISI journal impact factor (JIF) is based on a sample that may represent half the whole-of-life citations to some journals, but a small fraction (<10%) of the citations accruing to other journals. This disproportionate sampling means that the JIF provides a misleading indication of the true impact of journals, biased in favour of journals that have a rapid rather than a prolonged impact. Many journals exhibit a consistent pattern of citation accrual from year to year, so it may be possible to adjust the JIF to provide a more reliable indication of a journal's impact.",
+    "published": "2006-12-19 00:17:03+00:00",
+    "entry_id": "http://arxiv.org/abs/cs/0612091v2",
+    "pdf_url": "https://arxiv.org/pdf/cs/0612091v2",
+    "categories": [
+      "cs.DL",
+      "q-bio.OT"
+    ],
+    "query": "journal impact factor inflation"
+  },
+  {
+    "title": "Weighted Impact Factor (WIF) for assessing the quality of scientific journals",
+    "authors": [
+      "Rasim Alguliyev",
+      "Ramiz Aliguliyev",
+      "Nigar Ismayilova"
+    ],
+    "summary": "Nowadays impact factor is the significant indicator for journal evaluation. In impact factor calculation is used number of all citations to journal, regardless of the prestige of cited journals, however, scientific units (paper, researcher, journal or scientific organization) cited by journals with high impact factor or researchers with high Hirsch index are more important than objects cited by journals without impact factor or unknown researcher. In this paper was offered weighted impact factor for getting more accurate rankings for journals, which consider not only quantity of citations, but also quality of citing journals. Correlation coefficients among different indicators for journal evaluation: impact factors by Thomson Scientific, weighted impact factors offered by different researchers, average and medians of all citing journals impact factors and 5-year impact factors were analysed.",
+    "published": "2015-06-09 05:29:51+00:00",
+    "entry_id": "http://arxiv.org/abs/1506.02783v1",
+    "pdf_url": "https://arxiv.org/pdf/1506.02783v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "journal impact factor inflation"
+  },
+  {
+    "title": "Credit allocation based on journal impact factor and coauthorship contribution",
+    "authors": [
+      "Javier E. Contreras-Reyes"
+    ],
+    "summary": "Some research institutions demand researchers to distribute the incomes they earn from publishing papers to their researchers and/or co-authors. In this study, we deal with the Impact Factor-based ranking journal as a criteria for the correct distribution of these incomes. We also include the Authorship Credit factor for distribution of the incomes among authors, using the geometric progression of Cantor's theory and the Harmonic Credit Index. Depending on the ranking of the journal, the proposed model develops a proper publication credit allocation among all authors. Moreover, our tool can be deployed in the evaluation of an institution for a funding program, as well as calculating the amounts necessary to incentivize research among personnel.",
+    "published": "2016-05-08 02:12:26+00:00",
+    "entry_id": "http://arxiv.org/abs/1606.04139v1",
+    "pdf_url": "https://arxiv.org/pdf/1606.04139v1",
+    "categories": [
+      "cs.DL",
+      "q-fin.GN"
+    ],
+    "query": "journal impact factor inflation"
+  },
+  {
+    "title": "A meta-analysis of impact factors of astrophysics journals",
+    "authors": [
+      "Rayani Venkat Sai Rithvik",
+      "Shantanu Desai"
+    ],
+    "summary": "We calculate the 2024 impact factors for the 38 most widely used journals in Astrophysics, using the citations collated by NASA/ADS (Astrophysics Data System) and compare them to the official impact factors. This includes journals which publish papers outside of astrophysics such as PRD, EPJC, Nature, etc. We also propose a new metric to gauge the impact factor based on the median number of citations in a journal and calculate the same for all the journals. We find that the ADS-based impact factors are mostly in agreement, albeit higher than the official impact factors for most journals. The journals with the maximum fractional difference in median-based and old impact factors are JHEAP and PTEP. We find the maximum difference between the ADS and official impact factor for Nature.",
+    "published": "2024-10-04 11:58:06+00:00",
+    "entry_id": "http://arxiv.org/abs/2410.03342v2",
+    "pdf_url": "https://arxiv.org/pdf/2410.03342v2",
+    "categories": [
+      "astro-ph.IM",
+      "cs.DL",
+      "physics.soc-ph"
+    ],
+    "query": "journal impact factor inflation"
+  },
+  {
+    "title": "Evaluating research and researchers by the journal impact factor: is it better than coin flipping?",
+    "authors": [
+      "Ricardo Brito",
+      "Alonso Rodr\u00edguez-Navarro"
+    ],
+    "summary": "The journal impact factor (JIF) is the average of the number of citations of the papers published in a journal, calculated according to a specific formula; it is extensively used for the evaluation of research and researchers. The method assumes that all papers in a journal have the same scientific merit, which is measured by the JIF of the publishing journal. This implies that the number of citations measures scientific merits but the JIF does not evaluate each individual paper by its own number of citations. Therefore, in the comparative evaluation of two papers, the use of the JIF implies a risk of failure, which occurs when a paper in the journal with the lower JIF is compared to another with fewer citations in the journal with the higher JIF. To quantify this risk of failure, this study calculates the failure probabilities, taking advantage of the lognormal distribution of citations. In two journals whose JIFs are ten-fold different, the failure probability is low. However, in most cases when two papers are compared, the JIFs of the journals are not so different. Then, the failure probability can be close to 0.5, which is equivalent to evaluating by coin flipping.",
+    "published": "2018-09-28 12:55:57+00:00",
+    "entry_id": "http://arxiv.org/abs/1809.10999v3",
+    "pdf_url": "https://arxiv.org/pdf/1809.10999v3",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "journal impact factor inflation"
+  },
+  {
+    "title": "Improved, Extended, and Total Impact Factor of a Journal",
+    "authors": [
+      "Florentin Smarandache"
+    ],
+    "summary": "In this short paper we recall the (Garfield) Impact Factor of a Journal, we improve and extend it, and eventually we present the Total Impact Factor that reflects the most accurate impact factor.",
+    "published": "2021-05-27 00:11:12+00:00",
+    "entry_id": "http://arxiv.org/abs/2105.14186v1",
+    "pdf_url": "https://arxiv.org/pdf/2105.14186v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "journal impact factor inflation"
+  },
+  {
+    "title": "Predicting long-term publication impact through a combination of early citations and journal impact factor",
+    "authors": [
+      "Giovanni Abramo",
+      "Ciriaco Andrea D'Angelo",
+      "Giovanni Felici"
+    ],
+    "summary": "The ability to predict the long-term impact of a scientific article soon after its publication is of great value towards accurate assessment of research performance. In this work we test the hypothesis that good predictions of long-term citation counts can be obtained through a combination of a publication's early citations and the impact factor of the hosting journal. The test is performed on a corpus of 123,128 WoS publications authored by Italian scientists, using linear regression models. The average accuracy of the prediction is good for citation time windows above two years, decreases for lowly-cited publications, and varies across disciplines. As expected, the role of the impact factor in the combination becomes negligible after only two years from publication.",
+    "published": "2019-09-19 10:20:42+00:00",
+    "entry_id": "http://arxiv.org/abs/1909.08907v1",
+    "pdf_url": "https://arxiv.org/pdf/1909.08907v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "journal impact factor inflation"
+  },
+  {
+    "title": "This paper has been withdrawn",
+    "authors": [
+      "This paper has been withdrawn"
+    ],
+    "summary": "This paper has been withdrawn",
+    "published": "2003-09-17 01:28:07+00:00",
+    "entry_id": "http://arxiv.org/abs/cond-mat/0309395v2",
+    "pdf_url": "https://arxiv.org/pdf/cond-mat/0309395v2",
+    "categories": [
+      "cond-mat.soft",
+      "cond-mat.stat-mech"
+    ],
+    "query": "paper inflation academic publishing volume"
+  },
+  {
+    "title": "Permissioned Blockchain Technologies for Academic Publishing",
+    "authors": [
+      "Petr Novotny",
+      "Qi Zhang",
+      "Richard Hull",
+      "Salman Baset",
+      "Jim Laredo",
+      "Roman Vaculin",
+      "Daniel L. Ford",
+      "Donna N. Dillenberger"
+    ],
+    "summary": "Academic publishing is continuously evolving with the gradual adoption of new technologies. Blockchain is a new technology that promises to change how individuals and organizations interact across various boundaries. The adoption of blockchains is beginning to transform diverse industries such as finance, supply chain, international trade, as well as energy and resource management and many others. Through trust, data immutability, decentralized distribution of data, and facilitation of collaboration without the need for centralized management and authority, blockchains have the potential to transform the academic publishing domain and to address some of the current problems such as productivity and reputation management, predatory publishing, transparent peer-review processes and many others. In this paper, we outline the technologies available in the domain of permissioned blockchains with focus on Hyperledger Fabric and discuss how they can be leveraged in the domain of academic publishing.",
+    "published": "2018-09-23 04:20:32+00:00",
+    "entry_id": "http://arxiv.org/abs/1809.08529v1",
+    "pdf_url": "https://arxiv.org/pdf/1809.08529v1",
+    "categories": [
+      "cs.DC"
+    ],
+    "query": "paper inflation academic publishing volume"
+  },
+  {
+    "title": "Towards a more sustainable academic publishing system",
+    "authors": [
+      "Mohsen Kayal",
+      "Jane Ballard",
+      "Ehsan Kayal"
+    ],
+    "summary": "Communicating new scientific discoveries is key to human progress. Yet, this endeavor is hindered by monetary restrictions for publishing one's findings and accessing other scientists' reports. This process is further exacerbated by a large portion of publishing media owned by private, for-profit companies that do not reinject academic publishing benefits into the scientific community, in contrast with journals from scientific societies. As the academic world is not exempt from economic crises, new alternatives are necessary to support a fair publishing system for society. After summarizing the general issues of academic publishing today, we present several solutions at the levels of the individual scientist, the scientific community, and the publisher towards more sustainable scientific publishing. By providing a voice to the many scientists who are fundamental protagonists, yet often powerless witnesses, of the academic publishing system, and a roadmap for implementing solutions, this initiative can spark increased awareness and promote shifts towards impactful practices.",
+    "published": "2021-01-18 01:53:02+00:00",
+    "entry_id": "http://arxiv.org/abs/2101.06834v1",
+    "pdf_url": "https://arxiv.org/pdf/2101.06834v1",
+    "categories": [
+      "econ.GN"
+    ],
+    "query": "paper inflation academic publishing volume"
+  },
+  {
+    "title": "Academ-AI: documenting the undisclosed use of generative artificial intelligence in academic publishing",
+    "authors": [
+      "Alex Glynn"
+    ],
+    "summary": "Since generative artificial intelligence (AI) tools such as OpenAI's ChatGPT became widely available, researchers have used them in the writing process. The consensus of the academic publishing community is that such usage must be declared in the published article. Academ-AI documents examples of suspected undeclared AI usage in the academic literature, discernible primarily due to the appearance in research papers of idiosyncratic verbiage characteristic of large language model (LLM)-based chatbots. This analysis of the first 768 examples collected reveals that the problem is widespread, penetrating the journals, conference proceedings, and textbooks of highly respected publishers. Undeclared AI seems to appear in journals with higher citation metrics and higher article processing charges (APCs), precisely those outlets that should theoretically have the resources and expertise to avoid such oversights. An extremely small minority of cases are corrected post publication, and the corrections are often insufficient to rectify the problem. The 768 examples analyzed here likely represent a small fraction of the undeclared AI present in the academic literature, much of which may be undetectable. Publishers must enforce their policies against undeclared AI usage in cases that are detectable; this is the best defense currently available to the academic publishing community against the proliferation of undisclosed AI. This is an updated version of a previous preprint.",
+    "published": "2024-11-20 21:29:36+00:00",
+    "entry_id": "http://arxiv.org/abs/2411.15218v2",
+    "pdf_url": "https://arxiv.org/pdf/2411.15218v2",
+    "categories": [
+      "cs.DL",
+      "cs.AI",
+      "cs.CY"
+    ],
+    "query": "paper inflation academic publishing volume"
+  },
+  {
+    "title": "Estimating the quality of academic books from their descriptions with ChatGPT",
+    "authors": [
+      "Mike Thelwall",
+      "Andrew Cox"
+    ],
+    "summary": "Although indicators based on scholarly citations are widely used to support the evaluation of academic journals, alternatives are needed for scholarly book acquisitions. This article assesses the value of research quality scores from ChatGPT 4o-mini for 9,830 social sciences, arts, and humanities books from 2019 indexed in Scopus, based on their titles and descriptions but not their full texts. Although most books scored the same (3* on a 1* to 4* scale), the citation rates correlate positively but weakly with ChatGPT 4o-mini research quality scores in both the social sciences and the arts and humanities. Part of the reason for the differences was the inclusion of textbooks, short books, and edited collections, all of which tended to be less cited and lower scoring. Some topics also tend to attract many/few citations and/or high/low ChatGPT scores. Descriptions explicitly mentioning theory and/or some methods also associated with higher scores and more citations. Overall, the results provide some evidence that both ChatGPT scores and citation counts are weak indicators of the research quality of books. Whilst not strong enough to support individual book quality judgements, they may help academic librarians seeking to evaluate new book collections, series, or publishers for potential acquisition.",
+    "published": "2025-02-12 07:25:44+00:00",
+    "entry_id": "http://arxiv.org/abs/2502.08171v1",
+    "pdf_url": "https://arxiv.org/pdf/2502.08171v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "paper inflation academic publishing volume"
+  },
+  {
+    "title": "Two scholarly publishing cultures? Open access drives a divergence in European academic publishing practices",
+    "authors": [
+      "Leon Kopitar",
+      "Nejc Plohl",
+      "Mojca Tancer Verboten",
+      "Gregor \u0160tiglic",
+      "Roger Watson",
+      "Dean Koro\u0161ak"
+    ],
+    "summary": "The current system of scholarly publishing is often criticized for being slow, expensive, and not transparent. The rise of open access publishing as part of open science tenets, promoting transparency and collaboration, together with calls for research assesment reforms are the results of these criticisms. The emergence of new open access publishers presents a unique opportunity to empirically test how universities and countries respond to shifts in the academic publishing landscape. These new actors challenge traditional publishing models, offering faster review times and broader accessibility, which could influence strategic publishing decisions.\n  Our findings reveal a clear division in European publishing practices, with countries clustering into two groups distinguished by the ratio of publications in new open access journals with accelerated review times versus legacy journals. This divide underscores a broader shift in academic culture, highlighting new open access publishing venues as a strategic factor influencing national and institutional publishing practices, with significant implications for research accessibility and collaboration across Europe.",
+    "published": "2024-11-09 20:54:08+00:00",
+    "entry_id": "http://arxiv.org/abs/2411.06282v1",
+    "pdf_url": "https://arxiv.org/pdf/2411.06282v1",
+    "categories": [
+      "cs.DL",
+      "cs.CY",
+      "physics.soc-ph"
+    ],
+    "query": "paper inflation academic publishing volume"
+  },
+  {
+    "title": "The Impact of AI on Academic Research and Publishing",
+    "authors": [
+      "Brady Lund",
+      "Manika Lamba",
+      "Sang Hoo Oh"
+    ],
+    "summary": "Generative artificial intelligence (AI) technologies like ChatGPT, have significantly impacted academic writing and publishing through their ability to generate content at levels comparable to or surpassing human writers. Through a review of recent interdisciplinary literature, this paper examines ethical considerations surrounding the integration of AI into academia, focusing on the potential for this technology to be used for scholarly misconduct and necessary oversight when using it for writing, editing, and reviewing of scholarly papers. The findings highlight the need for collaborative approaches to AI usage among publishers, editors, reviewers, and authors to ensure that this technology is used ethically and productively.",
+    "published": "2024-06-10 04:10:18+00:00",
+    "entry_id": "http://arxiv.org/abs/2406.06009v1",
+    "pdf_url": "https://arxiv.org/pdf/2406.06009v1",
+    "categories": [
+      "cs.DL",
+      "cs.AI",
+      "cs.CY"
+    ],
+    "query": "paper inflation academic publishing volume"
+  },
+  {
+    "title": "Liberata -- Graph Scientometrics for a Share Based System of Academic Publishing",
+    "authors": [
+      "Han Zhang",
+      "Anshuman Sabath",
+      "Timothy W. Dunn",
+      "L. Catherine Brinson"
+    ],
+    "summary": "Contemporary scientometric indicators remain anchored in paradigms and axioms from when academic research was conducted in small scholarly communities. With the global proliferation of scientific research, academia is now organized in large communities with high rates of information incompleteness regarding work impact and individual contributions. This has significant implications for how research output is measured and quality controlled, especially as the rate of academic publishing continues to rise. Exploits of complex systems are typically found at discrete transition points where rules turn on or off, and academia is not immune to this pattern. Exploitative career boosting strategies are a growing problem, largely enabled by misaligned incentives and traditional metrics that force discretization of credit to authors and prior works despite their fundamentally continuous nature.\n  This article introduces Liberata's scientometrics, a share based framework for academic publishing and quality control. In this system, authorship positions are replaced with contribution shares that sum to unity and encode both ordinality and relative contribution distances. These shares can be traded on Liberata's academic marketplaces for quality control services such as peer review and replication, rewarding contributors based on the long term success of the work. Citations are weighted to guard against frivolous referencing and credit inflation, and modular correction factors allow multiple measures of impact. Liberata's metrics are formalized through two fundamental graphs, Shares and References, from which the system constructs academic capital and derives scientometrics capturing impact, risk, collaboration, collusion, value of quality control, and diversification. These metrics represent academic contributions and extend naturally to institutions, regions, time periods, and research fields.",
+    "published": "2026-05-04 01:17:17+00:00",
+    "entry_id": "http://arxiv.org/abs/2605.02128v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02128v1",
+    "categories": [
+      "cs.DL",
+      "cs.DM",
+      "cs.GT"
+    ],
+    "query": "paper inflation academic publishing volume"
+  },
+  {
+    "title": "Over-Optimization of Academic Publishing Metrics: Observing Goodhart's Law in Action",
+    "authors": [
+      "Michael Fire",
+      "Carlos Guestrin"
+    ],
+    "summary": "The academic publishing world is changing significantly, with ever-growing numbers of publications each year and shifting publishing patterns. However, the metrics used to measure academic success, such as the number of publications, citation number, and impact factor, have not changed for decades. Moreover, recent studies indicate that these metrics have become targets and follow Goodhart's Law, according to which \"when a measure becomes a target, it ceases to be a good measure.\" In this study, we analyzed over 120 million papers to examine how the academic publishing world has evolved over the last century. Our study shows that the validity of citation-based measures is being compromised and their usefulness is lessening. In particular, the number of publications has ceased to be a good metric as a result of longer author lists, shorter papers, and surging publication numbers. Citation-based metrics, such citation number and h-index, are likewise affected by the flood of papers, self-citations, and lengthy reference lists. Measures such as a journal's impact factor have also ceased to be good metrics due to the soaring numbers of papers that are published in top journals, particularly from the same pool of authors. Moreover, by analyzing properties of over 2600 research fields, we observed that citation-based metrics are not beneficial for comparing researchers in different fields, or even in the same department. Academic publishing has changed considerably; now we need to reconsider how we measure success.",
+    "published": "2018-09-20 20:26:57+00:00",
+    "entry_id": "http://arxiv.org/abs/1809.07841v1",
+    "pdf_url": "https://arxiv.org/pdf/1809.07841v1",
+    "categories": [
+      "cs.SI",
+      "cs.CY",
+      "physics.soc-ph"
+    ],
+    "query": "paper inflation academic publishing volume"
+  },
+  {
+    "title": "Clinical Productivity System - A Decision Support Model",
+    "authors": [
+      "Casey C. Bennett"
+    ],
+    "summary": "Purpose: This goal of this study was to evaluate the effects of a data-driven clinical productivity system that leverages Electronic Health Record (EHR) data to provide productivity decision support functionality in a real-world clinical setting. The system was implemented for a large behavioral health care provider seeing over 75,000 distinct clients a year. Design/methodology/approach: The key metric in this system is a \"VPU\", which simultaneously optimizes multiple aspects of clinical care. The resulting mathematical value of clinical productivity was hypothesized to tightly link the organization's performance to its expectations and, through transparency and decision support tools at the clinician level, affect significant changes in productivity, quality, and consistency relative to traditional models of clinical productivity. Findings: In only 3 months, every single variable integrated into the VPU system showed significant improvement, including a 30% rise in revenue, 10% rise in clinical percentage, a 25% rise in treatment plan completion, a 20% rise in case rate eligibility, along with similar improvements in compliance/audit issues, outcomes collection, access, etc. Practical implications: A data-driven clinical productivity system employing decision support functionality is effective because of the impact on clinician behavior relative to traditional clinical productivity systems. Critically, the model is also extensible to integration with outcomes-based productivity. Originality/Value: EHR's are only a first step - the problem is turning that data into useful information. Technology can leverage the data in order to produce actionable information that can inform clinical practice and decision-making. Without additional technology, EHR's are essentially just copies of paper-based records stored in electronic form.",
+    "published": "2012-05-31 20:15:35+00:00",
+    "entry_id": "http://arxiv.org/abs/1206.0021v1",
+    "pdf_url": "https://arxiv.org/pdf/1206.0021v1",
+    "categories": [
+      "cs.DB"
+    ],
+    "query": "scientific productivity paper count quality"
+  },
+  {
+    "title": "Socioeconomic driving forces of scientific research",
+    "authors": [
+      "Mario Coccia"
+    ],
+    "summary": "Why do nations produce scientific research? This is a fundamental problem in the field of social studies of science. The paper confronts this question here by showing vital determinants of science to explain the sources of social power and wealth creation by nations. Firstly, this study suggests a new general definition of science and scientific research that synthetizes previous concepts and endeavors to extend them: Science discovers the root causes of phenomena to explain and predict them in a context of adaptation of life to new economic and social bases, whereas scientific research is a systematic process, applying methods of scientific inquiry, to solve consequential problems, to satisfy human wants, to take advantage of important opportunities and/or to cope with environmental threats. In particular, science and scientific research are driven by an organized social effort that inevitably reflect the concerns and interests of nations to achieve advances and discoveries that are spread to the rest of humankind. This study reveals that scientific research is produced for social and economic interests of nations (power, wealth creation, technological superiority, etc.), rather than philosophical inquiries. A main implication of this study is that the immense growth of science in modern society is not only due to activity of scientists but rather to general social efforts of nations to take advantage of important opportunities and/or to cope with environmental threats, such as war. Empirical evidence endeavors to support the sources of scientific research for nations, described here. Finally, relationships between R&D investment and productivity, and research policy implications are discussed.",
+    "published": "2018-06-13 13:33:54+00:00",
+    "entry_id": "http://arxiv.org/abs/1806.05028v1",
+    "pdf_url": "https://arxiv.org/pdf/1806.05028v1",
+    "categories": [
+      "q-fin.GN",
+      "econ.GN"
+    ],
+    "query": "scientific productivity paper count quality"
+  },
+  {
+    "title": "Assessing the Quality of Scientific Papers",
+    "authors": [
+      "Roman Vainshtein",
+      "Gilad Katz",
+      "Bracha Shapira",
+      "Lior Rokach"
+    ],
+    "summary": "A multitude of factors are responsible for the overall quality of scientific papers, including readability, linguistic quality, fluency,semantic complexity, and of course domain-specific technical factors. These factors vary from one field of study to another. In this paper, we propose a measure and method for assessing the overall quality of the scientific papers in a particular field of study. We evaluate our method in the computer science domain, but it can be applied to other technical and scientific fields.Our method is based on the corpus linguistics technique. This technique enables the extraction of required information and knowledge associated with a specific domain. For this purpose, we have created a large corpus, consisting of papers from very high impact conferences. First, we analyze this corpus in order to extract rich domain-specific terminology and knowledge. Then we use the acquired knowledge to estimate the quality of scientific papers by applying our proposed measure. We examine our measure on high and low scientific impact test corpora. Our results show a significant difference in the measure scores of the high and low impact test corpora. Second, we develop a classifier based on our proposed measure and compare it to the baseline classifier. Our results show that the classifier based on our measure over-performed the baseline classifier. Based on the presented results the proposed measure and the technique can be used for automated assessment of scientific papers.",
+    "published": "2019-08-12 15:32:10+00:00",
+    "entry_id": "http://arxiv.org/abs/1908.04200v1",
+    "pdf_url": "https://arxiv.org/pdf/1908.04200v1",
+    "categories": [
+      "cs.IR",
+      "cs.CL",
+      "cs.DL"
+    ],
+    "query": "scientific productivity paper count quality"
+  },
+  {
+    "title": "On Understanding the Relation of Knowledge and Confidence to Requirements Quality",
+    "authors": [
+      "Razieh Dehghani",
+      "Krzysztof Wnuk",
+      "Daniel Mendez",
+      "Tony Gorschek",
+      "Raman Ramsin"
+    ],
+    "summary": "Context and Motivation: Software requirements are affected by the knowledge and confidence of software engineers. Analyzing the interrelated impact of these factors is difficult because of the challenges of assessing knowledge and confidence.\n  Question/Problem: This research aims to draw attention to the need for considering the interrelated effects of confidence and knowledge on requirements quality, which has not been addressed by previous publications.\n  Principal ideas/results: For this purpose, the following steps have been taken: 1) requirements quality was defined based on the instructions provided by the ISO29148:2011 standard, 2) we selected the symptoms of low qualified requirements based on ISO29148:2011, 3) we analyzed five Software Requirements Specification (SRS) documents to find these symptoms, 3) people who have prepared the documents were categorized in four classes to specify the more/less knowledge and confidence they have regarding the symptoms, and 4) finally, the relation of lack of enough knowledge and confidence to symptoms of low quality was investigated. The results revealed that the simultaneous deficiency of confidence and knowledge has more negative effects in comparison with a deficiency of knowledge or confidence.\n  Contribution: In brief, this study has achieved these results: 1) the realization that a combined lack of knowledge and confidence has a larger effect on requirements quality than only one of the two factors, 2) the relation between low qualified requirements and requirements engineers' needs for knowledge and confidence, and 3) variety of requirements engineers' needs for knowledge based on their abilities to make discriminative and consistent decisions.",
+    "published": "2021-03-03 05:21:50+00:00",
+    "entry_id": "http://arxiv.org/abs/2103.02187v1",
+    "pdf_url": "https://arxiv.org/pdf/2103.02187v1",
+    "categories": [
+      "cs.SE"
+    ],
+    "query": "scientific productivity paper count quality"
+  },
+  {
+    "title": "Exploring Sustainability in Scientific Software through Code Quality & Test Coverage Metrics",
+    "authors": [
+      "Sheikh Md. Mushfiqur Rahman",
+      "Gregory R. Watson",
+      "Nasir U. Eisty"
+    ],
+    "summary": "Context: Scientific open-source software (SciOSS) plays a foundational role in research and engineering, yet its long-term sustainability has often been overlooked and remains a significant concern. Objective: This study investigates the long-term sustainability of SciOSS through code and test quality metrics. Method: We analyze CASS Software Portfolio projects, classifying them by sustainability and comparing their code structure, test coverage, and links between code quality and testing across the dataset. Results: Sustainable projects show higher, more consistent test coverage and clearer code-test correlations, while unsustainable ones show weaker patterns. Overall, test coverage is low in scientific software, and high complexity and coupling reduce testability. Conclusion: In this study, we present a practical, data-driven approach for assessing sustainability in scientific software, offering a foundation for evaluating long-term software health and supporting future efforts in quality assurance and sustainability monitoring.",
+    "published": "2026-05-05 00:24:57+00:00",
+    "entry_id": "http://arxiv.org/abs/2605.03243v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03243v1",
+    "categories": [
+      "cs.SE"
+    ],
+    "query": "scientific productivity paper count quality"
+  },
+  {
+    "title": "Gravitational wave astronomy with LIGO and similar detectors in the next decade",
+    "authors": [
+      "The LIGO Scientific collaboration"
+    ],
+    "summary": "We describe the plans for gravitational-wave observations and astrophysics that will be carried out by the LIGO Scientific Collaboration (LSC) in the next decade using data from the LIGO Observatories in the US, and sister facilities abroad in Europe, Japan and India. We provide an overview of gravitational wave signal types that we are targeting, and the role of gravitational waves in time-domain multi-messenger astronomy. We briefly summarize what we can infer from the properties of detected signals, including astrophysical event rates and populations, tests of gravitational-wave properties, highly-dynamical and strong-field tests of General Relativity, probing matter under extreme conditions in neutron stars, and making cosmological measurements with gravitational-wave sources.",
+    "published": "2019-04-05 15:43:50+00:00",
+    "entry_id": "http://arxiv.org/abs/1904.03187v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.03187v1",
+    "categories": [
+      "gr-qc"
+    ],
+    "query": "scientific productivity paper count quality"
+  },
+  {
+    "title": "NAIPv2: Debiased Pairwise Learning for Efficient Paper Quality Estimation",
+    "authors": [
+      "Penghai Zhao",
+      "Jinyu Tian",
+      "Qinghua Xing",
+      "Xin Zhang",
+      "Zheng Li",
+      "Jianjun Qian",
+      "Ming-Ming Cheng",
+      "Xiang Li"
+    ],
+    "summary": "The ability to estimate the quality of scientific papers is central to how both humans and AI systems will advance scientific knowledge in the future. However, existing LLM-based estimation methods suffer from high inference cost, whereas the faster direct score regression approach is limited by scale inconsistencies. We present NAIPv2, a debiased and efficient framework for paper quality estimation. NAIPv2 employs pairwise learning within domain-year groups to reduce inconsistencies in reviewer ratings and introduces the Review Tendency Signal (RTS) as a probabilistic integration of reviewer scores and confidences. To support training and evaluation, we further construct NAIDv2, a large-scale dataset of 24,276 ICLR submissions enriched with metadata and detailed structured content. Trained on pairwise comparisons but enabling efficient pointwise prediction at deployment, NAIPv2 achieves state-of-the-art performance (78.2% AUC, 0.432 Spearman), while maintaining scalable, linear-time efficiency at inference. Notably, on unseen NeurIPS submissions, it further demonstrates strong generalization, with predicted scores increasing consistently across decision categories from Rejected to Oral. These findings establish NAIPv2 as a debiased and scalable framework for automated paper quality estimation, marking a step toward future scientific intelligence systems. Code and dataset are released at sway.cloud.microsoft/Pr42npP80MfPhvj8.",
+    "published": "2025-09-29 17:59:23+00:00",
+    "entry_id": "http://arxiv.org/abs/2509.25179v2",
+    "pdf_url": "https://arxiv.org/pdf/2509.25179v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "query": "scientific productivity paper count quality"
+  },
+  {
+    "title": "Can we still use PEAQ? A Performance Analysis of the ITU Standard for the Objective Assessment of Perceived Audio Quality",
+    "authors": [
+      "Pablo M. Delgado",
+      "J\u00fcrgen Herre"
+    ],
+    "summary": "The Perceptual Evaluation of Audio Quality (PEAQ) method as described in the International Telecommunication Union (ITU) recommendation ITU-R BS.1387 has been widely used for computationally estimating the quality of perceptually coded audio signals without the need for extensive subjective listening tests. However, many reports have highlighted clear limitations of the scheme after the end of its standardization, particularly involving signals coded with newer technologies such as bandwidth extension or parametric multi-channel coding. Until now, no other method for measuring the quality of both speech and audio signals has been standardized by the ITU. Therefore, a further investigation of the causes for these limitations would be beneficial to a possible update of said scheme. Our experimental results indicate that the performance of PEAQ's model of disturbance loudness is still as good as (and sometimes superior to) other state-of-the-art objective measures, albeit with varying performance depending on the type of degraded signal content (i.e. speech or music). This finding evidences the need for an improved cognitive model. In addition, results indicate that an updated mapping of Model Output Values (MOVs) to PEAQ's Distortion Index (DI) based on newer training data can greatly improve performance. Finally, some suggestions for the improvement of PEAQ are provided based on the reported results and comparison to other systems.",
+    "published": "2022-12-02 22:09:15+00:00",
+    "entry_id": "http://arxiv.org/abs/2212.01467v1",
+    "pdf_url": "https://arxiv.org/pdf/2212.01467v1",
+    "categories": [
+      "eess.AS",
+      "cs.SD"
+    ],
+    "query": "scientific productivity paper count quality"
+  },
+  {
+    "title": "A Robust and Computational Characterisation of Peer-to-Peer Database Systems",
+    "authors": [
+      "Enrico Franconi",
+      "Gabriel Kuper",
+      "Andrei Lopatenko",
+      "Luciano Serafini"
+    ],
+    "summary": "In this paper we give a robust logical and computational characterisation of peer-to-peer database systems. We first define a pre- cise model-theoretic semantics of a peer-to-peer system, which allows for local inconsistency handling. We then characterise the general computa- tional properties for the problem of answering queries to such a peer-to- peer system. Finally, we devise tight complexity bounds and distributed procedures for the problem of answering queries in few relevant special cases.",
+    "published": "2003-08-06 12:50:22+00:00",
+    "entry_id": "http://arxiv.org/abs/cs/0308013v1",
+    "pdf_url": "https://arxiv.org/pdf/cs/0308013v1",
+    "categories": [
+      "cs.DC",
+      "cs.DB"
+    ],
+    "query": "saturation peer review system"
+  },
+  {
+    "title": "Peer Review as A Multi-Turn and Long-Context Dialogue with Role-Based Interactions",
+    "authors": [
+      "Cheng Tan",
+      "Dongxin Lyu",
+      "Siyuan Li",
+      "Zhangyang Gao",
+      "Jingxuan Wei",
+      "Siqi Ma",
+      "Zicheng Liu",
+      "Stan Z. Li"
+    ],
+    "summary": "Large Language Models (LLMs) have demonstrated wide-ranging applications across various fields and have shown significant potential in the academic peer-review process. However, existing applications are primarily limited to static review generation based on submitted papers, which fail to capture the dynamic and iterative nature of real-world peer reviews. In this paper, we reformulate the peer-review process as a multi-turn, long-context dialogue, incorporating distinct roles for authors, reviewers, and decision makers. We construct a comprehensive dataset containing over 26,841 papers with 92,017 reviews collected from multiple sources, including the top-tier conference and prestigious journal. This dataset is meticulously designed to facilitate the applications of LLMs for multi-turn dialogues, effectively simulating the complete peer-review process. Furthermore, we propose a series of metrics to evaluate the performance of LLMs for each role under this reformulated peer-review setting, ensuring fair and comprehensive evaluations. We believe this work provides a promising perspective on enhancing the LLM-driven peer-review process by incorporating dynamic, role-based interactions. It aligns closely with the iterative and interactive nature of real-world academic peer review, offering a robust foundation for future research and development in this area. We open-source the dataset at https://github.com/chengtan9907/ReviewMT.",
+    "published": "2024-06-09 08:24:17+00:00",
+    "entry_id": "http://arxiv.org/abs/2406.05688v1",
+    "pdf_url": "https://arxiv.org/pdf/2406.05688v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "query": "saturation peer review system"
+  }
+]

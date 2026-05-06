@@ -1,0 +1,8 @@
+PDF: papers/2310_18685_reviewer_disagreement_peer_review.pdf
+Total pages: 12
+Pages per chunk: 4
+
+Chunks:
+  2310_18685_reviewer_disagreement_peer_review_chunk_001.pdf: pages 1-4
+  2310_18685_reviewer_disagreement_peer_review_chunk_002.pdf: pages 5-8
+  2310_18685_reviewer_disagreement_peer_review_chunk_003.pdf: pages 9-12

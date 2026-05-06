@@ -1,0 +1,897 @@
+[
+  {
+    "title": "Disparities in Peer Review Tone and the Role of Reviewer Anonymity",
+    "authors": [
+      "Maria Sahakyan",
+      "Bedoor AlShebli"
+    ],
+    "summary": "The peer review process is often regarded as the gatekeeper of scientific integrity, yet increasing evidence suggests that it is not immune to bias. Although structural inequities in peer review have been widely debated, much less attention has been paid to the subtle ways in which language itself may reinforce disparities. This study undertakes one of the most comprehensive linguistic analyses of peer review to date, examining more than 80,000 reviews in two major journals. Using natural language processing and large-scale statistical modeling, it uncovers how review tone, sentiment, and supportive language vary across author demographics, including gender, race, and institutional affiliation. Using a data set that includes both anonymous and signed reviews, this research also reveals how the disclosure of reviewer identity shapes the language of evaluation. The findings not only expose hidden biases in peer feedback, but also challenge conventional assumptions about anonymity's role in fairness. As academic publishing grapples with reform, these insights raise critical questions about how review policies shape career trajectories and scientific progress.",
+    "published": "2025-07-19 20:19:21+00:00",
+    "entry_id": "http://arxiv.org/abs/2507.14741v1",
+    "pdf_url": "https://arxiv.org/pdf/2507.14741v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "noise in peer review reviewer disagreement",
+    "_score": 11
+  },
+  {
+    "title": "Top performers and top journals: Persistent concentration in scientific publishing",
+    "authors": [
+      "Marek Kwiek",
+      "Wojciech Roszka"
+    ],
+    "summary": "In this research, we analyze the relationship between publishing productivity and access to highly prestigious journals, treating publishing in top journals as a stratification mechanism selecting publishing elites. We study N = 144,314 Polish scientists publishing for 30 years (1992-2021) and their Nart = 433,546 unique research articles published in the period. Using bibliometric data from Scopus, we compare the scientists belonging to the top productivity decile (the upper 10%, termed top performers) and the remaining population of scientists (90%) by discipline and period (five six-year periods). We measure the share of publications in prestigious segments of journals, with particular reference to the 90th-99th percentiles, and we use nonlinear journal prestige-normalized productivity. Our results indicate that access to top journals (defined as the top 10% of journals indexed in Scopus) is powerfully and permanently concentrated in the group of top performers in all disciplines and periods studied. The differences between top performers and the other scientists are primarily of a qualitative nature: they are seen almost exclusively at the top of the journal hierarchy rather than in its bottom or middle segments. Our logistic regression models indicate the complementarity of quantity and quality: publishing intensity increases the probability of membership in the elite segment of top performers, especially when it is coupled with publishing in prestigious journals. Our results suggest that top journals function as selection gates to academic careers and that they function as durable mechanisms of elite reproduction in science.",
+    "published": "2026-02-10 20:21:55+00:00",
+    "entry_id": "http://arxiv.org/abs/2603.00069v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.00069v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling",
+    "_score": 10
+  },
+  {
+    "title": "Liberata -- Graph Scientometrics for a Share Based System of Academic Publishing",
+    "authors": [
+      "Han Zhang",
+      "Anshuman Sabath",
+      "Timothy W. Dunn",
+      "L. Catherine Brinson"
+    ],
+    "summary": "Contemporary scientometric indicators remain anchored in paradigms and axioms from when academic research was conducted in small scholarly communities. With the global proliferation of scientific research, academia is now organized in large communities with high rates of information incompleteness regarding work impact and individual contributions. This has significant implications for how research output is measured and quality controlled, especially as the rate of academic publishing continues to rise. Exploits of complex systems are typically found at discrete transition points where rules turn on or off, and academia is not immune to this pattern. Exploitative career boosting strategies are a growing problem, largely enabled by misaligned incentives and traditional metrics that force discretization of credit to authors and prior works despite their fundamentally continuous nature.\n  This article introduces Liberata's scientometrics, a share based framework for academic publishing and quality control. In this system, authorship positions are replaced with contribution shares that sum to unity and encode both ordinality and relative contribution distances. These shares can be traded on Liberata's academic marketplaces for quality control services such as peer review and replication, rewarding contributors based on the long term success of the work. Citations are weighted to guard against frivolous referencing and credit inflation, and modular correction factors allow multiple measures of impact. Liberata's metrics are formalized through two fundamental graphs, Shares and References, from which the system constructs academic capital and derives scientometrics capturing impact, risk, collaboration, collusion, value of quality control, and diversification. These metrics represent academic contributions and extend naturally to institutions, regions, time periods, and research fields.",
+    "published": "2026-05-04 01:17:17+00:00",
+    "entry_id": "http://arxiv.org/abs/2605.02128v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02128v1",
+    "categories": [
+      "cs.DL",
+      "cs.DM",
+      "cs.GT"
+    ],
+    "query": "career incentives academic publishing peer review",
+    "_score": 10
+  },
+  {
+    "title": "How Frequently are Articles in Predatory Open Access Journals Cited",
+    "authors": [
+      "Bo-Christer Bj\u00f6rk",
+      "Sari Kanto-Karvonen",
+      "J. Tuomas Harviainen"
+    ],
+    "summary": "Predatory journals are Open Access journals of highly questionable scientific quality. Such journals pretend to use peer review for quality assurance, and spam academics with requests for submissions, in order to collect author payments. In recent years predatory journals have received a lot of negative media. While much has been said about the harm that such journals cause to academic publishing in general, an overlooked aspect is how much articles in such journals are actually read and in particular cited, that is if they have any significant impact on the research in their fields. Other studies have already demonstrated that only some of the articles in predatory journals contain faulty and directly harmful results, while a lot of the articles present mediocre and poorly reported studies. We studied citation statistics over a five-year period in Google Scholar for 250 random articles published in such journals in 2014, and found an average of 2,6 citations per article and that 60 % of the articles had no citations at all. For comparison a random sample of articles published in the approximately 25,000 peer reviewed journals included in the Scopus index had an average of 18,1 citations in the same period with only 9 % receiving no citations. We conclude that articles published in predatory journals have little scientific impact.",
+    "published": "2019-12-21 09:22:00+00:00",
+    "entry_id": "http://arxiv.org/abs/1912.10228v1",
+    "pdf_url": "https://arxiv.org/pdf/1912.10228v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling",
+    "_score": 9
+  },
+  {
+    "title": "Awareness of Predatory Journals in Library and Information Science Faculties in India",
+    "authors": [
+      "Madhuri Kumari",
+      "Subaveerapandiyan A"
+    ],
+    "summary": "Predatory journals that pretended to resemble refereed journals but are used for money-making purposes. Predatory publishers produce less quality scientific and research papers; it is a severe academic threat in scientific publications. Researchers are ensuring the quality of the journal and peer-reviewing process before submitting the manuscript. This paper aims to know the Indian Library and Information Science faculties awareness and knowledge about Predatory journals.",
+    "published": "2022-10-14 06:08:52+00:00",
+    "entry_id": "http://arxiv.org/abs/2210.10092v1",
+    "pdf_url": "https://arxiv.org/pdf/2210.10092v1",
+    "categories": [
+      "cs.DL",
+      "cs.SI"
+    ],
+    "query": "predatory publishing journal quality signaling",
+    "_score": 9
+  },
+  {
+    "title": "Prevalence of Potentially Predatory Publishing in Scopus on the Country Level",
+    "authors": [
+      "Tatiana Savina",
+      "Ivan Sterligov"
+    ],
+    "summary": "We present the results of a large-scale study of potentially predatory journals (PPJ) represented in the Scopus database, which is widely used for research evaluation. Both journal metrics and country, disciplinary data have been evaluated for different groups of PPJ: those listed by Jeffrey Beall and those delisted by Scopus because of \"publication concerns\". Our results show that even after years of delisting, PPJ are still highly visible in the Scopus database with hundreds of active potentially predatory journals. PPJ papers are continuously produced by all major countries, but with different shares. All major subject areas are affected. The largest number of PPJ papers are in engineering and medicine. On average, PPJ have much lower citation metrics than other Scopus-indexed journals. We conclude with a brief survey of the case of Kazakhstan where the share of PPJ papers at one time amounted to almost a half of all Kazakhstan papers in Scopus, and propose a link between PPJ share and national research evaluation policies (in particular, rules of awarding academic degrees). The progress of potentially predatory journal research will be increasingly important because such evaluation methods are becoming more widespread in times of the Metric Tide.",
+    "published": "2020-03-18 15:44:23+00:00",
+    "entry_id": "http://arxiv.org/abs/2003.08283v3",
+    "pdf_url": "https://arxiv.org/pdf/2003.08283v3",
+    "categories": [
+      "cs.DL",
+      "stat.AP"
+    ],
+    "query": "predatory publishing journal quality signaling",
+    "_score": 9
+  },
+  {
+    "title": "Mapping Academic Institutions According to Their Journal Publication Profile: Spanish Universities as a Case Study",
+    "authors": [
+      "J. A. Garc\u00eda",
+      "Rosa Rodr\u00edguez-S\u00e1nchez",
+      "J. Fdez-Valdivia",
+      "Nicolas Robinson-Garc\u00eda",
+      "Daniel Torres-Salinas"
+    ],
+    "summary": "We introduce a novel methodology for mapping academic institutions based on their journal publication profiles. We believe that journals in which researchers from academic institutions publish their works can be considered as useful identifiers for representing the relationships between these institutions and establishing comparisons. However, when academic journals are used for research output representation, distinctions must be introduced between them, based on their value as institution descriptors. This leads us to the use of journal weights attached to the institution identifiers. Since a journal in which researchers from a large proportion of institutions published their papers may be a bad indicator of similarity between two academic institutions, it seems reasonable to weight it in accordance with how frequently researchers from different institutions published their papers in this journal. Cluster analysis can then be applied to group the academic institutions, and dendrograms can be provided to illustrate groups of institutions following agglomerative hierarchical clustering. In order to test this methodology, we use a sample of Spanish universities as a case study. We first map the study sample according to an institution's overall research output, then we use it for two scientific fields (Information and Communication Technologies, as well as Medicine and Pharmacology) as a means to demonstrate how our methodology can be applied, not only for analyzing institutions as a whole, but also in different disciplinary contexts.",
+    "published": "2013-02-17 10:37:09+00:00",
+    "entry_id": "http://arxiv.org/abs/1302.4053v1",
+    "pdf_url": "https://arxiv.org/pdf/1302.4053v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling",
+    "_score": 9
+  },
+  {
+    "title": "The role of non-scientific factors vis-a-vis the quality of publications in determining their scholarly impact",
+    "authors": [
+      "Giovanni Abramo",
+      "Ciriaco Andrea D'Angelo",
+      "Leonardo Grilli"
+    ],
+    "summary": "In the evaluation of scientific publications' impact, the interplay between intrinsic quality and non-scientific factors remains a subject of debate. While peer review traditionally assesses quality, bibliometric techniques gauge scholarly impact. This study investigates the role of non-scientific attributes alongside quality scores from peer review in determining scholarly impact. Leveraging data from the first Italian Research Assessment Exercise (VTR 2001-2003) and Web of Science citations, we analyse the relationship between quality scores, non-scientific factors, and publication short- and long-term impact. Our findings shed light on the significance of non-scientific elements overlooked in peer review, offering policymakers and research management insights in choosing evaluation methodologies. Sections delve into the debate, identify non-scientific influences, detail methodologies, present results, and discuss implications.",
+    "published": "2024-04-08 09:31:59+00:00",
+    "entry_id": "http://arxiv.org/abs/2404.05345v1",
+    "pdf_url": "https://arxiv.org/pdf/2404.05345v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "gatekeeping scientific publication quality",
+    "_score": 8
+  },
+  {
+    "title": "APC waivers and Ukraine's publishing output in Gold OA journals: Evidence from five commercial publishers",
+    "authors": [
+      "Serhii Nazarovets"
+    ],
+    "summary": "This study examines the effect of article processing charge (APC) waivers on the participation of Ukrainian researchers in fully Gold Open Access (Gold OA) journals published by the five largest academic publishers - Elsevier, SAGE, Springer Nature, Taylor & Francis, and Wiley - during the period 2019-2024. These publishers were selected because, in response to the full-scale war launched against Ukraine in 2022, all five introduced emergency 100% APC-waiver policies for Ukrainian authors. Using bibliometric data from the Web of Science Core Collection, the study analyses publication trends in Ukrainian-authored articles in fully Gold OA journals of these publishers before and after 2022. The results show a marked post-2022 increase in Ukraine's Gold OA output, particularly in journals published by Springer Nature and Elsevier. Disciplinary and publisher-specific patterns are evident, with especially strong growth in the medical and applied sciences. The findings underscore the potential of targeted support measures during times of crisis, while also illustrating the inherent limitations of APC-based publishing models in fostering equitable scholarly communication.",
+    "published": "2025-05-17 20:18:42+00:00",
+    "entry_id": "http://arxiv.org/abs/2505.12134v3",
+    "pdf_url": "https://arxiv.org/pdf/2505.12134v3",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling",
+    "_score": 8
+  },
+  {
+    "title": "When Reviewers Lock Horn: Finding Disagreement in Scientific Peer Reviews",
+    "authors": [
+      "Sandeep Kumar",
+      "Tirthankar Ghosal",
+      "Asif Ekbal"
+    ],
+    "summary": "To this date, the efficacy of the scientific publishing enterprise fundamentally rests on the strength of the peer review process. The journal editor or the conference chair primarily relies on the expert reviewers' assessment, identify points of agreement and disagreement and try to reach a consensus to make a fair and informed decision on whether to accept or reject a paper. However, with the escalating number of submissions requiring review, especially in top-tier Artificial Intelligence (AI) conferences, the editor/chair, among many other works, invests a significant, sometimes stressful effort to mitigate reviewer disagreements. Here in this work, we introduce a novel task of automatically identifying contradictions among reviewers on a given article. To this end, we introduce ContraSciView, a comprehensive review-pair contradiction dataset on around 8.5k papers (with around 28k review pairs containing nearly 50k review pair comments) from the open review-based ICLR and NeurIPS conferences. We further propose a baseline model that detects contradictory statements from the review pairs. To the best of our knowledge, we make the first attempt to identify disagreements among peer reviewers automatically. We make our dataset and code public for further investigations.",
+    "published": "2023-10-28 11:57:51+00:00",
+    "entry_id": "http://arxiv.org/abs/2310.18685v1",
+    "pdf_url": "https://arxiv.org/pdf/2310.18685v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "noise in peer review reviewer disagreement",
+    "_score": 8
+  },
+  {
+    "title": "Does the use of open, non-anonymous peer review in scholarly publishing introduce bias? Evidence from the F1000 post-publication open peer review publishing model",
+    "authors": [
+      "Mike Thelwall",
+      "Verena Weigert",
+      "Liz Allen",
+      "Zena Nyakoojo",
+      "Eleanor-Rose Papas"
+    ],
+    "summary": "This study examines whether there is any evidence of bias in two areas of common critique of open, non-anonymous peer review - and used in the post-publication, peer review system operated by the open-access scholarly publishing platform F1000Research. First, is there evidence of bias where a reviewer based in a specific country assesses the work of an author also based in the same country? Second, are reviewers influenced by being able to see the comments and know the origins of previous reviewer? Methods: Scrutinising the open peer review comments published on F1000Research, we assess the extent of two frequently cited potential influences on reviewers that may be the result of the transparency offered by a fully attributable, open peer review publishing model: the national affiliations of authors and reviewers, and the ability of reviewers to view previously-published reviewer reports before submitting their own. The effects of these potential influences were investigated for all first versions of articles published by 8 July 2019 to F1000Research. In 16 out of the 20 countries with the most articles, there was a tendency for reviewers based in the same country to give a more positive review. The difference was statistically significant in one. Only 3 countries had the reverse tendency. Second, there is no evidence of a conformity bias. When reviewers mentioned a previous review in their peer review report, they were not more likely to give the same overall judgement. Although reviewers who had longer to potentially read a previously published reviewer reports were slightly less likely to agree with previous reviewer judgements, this could be due to these articles being difficult to judge rather than deliberate non-conformity.",
+    "published": "2019-11-08 16:59:50+00:00",
+    "entry_id": "http://arxiv.org/abs/1911.03379v1",
+    "pdf_url": "https://arxiv.org/pdf/1911.03379v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "peer review signaling academic publishing",
+    "_score": 7
+  },
+  {
+    "title": "On Performance of Peer Review for Academic Journals: Analysis Based on Distributed Parallel System",
+    "authors": [
+      "Zong-Yuan Tan",
+      "Ning Cai",
+      "Jian Zhou",
+      "Sheng-Guo Zhang"
+    ],
+    "summary": "A simulation model based on parallel systems is established, aiming to explore the relation between the number of submissions and the overall standard of academic journals within a similar discipline under peer review. The model can effectively simulate the submission, review, and acceptance behaviors of academic journals in a distributed manner. According to the simulation experiments, it could possibly happen that the overall standard of academic journals deteriorates due to excessive submissions.",
+    "published": "2018-06-01 11:09:30+00:00",
+    "entry_id": "http://arxiv.org/abs/1806.00287v2",
+    "pdf_url": "https://arxiv.org/pdf/1806.00287v2",
+    "categories": [
+      "cs.DL",
+      "cs.SI"
+    ],
+    "query": "peer review signaling academic publishing",
+    "_score": 7
+  },
+  {
+    "title": "The Feasibility of Topic-Based Watermarking on Academic Peer Reviews",
+    "authors": [
+      "Alexander Nemecek",
+      "Yuzhou Jiang",
+      "Erman Ayday"
+    ],
+    "summary": "Large language models (LLMs) are increasingly integrated into academic workflows, with many conferences and journals permitting their use for tasks such as language refinement and literature summarization. However, their use in peer review remains prohibited due to concerns around confidentiality breaches, hallucinated content, and inconsistent evaluations. As LLM-generated text becomes more indistinguishable from human writing, there is a growing need for reliable attribution mechanisms to preserve the integrity of the review process. In this work, we evaluate topic-based watermarking (TBW), a semantic-aware technique designed to embed detectable signals into LLM-generated text. We conduct a systematic assessment across multiple LLM configurations, including base, few-shot, and fine-tuned variants, using authentic peer review data from academic conferences. Our results show that TBW maintains review quality relative to non-watermarked outputs, while demonstrating robust detection performance under paraphrasing. These findings highlight the viability of TBW as a minimally intrusive and practical solution for LLM attribution in peer review settings.",
+    "published": "2025-05-27 18:09:27+00:00",
+    "entry_id": "http://arxiv.org/abs/2505.21636v2",
+    "pdf_url": "https://arxiv.org/pdf/2505.21636v2",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "query": "peer review signaling academic publishing",
+    "_score": 7
+  },
+  {
+    "title": "What Constitutes Peer Review of Data: A survey of published peer review guidelines",
+    "authors": [
+      "Todd A Carpenter"
+    ],
+    "summary": "Since a number of journals specifically focus on the review and publication of data sets, reviewing their policies seems an appropriate place to start in assessing what existing practice looks like in the 'real world' of reviewing and publishing data. This article outlines a study of the publicly available peer review policies of 39 scientific publications that publish data papers to discern which criteria are most and least frequently referenced. It also compares current practice with proposed criteria published in 2012.",
+    "published": "2017-04-07 14:07:57+00:00",
+    "entry_id": "http://arxiv.org/abs/1704.02236v1",
+    "pdf_url": "https://arxiv.org/pdf/1704.02236v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "peer review signaling academic publishing",
+    "_score": 7
+  },
+  {
+    "title": "On Novel Peer Review System for Academic Journals: Experimental Study Based on Social Computing",
+    "authors": [
+      "Li Liu",
+      "Qian Wang",
+      "Zong-Yuan Tan",
+      "Ning Cai"
+    ],
+    "summary": "For improving the performance and effectiveness of peer review, a novel review system is proposed, based on analysis of peer review process for academic journals under a parallel model built via Monte Carlo method. The model can simulate the review, application and acceptance activities of the review systems, in a distributed manner. According to simulation experiments on two distinct review systems respectively, significant advantages manifest for the novel one.",
+    "published": "2021-11-11 08:18:31+00:00",
+    "entry_id": "http://arxiv.org/abs/2111.06099v1",
+    "pdf_url": "https://arxiv.org/pdf/2111.06099v1",
+    "categories": [
+      "cs.DL",
+      "eess.SY"
+    ],
+    "query": "peer review signaling academic publishing",
+    "_score": 7
+  },
+  {
+    "title": "Automatically Annotating Articles Towards Opening and Reusing Transparent Peer Reviews",
+    "authors": [
+      "Afshin Sadeghi",
+      "Sarven Capadisli",
+      "Johannes Wilm",
+      "Christoph Lange",
+      "Philipp Mayr"
+    ],
+    "summary": "An increasing number of scientific publications are created in open and transparent peer review models: a submission is published first, and then reviewers are invited, or a submission is reviewed in a closed environment but then these reviews are published with the final article, or combinations of these. Reasons for open peer review include giving better credit to reviewers and enabling readers to better appraise the quality of a publication. In most cases, the full, unstructured text of an open review is published next to the full, unstructured text of the article reviewed. This approach prevents human readers from getting a quick impression of the quality of parts of an article, and it does not easily support secondary exploitation, e.g., for scientometrics on reviews. While document formats have been proposed for publishing structured articles including reviews, integrated tool support for entire open peer review workflows resulting in such documents is still scarce. We present AR-Annotator, the Automatic Article and Review Annotator which employs a semantic information model of an article and its reviews, using semantic markup and unique identifiers for all entities of interest. The fine-grained article structure is not only exposed to authors and reviewers but also preserved in the published version. We publish articles and their reviews in a Linked Data representation and thus maximize their reusability by third-party applications. We demonstrate this reusability by running quality-related queries against the structured representation of articles and their reviews.",
+    "published": "2018-12-03 19:04:59+00:00",
+    "entry_id": "http://arxiv.org/abs/1812.01027v1",
+    "pdf_url": "https://arxiv.org/pdf/1812.01027v1",
+    "categories": [
+      "cs.IR",
+      "cs.DL"
+    ],
+    "query": "peer review signaling academic publishing",
+    "_score": 7
+  },
+  {
+    "title": "Understanding the Changing Roles of Scientific Publications via Citation Embeddings",
+    "authors": [
+      "Jiangen He",
+      "Chaomei Chen"
+    ],
+    "summary": "Researchers may describe different aspects of past scientific publications in their publications and the descriptions may keep changing in the evolution of science. The diverse and changing descriptions (i.e., citation context) on a publication characterize the impact and contributions of the past publication. In this article, we aim to provide an approach to understanding the changing and complex roles of a publication characterized by its citation context. We described a method to represent the publications' dynamic roles in science community in different periods as a sequence of vectors by training temporal embedding models. The temporal representations can be used to quantify how much the roles of publications changed and interpret how they changed. Our study in the biomedical domain shows that our metric on the changes of publications' roles is stable over time at the population level but significantly distinguish individuals. We also show the interpretability of our methods by a concrete example.",
+    "published": "2017-11-15 22:00:43+00:00",
+    "entry_id": "http://arxiv.org/abs/1711.05822v1",
+    "pdf_url": "https://arxiv.org/pdf/1711.05822v1",
+    "categories": [
+      "cs.DL",
+      "cs.LG"
+    ],
+    "query": "gatekeeping scientific publication quality",
+    "_score": 7
+  },
+  {
+    "title": "SciKGTeX -- A LaTeX Package to Semantically Annotate Contributions in Scientific Publications",
+    "authors": [
+      "Christof Bless",
+      "Ildar Baimuratov",
+      "Oliver Karras"
+    ],
+    "summary": "Scientific knowledge graphs have been proposed as a solution to structure the content of research publications in a machine-actionable way and enable more efficient, computer-assisted workflows for many research activities. Crowd-sourcing approaches are used frequently to build and maintain such scientific knowledge graphs. To contribute to scientific knowledge graphs, researchers need simple and easy-to-use solutions to generate new knowledge graph elements and establish the practice of semantic representations in scientific communication. In this paper, we present a workflow for authors of scientific documents to specify their contributions with a LaTeX package, called SciKGTeX, and upload them to a scientific knowledge graph. The SciKGTeX package allows authors of scientific publications to mark the main contributions of their work directly in LaTeX source files. The package embeds marked contributions as metadata into the generated PDF document, from where they can be extracted automatically and imported into a scientific knowledge graph, such as the ORKG. This workflow is simpler and faster than current approaches, which make use of external web interfaces for data entry. Our user evaluation shows that SciKGTeX is easy to use, with a score of 79 out of 100 on the System Usability Scale, as participants of the study needed only 7 minutes on average to annotate the main contributions on a sample abstract of a published paper. Further testing shows that the embedded contributions can be successfully uploaded to ORKG within ten seconds. SciKGTeX simplifies the process of manual semantic annotation of research contributions in scientific articles. Our workflow demonstrates how a scientific knowledge graph can automatically ingest research contributions from document metadata.",
+    "published": "2023-04-11 16:36:29+00:00",
+    "entry_id": "http://arxiv.org/abs/2304.05327v2",
+    "pdf_url": "https://arxiv.org/pdf/2304.05327v2",
+    "categories": [
+      "cs.DL",
+      "cs.SE"
+    ],
+    "query": "gatekeeping scientific publication quality",
+    "_score": 7
+  },
+  {
+    "title": "Peer Review as A Multi-Turn and Long-Context Dialogue with Role-Based Interactions",
+    "authors": [
+      "Cheng Tan",
+      "Dongxin Lyu",
+      "Siyuan Li",
+      "Zhangyang Gao",
+      "Jingxuan Wei",
+      "Siqi Ma",
+      "Zicheng Liu",
+      "Stan Z. Li"
+    ],
+    "summary": "Large Language Models (LLMs) have demonstrated wide-ranging applications across various fields and have shown significant potential in the academic peer-review process. However, existing applications are primarily limited to static review generation based on submitted papers, which fail to capture the dynamic and iterative nature of real-world peer reviews. In this paper, we reformulate the peer-review process as a multi-turn, long-context dialogue, incorporating distinct roles for authors, reviewers, and decision makers. We construct a comprehensive dataset containing over 26,841 papers with 92,017 reviews collected from multiple sources, including the top-tier conference and prestigious journal. This dataset is meticulously designed to facilitate the applications of LLMs for multi-turn dialogues, effectively simulating the complete peer-review process. Furthermore, we propose a series of metrics to evaluate the performance of LLMs for each role under this reformulated peer-review setting, ensuring fair and comprehensive evaluations. We believe this work provides a promising perspective on enhancing the LLM-driven peer-review process by incorporating dynamic, role-based interactions. It aligns closely with the iterative and interactive nature of real-world academic peer review, offering a robust foundation for future research and development in this area. We open-source the dataset at https://github.com/chengtan9907/ReviewMT.",
+    "published": "2024-06-09 08:24:17+00:00",
+    "entry_id": "http://arxiv.org/abs/2406.05688v1",
+    "pdf_url": "https://arxiv.org/pdf/2406.05688v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "query": "peer review signaling academic publishing",
+    "_score": 6
+  },
+  {
+    "title": "Statistical Modelling of Citation Exchange Between Statistics Journals",
+    "authors": [
+      "Cristiano Varin",
+      "Manuela Cattelan",
+      "David Firth"
+    ],
+    "summary": "Rankings of scholarly journals based on citation data are often met with skepticism by the scientific community. Part of the skepticism is due to disparity between the common perception of journals' prestige and their ranking based on citation counts. A more serious concern is the inappropriate use of journal rankings to evaluate the scientific influence of authors. This paper focuses on analysis of the table of cross-citations among a selection of Statistics journals. Data are collected from the Web of Science database published by Thomson Reuters. Our results suggest that modelling the exchange of citations between journals is useful to highlight the most prestigious journals, but also that journal citation data are characterized by considerable heterogeneity, which needs to be properly summarized. Inferential conclusions require care in order to avoid potential over-interpretation of insignificant differences between journal ratings. Comparison with published ratings of institutions from the UK's Research Assessment Exercise shows strong correlation at aggregate level between assessed research quality and journal citation `export scores' within the discipline of Statistics.",
+    "published": "2013-12-06 07:58:12+00:00",
+    "entry_id": "http://arxiv.org/abs/1312.1794v4",
+    "pdf_url": "https://arxiv.org/pdf/1312.1794v4",
+    "categories": [
+      "stat.AP",
+      "cs.DL"
+    ],
+    "query": "journal acceptance signal researcher quality",
+    "_score": 6
+  },
+  {
+    "title": "The Evolving Ecosystem of Predatory Journals: A Case Study in Indian Perspective",
+    "authors": [
+      "Naman Jain",
+      "Mayank Singh"
+    ],
+    "summary": "Digital advancement in scholarly repositories has led to the emergence of a large number of open access predatory publishers that charge high article processing fees from authors but fail to provide necessary editorial and publishing services. Identifying and blacklisting such publishers has remained a research challenge due to the highly volatile scholarly publishing ecosystem. This paper presents a data-driven approach to study how potential predatory publishers are evolving and bypassing several regularity constraints. We empirically show the close resemblance of predatory publishers against reputed publishing groups. In addition to verifying standard constraints, we also propose distinctive signals gathered from network-centric properties to understand this evolving ecosystem better.",
+    "published": "2019-06-17 06:21:12+00:00",
+    "entry_id": "http://arxiv.org/abs/1906.06856v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.06856v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling",
+    "_score": 6
+  },
+  {
+    "title": "In which fields do higher impact journals publish higher quality articles?",
+    "authors": [
+      "Mike Thelwall",
+      "Kayvan Kousha",
+      "Mahshid Abdoli",
+      "Emma Stuart",
+      "Meiko Makita",
+      "Paul Wilson",
+      "Jonathan Levitt"
+    ],
+    "summary": "The Journal Impact Factor and other indicators that assess the average citation rate of articles in a journal are consulted by many academics and research evaluators, despite initiatives against overreliance on them. Despite this, there is limited evidence about the extent to which journal impact indicators in any field relates to human judgements about the journals or their articles. In response, we compared average citation rates of journals against expert judgements of their articles in all fields of science. We used preliminary quality scores for 96,031 articles published 2014-18 from the UK Research Excellence Framework (REF) 2021. We show that whilst there is a positive correlation between expert judgements of article quality and average journal impact in all fields of science, it is very weak in many fields and is never strong. The strength of the correlation varies from 0.11 to 0.43 for the 27 broad fields of Scopus. The highest correlation for the 94 Scopus narrow fields with at least 750 articles was only 0.54, for Infectious Diseases, and there was only one negative correlation, for the mixed category Computer Science (all). The results suggest that the average citation impact of a Scopus-indexed journal is never completely irrelevant to the quality of an article, even though it is never a strong indicator of article quality.",
+    "published": "2022-12-11 06:04:53+00:00",
+    "entry_id": "http://arxiv.org/abs/2212.05419v1",
+    "pdf_url": "https://arxiv.org/pdf/2212.05419v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling",
+    "_score": 6
+  },
+  {
+    "title": "Could AI change the scientific publishing market once and for all?",
+    "authors": [
+      "Wadim Strielkowski"
+    ],
+    "summary": "Artificial-intelligence tools in research like ChatGPT are playing an increasingly transformative role in revolutionizing scientific publishing and re-shaping its economic background. They can help academics to tackle such issues as limited space in academic journals, accessibility of knowledge, delayed dissemination, or the exponential growth of academic output. Moreover, AI tools could potentially change scientific communication and academic publishing market as we know them. They can help to promote Open Access (OA) in the form of preprints, dethrone the entrenched journals and publishers, as well as introduce novel approaches to the assessment of research output. It is also imperative that they should do just that, once and for all.",
+    "published": "2024-01-26 15:36:15+00:00",
+    "entry_id": "http://arxiv.org/abs/2401.14952v1",
+    "pdf_url": "https://arxiv.org/pdf/2401.14952v1",
+    "categories": [
+      "econ.TH",
+      "cs.DL"
+    ],
+    "query": "scientific publishing market signaling Spence",
+    "_score": 6
+  },
+  {
+    "title": "Reflecting on Motivations: How Reasons to Publish affect Research Behaviour in Astronomy",
+    "authors": [
+      "Julia Heuritsch"
+    ],
+    "summary": "Recent research in the field of reflexive metrics have studied the emergence and consequences of evaluation gaps in science. The concept of evaluation gaps captures potential discrepancies between what researchers value about their research, in particular research quality, and what metrics measure. As a result, scientists may experience anomie and adopt innovative ways to cope. These often value quantity over quality and may even compromise research integrity. A consequence of such gaps may therefore be research misconduct and a decrease in research quality. In the language of rational choice theory, an evaluation gap persists if motivational factors arising out of the internal component of an actors situation are incongruent with those arising out of the external components. The aim of this research is therefore to study and compare autonomous and controlled motivations to become an astronomer, to do research in astronomy and to publish scientific papers. Moreover, we study how these different motivational factors affect publication pressure, the experience of organisational justice and the observation of research misconduct. In summary, we find evidence for an evaluation gap and that controlled motivational factors arising from evaluation procedures based on publication record drives up publication pressure, which, in turn, was found to increase the likelihood of perceived frequency of misbehaviour.",
+    "published": "2021-11-30 16:22:51+00:00",
+    "entry_id": "http://arxiv.org/abs/2111.15532v2",
+    "pdf_url": "https://arxiv.org/pdf/2111.15532v2",
+    "categories": [
+      "physics.soc-ph",
+      "astro-ph.IM"
+    ],
+    "query": "evaluation of researchers publication metrics",
+    "_score": 6
+  },
+  {
+    "title": "Extending ArXiv.org to Achieve Open Peer Review and Publishing",
+    "authors": [
+      "Axel Boldt"
+    ],
+    "summary": "Today's peer review process for scientific articles is unnecessarily opaque and offers few incentives to referees. Likewise, the publishing process is unnecessarily inefficient and its results are only rarely made freely available to the public. Here we outline a comparatively simple extension of arXiv.org, an online preprint archive widely used in the mathematical and physical sciences, that addresses both of these problems. Under the proposal, editors invite referees to write public and signed reviews to be attached to the posted preprints, and then elevate selected articles to \"published\" status.",
+    "published": "2010-11-23 14:23:07+00:00",
+    "entry_id": "http://arxiv.org/abs/1011.6590v1",
+    "pdf_url": "https://arxiv.org/pdf/1011.6590v1",
+    "categories": [
+      "cs.OH"
+    ],
+    "query": "peer review signaling academic publishing",
+    "_score": 5
+  },
+  {
+    "title": "Detecting AI-Generated Content in Academic Peer Reviews",
+    "authors": [
+      "Siyuan Shen",
+      "Kai Wang"
+    ],
+    "summary": "The growing availability of large language models (LLMs) has raised questions about their role in academic peer review. This study examines the temporal emergence of AI-generated content in peer reviews by applying a detection model trained on historical reviews to later review cycles at International Conference on Learning Representations (ICLR) and Nature Communications (NC). We observe minimal detection of AI-generated content before 2022, followed by a substantial increase through 2025, with approximately 20% of ICLR reviews and 12% of Nature Communications reviews classified as AI-generated in 2025. The most pronounced growth of AI-generated reviews in NC occurs between the third and fourth quarter of 2024. Together, these findings provide suggestive evidence of a rapidly increasing presence of AI-assisted content in peer review and highlight the need for further study of its implications for scholarly evaluation.",
+    "published": "2026-01-30 21:15:08+00:00",
+    "entry_id": "http://arxiv.org/abs/2602.00319v2",
+    "pdf_url": "https://arxiv.org/pdf/2602.00319v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG",
+      "cs.SI"
+    ],
+    "query": "peer review signaling academic publishing",
+    "_score": 5
+  },
+  {
+    "title": "Ants-Review: a Protocol for Incentivized Open Peer-Reviews on Ethereum",
+    "authors": [
+      "Bianca Trov\u00f2",
+      "Nazzareno Massari"
+    ],
+    "summary": "Peer-review is a necessary and essential quality control step for scientific publications but lacks proper incentives. Indeed, the process, which is very costly in terms of time and intellectual investment, not only is not remunerated by the journals but is also not openly recognized by the academic community as a relevant scientific output for a researcher. Therefore, scientific dissemination is affected in timeliness, quality, and fairness. Here, to solve this issue, we propose a blockchain-based incentive system that rewards scientists for peer-reviewing other scientists' work and that builds up trust and reputation. We designed a privacy-oriented protocol of smart contracts called Ants-Review that allows authors to issue a bounty for open anonymous peer-reviews on Ethereum. If requirements are met, peer-reviews will be accepted and paid by the approver proportionally to their assessed quality. To promote ethical behavior and inclusiveness the system implements a gamified mechanism that allows the whole community to evaluate the peer-reviews and vote for the best ones.",
+    "published": "2021-01-22 23:32:41+00:00",
+    "entry_id": "http://arxiv.org/abs/2101.09378v1",
+    "pdf_url": "https://arxiv.org/pdf/2101.09378v1",
+    "categories": [
+      "cs.DL",
+      "cs.CR",
+      "cs.CY",
+      "cs.DC",
+      "cs.GT"
+    ],
+    "query": "peer review signaling academic publishing",
+    "_score": 5
+  },
+  {
+    "title": "The Extraction of Community Structures from Publication Networks to Support Ethnographic Observations of Field Differences in Scientific Communication",
+    "authors": [
+      "Theresa Velden",
+      "Carl Lagoze"
+    ],
+    "summary": "The scientific community of researchers in a research specialty is an important unit of analysis for understanding the field specific shaping of scientific communication practices. These scientific communities are, however, a challenging unit of analysis to capture and compare because they overlap, have fuzzy boundaries, and evolve over time. We describe a network analytic approach that reveals the complexities of these communities through examination of their publication networks in combination with insights from ethnographic field studies. We suggest that the structures revealed indicate overlapping sub- communities within a research specialty and we provide evidence that they differ in disciplinary orientation and research practices. By mapping the community structures of scientific fields we aim to increase confidence about the domain of validity of ethnographic observations as well as of collaborative patterns extracted from publication networks thereby enabling the systematic study of field differences. The network analytic methods presented include methods to optimize the delineation of a bibliographic data set in order to adequately represent a research specialty, and methods to extract community structures from this data. We demonstrate the application of these methods in a case study of two research specialties in the physical and chemical sciences.",
+    "published": "2012-05-09 22:14:04+00:00",
+    "entry_id": "http://arxiv.org/abs/1205.2114v2",
+    "pdf_url": "https://arxiv.org/pdf/1205.2114v2",
+    "categories": [
+      "cs.SI",
+      "cs.DL",
+      "physics.soc-ph"
+    ],
+    "query": "gatekeeping scientific publication quality",
+    "_score": 5
+  },
+  {
+    "title": "Which international co-authorships produce higher quality journal articles?",
+    "authors": [
+      "Mike Thelwall",
+      "Kayvan Kousha",
+      "Mahshid Abdoli",
+      "Emma Stuart",
+      "Meiko Makita",
+      "Paul Wilson",
+      "Jonathan Levitt"
+    ],
+    "summary": "International collaboration is sometimes encouraged in the belief that it generates higher quality research or is more capable of addressing societal problems. Nevertheless, while there is evidence that the journal articles of international teams tend to be more cited than average, perhaps from increased international audiences, there is no science-wide direct academic evidence of a connection between international collaboration and research quality. This article empirically investigates the connection between international collaboration and research quality for the first time, with 148,977 UK-based journal articles with post publication expert review scores from the 2021 Research Excellence Framework (REF). Using an ordinal regression model controlling for collaboration, international partners increased the odds of higher quality scores in 27 out of 34 Units of Assessment (UoAs) and all Main Panels. The results therefore give the first large scale evidence of the fields in which international co-authorship for articles is usually apparently beneficial. At the country level, the results suggests that UK collaboration with other high research-expenditure economies generates higher quality research, even when the countries produce lower citation impact journal articles than the United Kingdom. Worryingly, collaborations with lower research-expenditure economies tend to be judged lower quality, possibly through misunderstanding Global South research goals.",
+    "published": "2022-12-11 05:57:28+00:00",
+    "entry_id": "http://arxiv.org/abs/2212.05417v2",
+    "pdf_url": "https://arxiv.org/pdf/2212.05417v2",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "journal acceptance signal researcher quality",
+    "_score": 5
+  },
+  {
+    "title": "Growth rates of modern science: A bibliometric analysis based on the number of publications and cited references",
+    "authors": [
+      "Lutz Bornmann",
+      "Ruediger Mutz"
+    ],
+    "summary": "Many studies in information science have looked at the growth of science. In this study, we re-examine the question of the growth of science. To do this we (i) use current data up to publication year 2012 and (ii) analyse it across all disciplines and also separately for the natural sciences and for the medical and health sciences. Furthermore, the data are analysed with an advanced statistical technique - segmented regression analysis - which can identify specific segments with similar growth rates in the history of science. The study is based on two different sets of bibliometric data: (1) The number of publications held as source items in the Web of Science (WoS, Thomson Reuters) per publication year and (2) the number of cited references in the publications of the source items per cited reference year. We have looked at the rate at which science has grown since the mid-1600s. In our analysis of cited references we identified three growth phases in the development of science, which each led to growth rates tripling in comparison with the previous phase: from less than 1% up to the middle of the 18th century, to 2 to 3% up to the period between the two world wars and 8 to 9% to 2012.",
+    "published": "2014-02-19 08:00:26+00:00",
+    "entry_id": "http://arxiv.org/abs/1402.4578v3",
+    "pdf_url": "https://arxiv.org/pdf/1402.4578v3",
+    "categories": [
+      "cs.DL",
+      "physics.soc-ph",
+      "stat.AP"
+    ],
+    "query": "publication system signaling theory science",
+    "_score": 5
+  },
+  {
+    "title": "Author-Based Analysis of Conference versus Journal Publication in Computer Science",
+    "authors": [
+      "Jinseok Kim"
+    ],
+    "summary": "Conference publications in computer science (CS) have attracted scholarly attention due to their unique status as a main research outlet unlike other science fields where journals are dominantly used for communicating research findings. One frequent research question has been how different conference and journal publications are, considering a paper as a unit of analysis. This study takes an author-based approach to analyze publishing patterns of 517,763 scholars who have ever published both in CS conferences and journals for the last 57 years, as recorded in DBLP. The analysis shows that the majority of CS scholars tend to make their scholarly debut, publish more papers, and collaborate with more coauthors in conferences than in journals. Importantly, conference papers seem to serve as a distinct channel of scholarly communication, not a mere preceding step to journal publications: coauthors and title words of authors across conferences and journals tend not to overlap much. This study corroborates findings of previous studies on this topic from a distinctive perspective and suggests that conference authorship in CS calls for more special attention from scholars and administrators outside CS who have focused on journal publications to mine authorship data and evaluate scholarly performance.",
+    "published": "2018-06-27 20:06:17+00:00",
+    "entry_id": "http://arxiv.org/abs/1806.10674v1",
+    "pdf_url": "https://arxiv.org/pdf/1806.10674v1",
+    "categories": [
+      "cs.DL",
+      "cs.IR"
+    ],
+    "query": "publication system signaling theory science",
+    "_score": 5
+  },
+  {
+    "title": "Inter-rater reliability and convergent validity of F1000Prime peer review",
+    "authors": [
+      "Lutz Bornmann"
+    ],
+    "summary": "Peer review is the backbone of modern science. F1000Prime is a post-publication peer review system of the biomedical literature (papers from medical and biological journals). This study is concerned with the inter-rater reliability and convergent validity of the peer recommendations formulated in the F1000Prime peer review system. The study is based on around 100,000 papers with recommendations from Faculty members. Even if intersubjectivity plays a fundamental role in science, the analyses of the reliability of the F1000Prime peer review system show a rather low level of agreement between Faculty members. This result is in agreement with most other studies which have been published on the journal peer review system. Logistic regression models are used to investigate the convergent validity of the F1000Prime peer review system. As the results show, the proportion of highly cited papers among those selected by the Faculty members is significantly higher than expected. In addition, better recommendation scores are also connected with better performance of the papers.",
+    "published": "2014-03-31 14:08:50+00:00",
+    "entry_id": "http://arxiv.org/abs/1404.0359v3",
+    "pdf_url": "https://arxiv.org/pdf/1404.0359v3",
+    "categories": [
+      "cs.DL",
+      "physics.soc-ph"
+    ],
+    "query": "growth of science peer review crisis",
+    "_score": 5
+  },
+  {
+    "title": "Normalization of peer-evaluation measures of group research quality across academic disciplines",
+    "authors": [
+      "Ralph Kenna",
+      "Bertrand Berche"
+    ],
+    "summary": "Peer-evaluation based measures of group research quality such as the UK's Research Assessment Exercise (RAE), which do not employ bibliometric analyses, cannot directly avail of such methods to normalize research impact across disciplines. This is seen as a conspicuous flaw of such exercises and calls have been made to find a remedy. Here a simple, systematic solution is proposed based upon a mathematical model for the relationship between research quality and group quantity. This model manifests both the Matthew effect and a phenomenon akin to the Ringelmann effect and reveals the existence of two critical masses for each academic discipline: a lower value, below which groups are vulnerable, and an upper value beyond which the dependency of quality on quantity reduces and plateaus appear when the critical masses are large. A possible normalization procedure is then to pitch these plateaus at similar levels. We examine the consequences of this procedure at RAE for a multitude of academic disciplines, corresponding to a range of critical masses.",
+    "published": "2010-06-19 12:36:42+00:00",
+    "entry_id": "http://arxiv.org/abs/1006.3863v2",
+    "pdf_url": "https://arxiv.org/pdf/1006.3863v2",
+    "categories": [
+      "physics.soc-ph",
+      "cs.DL"
+    ],
+    "query": "evaluation of researchers publication metrics",
+    "_score": 5
+  },
+  {
+    "title": "Aspect-Guided Multi-Level Perturbation Analysis of Large Language Models in Automated Peer Review",
+    "authors": [
+      "Jiatao Li",
+      "Yanheng Li",
+      "Xinyu Hu",
+      "Mingqi Gao",
+      "Xiaojun Wan"
+    ],
+    "summary": "We propose an aspect-guided, multi-level perturbation framework to evaluate the robustness of Large Language Models (LLMs) in automated peer review. Our framework explores perturbations in three key components of the peer review process-papers, reviews, and rebuttals-across several quality aspects, including contribution, soundness, presentation, tone, and completeness. By applying targeted perturbations and examining their effects on both LLM-as-Reviewer and LLM-as-Meta-Reviewer, we investigate how aspect-based manipulations, such as omitting methodological details from papers or altering reviewer conclusions, can introduce significant biases in the review process. We identify several potential vulnerabilities: review conclusions that recommend a strong reject may significantly influence meta-reviews, negative or misleading reviews may be wrongly interpreted as thorough, and incomplete or hostile rebuttals can unexpectedly lead to higher acceptance rates. Statistical tests show that these biases persist under various Chain-of-Thought prompting strategies, highlighting the lack of robust critical evaluation in current LLMs. Our framework offers a practical methodology for diagnosing these vulnerabilities, thereby contributing to the development of more reliable and robust automated reviewing systems.",
+    "published": "2025-02-18 03:50:06+00:00",
+    "entry_id": "http://arxiv.org/abs/2502.12510v1",
+    "pdf_url": "https://arxiv.org/pdf/2502.12510v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "noise in peer review reviewer disagreement",
+    "_score": 5
+  },
+  {
+    "title": "Peer Review and the Diffusion of Ideas",
+    "authors": [
+      "Binglu Wang",
+      "Zhengnan Ma",
+      "Dashun Wang",
+      "Brian Uzzi"
+    ],
+    "summary": "This study examines a fundamental yet overlooked function of peer review: its role in exposing reviewers to new and unexpected ideas. Leveraging a natural experiment involving over half a million peer review invitations covering both accepted and rejected manuscripts, and integrating high-scale bibliographic and editorial records for 37,279 submitting authors, we find that exposure to a manuscript's core ideas significantly influences the future referencing behavior and knowledge of reviewer invitees who decline the review invite. Specifically, declining reviewer invitees who could view concise summaries of the manuscript's core ideas not only increase their citations to the manuscript itself but also demonstrate expanded breadth, depth, diversity, and prominence of citations to the submitting author's broader body of work. Overall, these results suggest peer review substantially influences the spread of scientific knowledge. Ironically, while the massive scale of peer review, entailing millions of reviews annually, often drives policy debates about its costs and burdens, our findings demonstrate that precisely because of this scale, peer review serves as a powerful yet previously unrecognized engine for idea diffusion, which is central to scientific advances and scholarly communication.",
+    "published": "2025-07-16 01:02:51+00:00",
+    "entry_id": "http://arxiv.org/abs/2507.11825v1",
+    "pdf_url": "https://arxiv.org/pdf/2507.11825v1",
+    "categories": [
+      "physics.soc-ph",
+      "cs.SI"
+    ],
+    "query": "noise in peer review reviewer disagreement",
+    "_score": 5
+  },
+  {
+    "title": "Analysis of the ALMA Cycle 8 Distributed Peer Review Process",
+    "authors": [
+      "Jennifer Donovan Meyer",
+      "Andrea Corvill\u00f3n",
+      "John M. Carpenter",
+      "Adele L. Plunkett",
+      "Robert Kurowski",
+      "Alex Chalevin",
+      "Jakob Bruenker",
+      "D. -C. Kim",
+      "Enrique Mac\u00edas"
+    ],
+    "summary": "In response to the challenges presented by high reviewer workloads in traditional panel reviews and increasing numbers of submitted proposals, ALMA implemented distributed peer review to assess the majority of proposals submitted to the Cycle 8 Main Call. In this paper, we present an analysis of this review process. Over 1000 reviewers participated in the process to review 1497 proposals, making it the largest implementation of distributed peer review to date in astronomy, and marking the first time this process has been used to award the majority of observing time at an observatory. We describe the process to assign proposals to reviewers, analyze the nearly 15,000 ranks and comments submitted by reviewers to identify any trends and systematics, and gather feedback on the process from reviewers and Principal Investigators (PIs) through surveys. Approximately 90% of the proposal assignments were aligned with the expertise of the reviewer, as measured both by the expertise keywords provided by the reviewers and the reviewers' self-assessment of their expertise on their assigned proposals. PIs rated 73% of the individual review comments as helpful, and even though the reviewers had a broad range of experience levels, PIs rated the quality of the comments received from students and senior researchers similarly. The primary concerns raised by PIs were the quality of some reviewer comments and high dispersions in the ranks. The ranks and comments are correlated with various demographics to identify the main areas in which the review process can be improved in future cycles.",
+    "published": "2022-04-11 20:17:27+00:00",
+    "entry_id": "http://arxiv.org/abs/2204.05390v2",
+    "pdf_url": "https://arxiv.org/pdf/2204.05390v2",
+    "categories": [
+      "astro-ph.IM"
+    ],
+    "query": "peer review signaling academic publishing",
+    "_score": 4
+  },
+  {
+    "title": "Reflexive Behaviour: How publication pressure affects research quality in Astronomy",
+    "authors": [
+      "Julia Heuritsch"
+    ],
+    "summary": "Reflexive metrics is a branch of science studies which explores how the demand for accountability and performance measurement in science has shaped the research culture in recent decades. Hypercompetition and publication pressure are part of this neoliberal culture. How do scientists respond to these pressures? Studies on research integrity and organizational culture suggest that people who feel treated unfairly by their institution are more likely to engage in deviant behaviour, such as scientific misconduct. By building up on reflexive metrics, combined with studies on the influence of organisational culture on research integrity, this study reflects on the research behaviour of astronomers: 1) To what extent is research (mis-)behaviour reflexive, i.e. dependent on perceptions of publication pressure and distributive & organisational justice? 2) What impact does scientific misconduct have on research quality? In order to perform this reflection, we conducted a comprehensive survey of academic and non-academic astronomers worldwide and received 3,509 responses. We found that publication pressure explains 19% of the variance in occurrence of misconduct and between 7 and 13% of the variance of the perception of distributive & organisational justice as well as overcommitment to work. Our results on the perceived impact of scientific misconduct on research quality show that the epistemic harm of questionable research practices should not be underestimated. This suggests there is a need for a policy change. In particular, lesser attention to metrics (such as publication rate) in the allocation of grants, telescope time and institutional rewards would foster better scientific conduct and hence research quality.",
+    "published": "2021-09-20 08:53:57+00:00",
+    "entry_id": "http://arxiv.org/abs/2109.09375v3",
+    "pdf_url": "https://arxiv.org/pdf/2109.09375v3",
+    "categories": [
+      "physics.soc-ph",
+      "astro-ph.IM"
+    ],
+    "query": "gatekeeping scientific publication quality",
+    "_score": 4
+  },
+  {
+    "title": "Publication patterns of award-winning forest scientists and implications for the ERA journal ranking",
+    "authors": [
+      "Jerome K Vanclay"
+    ],
+    "summary": "Publication patterns of 79 forest scientists awarded major international forestry prizes during 1990-2010 were compared with the journal classification and ranking promoted as part of the 'Excellence in Research for Australia' (ERA) by the Australian Research Council. The data revealed that these scientists exhibited an elite publication performance during the decade before and two decades following their first major award. An analysis of their 1703 articles in 431 journals revealed substantial differences between the journal choices of these elite scientists and the ERA classification and ranking of journals. Implications from these findings are that additional cross-classifications should be added for many journals, and there should be an adjustment to the ranking of several journals relevant to the ERA Field of Research classified as 0705 Forestry Sciences.",
+    "published": "2011-08-24 12:49:04+00:00",
+    "entry_id": "http://arxiv.org/abs/1108.4828v1",
+    "pdf_url": "https://arxiv.org/pdf/1108.4828v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "journal acceptance signal researcher quality",
+    "_score": 4
+  },
+  {
+    "title": "Optimizing Peer Grading: A Systematic Literature Review of Reviewer Assignment Strategies and Quantity of Reviewers",
+    "authors": [
+      "Uchswas Paul",
+      "Shail Shah",
+      "Sri Vaishnavi Mylavarapu",
+      "M. Parvez Rashid",
+      "Edward Gehringer"
+    ],
+    "summary": "Peer assessment has established itself as a critical pedagogical tool in academic settings, offering students timely, high-quality feedback to enhance learning outcomes. However, the efficacy of this approach depends on two factors: (1) the strategic allocation of reviewers and (2) the number of reviews per artifact. This paper presents a systematic literature review of 87 studies (2010--2024) to investigate how reviewer-assignment strategies and the number of reviews per submission impact the accuracy, fairness, and educational value of peer assessment. We identified four common reviewer-assignment strategies: random assignment, competency-based assignment, social-network-based assignment, and bidding. Drawing from both quantitative data and qualitative insights, we explored the trade-offs involved in each approach. Random assignment, while widely used, often results in inconsistent grading and fairness concerns. Competency-based strategies can address these issues. Meanwhile, social and bidding-based methods have the potential to improve fairness and timeliness -- existing empirical evidence is limited. In terms of review count, assigning three reviews per submission emerges as the most common practice. A range of three to five reviews per student or per submission is frequently cited as a recommended spot that balances grading accuracy, student workload, learning outcomes, and engagement.",
+    "published": "2025-08-08 15:28:39+00:00",
+    "entry_id": "http://arxiv.org/abs/2508.11678v2",
+    "pdf_url": "https://arxiv.org/pdf/2508.11678v2",
+    "categories": [
+      "cs.CY"
+    ],
+    "query": "peer review signaling academic publishing",
+    "_score": 3
+  },
+  {
+    "title": "A Semi-automated Peer-review System",
+    "authors": [
+      "Bradly Alicea"
+    ],
+    "summary": "A semi-supervised model of peer review is introduced that is intended to overcome the bias and incompleteness of traditional peer review. Traditional approaches are reliant on human biases, while consensus decision-making is constrained by sparse information. Here, the architecture for one potential improvement (a semi-supervised, human-assisted classifier) to the traditional approach will be introduced and evaluated. To evaluate the potential advantages of such a system, hypothetical receiver operating characteristic (ROC) curves for both approaches will be assessed. This will provide more specific indications of how automation would be beneficial in the manuscript evaluation process. In conclusion, the implications for such a system on measurements of scientific impact and improving the quality of open submission repositories will be discussed.",
+    "published": "2013-11-11 17:07:16+00:00",
+    "entry_id": "http://arxiv.org/abs/1311.2504v1",
+    "pdf_url": "https://arxiv.org/pdf/1311.2504v1",
+    "categories": [
+      "cs.DL",
+      "cs.HC",
+      "cs.SI",
+      "physics.soc-ph"
+    ],
+    "query": "peer review signaling academic publishing",
+    "_score": 3
+  },
+  {
+    "title": "Causal Analysis of Author Demographics in Academic Peer Review",
+    "authors": [
+      "Uttamasha Anjally Oyshi",
+      "Gibson Nkhata",
+      "Susan Gauch"
+    ],
+    "summary": "Academic meritocracy is jeopardized by systematic imbalances; for example, whereas Black and Hispanic individuals constitute over 30% of the U.S. population, they represent fewer than 10% of tenured academics in science and engineering. Peer review serves as a crucial gatekeeper in this process, however it encounters ongoing issues over biases that may hinder scientific advancement. The issue is now exacerbated by the growing influence of artificial intelligence (AI) in academic assessment. This paper transcends correlation to quantitatively assess the independent impacts of author demographics, including race, gender, and country of affiliation, on paper acceptance rankings. We utilize a causal inference methodology on a dataset of 530 papers, simulating the academic selection process by employing the prestige of the publication venue as a surrogate for review rank. Our research indicates statistically substantial causal disadvantages for authors from minority racial groups (average treatment effects [ATE]: -0.42 points in ranking), female authors (ATE: -0.25), and those associated with institutions in the Global South (ATE: -0.57). The exhibited biases emphasize the pressing necessity for fairness interventions in both conventional and AI-based review processes, indicating that such measures are essential for establishing a more equitable and credible scientific environment.",
+    "published": "2026-02-25 21:43:13+00:00",
+    "entry_id": "http://arxiv.org/abs/2603.06641v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.06641v1",
+    "categories": [
+      "cs.CY"
+    ],
+    "query": "peer review signaling academic publishing",
+    "_score": 3
+  },
+  {
+    "title": "Keyword Extraction in Scientific Documents",
+    "authors": [
+      "Susie Xi Rao",
+      "Piriyakorn Piriyatamwong",
+      "Parijat Ghoshal",
+      "Sara Nasirian",
+      "Emmanuel de Salis",
+      "Sandra Mitrovi\u0107",
+      "Michael Wechner",
+      "Vanya Brucker",
+      "Peter Egger",
+      "Ce Zhang"
+    ],
+    "summary": "The scientific publication output grows exponentially. Therefore, it is increasingly challenging to keep track of trends and changes. Understanding scientific documents is an important step in downstream tasks such as knowledge graph building, text mining, and discipline classification. In this workshop, we provide a better understanding of keyword and keyphrase extraction from the abstract of scientific publications.",
+    "published": "2022-07-05 08:33:47+00:00",
+    "entry_id": "http://arxiv.org/abs/2207.01888v2",
+    "pdf_url": "https://arxiv.org/pdf/2207.01888v2",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "gatekeeping scientific publication quality",
+    "_score": 3
+  },
+  {
+    "title": "Gatekeeping: a Partial History of Cold Fusion",
+    "authors": [
+      "Jonah F Messinger",
+      "Florian Metzler",
+      "Huw Price"
+    ],
+    "summary": "One of the most public episodes of gatekeeping in modern science was the case of so-called 'cold fusion'. At a news conference in 1989 the electrochemists Martin Fleischmann and Stanley Pons announced that they had found evidence of nuclear fusion in palladium electrodes loaded with deuterium. There was worldwide interest. Many groups sought to reproduce the results, most unsuccessfully. Within months, the prevailing view became strongly negative. The claims of Fleischmann and Pons came to be regarded as disreputable, as well as false. As the Caltech physicist David Goldstein put it, cold fusion became 'a pariah field, cast out by the scientific establishment' (Goldstein 1994). The case would already be interesting for students of gatekeeping if the story had ended at that point. Even more interestingly, however, the field survived and persisted. It has been enjoying a modest renaissance, with recent government funding both in the US and the EU. This piece offers an opinionated introduction to cold fusion as a case study of scientific gatekeeping, discussing both its early and recent history",
+    "published": "2026-01-15 02:16:34+00:00",
+    "entry_id": "http://arxiv.org/abs/2601.09996v1",
+    "pdf_url": "https://arxiv.org/pdf/2601.09996v1",
+    "categories": [
+      "physics.hist-ph"
+    ],
+    "query": "gatekeeping scientific publication quality",
+    "_score": 3
+  },
+  {
+    "title": "Can Small and Reasoning Large Language Models Score Journal Articles for Research Quality and Do Averaging and Few-shot Help?",
+    "authors": [
+      "Mike Thelwall",
+      "Ehsan Mohammadi"
+    ],
+    "summary": "Previous research has shown that journal article quality ratings from the cloud based Large Language Model (LLM) families ChatGPT and Gemini and the medium sized open weights LLM Gemma3 27b correlate moderately with expert research quality scores. This article assesses whether other medium sized LLMs, smaller LLMs, and reasoning models have similar abilities. This is tested with Gemma3 variants, Llama4 Scout, Qwen3, Magistral Small and DeepSeek R1 on a dataset of 2,780 medical, health and life science papers in 6 fields, with two different gold standards, one novel. Few-shot and score averaging approaches are also evaluated. The results suggest that medium-sized LLMs have similar performance to ChatGPT 4o-mini and Gemini 2.0 Flash, but that 1b parameters may often, and 4b sometimes, be too few. Reasoning models did not have a clear advantage. Moreover, averaging scores from multiple identical queries seems to be a universally successful strategy, and there is weak evidence that few-shot prompts (four examples) tend to help. Overall, the results show, for the first time, that smaller LLMs >4b have a substantial capability to rate journal articles for research quality, especially if score averaging is used, but that reasoning does not give an advantage for this task; it is therefore not recommended because it is slow. The use of LLMs to support research evaluation is now more credible since multiple variants have a similar ability, including many that can be deployed offline in a secure environment without substantial computing resources.",
+    "published": "2025-10-25 18:12:41+00:00",
+    "entry_id": "http://arxiv.org/abs/2510.22389v2",
+    "pdf_url": "https://arxiv.org/pdf/2510.22389v2",
+    "categories": [
+      "cs.DL",
+      "cs.AI"
+    ],
+    "query": "journal acceptance signal researcher quality",
+    "_score": 3
+  },
+  {
+    "title": "Make Research Data Public? -- Not Always so Simple: A Dialogue for Statisticians and Science Editors",
+    "authors": [
+      "Nell Sedransk",
+      "Lawrence H. Cox",
+      "Deborah Nolan",
+      "Keith Soper",
+      "Cliff Spiegelman",
+      "Linda J. Young",
+      "Katrina L. Kelner",
+      "Robert A. Moffitt",
+      "Ani Thakar",
+      "Jordan Raddick",
+      "Edward J. Ungvarsky",
+      "Richard W. Carlson",
+      "Rolf Apweiler"
+    ],
+    "summary": "Putting data into the public domain is not the same thing as making those data accessible for intelligent analysis. A distinguished group of editors and experts who were already engaged in one way or another with the issues inherent in making research data public came together with statisticians to initiate a dialogue about policies and practicalities of requiring published research to be accompanied by publication of the research data. This dialogue carried beyond the broad issues of the advisability, the intellectual integrity, the scientific exigencies to the relevance of these issues to statistics as a discipline and the relevance of statistics, from inference to modeling to data exploration, to science and social science policies on these issues.",
+    "published": "2010-11-03 07:28:00+00:00",
+    "entry_id": "http://arxiv.org/abs/1011.0810v1",
+    "pdf_url": "https://arxiv.org/pdf/1011.0810v1",
+    "categories": [
+      "stat.ME",
+      "cs.DL",
+      "physics.data-an"
+    ],
+    "query": "publication system signaling theory science",
+    "_score": 3
+  },
+  {
+    "title": "Seasonal Entropy, Diversity and Inequality Measures of Submitted and Accepted Papers Distributions In Peer-Reviewed Journals",
+    "authors": [
+      "Marcel Ausloos",
+      "Olgica Nedic",
+      "Aleksandar Dekanski"
+    ],
+    "summary": "This paper presents a novel method for finding features in the analysis of variable distributions stemming from time series. We apply the methodology to the case of submitted and accepted papers in peer-reviewed journals. We provide a comparative study of editorial decisions for papers submitted to two peer-reviewed journals: the Journal of the Serbian Chemical Society (JSCS) and this MDPI Entropy journal. We cover three recent years for which the fate of submitted papers, about 600 papers to JSCS and 2500 to Entropy, is completely determined. Instead of comparing the number distributions of these papers as a function of time with respect to a uniform distribution, we analyze the relevant probabilities, from which we derive the information entropy. It is argued that such probabilities are indeed more relevant for authors than the actual number of submissions. We tie this entropy analysis to the so called diversity of the variable distributions. Furthermore, we emphasize the correspondence between the entropy and the diversity with inequality measures, like the Herfindahl-Hirschman index and the Theil index, itself being in the class of entropy measures; the Gini coefficient which also measures the diversity in ranking is calculated for further discussion. In this sample, the seasonal aspects of the peer review process are outlined. It is found that the use of such indices, non linear transformations of the data distributions, allow to distinguish features and evolutions of peer review process as a function of time as well as comparing non-uniformity of distributions. Furthermore, t- and z- statistical tests are applied in order to measure the significance (p-level) of the findings, i.e. whether papers are more likely to be accepted if they are submitted during a few specific months or \"season\"; the predictability strength depends on the journal.",
+    "published": "2019-10-13 10:22:53+00:00",
+    "entry_id": "http://arxiv.org/abs/1910.05723v1",
+    "pdf_url": "https://arxiv.org/pdf/1910.05723v1",
+    "categories": [
+      "cs.DL",
+      "physics.soc-ph"
+    ],
+    "query": "growth of science peer review crisis",
+    "_score": 3
+  },
+  {
+    "title": "Adoption of the open access business model in scientific journal publishing: A cross-disciplinary study",
+    "authors": [
+      "Bo-Christer Bjork",
+      "Timo Korkeamaki"
+    ],
+    "summary": "Scientific journal publishers have over the past twenty-five years rapidly converted to predominantly electronic dissemination, but the reader-pays business model continues to dominate the market. Open Access (OA) publishing, where the articles are freely readable on the net, has slowly increased its market share to near 20%, but has failed to fulfill the visions of rapid proliferation predicted by many early proponents. The growth of OA has also been very uneven across fields of science. We report market shares of open access in eighteen Scopus-indexed disciplines ranging from 27% (agriculture) to 7% (business). The differences become far more pronounced for journals published in the four countries, which dominate commercial scholarly publishing (US, UK, Germany and the Netherlands). We present contrasting developments within six academic disciplines. Availability of funding to pay publication charges, pressure from research funding agencies, and the diversity of discipline-specific research communication cultures arise as potential explanations for the observed differences.",
+    "published": "2020-05-03 07:00:44+00:00",
+    "entry_id": "http://arxiv.org/abs/2005.01008v1",
+    "pdf_url": "https://arxiv.org/pdf/2005.01008v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling",
+    "_score": 3
+  },
+  {
+    "title": "FFT: Towards Harmlessness Evaluation and Analysis for LLMs with Factuality, Fairness, Toxicity",
+    "authors": [
+      "Shiyao Cui",
+      "Zhenyu Zhang",
+      "Yilong Chen",
+      "Wenyuan Zhang",
+      "Tianyun Liu",
+      "Siqi Wang",
+      "Tingwen Liu"
+    ],
+    "summary": "The widespread of generative artificial intelligence has heightened concerns about the potential harms posed by AI-generated texts, primarily stemming from factoid, unfair, and toxic content. Previous researchers have invested much effort in assessing the harmlessness of generative language models. However, existing benchmarks are struggling in the era of large language models (LLMs), due to the stronger language generation and instruction following capabilities, as well as wider applications. In this paper, we propose FFT, a new benchmark with 2116 elaborated-designed instances, for LLM harmlessness evaluation with factuality, fairness, and toxicity. To investigate the potential harms of LLMs, we evaluate 9 representative LLMs covering various parameter scales, training stages, and creators. Experiments show that the harmlessness of LLMs is still under-satisfactory, and extensive analysis derives some insightful findings that could inspire future research for harmless LLM research.",
+    "published": "2023-11-30 14:18:47+00:00",
+    "entry_id": "http://arxiv.org/abs/2311.18580v2",
+    "pdf_url": "https://arxiv.org/pdf/2311.18580v2",
+    "categories": [
+      "cs.CL",
+      "cs.CR"
+    ],
+    "query": "evaluation of researchers publication metrics",
+    "_score": 3
+  },
+  {
+    "title": "Social media metrics for new research evaluation",
+    "authors": [
+      "Paul Wouters",
+      "Zohreh Zahedi",
+      "Rodrigo Costas"
+    ],
+    "summary": "This chapter approaches, both from a theoretical and practical perspective, the most important principles and conceptual frameworks that can be considered in the application of social media metrics for scientific evaluation. We propose conceptually valid uses for social media metrics in research evaluation. The chapter discusses frameworks and uses of these metrics as well as principles and recommendations for the consideration and application of current (and potentially new) metrics in research evaluation.",
+    "published": "2018-06-27 15:50:05+00:00",
+    "entry_id": "http://arxiv.org/abs/1806.10541v1",
+    "pdf_url": "https://arxiv.org/pdf/1806.10541v1",
+    "categories": [
+      "cs.DL",
+      "cs.IT",
+      "cs.SI"
+    ],
+    "query": "evaluation of researchers publication metrics",
+    "_score": 3
+  }
+]

@@ -1,0 +1,883 @@
+[
+  {
+    "title": "DISARM: A Social Distributed Agent Reputation Model based on Defeasible Logic",
+    "authors": [
+      "Kalliopi Kravari",
+      "Nick Bassiliades"
+    ],
+    "summary": "Intelligent Agents act in open and thus risky environments, hence making the appropriate decision about who to trust in order to interact with, could be a challenging process. As intelligent agents are gradually enriched with Semantic Web technology, acting on behalf of their users with limited or no human intervention, their ability to perform assigned tasks is scrutinized. Hence, trust and reputation models, based on interaction trust or witness reputation, have been proposed, yet they often presuppose the use of a centralized authority. Although such mechanisms are more popular, they are us",
+    "entry_id": "http://arxiv.org/abs/1410.3334v1",
+    "pdf_url": "https://arxiv.org/pdf/1410.3334v1",
+    "categories": [
+      "cs.MA"
+    ],
+    "_target": "reputation_peer_review_outliers"
+  },
+  {
+    "title": "A Methodology to Engineer and Validate Dynamic Multi-level Multi-agent Based Simulations",
+    "authors": [
+      "Jean-Baptiste Soyez",
+      "Gildas Morvan",
+      "Daniel Dupont",
+      "Rochdi Merzouki"
+    ],
+    "summary": "This article proposes a methodology to model and simulate complex systems, based on IRM4MLS, a generic agent-based meta-model able to deal with multi-level systems. This methodology permits the engineering of dynamic multi-level agent-based models, to represent complex systems over several scales and domains of interest. Its goal is to simulate a phenomenon using dynamically the lightest representation to save computer resources without loss of information. This methodology is based on two mechanisms: (1) the activation or deactivation of agents representing different domain parts of the same ",
+    "entry_id": "http://arxiv.org/abs/1311.5108v1",
+    "pdf_url": "https://arxiv.org/pdf/1311.5108v1",
+    "categories": [
+      "cs.MA"
+    ],
+    "_target": "reputation_peer_review_outliers"
+  },
+  {
+    "title": "From Model-Based Screening to Data-Driven Surrogates: A Multi-Stage Workflow for Exploring Stochastic Agent-Based Models",
+    "authors": [
+      "Paul Saves",
+      "Matthieu Mastio",
+      "Nicolas Verstaevel",
+      "Benoit Gaudou"
+    ],
+    "summary": "Systematic exploration of Agent-Based Models (ABMs) is challenged by the curse of dimensionality and their inherent stochasticity. We present a multi-stage pipeline integrating the systematic design of experiments with machine learning surrogates. Using a predator-prey case study, our methodology proceeds in two steps. First, an automated model-based screening identifies dominant variables, assesses outcome variability, and segments the parameter space. Second, we train Machine Learning models to map the remaining nonlinear interaction effects. This approach automates the discovery of unstable",
+    "entry_id": "http://arxiv.org/abs/2604.03350v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.03350v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "_target": "reputation_peer_review_outliers"
+  },
+  {
+    "title": "A Semi-distributed Reputation Based Intrusion Detection System for Mobile Adhoc Networks",
+    "authors": [
+      "Animesh Kr Trivedi",
+      "Rajan Arora",
+      "Rishi Kapoor",
+      "Sudip Sanyal",
+      "Sugata Sanyal"
+    ],
+    "summary": "A Mobile Adhoc Network (MANET) is a cooperative engagement of a collection of mobile nodes without any centralized access point or infrastructure to coordinate among the peers. The underlying concept of coordination among nodes in a cooperative MANET has induced in them a vulnerability to attacks due to issues like lack of fixed infrastructure, dynamically changing network topology, cooperative algorithms, lack of centralized monitoring and management point, and lack of a clear line of defense. We propose a semi-distributed approach towards Reputation Based Intrusion Detection System (IDS) tha",
+    "entry_id": "http://arxiv.org/abs/1006.1956v2",
+    "pdf_url": "https://arxiv.org/pdf/1006.1956v2",
+    "categories": [
+      "cs.NI",
+      "cs.MA"
+    ],
+    "_target": "reputation_peer_review_outliers"
+  },
+  {
+    "title": "Exploring the Disproportion Between Scientific Productivity and Knowledge Amount",
+    "authors": [
+      "Luoyi Fu",
+      "Huquan Kang",
+      "Jianghao Wang",
+      "Ling Yao",
+      "Xinbing Wang",
+      "Chenghu Zhou"
+    ],
+    "summary": "The pursuit of knowledge is the permanent goal of human beings. Scientific literature, as the major medium that carries knowledge between scientists, exhibits explosive growth during the last century. Despite the frequent use of many tangible measures, such as citation, impact factor and g-index, to quantify the influence of papers from different perspectives based on scientific productivity, it has not yet been well understood how the relationship between scientific productivity and knowledge amount turns out to be, i.e., how the knowledge value of papers and knowledge amount vary with develo",
+    "entry_id": "http://arxiv.org/abs/2106.02989v3",
+    "pdf_url": "https://arxiv.org/pdf/2106.02989v3",
+    "categories": [
+      "cs.DL"
+    ],
+    "_target": "disproportion_productivity_knowledge"
+  },
+  {
+    "title": "IPPOG : Bridging the gap between science education at school and modern scientific research",
+    "authors": [
+      "Barbora Bruant Gulejova"
+    ],
+    "summary": "The International Particle Physics Outreach Group (IPPOG) has been making concerted and systematic efforts to present and popularise particle physics across all audiences and age groups since 1997. Today the scientific community has in IPPOG a strategic pillar in fostering long-term, sustainable support for fundamental research around the world. One of the main tools IPPOG has been offering to the scientific community, teachers and educators for almost 10 years is the Resource Database (RDB), an online platform containing a collection of high quality engaging education and outreach materials i",
+    "entry_id": "http://arxiv.org/abs/2011.14743v1",
+    "pdf_url": "https://arxiv.org/pdf/2011.14743v1",
+    "categories": [
+      "physics.ed-ph"
+    ],
+    "_target": "disproportion_productivity_knowledge"
+  },
+  {
+    "title": "Clinical Productivity System - A Decision Support Model",
+    "authors": [
+      "Casey C. Bennett"
+    ],
+    "summary": "Purpose: This goal of this study was to evaluate the effects of a data-driven clinical productivity system that leverages Electronic Health Record (EHR) data to provide productivity decision support functionality in a real-world clinical setting. The system was implemented for a large behavioral health care provider seeing over 75,000 distinct clients a year. Design/methodology/approach: The key metric in this system is a \"VPU\", which simultaneously optimizes multiple aspects of clinical care. The resulting mathematical value of clinical productivity was hypothesized to tightly link the organi",
+    "entry_id": "http://arxiv.org/abs/1206.0021v1",
+    "pdf_url": "https://arxiv.org/pdf/1206.0021v1",
+    "categories": [
+      "cs.DB"
+    ],
+    "_target": "disproportion_productivity_knowledge"
+  },
+  {
+    "title": "AI Agent-Driven Framework for Automated Product Knowledge Graph Construction in E-Commerce",
+    "authors": [
+      "Dimitar Peshevski",
+      "Riste Stojanov",
+      "Dimitar Trajanov"
+    ],
+    "summary": "The rapid expansion of e-commerce platforms generates vast amounts of unstructured product data, creating significant challenges for information retrieval, recommendation systems, and data analytics. Knowledge Graphs (KGs) offer a structured, interpretable format to organize such data, yet constructing product-specific KGs remains a complex and manual process. This paper introduces a fully automated, AI agent-driven framework for constructing product knowledge graphs directly from unstructured product descriptions. Leveraging Large Language Models (LLMs), our method operates in three stages us",
+    "entry_id": "http://arxiv.org/abs/2511.11017v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.11017v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "_target": "disproportion_productivity_knowledge"
+  },
+  {
+    "title": "Stellar features in integrated starburst spectra as stellar population diagnostics",
+    "authors": [
+      "Daniel Schaerer"
+    ],
+    "summary": "We review the main stellar features observed in starburst spectra from the UV to the near-IR and their use as fundamental tools to determine the properties of stellar populations from integrated spectra.\n  The origin and dependence of the features on stellar properties are discussed, and we summarise existing modeling techniques used for quantitative analysis.\n  Recent results from studies based on UV, optical and near-IR observations of starbursts and active galaxies are summarised. Finally, we briefly discuss combined starburst + photoionisation models including also observations from nebula",
+    "entry_id": "http://arxiv.org/abs/astro-ph/0012403v1",
+    "pdf_url": "https://arxiv.org/pdf/astro-ph/0012403v1",
+    "categories": [
+      "astro-ph"
+    ],
+    "_target": "system_level_conference_peer_review"
+  },
+  {
+    "title": "Models for WR and O Star Populations in Starbursts: New Developments and Applications to Large Samples of WR Galaxies",
+    "authors": [
+      "Daniel Schaerer"
+    ],
+    "summary": "We summarise recent developments on synthesis models for massive star populations with a particular emphasis on Wolf-Rayet (WR) stars. Quantitative analysis of the stellar content of WR galaxies are reviewed. Comparing observations of WR galaxies from various samples with synthesis models we derive constraints on their burst properties. The observations indicate very short burst periods and are generally compatible with a Salpeter IMF and a large upper mass cut-off. The use of the Hbeta equivalent width as an age indicator works well for WR galaxies. We briefly summarise comparisons of stellar",
+    "entry_id": "http://arxiv.org/abs/astro-ph/9812357v2",
+    "pdf_url": "https://arxiv.org/pdf/astro-ph/9812357v2",
+    "categories": [
+      "astro-ph"
+    ],
+    "_target": "system_level_conference_peer_review"
+  },
+  {
+    "title": "Observing the first galaxies - a case for an intermediate resolution multi-object IR spectrograph",
+    "authors": [
+      "Daniel Schaerer",
+      "Roser Pello"
+    ],
+    "summary": "We present a special science case for an intermediate resolution multi-object IR spectrograph for the VLT. We have constructed new models for massive Population III stars and metal-free stellar populations (see Schaerer 2001). The properties of individual stars and integrated populations, including their ionising fluxes and SEDs are discussed. We also study their dependence on the poorly known IMF and the star formation history. The synthetic spectra are used to simulate spectroscopic observations of the expected emission lines of Pop III galaxies. We show that such an instrument should allow ",
+    "entry_id": "http://arxiv.org/abs/astro-ph/0107274v1",
+    "pdf_url": "https://arxiv.org/pdf/astro-ph/0107274v1",
+    "categories": [
+      "astro-ph"
+    ],
+    "_target": "system_level_conference_peer_review"
+  },
+  {
+    "title": "A System-Level Analysis of Conference Peer Review",
+    "authors": [
+      "Yichi Zhang",
+      "Fang-Yi Yu",
+      "Grant Schoenebeck",
+      "David Kempe"
+    ],
+    "summary": "The conference peer review process involves three constituencies with different objectives: authors want their papers accepted at prestigious venues (and quickly), conferences want to present a program with many high-quality and few low-quality papers, and reviewers want to avoid being overburdened by reviews. These objectives are far from aligned, primarily because the evaluation of a submission is inherently noisy. Over the years, conferences have experimented with numerous policies to navigate the tradeoffs. These experiments include setting various bars for acceptance, varying the number o",
+    "entry_id": "http://arxiv.org/abs/2303.09020v2",
+    "pdf_url": "https://arxiv.org/pdf/2303.09020v2",
+    "categories": [
+      "cs.GT"
+    ],
+    "_target": "system_level_conference_peer_review"
+  },
+  {
+    "title": "A Semi-automated Peer-review System",
+    "authors": [
+      "Bradly Alicea"
+    ],
+    "summary": "A semi-supervised model of peer review is introduced that is intended to overcome the bias and incompleteness of traditional peer review. Traditional approaches are reliant on human biases, while consensus decision-making is constrained by sparse information. Here, the architecture for one potential improvement (a semi-supervised, human-assisted classifier) to the traditional approach will be introduced and evaluated. To evaluate the potential advantages of such a system, hypothetical receiver operating characteristic (ROC) curves for both approaches will be assessed. This will provide more sp",
+    "entry_id": "http://arxiv.org/abs/1311.2504v1",
+    "pdf_url": "https://arxiv.org/pdf/1311.2504v1",
+    "categories": [
+      "cs.DL",
+      "cs.HC",
+      "cs.SI",
+      "physics.soc-ph"
+    ],
+    "_target": "innovation_suppression_clique"
+  },
+  {
+    "title": "An Algorithm to Determine Peer-Reviewers",
+    "authors": [
+      "Marko A. Rodriguez",
+      "Johan Bollen"
+    ],
+    "summary": "The peer-review process is the most widely accepted certification mechanism for officially accepting the written results of researchers within the scientific community. An essential component of peer-review is the identification of competent referees to review a submitted manuscript. This article presents an algorithm to automatically determine the most appropriate reviewers for a manuscript by way of a co-authorship network data structure and a relative-rank particle-swarm algorithm. This approach is novel in that it is not limited to a pre-selected set of referees, is computationally efficie",
+    "entry_id": "http://arxiv.org/abs/cs/0605112v2",
+    "pdf_url": "https://arxiv.org/pdf/cs/0605112v2",
+    "categories": [
+      "cs.DL",
+      "cs.AI",
+      "cs.DS"
+    ],
+    "_target": "innovation_suppression_clique"
+  },
+  {
+    "title": "Ants-Review: a Protocol for Incentivized Open Peer-Reviews on Ethereum",
+    "authors": [
+      "Bianca Trov\u00f2",
+      "Nazzareno Massari"
+    ],
+    "summary": "Peer-review is a necessary and essential quality control step for scientific publications but lacks proper incentives. Indeed, the process, which is very costly in terms of time and intellectual investment, not only is not remunerated by the journals but is also not openly recognized by the academic community as a relevant scientific output for a researcher. Therefore, scientific dissemination is affected in timeliness, quality, and fairness. Here, to solve this issue, we propose a blockchain-based incentive system that rewards scientists for peer-reviewing other scientists' work and that buil",
+    "entry_id": "http://arxiv.org/abs/2101.09378v1",
+    "pdf_url": "https://arxiv.org/pdf/2101.09378v1",
+    "categories": [
+      "cs.DL",
+      "cs.CR",
+      "cs.CY",
+      "cs.DC",
+      "cs.GT"
+    ],
+    "_target": "innovation_suppression_clique"
+  },
+  {
+    "title": "Fixation probability of rare nonmutator and evolution of mutation rates",
+    "authors": [
+      "Ananthu James",
+      "Kavita Jain"
+    ],
+    "summary": "Although mutations drive the evolutionary process, the rates at which the mutations occur are themselves subject to evolutionary forces. Our purpose here is to understand the role of selection and random genetic drift in the evolution of mutation rates, and we address this question in asexual populations at mutation-selection equilibrium neglecting selective sweeps. Using a multitype branching process, we calculate the fixation probability of a rare nonmutator in a large asexual population of mutators, and find that a nonmutator is more likely to fix when the deleterious mutation rate of the m",
+    "entry_id": "http://arxiv.org/abs/1501.03632v2",
+    "pdf_url": "https://arxiv.org/pdf/1501.03632v2",
+    "categories": [
+      "q-bio.PE"
+    ],
+    "_target": "innovation_suppression_clique"
+  },
+  {
+    "title": "Peer-to-Peer Secure Multi-Party Numerical Computation",
+    "authors": [
+      "Danny Bickson",
+      "Genia Bezman",
+      "Danny Dolev",
+      "Benny Pinkas"
+    ],
+    "summary": "We propose an efficient framework for enabling secure multi-party numerical computations in a Peer-to-Peer network. This problem arises in a range of applications such as collaborative filtering, distributed computation of trust and reputation, monitoring and numerous other tasks, where the computing nodes would like to preserve the privacy of their inputs while performing a joint computation of a certain function.\n  Although there is a rich literature in the field of distributed systems security concerning secure multi-party computation, in practice it is hard to deploy those methods in very ",
+    "entry_id": "http://arxiv.org/abs/0810.1624v1",
+    "pdf_url": "https://arxiv.org/pdf/0810.1624v1",
+    "categories": [
+      "cs.CR",
+      "cs.DC"
+    ],
+    "_target": "auctions_peer_prediction"
+  },
+  {
+    "title": "Auctions and Peer Prediction for Academic Peer Review",
+    "authors": [
+      "Siddarth Srinivasan",
+      "Jamie Morgenstern"
+    ],
+    "summary": "Peer reviewed publications are considered the gold standard in certifying and disseminating ideas that a research community considers valuable. However, we identify two major drawbacks of the current system: (1) the overwhelming demand for reviewers due to a large volume of submissions, and (2) the lack of incentives for reviewers to participate and expend the necessary effort to provide high-quality reviews. In this work, we adopt a mechanism-design approach to propose improvements to the peer review process, tying together the paper submission and review processes and simultaneously incentiv",
+    "entry_id": "http://arxiv.org/abs/2109.00923v2",
+    "pdf_url": "https://arxiv.org/pdf/2109.00923v2",
+    "categories": [
+      "econ.GN",
+      "cs.GT",
+      "cs.LG"
+    ],
+    "_target": "auctions_peer_prediction"
+  },
+  {
+    "title": "Optimizing Peer Grading: A Systematic Literature Review of Reviewer Assignment Strategies and Quantity of Reviewers",
+    "authors": [
+      "Uchswas Paul",
+      "Shail Shah",
+      "Sri Vaishnavi Mylavarapu",
+      "M. Parvez Rashid",
+      "Edward Gehringer"
+    ],
+    "summary": "Peer assessment has established itself as a critical pedagogical tool in academic settings, offering students timely, high-quality feedback to enhance learning outcomes. However, the efficacy of this approach depends on two factors: (1) the strategic allocation of reviewers and (2) the number of reviews per artifact. This paper presents a systematic literature review of 87 studies (2010--2024) to investigate how reviewer-assignment strategies and the number of reviews per submission impact the accuracy, fairness, and educational value of peer assessment. We identified four common reviewer-assi",
+    "entry_id": "http://arxiv.org/abs/2508.11678v2",
+    "pdf_url": "https://arxiv.org/pdf/2508.11678v2",
+    "categories": [
+      "cs.CY"
+    ],
+    "_target": "auctions_peer_prediction"
+  },
+  {
+    "title": "Measurement Integrity in Peer Prediction: A Peer Assessment Case Study",
+    "authors": [
+      "Noah Burrell",
+      "Grant Schoenebeck"
+    ],
+    "summary": "We propose measurement integrity, a property related to ex post reward fairness, as a novel desideratum for peer prediction mechanisms in many natural applications. Like robustness against strategic reporting, the property that has been the primary focus of the peer prediction literature, measurement integrity is an important consideration for understanding the practical performance of peer prediction mechanisms. We perform computational experiments, both with an agent-based model and with real data, to empirically evaluate peer prediction mechanisms according to both of these important proper",
+    "entry_id": "http://arxiv.org/abs/2108.05521v2",
+    "pdf_url": "https://arxiv.org/pdf/2108.05521v2",
+    "categories": [
+      "cs.GT"
+    ],
+    "_target": "auctions_peer_prediction"
+  },
+  {
+    "title": "Eliciting Honest Information From Authors Using Sequential Review",
+    "authors": [
+      "Yichi Zhang",
+      "Grant Schoenebeck",
+      "Weijie Su"
+    ],
+    "summary": "In the setting of conference peer review, the conference aims to accept high-quality papers and reject low-quality papers based on noisy review scores. A recent work proposes the isotonic mechanism, which can elicit the ranking of paper qualities from an author with multiple submissions to help improve the conference's decisions. However, the isotonic mechanism relies on the assumption that the author's utility is both an increasing and a convex function with respect to the review score, which is often violated in peer review settings (e.g.~when authors aim to maximize the number of accepted p",
+    "entry_id": "http://arxiv.org/abs/2311.14619v1",
+    "pdf_url": "https://arxiv.org/pdf/2311.14619v1",
+    "categories": [
+      "cs.GT",
+      "cs.AI"
+    ],
+    "_target": "eliciting_honest_information"
+  },
+  {
+    "title": "Characterisation of honest times and optional semimartingales of class-($\u03a3$)",
+    "authors": [
+      "Libo Li"
+    ],
+    "summary": "Given a finite honest time, we first show that the associated Az\u00e9ma optional supermartingale can be expressed as the drawdown and the relative drawdown of some local optional supermartingales with continuous running supremum. The relative drawdown representation then allows us to provide a characterisation of finite honest times using a family of non-negative local optional supermartingales with continuous running supremum which converges to zero at infinity. Then we extend the notion of semimartingales of class-$(\u03a3)$ by allowing for jumps in its finite variation part of the semimartingale dec",
+    "entry_id": "http://arxiv.org/abs/1801.03873v5",
+    "pdf_url": "https://arxiv.org/pdf/1801.03873v5",
+    "categories": [
+      "math.PR",
+      "q-fin.MF"
+    ],
+    "_target": "eliciting_honest_information"
+  },
+  {
+    "title": "Sequential Point Clouds: A Survey",
+    "authors": [
+      "Haiyan Wang",
+      "Yingli Tian"
+    ],
+    "summary": "Point cloud has drawn more and more research attention as well as real-world applications. However, many of these applications (e.g. autonomous driving and robotic manipulation) are actually based on sequential point clouds (i.e. four dimensions) because the information of the static point cloud data could provide is still limited. Recently, researchers put more and more effort into sequential point clouds. This paper presents an extensive review of the deep learning-based methods for sequential point cloud research including dynamic flow estimation, object detection \\& tracking, point cloud s",
+    "entry_id": "http://arxiv.org/abs/2204.09337v2",
+    "pdf_url": "https://arxiv.org/pdf/2204.09337v2",
+    "categories": [
+      "cs.CV"
+    ],
+    "_target": "eliciting_honest_information"
+  },
+  {
+    "title": "Finding Sequential Patterns from Large Sequence Data",
+    "authors": [
+      "Mahdi Esmaeili",
+      "Fazekas Gabor"
+    ],
+    "summary": "Data mining is the task of discovering interesting patterns from large amounts of data. There are many data mining tasks, such as classification, clustering, association rule mining, and sequential pattern mining. Sequential pattern mining finds sets of data items that occur together frequently in some sequences. Sequential pattern mining, which extracts frequent subsequences from a sequence database, has attracted a great deal of interest during the recent data mining research because it is the basis of many applications, such as: web user analysis, stock trend prediction, DNA sequence analys",
+    "entry_id": "http://arxiv.org/abs/1002.1150v1",
+    "pdf_url": "https://arxiv.org/pdf/1002.1150v1",
+    "categories": [
+      "cs.DB"
+    ],
+    "_target": "eliciting_honest_information"
+  },
+  {
+    "title": "Position: The AI Conference Peer Review Crisis Demands Author Feedback and Reviewer Rewards",
+    "authors": [
+      "Jaeho Kim",
+      "Yunseok Lee",
+      "Seulki Lee"
+    ],
+    "summary": "The peer review process in major artificial intelligence (AI) conferences faces unprecedented challenges with the surge of paper submissions (exceeding 10,000 submissions per venue), accompanied by growing concerns over review quality and reviewer responsibility. This position paper argues for the need to transform the traditional one-way review system into a bi-directional feedback loop where authors evaluate review quality and reviewers earn formal accreditation, creating an accountability framework that promotes a sustainable, high-quality peer review system. The current review system can b",
+    "entry_id": "http://arxiv.org/abs/2505.04966v1",
+    "pdf_url": "https://arxiv.org/pdf/2505.04966v1",
+    "categories": [
+      "cs.AI",
+      "cs.CY"
+    ],
+    "_target": "ai_conference_peer_review_crisis"
+  },
+  {
+    "title": "AI prediction leads people to forgo guaranteed rewards",
+    "authors": [
+      "Aoi Naito",
+      "Hirokazu Shirado"
+    ],
+    "summary": "Artificial intelligence (AI) is understood to affect the content of people's decisions. Here, using a behavioral implementation of the classic Newcomb's paradox in 1,305 participants, we show that AI can also change how people decide. In this paradigm, belief in predictive authority can lead individuals to constrain decision-making, forgoing a guaranteed reward. Over 40% of participants treated AI as such a predictive authority. This significantly increased the odds of forgoing the guaranteed reward by a factor of 3.39 (95% CI: 2.45-4.70) compared with random framing, and reduced earnings by 1",
+    "entry_id": "http://arxiv.org/abs/2603.28944v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.28944v1",
+    "categories": [
+      "cs.HC"
+    ],
+    "_target": "ai_conference_peer_review_crisis"
+  },
+  {
+    "title": "Paper Copilot: Tracking the Evolution of Peer Review in AI Conferences",
+    "authors": [
+      "Jing Yang",
+      "Qiyao Wei",
+      "Jiaxin Pei"
+    ],
+    "summary": "The rapid growth of AI conferences is straining an already fragile peer-review system, leading to heavy reviewer workloads, expertise mismatches, inconsistent evaluation standards, superficial or templated reviews, and limited accountability under compressed timelines. In response, conference organizers have introduced new policies and interventions to preserve review standards. Yet these ad-hoc changes often create further concerns and confusion about the review process, leaving how papers are ultimately accepted - and how practices evolve across years - largely opaque. We present Paper Copil",
+    "entry_id": "http://arxiv.org/abs/2510.13201v2",
+    "pdf_url": "https://arxiv.org/pdf/2510.13201v2",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.DL",
+      "cs.LG"
+    ],
+    "_target": "ai_conference_peer_review_crisis"
+  },
+  {
+    "title": "Evaluating the Economic Feasibility of Labor Replacement Through Robotics and Automation in Qatar",
+    "authors": [
+      "Tariq Eldakruri",
+      "Edip Senyurek"
+    ],
+    "summary": "This paper investigates the economic feasibility of replacing human labor with robotics and automation in Qatar's manufacturing and service sectors. By analyzing labor costs, productivity gains, and implementation expenses, the study assesses the potential financial impact and return on investment of robotic integration. Results indicate the sectors where automation is economically viable and identify challenges related to workforce adaptation, policy, and infrastructure. These insights provide guidance for policymakers and industry stakeholders considering automation strategies in Qatar.",
+    "entry_id": "http://arxiv.org/abs/2509.10152v1",
+    "pdf_url": "https://arxiv.org/pdf/2509.10152v1",
+    "categories": [
+      "econ.GN"
+    ],
+    "_target": "heckman_moktan_top_five"
+  },
+  {
+    "title": "Assessing Co-Authored Papers in Tenure Decisions: Implications for Research Independence and Career Strategies in Economics",
+    "authors": [
+      "Lekang Ren",
+      "Danyang Xie"
+    ],
+    "summary": "In tenure decisions, the treatment of co-authored papers often raises questions about a candidate's research independence. This study examines the effects of solo versus collaborative authorship in high-profile Economics journals on long-term academic success. Our findings confirms the traditional belief that solo-authored publications significantly enhance long-term research output and citation impact compared to collaborative efforts. However, relative to solo-authored papers, international collaborations have a less negative impact on long-term success than national and institutional collab",
+    "entry_id": "http://arxiv.org/abs/2501.05653v1",
+    "pdf_url": "https://arxiv.org/pdf/2501.05653v1",
+    "categories": [
+      "econ.GN"
+    ],
+    "_target": "heckman_moktan_top_five"
+  },
+  {
+    "title": "The Economics of No-regret Learning Algorithms",
+    "authors": [
+      "Jason Hartline"
+    ],
+    "summary": "A fundamental challenge for modern economics is to understand what happens when actors in an economy are replaced with algorithms. Like rationality has enabled understanding of outcomes of classical economic actors, no-regret can enable the understanding of outcomes of algorithmic actors. This review article covers the classical computer science literature on no-regret algorithms to provide a foundation for an overview of the latest economics research on no-regret algorithms, focusing on the emerging topics of manipulation, statistical inference, and algorithmic collusion.",
+    "entry_id": "http://arxiv.org/abs/2601.22079v1",
+    "pdf_url": "https://arxiv.org/pdf/2601.22079v1",
+    "categories": [
+      "econ.TH",
+      "cs.GT"
+    ],
+    "_target": "heckman_moktan_top_five"
+  },
+  {
+    "title": "An Interacting Agent Model of Economic Crisis",
+    "authors": [
+      "Yuichi Ikeda"
+    ],
+    "summary": "Most national economies are linked by international trade. Consequently, economic globalization forms a massive and complex economic network with strong links, that is, interactions arising from increasing trade. Various interesting collective motions are expected to emerge from strong economic interactions in a global economy under trade liberalization. Among the various economic collective motions, economic crises are our most intriguing problem. In our previous studies, we have revealed that the Kuramoto's coupled limit-cycle oscillator model and the Ising-like spin model on networks are in",
+    "entry_id": "http://arxiv.org/abs/2001.11843v1",
+    "pdf_url": "https://arxiv.org/pdf/2001.11843v1",
+    "categories": [
+      "physics.soc-ph",
+      "econ.GN"
+    ],
+    "_target": "heckman_moktan_top_five"
+  },
+  {
+    "title": "AgentReview: Exploring Peer Review Dynamics with LLM Agents",
+    "authors": [
+      "Yiqiao Jin",
+      "Qinlin Zhao",
+      "Yiyang Wang",
+      "Hao Chen",
+      "Kaijie Zhu",
+      "Yijia Xiao",
+      "Jindong Wang"
+    ],
+    "summary": "Peer review is fundamental to the integrity and advancement of scientific publication. Traditional methods of peer review analyses often rely on exploration and statistics of existing peer review data, which do not adequately address the multivariate nature of the process, account for the latent variables, and are further constrained by privacy concerns due to the sensitive nature of the data. We introduce AgentReview, the first large language model (LLM) based peer review simulation framework, which effectively disentangles the impacts of multiple latent factors and addresses the privacy issu",
+    "entry_id": "http://arxiv.org/abs/2406.12708v2",
+    "pdf_url": "https://arxiv.org/pdf/2406.12708v2",
+    "categories": [
+      "cs.CL"
+    ],
+    "_target": "agentreview_llm_dynamics"
+  },
+  {
+    "title": "How Frequently are Articles in Predatory Open Access Journals Cited",
+    "authors": [
+      "Bo-Christer Bj\u00f6rk",
+      "Sari Kanto-Karvonen",
+      "J. Tuomas Harviainen"
+    ],
+    "summary": "Predatory journals are Open Access journals of highly questionable scientific quality. Such journals pretend to use peer review for quality assurance, and spam academics with requests for submissions, in order to collect author payments. In recent years predatory journals have received a lot of negative media. While much has been said about the harm that such journals cause to academic publishing in general, an overlooked aspect is how much articles in such journals are actually read and in particular cited, that is if they have any significant impact on the research in their fields. Other stu",
+    "entry_id": "http://arxiv.org/abs/1912.10228v1",
+    "pdf_url": "https://arxiv.org/pdf/1912.10228v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "_target": "predatory_oa_cited_2"
+  },
+  {
+    "title": "Research on Diamond Open Access in the Long Shadow of Science Policy",
+    "authors": [
+      "Niels Taubert"
+    ],
+    "summary": "This paper reviews research literature on Diamond Open Access (DOA) journals - sometimes also called Platinum Open Access - that was produced after this journal segment started to become a priority in European research policy around 2020. It contextualizes the current science policy debate, critically examines different understandings of DOA, and reviews studies on the role of such journals in scholarly communication. Most existing research consists of quantitative studies focusing on aspects such as the number of DOA journals, their publication output, the diversity of the landscape in terms ",
+    "entry_id": "http://arxiv.org/abs/2511.22965v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.22965v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "_target": "predatory_oa_cited_2"
+  },
+  {
+    "title": "Medical articles in questionable journals are less impactful than those in non-questionable journals but still extensively cited",
+    "authors": [
+      "Dimity Stephen"
+    ],
+    "summary": "A key feature of questionable journals is a lack of adequate peer review of their articles. Content of thus unknown quality may be utilised by unsuspecting practitioners or incorporated into peer-reviewed research, becoming legitimised. It is therefore necessary to examine the citation patterns of articles in questionable journals to understand the impact and reach of research in questionable journals. Similar research has tended to focus on authors from low- and middle-income countries. As such, this study investigates the profile and impact of research in questionable journals by authors in ",
+    "entry_id": "http://arxiv.org/abs/2210.15350v1",
+    "pdf_url": "https://arxiv.org/pdf/2210.15350v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "_target": "predatory_oa_cited_2"
+  },
+  {
+    "title": "Comment on \"Open is not forever: a study of vanished open access journals\"",
+    "authors": [
+      "Matan Shelomi"
+    ],
+    "summary": "We comment on a recent article by Laakso et al. (arXiv:2008.11933 [cs.DL]), in which the disappearance of 176 open access journals from the Internet is noted. We argue that one reason these journals may have vanished is that they were predatory journals. The de-listing of predators from the Directory of Open Access Journals in 2014 and the abundance of predatory journals and awareness thereof in North America parsimoniously explain the temporal and geographic patterns Laakso et al. observed.",
+    "entry_id": "http://arxiv.org/abs/2009.07561v1",
+    "pdf_url": "https://arxiv.org/pdf/2009.07561v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "_target": "predatory_oa_cited_2"
+  },
+  {
+    "title": "Analysis of the ALMA Cycle 8 Distributed Peer Review Process",
+    "authors": [
+      "Jennifer Donovan Meyer",
+      "Andrea Corvill\u00f3n",
+      "John M. Carpenter",
+      "Adele L. Plunkett",
+      "Robert Kurowski",
+      "Alex Chalevin",
+      "Jakob Bruenker",
+      "D. -C. Kim",
+      "Enrique Mac\u00edas"
+    ],
+    "summary": "In response to the challenges presented by high reviewer workloads in traditional panel reviews and increasing numbers of submitted proposals, ALMA implemented distributed peer review to assess the majority of proposals submitted to the Cycle 8 Main Call. In this paper, we present an analysis of this review process. Over 1000 reviewers participated in the process to review 1497 proposals, making it the largest implementation of distributed peer review to date in astronomy, and marking the first time this process has been used to award the majority of observing time at an observatory. We descri",
+    "entry_id": "http://arxiv.org/abs/2204.05390v2",
+    "pdf_url": "https://arxiv.org/pdf/2204.05390v2",
+    "categories": [
+      "astro-ph.IM"
+    ],
+    "_target": "peer_review_past_present_future"
+  },
+  {
+    "title": "Towards A Sustainable Future for Peer Review in Software Engineering",
+    "authors": [
+      "Esteban Parra",
+      "Sonia Haiduc",
+      "Preetha Chatterjee",
+      "Ramtin Ehsani",
+      "Polina Iaremchuk"
+    ],
+    "summary": "Peer review is the main mechanism by which the software engineering community assesses the quality of scientific results. However, the rapid growth of paper submissions in software engineering venues has outpaced the availability of qualified reviewers, creating a growing imbalance that risks constraining and negatively impacting the long-term growth of the Software Engineering (SE) research community. Our vision of the Future of the SE research landscape involves a more scalable, inclusive, and resilient peer review process that incorporates additional mechanisms for: 1) attracting and traini",
+    "entry_id": "http://arxiv.org/abs/2601.21761v1",
+    "pdf_url": "https://arxiv.org/pdf/2601.21761v1",
+    "categories": [
+      "cs.SE"
+    ],
+    "_target": "peer_review_past_present_future"
+  },
+  {
+    "title": "Reforming research funding: Combining editorial preregistration with grant peer review",
+    "authors": [
+      "Lutz Bornmann",
+      "Gerald Schweiger"
+    ],
+    "summary": "Competitive grant funding is associated with high costs and a potential bias to favor conservative research. This comment proposes integrating editorial preregistration, in the form of registered reports, into grant peer review processes as a reform strategy. Linking funding decisions to in principle accepted study protocols would reduce reviewer burden, strengthen methodological rigor, and provide an institutional foundation for (more) replication, theory driven research, and high risk research. Our proposal also minimizes strategic proposal writing and ensures scholarly output through the pu",
+    "entry_id": "http://arxiv.org/abs/2511.01439v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.01439v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "_target": "innovation_suppression_lehman"
+  },
+  {
+    "title": "Normalization of peer-evaluation measures of group research quality across academic disciplines",
+    "authors": [
+      "Ralph Kenna",
+      "Bertrand Berche"
+    ],
+    "summary": "Peer-evaluation based measures of group research quality such as the UK's Research Assessment Exercise (RAE), which do not employ bibliometric analyses, cannot directly avail of such methods to normalize research impact across disciplines. This is seen as a conspicuous flaw of such exercises and calls have been made to find a remedy. Here a simple, systematic solution is proposed based upon a mathematical model for the relationship between research quality and group quantity. This model manifests both the Matthew effect and a phenomenon akin to the Ringelmann effect and reveals the existence o",
+    "entry_id": "http://arxiv.org/abs/1006.3863v2",
+    "pdf_url": "https://arxiv.org/pdf/1006.3863v2",
+    "categories": [
+      "physics.soc-ph",
+      "cs.DL"
+    ],
+    "_target": "closing_door_metric_evaluation"
+  },
+  {
+    "title": "Overview of the Sensemaking Task at the ELOQUENT 2025 Lab: LLMs as Teachers, Students and Evaluators",
+    "authors": [
+      "Pavel \u0160indel\u00e1\u0159",
+      "Ond\u0159ej Bojar"
+    ],
+    "summary": "ELOQUENT is a set of shared tasks that aims to create easily testable high-level criteria for evaluating generative language models. Sensemaking is one such shared task.\n  In Sensemaking, we try to assess how well generative models ``make sense out of a given text'' in three steps inspired by exams in a classroom setting: (1) Teacher systems should prepare a set of questions, (2) Student systems should answer these questions, and (3) Evaluator systems should score these answers, all adhering rather strictly to a given set of input materials.\n  We report on the 2025 edition of Sensemaking, wher",
+    "entry_id": "http://arxiv.org/abs/2507.12143v1",
+    "pdf_url": "https://arxiv.org/pdf/2507.12143v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "_target": "closing_door_metric_evaluation"
+  },
+  {
+    "title": "VQualA 2025 Challenge on Engagement Prediction for Short Videos: Methods and Results",
+    "authors": [
+      "Dasong Li",
+      "Sizhuo Ma",
+      "Hang Hua",
+      "Wenjie Li",
+      "Jian Wang",
+      "Chris Wei Zhou",
+      "Fengbin Guan",
+      "Xin Li",
+      "Zihao Yu",
+      "Yiting Lu",
+      "Ru-Ling Liao",
+      "Yan Ye",
+      "Zhibo Chen",
+      "Wei Sun",
+      "Linhan Cao",
+      "Yuqin Cao",
+      "Weixia Zhang",
+      "Wen Wen",
+      "Kaiwei Zhang",
+      "Zijian Chen",
+      "Fangfang Lu",
+      "Xiongkuo Min",
+      "Guangtao Zhai",
+      "Erjia Xiao",
+      "Lingfeng Zhang",
+      "Zhenjie Su",
+      "Hao Cheng",
+      "Yu Liu",
+      "Renjing Xu",
+      "Long Chen",
+      "Xiaoshuai Hao",
+      "Zhenpeng Zeng",
+      "Jianqin Wu",
+      "Xuxu Wang",
+      "Qian Yu",
+      "Bo Hu",
+      "Weiwei Wang",
+      "Pinxin Liu",
+      "Yunlong Tang",
+      "Luchuan Song",
+      "Jinxi He",
+      "Jiaru Wu",
+      "Hanjia Lyu"
+    ],
+    "summary": "This paper presents an overview of the VQualA 2025 Challenge on Engagement Prediction for Short Videos, held in conjunction with ICCV 2025. The challenge focuses on understanding and modeling the popularity of user-generated content (UGC) short videos on social media platforms. To support this goal, the challenge uses a new short-form UGC dataset featuring engagement metrics derived from real-world user interactions. This objective of the Challenge is to promote robust modeling strategies that capture the complex factors influencing user engagement. Participants explored a variety of multi-mod",
+    "entry_id": "http://arxiv.org/abs/2509.02969v1",
+    "pdf_url": "https://arxiv.org/pdf/2509.02969v1",
+    "categories": [
+      "cs.CV",
+      "cs.MM",
+      "cs.SI"
+    ],
+    "_target": "closing_door_metric_evaluation"
+  },
+  {
+    "title": "LongEval at CLEF 2025: Longitudinal Evaluation of IR Model Performance",
+    "authors": [
+      "Matteo Cancellieri",
+      "Alaa El-Ebshihy",
+      "Tobias Fink",
+      "Petra Galu\u0161\u010d\u00e1kov\u00e1",
+      "Gabriela Gonzalez-Saez",
+      "Lorraine Goeuriot",
+      "David Iommi",
+      "J\u00fcri Keller",
+      "Petr Knoth",
+      "Philippe Mulhem",
+      "Florina Piroi",
+      "David Pride",
+      "Philipp Schaer"
+    ],
+    "summary": "This paper presents the third edition of the LongEval Lab, part of the CLEF 2025 conference, which continues to explore the challenges of temporal persistence in Information Retrieval (IR). The lab features two tasks designed to provide researchers with test data that reflect the evolving nature of user queries and document relevance over time. By evaluating how model performance degrades as test data diverge temporally from training data, LongEval seeks to advance the understanding of temporal dynamics in IR systems. The 2025 edition aims to engage the IR and NLP communities in addressing the",
+    "entry_id": "http://arxiv.org/abs/2503.08541v1",
+    "pdf_url": "https://arxiv.org/pdf/2503.08541v1",
+    "categories": [
+      "cs.IR"
+    ],
+    "_target": "closing_door_metric_evaluation"
+  },
+  {
+    "title": "MAGIC and MWL monitoring of the blazar TXS 0506+056 in the 2018/2019 season",
+    "authors": [
+      "Konstancja Satalecka",
+      "Elisa Bernardini",
+      "Wrijupan Bhattacharyya",
+      "Matteo Cerruti",
+      "Vandad Fallah Ramazani",
+      "Luca Foffano",
+      "Susumu Inoue",
+      "Elisa Prandini",
+      "Chiara Righi",
+      "Narek Sahakyan",
+      "Fabrizio Tavecchio"
+    ],
+    "summary": "The gamma-ray blazar TXS 0506+056, was discovered in VHE gamma-rays by the MAGIC telescopes in 2017 in a follow-up campaign of a high energy neutrino event IceCube-170922A (IC+Fermi+MAGIC++, Science 361, eaat1378 (2018)). Subsequent multivawelenght (MWL) observations and theoretical modeling in a frame of hadro-leptonic emission confirmed that this source could be a potential cosmic ray and neutrino emitter (MAGIC Collaboration, Ansoldi et al., (2018)). This is, by far, the most significant association between a high-energy neutrino and an astrophysical source emitting gamma rays and X-rays. T",
+    "entry_id": "http://arxiv.org/abs/1909.04938v1",
+    "pdf_url": "https://arxiv.org/pdf/1909.04938v1",
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "_target": "trustworthiness_signaling"
+  },
+  {
+    "title": "Pulsar Science with the SKA Observatory",
+    "authors": [
+      "Bhal Chandra Joshi",
+      "Aris Karastergiou",
+      "Marta Burgay",
+      "The SKA pulsar science working group"
+    ],
+    "summary": "The large instantaneous sensitivity, a wide frequency coverage and flexible observation modes with large number of beams in the sky are the main features of the SKA observatory's two telescopes, the SKA-Low and the SKA-Mid, which are located on two different continents. Owing to these capabilities, the SKAO telescopes are going to be a game-changer for radio astronomy in general and pulsar astronomy in particular. The eleven articles in this special issue on pulsar science with the SKA Observatory describe its impact on different areas of pulsar science. In this lead article, a brief descripti",
+    "entry_id": "http://arxiv.org/abs/2512.16152v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.16152v1",
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "_target": "trustworthiness_signaling"
+  },
+  {
+    "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+    "authors": [
+      "LSST Dark Energy Science Collaboration"
+    ],
+    "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark energy science and describes the current and anticipated state of the field. It makes the case for the DESC by laying out a robust analytical framework for dark energy science that has been defined by its members and the comprehensive three-year work plan they have developed for implementing that framework. The analysis working groups cover five ke",
+    "entry_id": "http://arxiv.org/abs/1211.0310v1",
+    "pdf_url": "https://arxiv.org/pdf/1211.0310v1",
+    "categories": [
+      "astro-ph.CO",
+      "hep-ex"
+    ],
+    "_target": "trustworthiness_signaling"
+  },
+  {
+    "title": "Overview and Results: CL-SciSumm Shared Task 2019",
+    "authors": [
+      "Muthu Kumar Chandrasekaran",
+      "Michihiro Yasunaga",
+      "Dragomir Radev",
+      "Dayne Freitag",
+      "Min-Yen Kan"
+    ],
+    "summary": "The CL-SciSumm Shared Task is the first medium-scale shared task on scientific document summarization in the computational linguistics~(CL) domain. In 2019, it comprised three tasks: (1A) identifying relationships between citing documents and the referred document, (1B) classifying the discourse facets, and (2) generating the abstractive summary. The dataset comprised 40 annotated sets of citing and reference papers of the CL-SciSumm 2018 corpus and 1000 more from the SciSummNet dataset. All papers are from the open access research papers in the CL domain. This overview describes the participa",
+    "entry_id": "http://arxiv.org/abs/1907.09854v1",
+    "pdf_url": "https://arxiv.org/pdf/1907.09854v1",
+    "categories": [
+      "cs.CL",
+      "cs.DL",
+      "cs.IR"
+    ],
+    "_target": "trustworthiness_signaling"
+  },
+  {
+    "title": "Seasonal Entropy, Diversity and Inequality Measures of Submitted and Accepted Papers Distributions In Peer-Reviewed Journals",
+    "authors": [
+      "Marcel Ausloos",
+      "Olgica Nedic",
+      "Aleksandar Dekanski"
+    ],
+    "summary": "This paper presents a novel method for finding features in the analysis of variable distributions stemming from time series. We apply the methodology to the case of submitted and accepted papers in peer-reviewed journals. We provide a comparative study of editorial decisions for papers submitted to two peer-reviewed journals: the Journal of the Serbian Chemical Society (JSCS) and this MDPI Entropy journal. We cover three recent years for which the fate of submitted papers, about 600 papers to JSCS and 2500 to Entropy, is completely determined. Instead of comparing the number distributions of t",
+    "entry_id": "http://arxiv.org/abs/1910.05723v1",
+    "pdf_url": "https://arxiv.org/pdf/1910.05723v1",
+    "categories": [
+      "cs.DL",
+      "physics.soc-ph"
+    ],
+    "_target": "info_cascade_peer_review"
+  },
+  {
+    "title": "When Reviewers Lock Horn: Finding Disagreement in Scientific Peer Reviews",
+    "authors": [
+      "Sandeep Kumar",
+      "Tirthankar Ghosal",
+      "Asif Ekbal"
+    ],
+    "summary": "To this date, the efficacy of the scientific publishing enterprise fundamentally rests on the strength of the peer review process. The journal editor or the conference chair primarily relies on the expert reviewers' assessment, identify points of agreement and disagreement and try to reach a consensus to make a fair and informed decision on whether to accept or reject a paper. However, with the escalating number of submissions requiring review, especially in top-tier Artificial Intelligence (AI) conferences, the editor/chair, among many other works, invests a significant, sometimes stressful e",
+    "entry_id": "http://arxiv.org/abs/2310.18685v1",
+    "pdf_url": "https://arxiv.org/pdf/2310.18685v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "_target": "reviewer_disagreement_study"
+  },
+  {
+    "title": "Metrics and peer review agreement at the institutional level",
+    "authors": [
+      "V. A. Traag",
+      "M. Malgarini",
+      "S. Sarlo"
+    ],
+    "summary": "In the past decades, many countries have started to fund academic institutions based on the evaluation of their scientific performance. In this context, post-publication peer review is often used to assess scientific performance. Bibliometric indicators have been suggested as an alternative to peer review. A recurrent question in this context is whether peer review and metrics tend to yield similar outcomes. In this paper, we study the agreement between bibliometric indicators and peer review based on a sample of publications submitted for evaluation to the national Italian research assessment",
+    "entry_id": "http://arxiv.org/abs/2006.14830v2",
+    "pdf_url": "https://arxiv.org/pdf/2006.14830v2",
+    "categories": [
+      "cs.DL"
+    ],
+    "_target": "noise_peer_review"
+  },
+  {
+    "title": "The Drain of Scientific Publishing",
+    "authors": [
+      "Fernanda Beigel",
+      "Dan Brockington",
+      "Paolo Crosetto",
+      "Gemma Derrick",
+      "Aileen Fyfe",
+      "Pablo Gomez Barreiro",
+      "Mark A. Hanson",
+      "Stefanie Haustein",
+      "Vincent Larivi\u00e8re",
+      "Christine Noe",
+      "Stephen Pinfield",
+      "James Wilsdon"
+    ],
+    "summary": "The domination of scientific publishing in the Global North by major commercial publishers is harmful to science. We need the most powerful members of the research community, funders, governments and Universities, to lead the drive to re-communalise publishing to serve science not the market.",
+    "entry_id": "http://arxiv.org/abs/2511.04820v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.04820v2",
+    "categories": [
+      "cs.DL"
+    ],
+    "_target": "growth_publishing_lariviere"
+  },
+  {
+    "title": "Flux growth of Sr(n+1)Ir(n)O(3n+1) [n=1, 2, infinity] crystals",
+    "authors": [
+      "Kaustuv Manna",
+      "Gizem Aslan-Cansever",
+      "Andrey Maljuk",
+      "Sabine Wurmehl",
+      "Silvia Seiro",
+      "Bernd B\u00fcchner"
+    ],
+    "summary": "Single crystals of iridates are usually grown by a flux method well above the boiling point of the SrCl2 solvent. This leads to non-equilibrium growth conditions and dramatically shortens the lifetime of expensive Pt crucibles. Here, we report the growth of Sr2IrO4, Sr3Ir2O7 and SrIrO3 single crystals in a reproducible way by using anhydrous SrCl2 flux well below its boiling point. We show that the yield of the different phases strongly depends on the nutrient/solvent ratio for fixed soak temperature and cooling rate. Using this low-temperature growth approach generally leads to a lower temper",
+    "entry_id": "http://arxiv.org/abs/2004.03654v1",
+    "pdf_url": "https://arxiv.org/pdf/2004.03654v1",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "_target": "growth_publishing_lariviere"
+  },
+  {
+    "title": "Measurement of the Capillary Length for the Dendritic Growth of Ammonium Chloride",
+    "authors": [
+      "Andrew Dougherty"
+    ],
+    "summary": "We report the results of a new method of measuring the capillary length for the dendritic crystal growth of non-faceted materials. This method uses a nearly spherical crystal held near unstable equilibrium in an oscillating temperature field. For the growth of ammonium chloride crystals from aqueous solution, previous published estimates of the capillary length varied by over a factor of 20. With this new method, we find the product of the diffusion constant and capillary length $D d_0$ to be $0.78 \\pm 0.07 \\,\\mathrm{\u03bcm^3/s}$, similar to that obtained for ammonium bromide crystals.",
+    "entry_id": "http://arxiv.org/abs/1206.4030v2",
+    "pdf_url": "https://arxiv.org/pdf/1206.4030v2",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "nlin.PS"
+    ],
+    "_target": "growth_publishing_lariviere"
+  }
+]

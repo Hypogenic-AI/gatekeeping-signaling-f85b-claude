@@ -1,0 +1,2004 @@
+[
+  {
+    "title": "Extending ArXiv.org to Achieve Open Peer Review and Publishing",
+    "authors": [
+      "Axel Boldt"
+    ],
+    "summary": "Today's peer review process for scientific articles is unnecessarily opaque and offers few incentives to referees. Likewise, the publishing process is unnecessarily inefficient and its results are only rarely made freely available to the public. Here we outline a comparatively simple extension of arXiv.org, an online preprint archive widely used in the mathematical and physical sciences, that addresses both of these problems. Under the proposal, editors invite referees to write public and signed reviews to be attached to the posted preprints, and then elevate selected articles to \"published\" status.",
+    "published": "2010-11-23 14:23:07+00:00",
+    "entry_id": "http://arxiv.org/abs/1011.6590v1",
+    "pdf_url": "https://arxiv.org/pdf/1011.6590v1",
+    "categories": [
+      "cs.OH"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "Does the use of open, non-anonymous peer review in scholarly publishing introduce bias? Evidence from the F1000 post-publication open peer review publishing model",
+    "authors": [
+      "Mike Thelwall",
+      "Verena Weigert",
+      "Liz Allen",
+      "Zena Nyakoojo",
+      "Eleanor-Rose Papas"
+    ],
+    "summary": "This study examines whether there is any evidence of bias in two areas of common critique of open, non-anonymous peer review - and used in the post-publication, peer review system operated by the open-access scholarly publishing platform F1000Research. First, is there evidence of bias where a reviewer based in a specific country assesses the work of an author also based in the same country? Second, are reviewers influenced by being able to see the comments and know the origins of previous reviewer? Methods: Scrutinising the open peer review comments published on F1000Research, we assess the extent of two frequently cited potential influences on reviewers that may be the result of the transparency offered by a fully attributable, open peer review publishing model: the national affiliations of authors and reviewers, and the ability of reviewers to view previously-published reviewer reports before submitting their own. The effects of these potential influences were investigated for all first versions of articles published by 8 July 2019 to F1000Research. In 16 out of the 20 countries with the most articles, there was a tendency for reviewers based in the same country to give a more positive review. The difference was statistically significant in one. Only 3 countries had the reverse tendency. Second, there is no evidence of a conformity bias. When reviewers mentioned a previous review in their peer review report, they were not more likely to give the same overall judgement. Although reviewers who had longer to potentially read a previously published reviewer reports were slightly less likely to agree with previous reviewer judgements, this could be due to these articles being difficult to judge rather than deliberate non-conformity.",
+    "published": "2019-11-08 16:59:50+00:00",
+    "entry_id": "http://arxiv.org/abs/1911.03379v1",
+    "pdf_url": "https://arxiv.org/pdf/1911.03379v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "Optimizing Peer Grading: A Systematic Literature Review of Reviewer Assignment Strategies and Quantity of Reviewers",
+    "authors": [
+      "Uchswas Paul",
+      "Shail Shah",
+      "Sri Vaishnavi Mylavarapu",
+      "M. Parvez Rashid",
+      "Edward Gehringer"
+    ],
+    "summary": "Peer assessment has established itself as a critical pedagogical tool in academic settings, offering students timely, high-quality feedback to enhance learning outcomes. However, the efficacy of this approach depends on two factors: (1) the strategic allocation of reviewers and (2) the number of reviews per artifact. This paper presents a systematic literature review of 87 studies (2010--2024) to investigate how reviewer-assignment strategies and the number of reviews per submission impact the accuracy, fairness, and educational value of peer assessment. We identified four common reviewer-assignment strategies: random assignment, competency-based assignment, social-network-based assignment, and bidding. Drawing from both quantitative data and qualitative insights, we explored the trade-offs involved in each approach. Random assignment, while widely used, often results in inconsistent grading and fairness concerns. Competency-based strategies can address these issues. Meanwhile, social and bidding-based methods have the potential to improve fairness and timeliness -- existing empirical evidence is limited. In terms of review count, assigning three reviews per submission emerges as the most common practice. A range of three to five reviews per student or per submission is frequently cited as a recommended spot that balances grading accuracy, student workload, learning outcomes, and engagement.",
+    "published": "2025-08-08 15:28:39+00:00",
+    "entry_id": "http://arxiv.org/abs/2508.11678v2",
+    "pdf_url": "https://arxiv.org/pdf/2508.11678v2",
+    "categories": [
+      "cs.CY"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "Peer-to-Peer Secure Multi-Party Numerical Computation",
+    "authors": [
+      "Danny Bickson",
+      "Genia Bezman",
+      "Danny Dolev",
+      "Benny Pinkas"
+    ],
+    "summary": "We propose an efficient framework for enabling secure multi-party numerical computations in a Peer-to-Peer network. This problem arises in a range of applications such as collaborative filtering, distributed computation of trust and reputation, monitoring and numerous other tasks, where the computing nodes would like to preserve the privacy of their inputs while performing a joint computation of a certain function.\n  Although there is a rich literature in the field of distributed systems security concerning secure multi-party computation, in practice it is hard to deploy those methods in very large scale Peer-to-Peer networks. In this work, we examine several possible approaches and discuss their feasibility. Among the possible approaches, we identify a single approach which is both scalable and theoretically secure.\n  An additional novel contribution is that we show how to compute the neighborhood based collaborative filtering, a state-of-the-art collaborative filtering algorithm, winner of the Netflix progress prize of the year 2007. Our solution computes this algorithm in a Peer-to-Peer network, using a privacy preserving computation, without loss of accuracy.\n  Using extensive large scale simulations on top of real Internet topologies, we demonstrate the applicability of our approach. As far as we know, we are the first to implement such a large scale secure multi-party simulation of networks of millions of nodes and hundreds of millions of edges.",
+    "published": "2008-10-09 13:07:36+00:00",
+    "entry_id": "http://arxiv.org/abs/0810.1624v1",
+    "pdf_url": "https://arxiv.org/pdf/0810.1624v1",
+    "categories": [
+      "cs.CR",
+      "cs.DC"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "On Performance of Peer Review for Academic Journals: Analysis Based on Distributed Parallel System",
+    "authors": [
+      "Zong-Yuan Tan",
+      "Ning Cai",
+      "Jian Zhou",
+      "Sheng-Guo Zhang"
+    ],
+    "summary": "A simulation model based on parallel systems is established, aiming to explore the relation between the number of submissions and the overall standard of academic journals within a similar discipline under peer review. The model can effectively simulate the submission, review, and acceptance behaviors of academic journals in a distributed manner. According to the simulation experiments, it could possibly happen that the overall standard of academic journals deteriorates due to excessive submissions.",
+    "published": "2018-06-01 11:09:30+00:00",
+    "entry_id": "http://arxiv.org/abs/1806.00287v2",
+    "pdf_url": "https://arxiv.org/pdf/1806.00287v2",
+    "categories": [
+      "cs.DL",
+      "cs.SI"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "A Semi-automated Peer-review System",
+    "authors": [
+      "Bradly Alicea"
+    ],
+    "summary": "A semi-supervised model of peer review is introduced that is intended to overcome the bias and incompleteness of traditional peer review. Traditional approaches are reliant on human biases, while consensus decision-making is constrained by sparse information. Here, the architecture for one potential improvement (a semi-supervised, human-assisted classifier) to the traditional approach will be introduced and evaluated. To evaluate the potential advantages of such a system, hypothetical receiver operating characteristic (ROC) curves for both approaches will be assessed. This will provide more specific indications of how automation would be beneficial in the manuscript evaluation process. In conclusion, the implications for such a system on measurements of scientific impact and improving the quality of open submission repositories will be discussed.",
+    "published": "2013-11-11 17:07:16+00:00",
+    "entry_id": "http://arxiv.org/abs/1311.2504v1",
+    "pdf_url": "https://arxiv.org/pdf/1311.2504v1",
+    "categories": [
+      "cs.DL",
+      "cs.HC",
+      "cs.SI",
+      "physics.soc-ph"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "The Feasibility of Topic-Based Watermarking on Academic Peer Reviews",
+    "authors": [
+      "Alexander Nemecek",
+      "Yuzhou Jiang",
+      "Erman Ayday"
+    ],
+    "summary": "Large language models (LLMs) are increasingly integrated into academic workflows, with many conferences and journals permitting their use for tasks such as language refinement and literature summarization. However, their use in peer review remains prohibited due to concerns around confidentiality breaches, hallucinated content, and inconsistent evaluations. As LLM-generated text becomes more indistinguishable from human writing, there is a growing need for reliable attribution mechanisms to preserve the integrity of the review process. In this work, we evaluate topic-based watermarking (TBW), a semantic-aware technique designed to embed detectable signals into LLM-generated text. We conduct a systematic assessment across multiple LLM configurations, including base, few-shot, and fine-tuned variants, using authentic peer review data from academic conferences. Our results show that TBW maintains review quality relative to non-watermarked outputs, while demonstrating robust detection performance under paraphrasing. These findings highlight the viability of TBW as a minimally intrusive and practical solution for LLM attribution in peer review settings.",
+    "published": "2025-05-27 18:09:27+00:00",
+    "entry_id": "http://arxiv.org/abs/2505.21636v2",
+    "pdf_url": "https://arxiv.org/pdf/2505.21636v2",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "Analysis of the ALMA Cycle 8 Distributed Peer Review Process",
+    "authors": [
+      "Jennifer Donovan Meyer",
+      "Andrea Corvill\u00f3n",
+      "John M. Carpenter",
+      "Adele L. Plunkett",
+      "Robert Kurowski",
+      "Alex Chalevin",
+      "Jakob Bruenker",
+      "D. -C. Kim",
+      "Enrique Mac\u00edas"
+    ],
+    "summary": "In response to the challenges presented by high reviewer workloads in traditional panel reviews and increasing numbers of submitted proposals, ALMA implemented distributed peer review to assess the majority of proposals submitted to the Cycle 8 Main Call. In this paper, we present an analysis of this review process. Over 1000 reviewers participated in the process to review 1497 proposals, making it the largest implementation of distributed peer review to date in astronomy, and marking the first time this process has been used to award the majority of observing time at an observatory. We describe the process to assign proposals to reviewers, analyze the nearly 15,000 ranks and comments submitted by reviewers to identify any trends and systematics, and gather feedback on the process from reviewers and Principal Investigators (PIs) through surveys. Approximately 90% of the proposal assignments were aligned with the expertise of the reviewer, as measured both by the expertise keywords provided by the reviewers and the reviewers' self-assessment of their expertise on their assigned proposals. PIs rated 73% of the individual review comments as helpful, and even though the reviewers had a broad range of experience levels, PIs rated the quality of the comments received from students and senior researchers similarly. The primary concerns raised by PIs were the quality of some reviewer comments and high dispersions in the ranks. The ranks and comments are correlated with various demographics to identify the main areas in which the review process can be improved in future cycles.",
+    "published": "2022-04-11 20:17:27+00:00",
+    "entry_id": "http://arxiv.org/abs/2204.05390v2",
+    "pdf_url": "https://arxiv.org/pdf/2204.05390v2",
+    "categories": [
+      "astro-ph.IM"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "What Constitutes Peer Review of Data: A survey of published peer review guidelines",
+    "authors": [
+      "Todd A Carpenter"
+    ],
+    "summary": "Since a number of journals specifically focus on the review and publication of data sets, reviewing their policies seems an appropriate place to start in assessing what existing practice looks like in the 'real world' of reviewing and publishing data. This article outlines a study of the publicly available peer review policies of 39 scientific publications that publish data papers to discern which criteria are most and least frequently referenced. It also compares current practice with proposed criteria published in 2012.",
+    "published": "2017-04-07 14:07:57+00:00",
+    "entry_id": "http://arxiv.org/abs/1704.02236v1",
+    "pdf_url": "https://arxiv.org/pdf/1704.02236v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "Detecting AI-Generated Content in Academic Peer Reviews",
+    "authors": [
+      "Siyuan Shen",
+      "Kai Wang"
+    ],
+    "summary": "The growing availability of large language models (LLMs) has raised questions about their role in academic peer review. This study examines the temporal emergence of AI-generated content in peer reviews by applying a detection model trained on historical reviews to later review cycles at International Conference on Learning Representations (ICLR) and Nature Communications (NC). We observe minimal detection of AI-generated content before 2022, followed by a substantial increase through 2025, with approximately 20% of ICLR reviews and 12% of Nature Communications reviews classified as AI-generated in 2025. The most pronounced growth of AI-generated reviews in NC occurs between the third and fourth quarter of 2024. Together, these findings provide suggestive evidence of a rapidly increasing presence of AI-assisted content in peer review and highlight the need for further study of its implications for scholarly evaluation.",
+    "published": "2026-01-30 21:15:08+00:00",
+    "entry_id": "http://arxiv.org/abs/2602.00319v2",
+    "pdf_url": "https://arxiv.org/pdf/2602.00319v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG",
+      "cs.SI"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "Ants-Review: a Protocol for Incentivized Open Peer-Reviews on Ethereum",
+    "authors": [
+      "Bianca Trov\u00f2",
+      "Nazzareno Massari"
+    ],
+    "summary": "Peer-review is a necessary and essential quality control step for scientific publications but lacks proper incentives. Indeed, the process, which is very costly in terms of time and intellectual investment, not only is not remunerated by the journals but is also not openly recognized by the academic community as a relevant scientific output for a researcher. Therefore, scientific dissemination is affected in timeliness, quality, and fairness. Here, to solve this issue, we propose a blockchain-based incentive system that rewards scientists for peer-reviewing other scientists' work and that builds up trust and reputation. We designed a privacy-oriented protocol of smart contracts called Ants-Review that allows authors to issue a bounty for open anonymous peer-reviews on Ethereum. If requirements are met, peer-reviews will be accepted and paid by the approver proportionally to their assessed quality. To promote ethical behavior and inclusiveness the system implements a gamified mechanism that allows the whole community to evaluate the peer-reviews and vote for the best ones.",
+    "published": "2021-01-22 23:32:41+00:00",
+    "entry_id": "http://arxiv.org/abs/2101.09378v1",
+    "pdf_url": "https://arxiv.org/pdf/2101.09378v1",
+    "categories": [
+      "cs.DL",
+      "cs.CR",
+      "cs.CY",
+      "cs.DC",
+      "cs.GT"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "On Novel Peer Review System for Academic Journals: Experimental Study Based on Social Computing",
+    "authors": [
+      "Li Liu",
+      "Qian Wang",
+      "Zong-Yuan Tan",
+      "Ning Cai"
+    ],
+    "summary": "For improving the performance and effectiveness of peer review, a novel review system is proposed, based on analysis of peer review process for academic journals under a parallel model built via Monte Carlo method. The model can simulate the review, application and acceptance activities of the review systems, in a distributed manner. According to simulation experiments on two distinct review systems respectively, significant advantages manifest for the novel one.",
+    "published": "2021-11-11 08:18:31+00:00",
+    "entry_id": "http://arxiv.org/abs/2111.06099v1",
+    "pdf_url": "https://arxiv.org/pdf/2111.06099v1",
+    "categories": [
+      "cs.DL",
+      "eess.SY"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "Peer Review as A Multi-Turn and Long-Context Dialogue with Role-Based Interactions",
+    "authors": [
+      "Cheng Tan",
+      "Dongxin Lyu",
+      "Siyuan Li",
+      "Zhangyang Gao",
+      "Jingxuan Wei",
+      "Siqi Ma",
+      "Zicheng Liu",
+      "Stan Z. Li"
+    ],
+    "summary": "Large Language Models (LLMs) have demonstrated wide-ranging applications across various fields and have shown significant potential in the academic peer-review process. However, existing applications are primarily limited to static review generation based on submitted papers, which fail to capture the dynamic and iterative nature of real-world peer reviews. In this paper, we reformulate the peer-review process as a multi-turn, long-context dialogue, incorporating distinct roles for authors, reviewers, and decision makers. We construct a comprehensive dataset containing over 26,841 papers with 92,017 reviews collected from multiple sources, including the top-tier conference and prestigious journal. This dataset is meticulously designed to facilitate the applications of LLMs for multi-turn dialogues, effectively simulating the complete peer-review process. Furthermore, we propose a series of metrics to evaluate the performance of LLMs for each role under this reformulated peer-review setting, ensuring fair and comprehensive evaluations. We believe this work provides a promising perspective on enhancing the LLM-driven peer-review process by incorporating dynamic, role-based interactions. It aligns closely with the iterative and interactive nature of real-world academic peer review, offering a robust foundation for future research and development in this area. We open-source the dataset at https://github.com/chengtan9907/ReviewMT.",
+    "published": "2024-06-09 08:24:17+00:00",
+    "entry_id": "http://arxiv.org/abs/2406.05688v1",
+    "pdf_url": "https://arxiv.org/pdf/2406.05688v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "Automatically Annotating Articles Towards Opening and Reusing Transparent Peer Reviews",
+    "authors": [
+      "Afshin Sadeghi",
+      "Sarven Capadisli",
+      "Johannes Wilm",
+      "Christoph Lange",
+      "Philipp Mayr"
+    ],
+    "summary": "An increasing number of scientific publications are created in open and transparent peer review models: a submission is published first, and then reviewers are invited, or a submission is reviewed in a closed environment but then these reviews are published with the final article, or combinations of these. Reasons for open peer review include giving better credit to reviewers and enabling readers to better appraise the quality of a publication. In most cases, the full, unstructured text of an open review is published next to the full, unstructured text of the article reviewed. This approach prevents human readers from getting a quick impression of the quality of parts of an article, and it does not easily support secondary exploitation, e.g., for scientometrics on reviews. While document formats have been proposed for publishing structured articles including reviews, integrated tool support for entire open peer review workflows resulting in such documents is still scarce. We present AR-Annotator, the Automatic Article and Review Annotator which employs a semantic information model of an article and its reviews, using semantic markup and unique identifiers for all entities of interest. The fine-grained article structure is not only exposed to authors and reviewers but also preserved in the published version. We publish articles and their reviews in a Linked Data representation and thus maximize their reusability by third-party applications. We demonstrate this reusability by running quality-related queries against the structured representation of articles and their reviews.",
+    "published": "2018-12-03 19:04:59+00:00",
+    "entry_id": "http://arxiv.org/abs/1812.01027v1",
+    "pdf_url": "https://arxiv.org/pdf/1812.01027v1",
+    "categories": [
+      "cs.IR",
+      "cs.DL"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "Causal Analysis of Author Demographics in Academic Peer Review",
+    "authors": [
+      "Uttamasha Anjally Oyshi",
+      "Gibson Nkhata",
+      "Susan Gauch"
+    ],
+    "summary": "Academic meritocracy is jeopardized by systematic imbalances; for example, whereas Black and Hispanic individuals constitute over 30% of the U.S. population, they represent fewer than 10% of tenured academics in science and engineering. Peer review serves as a crucial gatekeeper in this process, however it encounters ongoing issues over biases that may hinder scientific advancement. The issue is now exacerbated by the growing influence of artificial intelligence (AI) in academic assessment. This paper transcends correlation to quantitatively assess the independent impacts of author demographics, including race, gender, and country of affiliation, on paper acceptance rankings. We utilize a causal inference methodology on a dataset of 530 papers, simulating the academic selection process by employing the prestige of the publication venue as a surrogate for review rank. Our research indicates statistically substantial causal disadvantages for authors from minority racial groups (average treatment effects [ATE]: -0.42 points in ranking), female authors (ATE: -0.25), and those associated with institutions in the Global South (ATE: -0.57). The exhibited biases emphasize the pressing necessity for fairness interventions in both conventional and AI-based review processes, indicating that such measures are essential for establishing a more equitable and credible scientific environment.",
+    "published": "2026-02-25 21:43:13+00:00",
+    "entry_id": "http://arxiv.org/abs/2603.06641v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.06641v1",
+    "categories": [
+      "cs.CY"
+    ],
+    "query": "peer review signaling academic publishing"
+  },
+  {
+    "title": "IPPOG : Bridging the gap between science education at school and modern scientific research",
+    "authors": [
+      "Barbora Bruant Gulejova"
+    ],
+    "summary": "The International Particle Physics Outreach Group (IPPOG) has been making concerted and systematic efforts to present and popularise particle physics across all audiences and age groups since 1997. Today the scientific community has in IPPOG a strategic pillar in fostering long-term, sustainable support for fundamental research around the world. One of the main tools IPPOG has been offering to the scientific community, teachers and educators for almost 10 years is the Resource Database (RDB), an online platform containing a collection of high quality engaging education and outreach materials in particle physics and related sciences.",
+    "published": "2020-11-30 12:56:40+00:00",
+    "entry_id": "http://arxiv.org/abs/2011.14743v1",
+    "pdf_url": "https://arxiv.org/pdf/2011.14743v1",
+    "categories": [
+      "physics.ed-ph"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "Reflexive Behaviour: How publication pressure affects research quality in Astronomy",
+    "authors": [
+      "Julia Heuritsch"
+    ],
+    "summary": "Reflexive metrics is a branch of science studies which explores how the demand for accountability and performance measurement in science has shaped the research culture in recent decades. Hypercompetition and publication pressure are part of this neoliberal culture. How do scientists respond to these pressures? Studies on research integrity and organizational culture suggest that people who feel treated unfairly by their institution are more likely to engage in deviant behaviour, such as scientific misconduct. By building up on reflexive metrics, combined with studies on the influence of organisational culture on research integrity, this study reflects on the research behaviour of astronomers: 1) To what extent is research (mis-)behaviour reflexive, i.e. dependent on perceptions of publication pressure and distributive & organisational justice? 2) What impact does scientific misconduct have on research quality? In order to perform this reflection, we conducted a comprehensive survey of academic and non-academic astronomers worldwide and received 3,509 responses. We found that publication pressure explains 19% of the variance in occurrence of misconduct and between 7 and 13% of the variance of the perception of distributive & organisational justice as well as overcommitment to work. Our results on the perceived impact of scientific misconduct on research quality show that the epistemic harm of questionable research practices should not be underestimated. This suggests there is a need for a policy change. In particular, lesser attention to metrics (such as publication rate) in the allocation of grants, telescope time and institutional rewards would foster better scientific conduct and hence research quality.",
+    "published": "2021-09-20 08:53:57+00:00",
+    "entry_id": "http://arxiv.org/abs/2109.09375v3",
+    "pdf_url": "https://arxiv.org/pdf/2109.09375v3",
+    "categories": [
+      "physics.soc-ph",
+      "astro-ph.IM"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "On Understanding the Relation of Knowledge and Confidence to Requirements Quality",
+    "authors": [
+      "Razieh Dehghani",
+      "Krzysztof Wnuk",
+      "Daniel Mendez",
+      "Tony Gorschek",
+      "Raman Ramsin"
+    ],
+    "summary": "Context and Motivation: Software requirements are affected by the knowledge and confidence of software engineers. Analyzing the interrelated impact of these factors is difficult because of the challenges of assessing knowledge and confidence.\n  Question/Problem: This research aims to draw attention to the need for considering the interrelated effects of confidence and knowledge on requirements quality, which has not been addressed by previous publications.\n  Principal ideas/results: For this purpose, the following steps have been taken: 1) requirements quality was defined based on the instructions provided by the ISO29148:2011 standard, 2) we selected the symptoms of low qualified requirements based on ISO29148:2011, 3) we analyzed five Software Requirements Specification (SRS) documents to find these symptoms, 3) people who have prepared the documents were categorized in four classes to specify the more/less knowledge and confidence they have regarding the symptoms, and 4) finally, the relation of lack of enough knowledge and confidence to symptoms of low quality was investigated. The results revealed that the simultaneous deficiency of confidence and knowledge has more negative effects in comparison with a deficiency of knowledge or confidence.\n  Contribution: In brief, this study has achieved these results: 1) the realization that a combined lack of knowledge and confidence has a larger effect on requirements quality than only one of the two factors, 2) the relation between low qualified requirements and requirements engineers' needs for knowledge and confidence, and 3) variety of requirements engineers' needs for knowledge based on their abilities to make discriminative and consistent decisions.",
+    "published": "2021-03-03 05:21:50+00:00",
+    "entry_id": "http://arxiv.org/abs/2103.02187v1",
+    "pdf_url": "https://arxiv.org/pdf/2103.02187v1",
+    "categories": [
+      "cs.SE"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "Exploring Sustainability in Scientific Software through Code Quality & Test Coverage Metrics",
+    "authors": [
+      "Sheikh Md. Mushfiqur Rahman",
+      "Gregory R. Watson",
+      "Nasir U. Eisty"
+    ],
+    "summary": "Context: Scientific open-source software (SciOSS) plays a foundational role in research and engineering, yet its long-term sustainability has often been overlooked and remains a significant concern. Objective: This study investigates the long-term sustainability of SciOSS through code and test quality metrics. Method: We analyze CASS Software Portfolio projects, classifying them by sustainability and comparing their code structure, test coverage, and links between code quality and testing across the dataset. Results: Sustainable projects show higher, more consistent test coverage and clearer code-test correlations, while unsustainable ones show weaker patterns. Overall, test coverage is low in scientific software, and high complexity and coupling reduce testability. Conclusion: In this study, we present a practical, data-driven approach for assessing sustainability in scientific software, offering a foundation for evaluating long-term software health and supporting future efforts in quality assurance and sustainability monitoring.",
+    "published": "2026-05-05 00:24:57+00:00",
+    "entry_id": "http://arxiv.org/abs/2605.03243v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03243v1",
+    "categories": [
+      "cs.SE"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "Understanding the Changing Roles of Scientific Publications via Citation Embeddings",
+    "authors": [
+      "Jiangen He",
+      "Chaomei Chen"
+    ],
+    "summary": "Researchers may describe different aspects of past scientific publications in their publications and the descriptions may keep changing in the evolution of science. The diverse and changing descriptions (i.e., citation context) on a publication characterize the impact and contributions of the past publication. In this article, we aim to provide an approach to understanding the changing and complex roles of a publication characterized by its citation context. We described a method to represent the publications' dynamic roles in science community in different periods as a sequence of vectors by training temporal embedding models. The temporal representations can be used to quantify how much the roles of publications changed and interpret how they changed. Our study in the biomedical domain shows that our metric on the changes of publications' roles is stable over time at the population level but significantly distinguish individuals. We also show the interpretability of our methods by a concrete example.",
+    "published": "2017-11-15 22:00:43+00:00",
+    "entry_id": "http://arxiv.org/abs/1711.05822v1",
+    "pdf_url": "https://arxiv.org/pdf/1711.05822v1",
+    "categories": [
+      "cs.DL",
+      "cs.LG"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "The role of non-scientific factors vis-a-vis the quality of publications in determining their scholarly impact",
+    "authors": [
+      "Giovanni Abramo",
+      "Ciriaco Andrea D'Angelo",
+      "Leonardo Grilli"
+    ],
+    "summary": "In the evaluation of scientific publications' impact, the interplay between intrinsic quality and non-scientific factors remains a subject of debate. While peer review traditionally assesses quality, bibliometric techniques gauge scholarly impact. This study investigates the role of non-scientific attributes alongside quality scores from peer review in determining scholarly impact. Leveraging data from the first Italian Research Assessment Exercise (VTR 2001-2003) and Web of Science citations, we analyse the relationship between quality scores, non-scientific factors, and publication short- and long-term impact. Our findings shed light on the significance of non-scientific elements overlooked in peer review, offering policymakers and research management insights in choosing evaluation methodologies. Sections delve into the debate, identify non-scientific influences, detail methodologies, present results, and discuss implications.",
+    "published": "2024-04-08 09:31:59+00:00",
+    "entry_id": "http://arxiv.org/abs/2404.05345v1",
+    "pdf_url": "https://arxiv.org/pdf/2404.05345v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "Keyword Extraction in Scientific Documents",
+    "authors": [
+      "Susie Xi Rao",
+      "Piriyakorn Piriyatamwong",
+      "Parijat Ghoshal",
+      "Sara Nasirian",
+      "Emmanuel de Salis",
+      "Sandra Mitrovi\u0107",
+      "Michael Wechner",
+      "Vanya Brucker",
+      "Peter Egger",
+      "Ce Zhang"
+    ],
+    "summary": "The scientific publication output grows exponentially. Therefore, it is increasingly challenging to keep track of trends and changes. Understanding scientific documents is an important step in downstream tasks such as knowledge graph building, text mining, and discipline classification. In this workshop, we provide a better understanding of keyword and keyphrase extraction from the abstract of scientific publications.",
+    "published": "2022-07-05 08:33:47+00:00",
+    "entry_id": "http://arxiv.org/abs/2207.01888v2",
+    "pdf_url": "https://arxiv.org/pdf/2207.01888v2",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "Gatekeeping: a Partial History of Cold Fusion",
+    "authors": [
+      "Jonah F Messinger",
+      "Florian Metzler",
+      "Huw Price"
+    ],
+    "summary": "One of the most public episodes of gatekeeping in modern science was the case of so-called 'cold fusion'. At a news conference in 1989 the electrochemists Martin Fleischmann and Stanley Pons announced that they had found evidence of nuclear fusion in palladium electrodes loaded with deuterium. There was worldwide interest. Many groups sought to reproduce the results, most unsuccessfully. Within months, the prevailing view became strongly negative. The claims of Fleischmann and Pons came to be regarded as disreputable, as well as false. As the Caltech physicist David Goldstein put it, cold fusion became 'a pariah field, cast out by the scientific establishment' (Goldstein 1994). The case would already be interesting for students of gatekeeping if the story had ended at that point. Even more interestingly, however, the field survived and persisted. It has been enjoying a modest renaissance, with recent government funding both in the US and the EU. This piece offers an opinionated introduction to cold fusion as a case study of scientific gatekeeping, discussing both its early and recent history",
+    "published": "2026-01-15 02:16:34+00:00",
+    "entry_id": "http://arxiv.org/abs/2601.09996v1",
+    "pdf_url": "https://arxiv.org/pdf/2601.09996v1",
+    "categories": [
+      "physics.hist-ph"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "Gravitational wave astronomy with LIGO and similar detectors in the next decade",
+    "authors": [
+      "The LIGO Scientific collaboration"
+    ],
+    "summary": "We describe the plans for gravitational-wave observations and astrophysics that will be carried out by the LIGO Scientific Collaboration (LSC) in the next decade using data from the LIGO Observatories in the US, and sister facilities abroad in Europe, Japan and India. We provide an overview of gravitational wave signal types that we are targeting, and the role of gravitational waves in time-domain multi-messenger astronomy. We briefly summarize what we can infer from the properties of detected signals, including astrophysical event rates and populations, tests of gravitational-wave properties, highly-dynamical and strong-field tests of General Relativity, probing matter under extreme conditions in neutron stars, and making cosmological measurements with gravitational-wave sources.",
+    "published": "2019-04-05 15:43:50+00:00",
+    "entry_id": "http://arxiv.org/abs/1904.03187v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.03187v1",
+    "categories": [
+      "gr-qc"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "Can we still use PEAQ? A Performance Analysis of the ITU Standard for the Objective Assessment of Perceived Audio Quality",
+    "authors": [
+      "Pablo M. Delgado",
+      "J\u00fcrgen Herre"
+    ],
+    "summary": "The Perceptual Evaluation of Audio Quality (PEAQ) method as described in the International Telecommunication Union (ITU) recommendation ITU-R BS.1387 has been widely used for computationally estimating the quality of perceptually coded audio signals without the need for extensive subjective listening tests. However, many reports have highlighted clear limitations of the scheme after the end of its standardization, particularly involving signals coded with newer technologies such as bandwidth extension or parametric multi-channel coding. Until now, no other method for measuring the quality of both speech and audio signals has been standardized by the ITU. Therefore, a further investigation of the causes for these limitations would be beneficial to a possible update of said scheme. Our experimental results indicate that the performance of PEAQ's model of disturbance loudness is still as good as (and sometimes superior to) other state-of-the-art objective measures, albeit with varying performance depending on the type of degraded signal content (i.e. speech or music). This finding evidences the need for an improved cognitive model. In addition, results indicate that an updated mapping of Model Output Values (MOVs) to PEAQ's Distortion Index (DI) based on newer training data can greatly improve performance. Finally, some suggestions for the improvement of PEAQ are provided based on the reported results and comparison to other systems.",
+    "published": "2022-12-02 22:09:15+00:00",
+    "entry_id": "http://arxiv.org/abs/2212.01467v1",
+    "pdf_url": "https://arxiv.org/pdf/2212.01467v1",
+    "categories": [
+      "eess.AS",
+      "cs.SD"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "SciKGTeX -- A LaTeX Package to Semantically Annotate Contributions in Scientific Publications",
+    "authors": [
+      "Christof Bless",
+      "Ildar Baimuratov",
+      "Oliver Karras"
+    ],
+    "summary": "Scientific knowledge graphs have been proposed as a solution to structure the content of research publications in a machine-actionable way and enable more efficient, computer-assisted workflows for many research activities. Crowd-sourcing approaches are used frequently to build and maintain such scientific knowledge graphs. To contribute to scientific knowledge graphs, researchers need simple and easy-to-use solutions to generate new knowledge graph elements and establish the practice of semantic representations in scientific communication. In this paper, we present a workflow for authors of scientific documents to specify their contributions with a LaTeX package, called SciKGTeX, and upload them to a scientific knowledge graph. The SciKGTeX package allows authors of scientific publications to mark the main contributions of their work directly in LaTeX source files. The package embeds marked contributions as metadata into the generated PDF document, from where they can be extracted automatically and imported into a scientific knowledge graph, such as the ORKG. This workflow is simpler and faster than current approaches, which make use of external web interfaces for data entry. Our user evaluation shows that SciKGTeX is easy to use, with a score of 79 out of 100 on the System Usability Scale, as participants of the study needed only 7 minutes on average to annotate the main contributions on a sample abstract of a published paper. Further testing shows that the embedded contributions can be successfully uploaded to ORKG within ten seconds. SciKGTeX simplifies the process of manual semantic annotation of research contributions in scientific articles. Our workflow demonstrates how a scientific knowledge graph can automatically ingest research contributions from document metadata.",
+    "published": "2023-04-11 16:36:29+00:00",
+    "entry_id": "http://arxiv.org/abs/2304.05327v2",
+    "pdf_url": "https://arxiv.org/pdf/2304.05327v2",
+    "categories": [
+      "cs.DL",
+      "cs.SE"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "The Extraction of Community Structures from Publication Networks to Support Ethnographic Observations of Field Differences in Scientific Communication",
+    "authors": [
+      "Theresa Velden",
+      "Carl Lagoze"
+    ],
+    "summary": "The scientific community of researchers in a research specialty is an important unit of analysis for understanding the field specific shaping of scientific communication practices. These scientific communities are, however, a challenging unit of analysis to capture and compare because they overlap, have fuzzy boundaries, and evolve over time. We describe a network analytic approach that reveals the complexities of these communities through examination of their publication networks in combination with insights from ethnographic field studies. We suggest that the structures revealed indicate overlapping sub- communities within a research specialty and we provide evidence that they differ in disciplinary orientation and research practices. By mapping the community structures of scientific fields we aim to increase confidence about the domain of validity of ethnographic observations as well as of collaborative patterns extracted from publication networks thereby enabling the systematic study of field differences. The network analytic methods presented include methods to optimize the delineation of a bibliographic data set in order to adequately represent a research specialty, and methods to extract community structures from this data. We demonstrate the application of these methods in a case study of two research specialties in the physical and chemical sciences.",
+    "published": "2012-05-09 22:14:04+00:00",
+    "entry_id": "http://arxiv.org/abs/1205.2114v2",
+    "pdf_url": "https://arxiv.org/pdf/1205.2114v2",
+    "categories": [
+      "cs.SI",
+      "cs.DL",
+      "physics.soc-ph"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "Identifying relevant Factors of Requirements Quality: an industrial Case Study",
+    "authors": [
+      "Julian Frattini"
+    ],
+    "summary": "[Context and Motivation]: The quality of requirements specifications impacts subsequent, dependent software engineering activities. Requirements quality defects like ambiguous statements can result in incomplete or wrong features and even lead to budget overrun or project failure. [Problem]: Attempts at measuring the impact of requirements quality have been held back by the vast amount of interacting factors. Requirements quality research lacks an understanding of which factors are relevant in practice. [Principal Ideas and Results]: We conduct a case study considering data from both interview transcripts and issue reports to identify relevant factors of requirements quality. The results include 17 factors and 11 interaction effects relevant to the case company. [Contribution]: The results contribute empirical evidence that (1) strengthens existing requirements engineering theories and (2) advances industry-relevant requirements quality research.",
+    "published": "2024-02-01 13:45:06+00:00",
+    "entry_id": "http://arxiv.org/abs/2402.00594v2",
+    "pdf_url": "https://arxiv.org/pdf/2402.00594v2",
+    "categories": [
+      "cs.SE"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "The Gatekeeping Expert's Dilemma",
+    "authors": [
+      "Shunsuke Matsuno"
+    ],
+    "summary": "This paper studies how experts with veto power -- gatekeeping experts -- influence agents through communication. Their expertise informs agents' decisions, while veto power provides discipline. Gatekeepers face a dilemma: transparent communication can invite gaming, while opacity wastes expertise. How can gatekeeping experts guide behavior without being gamed? Many economic settings feature this tradeoff, including bank stress tests, environmental regulations, and financial auditing. Using financial auditing as the primary setting, I show that strategic vagueness resolves this dilemma: by revealing just enough to prevent the manager from inflating the report, the auditor guides the manager while minimizing opportunities for manipulation. This theoretical lens provides a novel rationale for why auditors predominantly accept clients' financial reports. Comparative statics reveal that greater gatekeeper independence or expertise sometimes dampens communication. This paper offers insights into why gatekeepers who lack direct control can still be effective.",
+    "published": "2025-10-27 03:16:53+00:00",
+    "entry_id": "http://arxiv.org/abs/2511.00031v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.00031v2",
+    "categories": [
+      "econ.TH"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "Towards Guidelines for Assessing Qualities of Machine Learning Systems",
+    "authors": [
+      "Julien Siebert",
+      "Lisa Joeckel",
+      "Jens Heidrich",
+      "Koji Nakamichi",
+      "Kyoko Ohashi",
+      "Isao Namba",
+      "Rieko Yamamoto",
+      "Mikio Aoyama"
+    ],
+    "summary": "Nowadays, systems containing components based on machine learning (ML) methods are becoming more widespread. In order to ensure the intended behavior of a software system, there are standards that define necessary quality aspects of the system and its components (such as ISO/IEC 25010). Due to the different nature of ML, we have to adjust quality aspects or add additional ones (such as trustworthiness) and be very precise about which aspect is really relevant for which object of interest (such as completeness of training data), and how to objectively assess adherence to quality requirements. In this article, we present the construction of a quality model (i.e., evaluation objects, quality aspects, and metrics) for an ML system based on an industrial use case. This quality model enables practitioners to specify and assess quality requirements for such kinds of ML systems objectively. In the future, we want to learn how the term quality differs between different types of ML systems and come up with general guidelines for specifying and assessing qualities of ML systems.",
+    "published": "2020-08-25 13:45:54+00:00",
+    "entry_id": "http://arxiv.org/abs/2008.11007v1",
+    "pdf_url": "https://arxiv.org/pdf/2008.11007v1",
+    "categories": [
+      "cs.SE",
+      "cs.LG"
+    ],
+    "query": "gatekeeping scientific publication quality"
+  },
+  {
+    "title": "Can Small and Reasoning Large Language Models Score Journal Articles for Research Quality and Do Averaging and Few-shot Help?",
+    "authors": [
+      "Mike Thelwall",
+      "Ehsan Mohammadi"
+    ],
+    "summary": "Previous research has shown that journal article quality ratings from the cloud based Large Language Model (LLM) families ChatGPT and Gemini and the medium sized open weights LLM Gemma3 27b correlate moderately with expert research quality scores. This article assesses whether other medium sized LLMs, smaller LLMs, and reasoning models have similar abilities. This is tested with Gemma3 variants, Llama4 Scout, Qwen3, Magistral Small and DeepSeek R1 on a dataset of 2,780 medical, health and life science papers in 6 fields, with two different gold standards, one novel. Few-shot and score averaging approaches are also evaluated. The results suggest that medium-sized LLMs have similar performance to ChatGPT 4o-mini and Gemini 2.0 Flash, but that 1b parameters may often, and 4b sometimes, be too few. Reasoning models did not have a clear advantage. Moreover, averaging scores from multiple identical queries seems to be a universally successful strategy, and there is weak evidence that few-shot prompts (four examples) tend to help. Overall, the results show, for the first time, that smaller LLMs >4b have a substantial capability to rate journal articles for research quality, especially if score averaging is used, but that reasoning does not give an advantage for this task; it is therefore not recommended because it is slow. The use of LLMs to support research evaluation is now more credible since multiple variants have a similar ability, including many that can be deployed offline in a secure environment without substantial computing resources.",
+    "published": "2025-10-25 18:12:41+00:00",
+    "entry_id": "http://arxiv.org/abs/2510.22389v2",
+    "pdf_url": "https://arxiv.org/pdf/2510.22389v2",
+    "categories": [
+      "cs.DL",
+      "cs.AI"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "Joint Multi-User Communication and Sensing Exploiting Both Signal and Environment Sparsity",
+    "authors": [
+      "Xin Tong",
+      "Zhaoyang Zhang",
+      "Jue Wang",
+      "Chongwen Huang",
+      "Merouane Debbah"
+    ],
+    "summary": "As a potential technology feature for 6G wireless networks, the idea of sensing-communication integration requires the system not only to complete reliable multi-user communication but also to achieve accurate environment sensing. In this paper, we consider such a joint communication and sensing (JCAS) scenario, in which multiple users use the sparse code multiple access (SCMA) scheme to communicate with the wireless access point (AP). Part of the user signals are scattered by the environment object and reflected by an intelligent reflective surface (IRS) before they arrive at the AP. We exploit the sparsity of both the structured user signals and the unstructured environment and propose an iterative and incremental joint multi-user communication and environment sensing scheme, in which the two processes, i.e., multi-user information detection and environment object detection, interweave with each other thanks to their intrinsic mutual dependence. The proposed algorithm is sliding-window based and also graph based, which can keep on sensing the environment as long as there are illuminating user signals. The trade-off relationship between the key system parameters is analyzed, and the simulation result validates the convergence and effectiveness of the proposed algorithm.",
+    "published": "2021-09-06 15:40:47+00:00",
+    "entry_id": "http://arxiv.org/abs/2109.02552v1",
+    "pdf_url": "https://arxiv.org/pdf/2109.02552v1",
+    "categories": [
+      "eess.SP"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "Sampling Theory of Jointly Bandlimited Time-vertex Graph Signals",
+    "authors": [
+      "Hang Sheng",
+      "Hui Feng",
+      "Junhao Yu",
+      "Feng Ji",
+      "Bo Hu"
+    ],
+    "summary": "Time-vertex graph signal (TVGS) models describe time-varying data with irregular structures. The bandlimitedness in the joint time-vertex Fourier spectral domain reflects smoothness in both temporal and graph topology. In this paper, we study the critical sampling of three types of TVGS including continuous-time signals, infinite-length sequences, and finite-length sequences in the time domain for each vertex on the graph. For a jointly bandlimited TVGS, we prove a lower bound on sampling density or sampling ratio, which depends on the measure of the spectral support in the joint time-vertex Fourier spectral domain. We also provide a lower bound on the sampling density or sampling ratio of each vertex on sampling sets for perfect recovery. To demonstrate that critical sampling is achievable, we propose the sampling and reconstruction procedures for the different types of TVGS. Finally, we show how the proposed sampling schemes can be applied to numerical as well as real datasets.",
+    "published": "2025-08-29 08:33:32+00:00",
+    "entry_id": "http://arxiv.org/abs/2508.21412v1",
+    "pdf_url": "https://arxiv.org/pdf/2508.21412v1",
+    "categories": [
+      "eess.SP"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "Statistical Modelling of Citation Exchange Between Statistics Journals",
+    "authors": [
+      "Cristiano Varin",
+      "Manuela Cattelan",
+      "David Firth"
+    ],
+    "summary": "Rankings of scholarly journals based on citation data are often met with skepticism by the scientific community. Part of the skepticism is due to disparity between the common perception of journals' prestige and their ranking based on citation counts. A more serious concern is the inappropriate use of journal rankings to evaluate the scientific influence of authors. This paper focuses on analysis of the table of cross-citations among a selection of Statistics journals. Data are collected from the Web of Science database published by Thomson Reuters. Our results suggest that modelling the exchange of citations between journals is useful to highlight the most prestigious journals, but also that journal citation data are characterized by considerable heterogeneity, which needs to be properly summarized. Inferential conclusions require care in order to avoid potential over-interpretation of insignificant differences between journal ratings. Comparison with published ratings of institutions from the UK's Research Assessment Exercise shows strong correlation at aggregate level between assessed research quality and journal citation `export scores' within the discipline of Statistics.",
+    "published": "2013-12-06 07:58:12+00:00",
+    "entry_id": "http://arxiv.org/abs/1312.1794v4",
+    "pdf_url": "https://arxiv.org/pdf/1312.1794v4",
+    "categories": [
+      "stat.AP",
+      "cs.DL"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "Towards Goal-Oriented Semantic Signal Processing: Applications and Future Challenges",
+    "authors": [
+      "Mert Kalfa",
+      "Mehmetcan Gok",
+      "Arda Atalik",
+      "Busra Tegin",
+      "Tolga M. Duman",
+      "Orhan Arikan"
+    ],
+    "summary": "Advances in machine learning technology have enabled real-time extraction of semantic information in signals which can revolutionize signal processing techniques and improve their performance significantly for the next generation of applications. With the objective of a concrete representation and efficient processing of the semantic information, we propose and demonstrate a formal graph-based semantic language and a goal filtering method that enables goal-oriented signal processing. The proposed semantic signal processing framework can easily be tailored for specific applications and goals in a diverse range of signal processing applications. To illustrate its wide range of applicability, we investigate several use cases and provide details on how the proposed goal-oriented semantic signal processing framework can be customized. We also investigate and propose techniques for communications where sensor data is semantically processed and semantic information is exchanged across a sensor network.",
+    "published": "2021-09-24 11:12:24+00:00",
+    "entry_id": "http://arxiv.org/abs/2109.11885v1",
+    "pdf_url": "https://arxiv.org/pdf/2109.11885v1",
+    "categories": [
+      "eess.SP"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "Defining Fundamental Frequency for Almost Harmonic Signals",
+    "authors": [
+      "Filip Elvander",
+      "Andreas Jakobsson"
+    ],
+    "summary": "In this work, we consider the modeling of signals that are almost, but not quite, harmonic, i.e., composed of sinusoids whose frequencies are close to being integer multiples of a common frequency. Typically, in applications, such signals are treated as perfectly harmonic, allowing for the estimation of their fundamental frequency, despite the signals not actually being periodic. Herein, we provide three different definitions of a concept of fundamental frequency for such inharmonic signals and study the implications of the different choices for modeling and estimation. We show that one of the definitions corresponds to a misspecified modeling scenario, and provides a theoretical benchmark for analyzing the behavior of estimators derived under a perfectly harmonic assumption. The second definition stems from optimal mass transport theory and yields a robust and easily interpretable concept of fundamental frequency based on the signals' spectral properties. The third definition interprets the inharmonic signal as an observation of a randomly perturbed harmonic signal. This allows for computing a hybrid information theoretical bound on estimation performance, as well as for finding an estimator attaining the bound. The theoretical findings are illustrated using numerical examples.",
+    "published": "2020-03-24 11:01:57+00:00",
+    "entry_id": "http://arxiv.org/abs/2003.10767v2",
+    "pdf_url": "https://arxiv.org/pdf/2003.10767v2",
+    "categories": [
+      "eess.SP"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "Microphone Array Signal Processing and Deep Learning for Speech Enhancement",
+    "authors": [
+      "Reinhold Haeb-Umbach",
+      "Tomohiro Nakatani",
+      "Marc Delcroix",
+      "Christoph Boeddeker",
+      "Tsubasa Ochiai"
+    ],
+    "summary": "Multi-channel acoustic signal processing is a well-established and powerful tool to exploit the spatial diversity between a target signal and non-target or noise sources for signal enhancement. However, the textbook solutions for optimal data-dependent spatial filtering rest on the knowledge of second-order statistical moments of the signals, which have traditionally been difficult to acquire. In this contribution, we compare model-based, purely data-driven, and hybrid approaches to parameter estimation and filtering, where the latter tries to combine the benefits of model-based signal processing and data-driven deep learning to overcome their individual deficiencies. We illustrate the underlying design principles with examples from noise reduction, source separation, and dereverberation.",
+    "published": "2025-01-13 11:13:47+00:00",
+    "entry_id": "http://arxiv.org/abs/2501.07215v1",
+    "pdf_url": "https://arxiv.org/pdf/2501.07215v1",
+    "categories": [
+      "eess.AS",
+      "cs.SD",
+      "eess.SP"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "Which international co-authorships produce higher quality journal articles?",
+    "authors": [
+      "Mike Thelwall",
+      "Kayvan Kousha",
+      "Mahshid Abdoli",
+      "Emma Stuart",
+      "Meiko Makita",
+      "Paul Wilson",
+      "Jonathan Levitt"
+    ],
+    "summary": "International collaboration is sometimes encouraged in the belief that it generates higher quality research or is more capable of addressing societal problems. Nevertheless, while there is evidence that the journal articles of international teams tend to be more cited than average, perhaps from increased international audiences, there is no science-wide direct academic evidence of a connection between international collaboration and research quality. This article empirically investigates the connection between international collaboration and research quality for the first time, with 148,977 UK-based journal articles with post publication expert review scores from the 2021 Research Excellence Framework (REF). Using an ordinal regression model controlling for collaboration, international partners increased the odds of higher quality scores in 27 out of 34 Units of Assessment (UoAs) and all Main Panels. The results therefore give the first large scale evidence of the fields in which international co-authorship for articles is usually apparently beneficial. At the country level, the results suggests that UK collaboration with other high research-expenditure economies generates higher quality research, even when the countries produce lower citation impact journal articles than the United Kingdom. Worryingly, collaborations with lower research-expenditure economies tend to be judged lower quality, possibly through misunderstanding Global South research goals.",
+    "published": "2022-12-11 05:57:28+00:00",
+    "entry_id": "http://arxiv.org/abs/2212.05417v2",
+    "pdf_url": "https://arxiv.org/pdf/2212.05417v2",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "Teaching Digital Signal Processing by Partial Flipping, Active Learning and Visualization",
+    "authors": [
+      "Keshab K. Parhi"
+    ],
+    "summary": "Effectiveness of teaching digital signal processing can be enhanced by reducing lecture time devoted to theory, and increasing emphasis on applications, programming aspects, visualization and intuitive understanding. An integrated approach to teaching requires instructors to simultaneously teach theory and its applications in storage and processing of audio, speech and biomedical signals. Student engagement can be enhanced by engaging students to work in groups during the class where students can solve short problems and short programming assignments or take quizzes. These approaches will increase student interest in learning the subject and student engagement.",
+    "published": "2021-01-31 23:30:06+00:00",
+    "entry_id": "http://arxiv.org/abs/2102.00561v1",
+    "pdf_url": "https://arxiv.org/pdf/2102.00561v1",
+    "categories": [
+      "eess.SP"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "Publication patterns of award-winning forest scientists and implications for the ERA journal ranking",
+    "authors": [
+      "Jerome K Vanclay"
+    ],
+    "summary": "Publication patterns of 79 forest scientists awarded major international forestry prizes during 1990-2010 were compared with the journal classification and ranking promoted as part of the 'Excellence in Research for Australia' (ERA) by the Australian Research Council. The data revealed that these scientists exhibited an elite publication performance during the decade before and two decades following their first major award. An analysis of their 1703 articles in 431 journals revealed substantial differences between the journal choices of these elite scientists and the ERA classification and ranking of journals. Implications from these findings are that additional cross-classifications should be added for many journals, and there should be an adjustment to the ranking of several journals relevant to the ERA Field of Research classified as 0705 Forestry Sciences.",
+    "published": "2011-08-24 12:49:04+00:00",
+    "entry_id": "http://arxiv.org/abs/1108.4828v1",
+    "pdf_url": "https://arxiv.org/pdf/1108.4828v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "Robust Graph Filter Identification and Graph Denoising from Signal Observations",
+    "authors": [
+      "Samuel Rey",
+      "Victor M. Tenorio",
+      "Antonio G. Marques"
+    ],
+    "summary": "When facing graph signal processing tasks, the workhorse assumption is that the graph describing the support of the signals is known. However, in many relevant applications the available graph suffers from observation errors and perturbations. As a result, any method relying on the graph topology may yield suboptimal results if those imperfections are ignored. Motivated by this, we propose a novel approach for handling perturbations on the links of the graph and apply it to the problem of robust graph filter (GF) identification from input-output observations. Different from existing works, we formulate a non-convex optimization problem that operates in the vertex domain and jointly performs GF identification and graph denoising. As a result, on top of learning the desired GF, an estimate of the graph is obtained as a byproduct. To handle the resulting bi-convex problem, we design an algorithm that blends techniques from alternating optimization and majorization minimization, showing its convergence to a stationary point. The second part of the paper i) generalizes the design to a robust setup where several GFs are jointly estimated, and ii) introduces an alternative algorithmic implementation that reduces the computational complexity. Finally, the detrimental influence of the perturbations and the benefits resulting from the robust approach are numerically analyzed over synthetic and real-world datasets, comparing them with other state-of-the-art alternatives.",
+    "published": "2022-10-16 08:50:25+00:00",
+    "entry_id": "http://arxiv.org/abs/2210.08488v1",
+    "pdf_url": "https://arxiv.org/pdf/2210.08488v1",
+    "categories": [
+      "eess.SP"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "Toward Millimeter Wave Joint Radar-Communications: A Signal Processing Perspective",
+    "authors": [
+      "Kumar Vijay Mishra",
+      "Bhavani Shankar M. R.",
+      "Visa Koivunen",
+      "Bj\u00f6rn Ottersten",
+      "Sergiy A. Vorobyov"
+    ],
+    "summary": "Synergistic design of communications and radar systems with common spectral and hardware resources is heralding a new era of efficiently utilizing a limited radio-frequency spectrum. Such a joint radar-communications (JRC) model has advantages of low-cost, compact size, less power consumption, spectrum sharing, improved performance, and safety due to enhanced information sharing. Today, millimeter-wave (mm-wave) communications have emerged as the preferred technology for short distance wireless links because they provide transmission bandwidth that is several gigahertz wide. This band is also promising for short-range radar applications, which benefit from the high-range resolution arising from large transmit signal bandwidths. Signal processing techniques are critical in implementation of mmWave JRC systems. Major challenges are joint waveform design and performance criteria that would optimally trade-off between communications and radar functionalities. Novel multiple-input-multiple-output (MIMO) signal processing techniques are required because mmWave JRC systems employ large antenna arrays. There are opportunities to exploit recent advances in cognition, compressed sensing, and machine learning to reduce required resources and dynamically allocate them with low overheads. This article provides a signal processing perspective of mmWave JRC systems with an emphasis on waveform design.",
+    "published": "2019-05-02 12:14:58+00:00",
+    "entry_id": "http://arxiv.org/abs/1905.00690v2",
+    "pdf_url": "https://arxiv.org/pdf/1905.00690v2",
+    "categories": [
+      "eess.SP"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "Large Graph Signal Denoising with Application to Differential Privacy",
+    "authors": [
+      "Elie Chedemail",
+      "Basile de Loynes",
+      "Fabien Navarro",
+      "Baptiste Olivier"
+    ],
+    "summary": "Over the last decade, signal processing on graphs has become a very active area of research. Specifically, the number of applications, for instance in statistical or deep learning, using frames built from graphs, such as wavelets on graphs, has increased significantly. We consider in particular the case of signal denoising on graphs via a data-driven wavelet tight frame methodology. This adaptive approach is based on a threshold calibrated using Stein's unbiased risk estimate adapted to a tight-frame representation. We make it scalable to large graphs using Chebyshev-Jackson polynomial approximations, which allow fast computation of the wavelet coefficients, without the need to compute the Laplacian eigendecomposition. However, the overcomplete nature of the tight-frame, transforms a white noise into a correlated one. As a result, the covariance of the transformed noise appears in the divergence term of the SURE, thus requiring the computation and storage of the frame, which leads to an impractical calculation for large graphs. To estimate such covariance, we develop and analyze a Monte-Carlo strategy, based on the fast transformation of zero mean and unit variance random variables. This new data-driven denoising methodology finds a natural application in differential privacy. A comprehensive performance analysis is carried out on graphs of varying size, from real and simulated data.",
+    "published": "2022-09-05 16:32:54+00:00",
+    "entry_id": "http://arxiv.org/abs/2209.02043v1",
+    "pdf_url": "https://arxiv.org/pdf/2209.02043v1",
+    "categories": [
+      "eess.SP",
+      "stat.ME",
+      "stat.ML"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "Digraph Signal Processing with Generalized Boundary Conditions",
+    "authors": [
+      "Bastian Seifert",
+      "Markus P\u00fcschel"
+    ],
+    "summary": "Signal processing on directed graphs (digraphs) is problematic, since the graph shift, and thus associated filters, are in general not diagonalizable. Furthermore, the Fourier transform in this case is now obtained from the Jordan decomposition, which may not be computable at all for large graphs. We propose a novel and general solution for this problem based on matrix perturbation theory: We design an algorithm that adds a small number of edges to a given digraph to destroy nontrivial Jordan blocks. The obtained digraph is then diagonalizable and yields, as we show, an approximate eigenbasis and Fourier transform for the original digraph. We explain why and how this construction can be viewed as generalized form of boundary conditions, a common practice in signal processing. Our experiments with random and real world graphs show that we can scale to graphs with a few thousands nodes, and obtain Fourier transforms that are close to orthogonal while still diagonalizing an intuitive notion of convolution. Our method works with adjacency and Laplacian shift and can be used as preprocessing step to enable further processing as we show with a prototypical Wiener filter application.",
+    "published": "2020-05-19 21:26:30+00:00",
+    "entry_id": "http://arxiv.org/abs/2005.09762v3",
+    "pdf_url": "https://arxiv.org/pdf/2005.09762v3",
+    "categories": [
+      "eess.SP",
+      "cs.DM"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "EEG Signal Dimensionality Reduction and Classification using Tensor Decomposition and Deep Convolutional Neural Networks",
+    "authors": [
+      "Mojtaba Taherisadr",
+      "Mohsen Joneidi",
+      "Nazanin Rahnavard"
+    ],
+    "summary": "A new deep learning-based electroencephalography (EEG) signal analysis framework is proposed. While deep neural networks, specifically convolutional neural networks (CNNs), have gained remarkable attention recently, they still suffer from high dimensionality of the training data. Two-dimensional input images of CNNs are more vulnerable to be redundant versus one-dimensional input time-series of conventional neural networks. In this study, we propose a new dimensionality reduction framework for reducing the dimension of CNN inputs based on the tensor decomposition of the time-frequency representation of EEG signals. The proposed tensor decomposition-based dimensionality reduction algorithm transforms a large set of slices of the input tensor to a concise set of slices which are called super-slices. Employing super-slices not only handles the artifacts and redundancies of the EEG data but also reduces the dimension of the CNNs training inputs. We also consider different time-frequency representation methods for EEG image generation and provide a comprehensive comparison among them. We test our proposed framework on HCB-MIT data and as results show our approach outperforms other previous studies.",
+    "published": "2019-08-27 19:44:38+00:00",
+    "entry_id": "http://arxiv.org/abs/1908.10432v1",
+    "pdf_url": "https://arxiv.org/pdf/1908.10432v1",
+    "categories": [
+      "eess.SP",
+      "eess.IV",
+      "math.SP"
+    ],
+    "query": "journal acceptance signal researcher quality"
+  },
+  {
+    "title": "Pulsar Science with the SKA Observatory",
+    "authors": [
+      "Bhal Chandra Joshi",
+      "Aris Karastergiou",
+      "Marta Burgay",
+      "The SKA pulsar science working group"
+    ],
+    "summary": "The large instantaneous sensitivity, a wide frequency coverage and flexible observation modes with large number of beams in the sky are the main features of the SKA observatory's two telescopes, the SKA-Low and the SKA-Mid, which are located on two different continents. Owing to these capabilities, the SKAO telescopes are going to be a game-changer for radio astronomy in general and pulsar astronomy in particular. The eleven articles in this special issue on pulsar science with the SKA Observatory describe its impact on different areas of pulsar science. In this lead article, a brief description of the two telescopes highlighting the relevant features for pulsar science is presented followed by an overview of each accompanying article, exploring the inter-relationship between different pulsar science use cases.",
+    "published": "2025-12-18 04:16:35+00:00",
+    "entry_id": "http://arxiv.org/abs/2512.16152v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.16152v1",
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+    "authors": [
+      "LSST Dark Energy Science Collaboration"
+    ],
+    "summary": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark energy science and describes the current and anticipated state of the field. It makes the case for the DESC by laying out a robust analytical framework for dark energy science that has been defined by its members and the comprehensive three-year work plan they have developed for implementing that framework. The analysis working groups cover five key probes of dark energy: weak lensing, large scale structure, galaxy clusters, Type Ia supernovae, and strong lensing. The computing working groups span cosmological simulations, galaxy catalogs, photon simulations and a systematic software and computational framework for LSST dark energy data analysis. The technical working groups make the connection between dark energy science and the LSST system. The working groups have close linkages, especially through the use of the photon simulations to study the impact of instrument design and survey strategy on analysis methodology and cosmological parameter estimation. The white paper describes several high priority tasks identified by each of the 16 working groups. Over the next three years these tasks will help prepare for LSST analysis, make synergistic connections with ongoing cosmological surveys and provide the dark energy community with state of the art analysis tools. Members of the community are invited to join the LSST DESC, according to the membership policies described in the white paper. Applications to sign up for associate membership may be made by submitting the Web form at http://www.slac.stanford.edu/exp/lsst/desc/signup.html with a short statement of the work they wish to pursue that is relevant to the LSST DESC.",
+    "published": "2012-11-01 21:23:33+00:00",
+    "entry_id": "http://arxiv.org/abs/1211.0310v1",
+    "pdf_url": "https://arxiv.org/pdf/1211.0310v1",
+    "categories": [
+      "astro-ph.CO",
+      "hep-ex"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "Variational Approach to Quantum Field Theory: Gaussian Approximation and the Perturbative Expansion around It",
+    "authors": [
+      "Jae Hyung Yee"
+    ],
+    "summary": "The functional Schrodinger picture formulation of quantum field theory and the variational Gaussian approximation method based on the formulation are briefly reviewed. After presenting recent attempts to improve the variational approximation, we introduce a new systematic method based on the background field method, which enables one to compute the order-by-order correction terms to the Gaussian approximation of the effective action.",
+    "published": "1997-07-29 07:42:59+00:00",
+    "entry_id": "http://arxiv.org/abs/hep-th/9707234v2",
+    "pdf_url": "https://arxiv.org/pdf/hep-th/9707234v2",
+    "categories": [
+      "hep-th"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "Growth rates of modern science: A bibliometric analysis based on the number of publications and cited references",
+    "authors": [
+      "Lutz Bornmann",
+      "Ruediger Mutz"
+    ],
+    "summary": "Many studies in information science have looked at the growth of science. In this study, we re-examine the question of the growth of science. To do this we (i) use current data up to publication year 2012 and (ii) analyse it across all disciplines and also separately for the natural sciences and for the medical and health sciences. Furthermore, the data are analysed with an advanced statistical technique - segmented regression analysis - which can identify specific segments with similar growth rates in the history of science. The study is based on two different sets of bibliometric data: (1) The number of publications held as source items in the Web of Science (WoS, Thomson Reuters) per publication year and (2) the number of cited references in the publications of the source items per cited reference year. We have looked at the rate at which science has grown since the mid-1600s. In our analysis of cited references we identified three growth phases in the development of science, which each led to growth rates tripling in comparison with the previous phase: from less than 1% up to the middle of the 18th century, to 2 to 3% up to the period between the two world wars and 8 to 9% to 2012.",
+    "published": "2014-02-19 08:00:26+00:00",
+    "entry_id": "http://arxiv.org/abs/1402.4578v3",
+    "pdf_url": "https://arxiv.org/pdf/1402.4578v3",
+    "categories": [
+      "cs.DL",
+      "physics.soc-ph",
+      "stat.AP"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "GREX-PLUS Science Book",
+    "authors": [
+      "GREX-PLUS Science Team",
+      ":",
+      "Akio K. Inoue",
+      "Yuichi Harikane",
+      "Takashi Moriya",
+      "Hideko Nomura",
+      "Shunsuke Baba",
+      "Yuka Fujii",
+      "Naoteru Gouda",
+      "Yasuhiro Hirahara",
+      "Yui Kawashima",
+      "Tadayuki Kodama",
+      "Yusei Koyama",
+      "Hiroyuki Kurokawa",
+      "Taro Matsuo",
+      "Yoshiki Matsuoka",
+      "Shuji Matsuura",
+      "Ken Mawatari",
+      "Toru Misawa",
+      "Kentaro Nagamine",
+      "Kimihiko Nakajima",
+      "Shota Notsu",
+      "Takafumi Ootsubo",
+      "Kazumasa Ohno",
+      "Hideo Sagawa",
+      "Takashi Shimonishi",
+      "Ken-ichi Tadaki",
+      "Michihiro Takami",
+      "Tsuyoshi Terai",
+      "Yoshiki Toba",
+      "Takuji Yamashita",
+      "Chikako Yasui"
+    ],
+    "summary": "GREX-PLUS (Galaxy Reionization EXplorer and PLanetary Universe Spectrometer) is a mission candidate for a JAXA's strategic L-class mission to be launched in the 2030s. Its primary sciences are two-fold: galaxy formation and evolution and planetary system formation and evolution. The GREX-PLUS spacecraft will carry a 1.2 m primary mirror aperture telescope cooled down to 50 K. The two science instruments will be onboard: a wide-field camera in the 2-8 $\u03bc$m wavelength band and a high resolution spectrometer with a wavelength resolution of 30,000 in the 10-18 $\u03bc$m band. The GREX-PLUS wide-field camera aims to detect the first generation of galaxies at redshift $z>15$. The GREX-PLUS high resolution spectrometer aims to identify the location of the water ``snow line'' in proto-planetary disks. Both instruments will provide unique data sets for a broad range of scientific topics including galaxy mass assembly, origin of supermassive blackholes, infrared background radiation, molecular spectroscopy in the interstellar medium, transit spectroscopy for exoplanet atmosphere, planetary atmosphere in the Solar system, and so on.",
+    "published": "2023-04-17 09:29:57+00:00",
+    "entry_id": "http://arxiv.org/abs/2304.08104v2",
+    "pdf_url": "https://arxiv.org/pdf/2304.08104v2",
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.EP",
+      "astro-ph.GA",
+      "astro-ph.IM",
+      "astro-ph.SR"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "The Scientific Impact of the Vera C. Rubin Observatory's Legacy Survey of Space and Time (LSST) for Solar System Science",
+    "authors": [
+      "Vera C. Rubin Observatory LSST Solar System Science Collaboration",
+      "R. Lynne Jones",
+      "Michelle T. Bannister",
+      "Bryce T. Bolin",
+      "Colin Orion Chandler",
+      "Steven R. Chesley",
+      "Siegfried Eggl",
+      "Sarah Greenstreet",
+      "Timothy R. Holt",
+      "Henry H. Hsieh",
+      "Zeljko Ivezi\u0107",
+      "Mario Juri\u0107",
+      "Michael S. P. Kelley",
+      "Matthew M. Knight",
+      "Renu Malhotra",
+      "William J. Oldroyd",
+      "Gal Sarid",
+      "Megan E. Schwamb",
+      "Colin Snodgrass",
+      "Michael Solontoi",
+      "David E. Trilling"
+    ],
+    "summary": "Vera C. Rubin Observatory will be a key facility for small body science in planetary astronomy over the next decade. It will carry out the Legacy Survey of Space and Time (LSST), observing the sky repeatedly in u, g, r, i, z, and y over the course of ten years using a 6.5 m effective diameter telescope with a 9.6 square degree field of view, reaching approximately r = 24.5 mag (5-\u03c3 depth) per visit. The resulting dataset will provide extraordinary opportunities for both discovery and characterization of large numbers (10--100 times more than currently known) of small solar system bodies, furthering studies of planetary formation and evolution. This white paper summarizes some of the expected science from the ten years of LSST, and emphasizes that the planetary astronomy community should remain invested in the path of Rubin Observatory once the LSST is complete.",
+    "published": "2020-09-14 22:54:59+00:00",
+    "entry_id": "http://arxiv.org/abs/2009.07653v1",
+    "pdf_url": "https://arxiv.org/pdf/2009.07653v1",
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.EP"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "Science with the X-ray Imaging and Spectroscopy Mission (XRISM)",
+    "authors": [
+      "XRISM Science Team"
+    ],
+    "summary": "This white paper was prepared by members of the XRISM Science Team for the benefit of the general astronomical community. This paper describes the capabilities of XRISM, offers a sampling of the many science topics that the mission will address, and discusses the synergies of XRISM with the plethora of planned and existing facilities in the 2020s and beyond.",
+    "published": "2020-03-10 20:42:55+00:00",
+    "entry_id": "http://arxiv.org/abs/2003.04962v1",
+    "pdf_url": "https://arxiv.org/pdf/2003.04962v1",
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "The Great Inequality In A Hamiltonian Planetary Theory",
+    "authors": [
+      "F. Varadi",
+      "M. Ghil",
+      "W. M. Kaula",
+      "Keywords",
+      ":",
+      "Hamiltonian systems",
+      "planetary motion",
+      "perturbation theory",
+      "resonances"
+    ],
+    "summary": "The Jupiter-Saturn 2:5 near-commensurability is analyzed in a fully analytic Hamiltonian planetary theory. Computations for the Sun-Jupiter-Saturn system, extending to the third order of the masses and to the 8th degree in the eccentricities and inclinations, reveal an unexpectedly sensitive dependence of the solution on initial data and its likely nonconvergence. The source of the sensitivity and apparent lack of convergence is this near-commensurability, the so-called great inequality. This indicates that simple averaging, still common in current semi-analytic planetary theories, may not be an adequate technique to obtain information on the long-term dynamics of the Solar System.\n  Preliminary results suggest that these difficulties can be overcome by using resonant normal forms.",
+    "published": "1993-11-30 04:18:23+00:00",
+    "entry_id": "http://arxiv.org/abs/chao-dyn/9311011v2",
+    "pdf_url": "https://arxiv.org/pdf/chao-dyn/9311011v2",
+    "categories": [
+      "nlin.CD"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "Author-Based Analysis of Conference versus Journal Publication in Computer Science",
+    "authors": [
+      "Jinseok Kim"
+    ],
+    "summary": "Conference publications in computer science (CS) have attracted scholarly attention due to their unique status as a main research outlet unlike other science fields where journals are dominantly used for communicating research findings. One frequent research question has been how different conference and journal publications are, considering a paper as a unit of analysis. This study takes an author-based approach to analyze publishing patterns of 517,763 scholars who have ever published both in CS conferences and journals for the last 57 years, as recorded in DBLP. The analysis shows that the majority of CS scholars tend to make their scholarly debut, publish more papers, and collaborate with more coauthors in conferences than in journals. Importantly, conference papers seem to serve as a distinct channel of scholarly communication, not a mere preceding step to journal publications: coauthors and title words of authors across conferences and journals tend not to overlap much. This study corroborates findings of previous studies on this topic from a distinctive perspective and suggests that conference authorship in CS calls for more special attention from scholars and administrators outside CS who have focused on journal publications to mine authorship data and evaluate scholarly performance.",
+    "published": "2018-06-27 20:06:17+00:00",
+    "entry_id": "http://arxiv.org/abs/1806.10674v1",
+    "pdf_url": "https://arxiv.org/pdf/1806.10674v1",
+    "categories": [
+      "cs.DL",
+      "cs.IR"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "Make Research Data Public? -- Not Always so Simple: A Dialogue for Statisticians and Science Editors",
+    "authors": [
+      "Nell Sedransk",
+      "Lawrence H. Cox",
+      "Deborah Nolan",
+      "Keith Soper",
+      "Cliff Spiegelman",
+      "Linda J. Young",
+      "Katrina L. Kelner",
+      "Robert A. Moffitt",
+      "Ani Thakar",
+      "Jordan Raddick",
+      "Edward J. Ungvarsky",
+      "Richard W. Carlson",
+      "Rolf Apweiler"
+    ],
+    "summary": "Putting data into the public domain is not the same thing as making those data accessible for intelligent analysis. A distinguished group of editors and experts who were already engaged in one way or another with the issues inherent in making research data public came together with statisticians to initiate a dialogue about policies and practicalities of requiring published research to be accompanied by publication of the research data. This dialogue carried beyond the broad issues of the advisability, the intellectual integrity, the scientific exigencies to the relevance of these issues to statistics as a discipline and the relevance of statistics, from inference to modeling to data exploration, to science and social science policies on these issues.",
+    "published": "2010-11-03 07:28:00+00:00",
+    "entry_id": "http://arxiv.org/abs/1011.0810v1",
+    "pdf_url": "https://arxiv.org/pdf/1011.0810v1",
+    "categories": [
+      "stat.ME",
+      "cs.DL",
+      "physics.data-an"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "The ESO Science Archive",
+    "authors": [
+      "Martino Romaniello",
+      "the ESO Science Archive operations",
+      "development team"
+    ],
+    "summary": "The ESO Science Archive is the collection and access point of the data generated at ESO's La Silla Paranal Observatory, both raw and processed. It is a major contributor to ESO's science output, being used in about 4 out of 10 refereed articles with ESO data. In this paper, which is presented on behalf of the operations and development teams, we review its contents, policies, us interfaces and impact.",
+    "published": "2022-09-23 14:18:48+00:00",
+    "entry_id": "http://arxiv.org/abs/2209.11605v1",
+    "pdf_url": "https://arxiv.org/pdf/2209.11605v1",
+    "categories": [
+      "astro-ph.IM"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "The Frontiers of Nuclear Science, A Long Range Plan",
+    "authors": [
+      "The DOE/NSF Nuclear Science Advisory Committee"
+    ],
+    "summary": "This is a copy of the 2007 report prepared by the DOE/NSF Nuclear Science Advisory Committee in response to the charge from DOE and NSF to \"conduct a study of the opportunities and priorities for U.S. nuclear physics research and recommend a long range plan that will provide a framework for coordinated advancement of the nation's nuclear science research programs over the next decade.\"",
+    "published": "2008-09-17 20:52:44+00:00",
+    "entry_id": "http://arxiv.org/abs/0809.3137v1",
+    "pdf_url": "https://arxiv.org/pdf/0809.3137v1",
+    "categories": [
+      "nucl-ex",
+      "nucl-th"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "The Preliminary Mauve Science Programme: Science themes identified for the first year of operations",
+    "authors": [
+      "Mauve Science Collaboration",
+      "Marcel Agueros",
+      "Don Dixon",
+      "Chuanfei Dong",
+      "Girish M. Duvvuri",
+      "Patrick Flanagan",
+      "Christopher Johns-Krull",
+      "Hongpeng Lu",
+      "Hiroyuki Maehara",
+      "Kosuke Namekata",
+      "Alejandro Nunez",
+      "Elena Pancino",
+      "Sharmila Rani",
+      "Anusha Ravikumar",
+      "T. A. A. Sigut",
+      "Keivan Stassun",
+      "Jamie Stewart",
+      "Kriszti\u00e1n Vida",
+      "Emma Whelan",
+      "Benjamin Wilcock",
+      "Sharafina Razin",
+      "Arianna Saba",
+      "Giovanna Tinetti",
+      "Marcell Tessenyi",
+      "Jonathan Tennyson"
+    ],
+    "summary": "Mauve is a low-cost small satellite developed and operated by Blue Skies Space Ltd. The payload features a 13 cm telescope connected with a fibre that feeds into a UV-Vis spectrometer. The detector covers the 200-700 nm range in a single shot, obtaining low resolution spectra at R~20-65. Mauve has launched on 28th November 2025, reaching a 510 km Low-Earth Sun-synchronous orbit. The satellite will enable UV and visible observations of a variety of stellar objects in our Galaxy, filling the gaps in the ultraviolet space-based data. The researchers that have already joined the mission have defined the science themes, observational strategy and targets that Mauve will observe in the first year of operations. To date 10 science themes have been developed by the Mauve science collaboration for year 1, with observational strategies that include both long duration monitoring and short cadence snapshots. Here, we describe these themes and the science that Mauve will undertake in its first year of operations.",
+    "published": "2025-12-18 15:44:46+00:00",
+    "entry_id": "http://arxiv.org/abs/2512.16675v3",
+    "pdf_url": "https://arxiv.org/pdf/2512.16675v3",
+    "categories": [
+      "astro-ph.SR",
+      "astro-ph.IM"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "A quantitative perspective on ethics in large team science",
+    "authors": [
+      "Alexander M. Petersen",
+      "Ioannis Pavlidis",
+      "Ioanna Semendeferi"
+    ],
+    "summary": "The gradual crowding out of singleton and small team science by large team endeavors is challenging key features of research culture. It is therefore important for the future of scientific practice to reflect upon the individual scientist's ethical responsibilities within teams. To facilitate this reflection we show labor force trends in the US revealing a skewed growth in academic ranks and increased levels of competition for promotion within the system; we analyze teaming trends across disciplines and national borders demonstrating why it is becoming difficult to distribute credit and to avoid conflicts of interest; and we use more than a century of Nobel prize data to show how science is outgrowing its old institutions of singleton awards. Of particular concern within the large team environment is the weakening of the mentor-mentee relation, which undermines the cultivation of virtue ethics across scientific generations. These trends and emerging organizational complexities call for a universal set of behavioral norms that transcend team heterogeneity and hierarchy. To this end, our expository analysis provides a survey of ethical issues in team settings to inform science ethics education and science policy.",
+    "published": "2014-04-01 10:43:36+00:00",
+    "entry_id": "http://arxiv.org/abs/1404.0191v2",
+    "pdf_url": "https://arxiv.org/pdf/1404.0191v2",
+    "categories": [
+      "physics.soc-ph",
+      "cs.CY",
+      "cs.DL"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "New Science on the Open Science Grid",
+    "authors": [
+      "The Open Science Grid Executive Board",
+      ":",
+      "Ruth Pordes",
+      "Mine Altunay",
+      "Paul Avery",
+      "Alina Bejan",
+      "Kent Blackburn",
+      "Alan Blatecky",
+      "Rob Gardner",
+      "Bill Kramer",
+      "Miron Livny",
+      "John McGee",
+      "Maxim Potekhin",
+      "Rob Quick",
+      "Doug Olson",
+      "Alain Roy",
+      "Chander Sehgal",
+      "Torre Wenaus",
+      "Mike Wilde",
+      "Frank Wuerthwein"
+    ],
+    "summary": "The Open Science Grid (OSG) includes work to enable new science, new scientists, and new modalities in support of computationally based research. There are frequently significant sociological and organizational changes required in transformation from the existing to the new. OSG leverages its deliverables to the large scale physics experiment member communities to benefit new communities at all scales through activities in education, engagement and the distributed facility. As a partner to the poster and tutorial at SciDAC 2008, this paper gives both a brief general description and some specific examples of new science enabled on the OSG. More information is available at the OSG web site: (http://www.opensciencegrid.org).",
+    "published": "2009-04-24 22:35:02+00:00",
+    "entry_id": "http://arxiv.org/abs/0904.3950v1",
+    "pdf_url": "https://arxiv.org/pdf/0904.3950v1",
+    "categories": [
+      "physics.comp-ph"
+    ],
+    "query": "publication system signaling theory science"
+  },
+  {
+    "title": "Flux growth of Sr(n+1)Ir(n)O(3n+1) [n=1, 2, infinity] crystals",
+    "authors": [
+      "Kaustuv Manna",
+      "Gizem Aslan-Cansever",
+      "Andrey Maljuk",
+      "Sabine Wurmehl",
+      "Silvia Seiro",
+      "Bernd B\u00fcchner"
+    ],
+    "summary": "Single crystals of iridates are usually grown by a flux method well above the boiling point of the SrCl2 solvent. This leads to non-equilibrium growth conditions and dramatically shortens the lifetime of expensive Pt crucibles. Here, we report the growth of Sr2IrO4, Sr3Ir2O7 and SrIrO3 single crystals in a reproducible way by using anhydrous SrCl2 flux well below its boiling point. We show that the yield of the different phases strongly depends on the nutrient/solvent ratio for fixed soak temperature and cooling rate. Using this low-temperature growth approach generally leads to a lower temperature-independent contribution to the magnetic susceptibility than previously reported. Crystals of SrIrO3 exhibit a paramagnetic behavior that can be remarkably well fitted with a Curie-Weiss law yielding physically reasonable parameters, in contrast to previous reports. Hence, reducing the soak temperature below the solvent boiling point not only provides more stable and controllable growth conditions in contrast to previously reported growth protocols, but also extends considerably the lifetime of expensive platinum crucibles and reduces the corrosion of heating and thermoelements of standard furnaces, thereby reducing growth costs.",
+    "published": "2020-04-07 19:16:02+00:00",
+    "entry_id": "http://arxiv.org/abs/2004.03654v1",
+    "pdf_url": "https://arxiv.org/pdf/2004.03654v1",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "query": "growth of science peer review crisis"
+  },
+  {
+    "title": "Flux growth utilizing the reaction between flux and crucible",
+    "authors": [
+      "J. -Q. Yan"
+    ],
+    "summary": "Flux growth involves dissolving the components of the target compound in an appropriate flux at high temperatures and then crystallizing under supersaturation controlled by cooling or evaporating the flux. A refractory crucible is generally used to contain the high temperature melt. The reaction between the melt and crucible materials can modify the composition of the melt, which typically results in growth failure, or contaminates the crystals. Thus one principle in designing a flux growth is to select suitable flux and crucible materials thus to avoid any reaction between them. In this paper, we review two cases of flux growth in which the reaction between flux and Al$_2$O$_3$ crucible tunes the oxygen content in the melt and helps the crystallization of desired compositions. For the case of La$_5$Pb$_3$O, Al$_2$O$_3$ crucible oxidizes La to form a passivating La$_2$O$_3$ layer which not only prevents further oxidization of La in the melt but also provides [O] to the melt. For the case of La$_{0.4}$Na$_{0.6}$Fe$_2$As$_2$, it is believed that the Al$_2$O$_3$ crucible reacts with NaAsO$_2$ and the reaction consumes oxygen in the melt thus maintaining an oxygen-free environment.",
+    "published": "2015-01-15 18:32:25+00:00",
+    "entry_id": "http://arxiv.org/abs/1501.03770v1",
+    "pdf_url": "https://arxiv.org/pdf/1501.03770v1",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cond-mat.str-el",
+      "cond-mat.supr-con"
+    ],
+    "query": "growth of science peer review crisis"
+  },
+  {
+    "title": "Dislocation pipe diffusion and solute segregation during the growth of metastable GeSn",
+    "authors": [
+      "J\u00e9r\u00f4me Nicolas",
+      "Simone Assali",
+      "Samik Mukherjee",
+      "Andriy Lotnyk",
+      "Oussama Moutanabbir"
+    ],
+    "summary": "Controlling the growth kinetics from the vapor phase has been a powerful paradigm enabling a variety of metastable epitaxial semiconductors such as Sn-containing group IV semiconductors (Si)GeSn. In addition to its importance for emerging photonic and optoelectronic applications, this class of materials is also a rich platform to highlight the interplay between kinetics and thermodynamic driving forces during growth of strained, nonequilibrium alloys. Indeed, these alloys are inherently strained and supersaturated in Sn and thus can suffer instabilities that are still to be fully elucidated. In this vein, in this work the atomic-scale microstructure of Ge0.82Sn0.18 is investigated at the onset of phase separation as the epitaxial growth aborts. In addition to the expected accumulation of Sn on the surface leading to Sn-rich droplets and sub-surface regions with the anticipated equilibrium Sn composition of 1.0at.%, the diffusion of Sn atoms also yields conspicuous Sn-decorated filaments with nonuniform Sn content in the range of ~1 to 11at.% . The latter are attributed to the formation and propagation of dislocations, facilitating the Sn transport toward the surface through pipe diffusion. Furthermore, the interface between the Sn droplet and GeSn shows a distinct, defective layer with Sn content of ~22at.%. This layer is likely formed by the expelled excess equilibrium Ge as the Sn solidifies, and its content seems to be a consequence of strain minimization between tetragonal Sn-rich and cubic Ge-rich equilibrium phases. The elucidation of these phenomena is crucial to understand the stability of GeSn semiconductors and control their epitaxial growth at a uniform composition.",
+    "published": "2020-03-03 03:10:39+00:00",
+    "entry_id": "http://arxiv.org/abs/2003.01308v1",
+    "pdf_url": "https://arxiv.org/pdf/2003.01308v1",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "query": "growth of science peer review crisis"
+  },
+  {
+    "title": "A Weibo Dataset for the 2022 Russo-Ukrainian Crisis",
+    "authors": [
+      "Yi R. Fung",
+      "Heng Ji"
+    ],
+    "summary": "Online social networks such as Twitter and Weibo play an important role in how people stay informed and exchange reactions. Each crisis encompasses a new opportunity to study the portability of models for various tasks (e.g., information extraction, complex event understanding, misinformation detection, etc.), due to differences in domain, entities, and event types. We present the Russia-Ukraine Crisis Weibo (RUW) dataset, with over 3.5M user posts and comments in the first release. Our data is available at https://github.com/yrf1/RussiaUkraine_weibo_dataset.",
+    "published": "2022-03-09 19:06:04+00:00",
+    "entry_id": "http://arxiv.org/abs/2203.05967v1",
+    "pdf_url": "https://arxiv.org/pdf/2203.05967v1",
+    "categories": [
+      "cs.SI",
+      "cs.CL"
+    ],
+    "query": "growth of science peer review crisis"
+  },
+  {
+    "title": "Seasonal Entropy, Diversity and Inequality Measures of Submitted and Accepted Papers Distributions In Peer-Reviewed Journals",
+    "authors": [
+      "Marcel Ausloos",
+      "Olgica Nedic",
+      "Aleksandar Dekanski"
+    ],
+    "summary": "This paper presents a novel method for finding features in the analysis of variable distributions stemming from time series. We apply the methodology to the case of submitted and accepted papers in peer-reviewed journals. We provide a comparative study of editorial decisions for papers submitted to two peer-reviewed journals: the Journal of the Serbian Chemical Society (JSCS) and this MDPI Entropy journal. We cover three recent years for which the fate of submitted papers, about 600 papers to JSCS and 2500 to Entropy, is completely determined. Instead of comparing the number distributions of these papers as a function of time with respect to a uniform distribution, we analyze the relevant probabilities, from which we derive the information entropy. It is argued that such probabilities are indeed more relevant for authors than the actual number of submissions. We tie this entropy analysis to the so called diversity of the variable distributions. Furthermore, we emphasize the correspondence between the entropy and the diversity with inequality measures, like the Herfindahl-Hirschman index and the Theil index, itself being in the class of entropy measures; the Gini coefficient which also measures the diversity in ranking is calculated for further discussion. In this sample, the seasonal aspects of the peer review process are outlined. It is found that the use of such indices, non linear transformations of the data distributions, allow to distinguish features and evolutions of peer review process as a function of time as well as comparing non-uniformity of distributions. Furthermore, t- and z- statistical tests are applied in order to measure the significance (p-level) of the findings, i.e. whether papers are more likely to be accepted if they are submitted during a few specific months or \"season\"; the predictability strength depends on the journal.",
+    "published": "2019-10-13 10:22:53+00:00",
+    "entry_id": "http://arxiv.org/abs/1910.05723v1",
+    "pdf_url": "https://arxiv.org/pdf/1910.05723v1",
+    "categories": [
+      "cs.DL",
+      "physics.soc-ph"
+    ],
+    "query": "growth of science peer review crisis"
+  },
+  {
+    "title": "Systematic Review of Approaches to Improve Peer Assessment at Scale",
+    "authors": [
+      "Manikandan Ravikiran"
+    ],
+    "summary": "Peer Assessment is a task of analysis and commenting on student's writing by peers, is core of all educational components both in campus and in MOOC's. However, with the sheer scale of MOOC's & its inherent personalised open ended learning, automatic grading and tools assisting grading at scale is highly important. Previously we presented survey on tasks of post classification, knowledge tracing and ended with brief review on Peer Assessment (PA), with some initial problems. In this review we shall continue review on PA from perspective of improving the review process itself. As such rest of this review focus on three facets of PA namely Auto grading and Peer Assessment Tools (we shall look only on how peer reviews/auto-grading is carried), strategies to handle Rogue Reviews, Peer Review Improvement using Natural Language Processing. The consolidated set of papers and resources so used are released in https://github.com/manikandan-ravikiran/cs6460-Survey-2.",
+    "published": "2020-01-27 15:59:24+00:00",
+    "entry_id": "http://arxiv.org/abs/2001.10617v1",
+    "pdf_url": "https://arxiv.org/pdf/2001.10617v1",
+    "categories": [
+      "cs.CY",
+      "cs.AI",
+      "cs.CL",
+      "cs.HC"
+    ],
+    "query": "growth of science peer review crisis"
+  },
+  {
+    "title": "Inter-rater reliability and convergent validity of F1000Prime peer review",
+    "authors": [
+      "Lutz Bornmann"
+    ],
+    "summary": "Peer review is the backbone of modern science. F1000Prime is a post-publication peer review system of the biomedical literature (papers from medical and biological journals). This study is concerned with the inter-rater reliability and convergent validity of the peer recommendations formulated in the F1000Prime peer review system. The study is based on around 100,000 papers with recommendations from Faculty members. Even if intersubjectivity plays a fundamental role in science, the analyses of the reliability of the F1000Prime peer review system show a rather low level of agreement between Faculty members. This result is in agreement with most other studies which have been published on the journal peer review system. Logistic regression models are used to investigate the convergent validity of the F1000Prime peer review system. As the results show, the proportion of highly cited papers among those selected by the Faculty members is significantly higher than expected. In addition, better recommendation scores are also connected with better performance of the papers.",
+    "published": "2014-03-31 14:08:50+00:00",
+    "entry_id": "http://arxiv.org/abs/1404.0359v3",
+    "pdf_url": "https://arxiv.org/pdf/1404.0359v3",
+    "categories": [
+      "cs.DL",
+      "physics.soc-ph"
+    ],
+    "query": "growth of science peer review crisis"
+  },
+  {
+    "title": "How Frequently are Articles in Predatory Open Access Journals Cited",
+    "authors": [
+      "Bo-Christer Bj\u00f6rk",
+      "Sari Kanto-Karvonen",
+      "J. Tuomas Harviainen"
+    ],
+    "summary": "Predatory journals are Open Access journals of highly questionable scientific quality. Such journals pretend to use peer review for quality assurance, and spam academics with requests for submissions, in order to collect author payments. In recent years predatory journals have received a lot of negative media. While much has been said about the harm that such journals cause to academic publishing in general, an overlooked aspect is how much articles in such journals are actually read and in particular cited, that is if they have any significant impact on the research in their fields. Other studies have already demonstrated that only some of the articles in predatory journals contain faulty and directly harmful results, while a lot of the articles present mediocre and poorly reported studies. We studied citation statistics over a five-year period in Google Scholar for 250 random articles published in such journals in 2014, and found an average of 2,6 citations per article and that 60 % of the articles had no citations at all. For comparison a random sample of articles published in the approximately 25,000 peer reviewed journals included in the Scopus index had an average of 18,1 citations in the same period with only 9 % receiving no citations. We conclude that articles published in predatory journals have little scientific impact.",
+    "published": "2019-12-21 09:22:00+00:00",
+    "entry_id": "http://arxiv.org/abs/1912.10228v1",
+    "pdf_url": "https://arxiv.org/pdf/1912.10228v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling"
+  },
+  {
+    "title": "Awareness of Predatory Journals in Library and Information Science Faculties in India",
+    "authors": [
+      "Madhuri Kumari",
+      "Subaveerapandiyan A"
+    ],
+    "summary": "Predatory journals that pretended to resemble refereed journals but are used for money-making purposes. Predatory publishers produce less quality scientific and research papers; it is a severe academic threat in scientific publications. Researchers are ensuring the quality of the journal and peer-reviewing process before submitting the manuscript. This paper aims to know the Indian Library and Information Science faculties awareness and knowledge about Predatory journals.",
+    "published": "2022-10-14 06:08:52+00:00",
+    "entry_id": "http://arxiv.org/abs/2210.10092v1",
+    "pdf_url": "https://arxiv.org/pdf/2210.10092v1",
+    "categories": [
+      "cs.DL",
+      "cs.SI"
+    ],
+    "query": "predatory publishing journal quality signaling"
+  },
+  {
+    "title": "The effect of publishing a highly cited paper on journal's impact factor: a case study of the Review of Particle Physics",
+    "authors": [
+      "Weishu Liu",
+      "Fang Liu",
+      "Chao Zuo",
+      "Junwen Zhu"
+    ],
+    "summary": "A single highly cited article can give a big but temporary lift in its host journal's impact factor evidenced by the striking example of \"A short history of SHELX\" published in Acta Crystallographica Section A. By using Journal Citation Reports and Web of Science's citation analysis tool, we find a more general and continuous form of this phenomenon in the Particle Physics field. The highly-cited \"Review of Particle Physics\" series have been published in one of the major Particle Physics journals biennially. This study analyses the effect of these articles on the Impact Factor (IF) of the host journals. The results show that the publication of Review of Particle Physics articles has a direct effect of lifting the IF of its host journal. However the effect on the IF varies according to whether the host journal already has a relatively high or low IF, and the number of articles that it publishes. The impact of these highly cited articles clearly demonstrates the limitations of journal impact factor, and endorses the need to use it more wisely when deciding where to publish and how to evaluate the relative impact of a journal.",
+    "published": "2017-12-11 07:47:53+00:00",
+    "entry_id": "http://arxiv.org/abs/1712.03666v1",
+    "pdf_url": "https://arxiv.org/pdf/1712.03666v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling"
+  },
+  {
+    "title": "Adoption of the open access business model in scientific journal publishing: A cross-disciplinary study",
+    "authors": [
+      "Bo-Christer Bjork",
+      "Timo Korkeamaki"
+    ],
+    "summary": "Scientific journal publishers have over the past twenty-five years rapidly converted to predominantly electronic dissemination, but the reader-pays business model continues to dominate the market. Open Access (OA) publishing, where the articles are freely readable on the net, has slowly increased its market share to near 20%, but has failed to fulfill the visions of rapid proliferation predicted by many early proponents. The growth of OA has also been very uneven across fields of science. We report market shares of open access in eighteen Scopus-indexed disciplines ranging from 27% (agriculture) to 7% (business). The differences become far more pronounced for journals published in the four countries, which dominate commercial scholarly publishing (US, UK, Germany and the Netherlands). We present contrasting developments within six academic disciplines. Availability of funding to pay publication charges, pressure from research funding agencies, and the diversity of discipline-specific research communication cultures arise as potential explanations for the observed differences.",
+    "published": "2020-05-03 07:00:44+00:00",
+    "entry_id": "http://arxiv.org/abs/2005.01008v1",
+    "pdf_url": "https://arxiv.org/pdf/2005.01008v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling"
+  },
+  {
+    "title": "The Evolving Ecosystem of Predatory Journals: A Case Study in Indian Perspective",
+    "authors": [
+      "Naman Jain",
+      "Mayank Singh"
+    ],
+    "summary": "Digital advancement in scholarly repositories has led to the emergence of a large number of open access predatory publishers that charge high article processing fees from authors but fail to provide necessary editorial and publishing services. Identifying and blacklisting such publishers has remained a research challenge due to the highly volatile scholarly publishing ecosystem. This paper presents a data-driven approach to study how potential predatory publishers are evolving and bypassing several regularity constraints. We empirically show the close resemblance of predatory publishers against reputed publishing groups. In addition to verifying standard constraints, we also propose distinctive signals gathered from network-centric properties to understand this evolving ecosystem better.",
+    "published": "2019-06-17 06:21:12+00:00",
+    "entry_id": "http://arxiv.org/abs/1906.06856v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.06856v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling"
+  },
+  {
+    "title": "APC waivers and Ukraine's publishing output in Gold OA journals: Evidence from five commercial publishers",
+    "authors": [
+      "Serhii Nazarovets"
+    ],
+    "summary": "This study examines the effect of article processing charge (APC) waivers on the participation of Ukrainian researchers in fully Gold Open Access (Gold OA) journals published by the five largest academic publishers - Elsevier, SAGE, Springer Nature, Taylor & Francis, and Wiley - during the period 2019-2024. These publishers were selected because, in response to the full-scale war launched against Ukraine in 2022, all five introduced emergency 100% APC-waiver policies for Ukrainian authors. Using bibliometric data from the Web of Science Core Collection, the study analyses publication trends in Ukrainian-authored articles in fully Gold OA journals of these publishers before and after 2022. The results show a marked post-2022 increase in Ukraine's Gold OA output, particularly in journals published by Springer Nature and Elsevier. Disciplinary and publisher-specific patterns are evident, with especially strong growth in the medical and applied sciences. The findings underscore the potential of targeted support measures during times of crisis, while also illustrating the inherent limitations of APC-based publishing models in fostering equitable scholarly communication.",
+    "published": "2025-05-17 20:18:42+00:00",
+    "entry_id": "http://arxiv.org/abs/2505.12134v3",
+    "pdf_url": "https://arxiv.org/pdf/2505.12134v3",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling"
+  },
+  {
+    "title": "Prevalence of Potentially Predatory Publishing in Scopus on the Country Level",
+    "authors": [
+      "Tatiana Savina",
+      "Ivan Sterligov"
+    ],
+    "summary": "We present the results of a large-scale study of potentially predatory journals (PPJ) represented in the Scopus database, which is widely used for research evaluation. Both journal metrics and country, disciplinary data have been evaluated for different groups of PPJ: those listed by Jeffrey Beall and those delisted by Scopus because of \"publication concerns\". Our results show that even after years of delisting, PPJ are still highly visible in the Scopus database with hundreds of active potentially predatory journals. PPJ papers are continuously produced by all major countries, but with different shares. All major subject areas are affected. The largest number of PPJ papers are in engineering and medicine. On average, PPJ have much lower citation metrics than other Scopus-indexed journals. We conclude with a brief survey of the case of Kazakhstan where the share of PPJ papers at one time amounted to almost a half of all Kazakhstan papers in Scopus, and propose a link between PPJ share and national research evaluation policies (in particular, rules of awarding academic degrees). The progress of potentially predatory journal research will be increasingly important because such evaluation methods are becoming more widespread in times of the Metric Tide.",
+    "published": "2020-03-18 15:44:23+00:00",
+    "entry_id": "http://arxiv.org/abs/2003.08283v3",
+    "pdf_url": "https://arxiv.org/pdf/2003.08283v3",
+    "categories": [
+      "cs.DL",
+      "stat.AP"
+    ],
+    "query": "predatory publishing journal quality signaling"
+  },
+  {
+    "title": "In which fields do higher impact journals publish higher quality articles?",
+    "authors": [
+      "Mike Thelwall",
+      "Kayvan Kousha",
+      "Mahshid Abdoli",
+      "Emma Stuart",
+      "Meiko Makita",
+      "Paul Wilson",
+      "Jonathan Levitt"
+    ],
+    "summary": "The Journal Impact Factor and other indicators that assess the average citation rate of articles in a journal are consulted by many academics and research evaluators, despite initiatives against overreliance on them. Despite this, there is limited evidence about the extent to which journal impact indicators in any field relates to human judgements about the journals or their articles. In response, we compared average citation rates of journals against expert judgements of their articles in all fields of science. We used preliminary quality scores for 96,031 articles published 2014-18 from the UK Research Excellence Framework (REF) 2021. We show that whilst there is a positive correlation between expert judgements of article quality and average journal impact in all fields of science, it is very weak in many fields and is never strong. The strength of the correlation varies from 0.11 to 0.43 for the 27 broad fields of Scopus. The highest correlation for the 94 Scopus narrow fields with at least 750 articles was only 0.54, for Infectious Diseases, and there was only one negative correlation, for the mixed category Computer Science (all). The results suggest that the average citation impact of a Scopus-indexed journal is never completely irrelevant to the quality of an article, even though it is never a strong indicator of article quality.",
+    "published": "2022-12-11 06:04:53+00:00",
+    "entry_id": "http://arxiv.org/abs/2212.05419v1",
+    "pdf_url": "https://arxiv.org/pdf/2212.05419v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling"
+  },
+  {
+    "title": "Mapping Academic Institutions According to Their Journal Publication Profile: Spanish Universities as a Case Study",
+    "authors": [
+      "J. A. Garc\u00eda",
+      "Rosa Rodr\u00edguez-S\u00e1nchez",
+      "J. Fdez-Valdivia",
+      "Nicolas Robinson-Garc\u00eda",
+      "Daniel Torres-Salinas"
+    ],
+    "summary": "We introduce a novel methodology for mapping academic institutions based on their journal publication profiles. We believe that journals in which researchers from academic institutions publish their works can be considered as useful identifiers for representing the relationships between these institutions and establishing comparisons. However, when academic journals are used for research output representation, distinctions must be introduced between them, based on their value as institution descriptors. This leads us to the use of journal weights attached to the institution identifiers. Since a journal in which researchers from a large proportion of institutions published their papers may be a bad indicator of similarity between two academic institutions, it seems reasonable to weight it in accordance with how frequently researchers from different institutions published their papers in this journal. Cluster analysis can then be applied to group the academic institutions, and dendrograms can be provided to illustrate groups of institutions following agglomerative hierarchical clustering. In order to test this methodology, we use a sample of Spanish universities as a case study. We first map the study sample according to an institution's overall research output, then we use it for two scientific fields (Information and Communication Technologies, as well as Medicine and Pharmacology) as a means to demonstrate how our methodology can be applied, not only for analyzing institutions as a whole, but also in different disciplinary contexts.",
+    "published": "2013-02-17 10:37:09+00:00",
+    "entry_id": "http://arxiv.org/abs/1302.4053v1",
+    "pdf_url": "https://arxiv.org/pdf/1302.4053v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling"
+  },
+  {
+    "title": "Top performers and top journals: Persistent concentration in scientific publishing",
+    "authors": [
+      "Marek Kwiek",
+      "Wojciech Roszka"
+    ],
+    "summary": "In this research, we analyze the relationship between publishing productivity and access to highly prestigious journals, treating publishing in top journals as a stratification mechanism selecting publishing elites. We study N = 144,314 Polish scientists publishing for 30 years (1992-2021) and their Nart = 433,546 unique research articles published in the period. Using bibliometric data from Scopus, we compare the scientists belonging to the top productivity decile (the upper 10%, termed top performers) and the remaining population of scientists (90%) by discipline and period (five six-year periods). We measure the share of publications in prestigious segments of journals, with particular reference to the 90th-99th percentiles, and we use nonlinear journal prestige-normalized productivity. Our results indicate that access to top journals (defined as the top 10% of journals indexed in Scopus) is powerfully and permanently concentrated in the group of top performers in all disciplines and periods studied. The differences between top performers and the other scientists are primarily of a qualitative nature: they are seen almost exclusively at the top of the journal hierarchy rather than in its bottom or middle segments. Our logistic regression models indicate the complementarity of quantity and quality: publishing intensity increases the probability of membership in the elite segment of top performers, especially when it is coupled with publishing in prestigious journals. Our results suggest that top journals function as selection gates to academic careers and that they function as durable mechanisms of elite reproduction in science.",
+    "published": "2026-02-10 20:21:55+00:00",
+    "entry_id": "http://arxiv.org/abs/2603.00069v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.00069v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "predatory publishing journal quality signaling"
+  },
+  {
+    "title": "The Homogenous Properties of Automated Market Makers",
+    "authors": [
+      "Johannes Rude Jensen",
+      "Mohsen Pourpouneh",
+      "Kurt Nielsen",
+      "Omri Ross"
+    ],
+    "summary": "Automated market makers (AMM) have grown to obtain significant market share within the cryptocurrency ecosystem, resulting in a proliferation of new products pursuing exotic strategies for horizontal differentiation. Yet, their theoretical properties are curiously homogeneous when a set of basic assumptions are met. In this paper, we start by presenting a universal approach to deriving a formula for liquidity provisioning for AMMs. Next, we show that the constant function market maker and token swap market maker models are theoretically equivalent when liquidity reserves are uniform. Proceeding with an examination of AMM market microstructure, we show how non-linear price effect translates into slippage for traders and impermanent losses for liquidity providers. We proceed by showing how impermanent losses are a function of both volatility and market depth and discuss the implications of these findings within the context of the literature.",
+    "published": "2021-03-31 09:39:10+00:00",
+    "entry_id": "http://arxiv.org/abs/2105.02782v1",
+    "pdf_url": "https://arxiv.org/pdf/2105.02782v1",
+    "categories": [
+      "q-fin.TR",
+      "cs.CE"
+    ],
+    "query": "scientific publishing market signaling Spence"
+  },
+  {
+    "title": "Preconditioning FEM discretisations of the high-frequency Helmholtz and Maxwell equations by either perturbing the coefficients or adding absorption",
+    "authors": [
+      "Euan A. Spence"
+    ],
+    "summary": "This paper investigates the following question: given a Galerkin matrix corresponding to a finite-element discretisation of either the Helmholtz or time-harmonic Maxwell equations with variable coefficients, suppose that the coefficients of the underlying PDE are perturbed; how good an approximate inverse (i.e., preconditioner) is the resulting Galerkin matrix to the original Galerkin matrix? An important special case is when the perturbation consists of adding absorption (in the spirit of \"shifted Laplacian preconditioning\"). The results of this paper improve the Helmholtz results in [Gander, Graham, Spence, 2015] and [Graham, Pembery, Spence, 2021], and extend these results to the time-harmonic Maxwell equations, confirming a conjecture in the recent preprint [Li, Hu, arXiv 2501.18305].",
+    "published": "2025-04-18 17:39:34+00:00",
+    "entry_id": "http://arxiv.org/abs/2504.13814v2",
+    "pdf_url": "https://arxiv.org/pdf/2504.13814v2",
+    "categories": [
+      "math.NA"
+    ],
+    "query": "scientific publishing market signaling Spence"
+  },
+  {
+    "title": "Slow decay of impact in equity markets",
+    "authors": [
+      "X. Brokmann",
+      "E. Serie",
+      "J. Kockelkoren",
+      "J. -P. Bouchaud"
+    ],
+    "summary": "Using a proprietary dataset of meta-orders and prediction signals, and assuming a quasi-linear impact model, we deconvolve market impact from past correlated trades and a predictable return component to elicit the temporal dependence of the market impact of a single daily meta-order, over a ten day horizon in various equity markets. We find that the impact of single meta-orders is to a first approximation universal and slowly decays to zero (or to a small value), possibly as a power-law. We show that auto-correlated order-flows and trade information contents fully accounts for the apparent plateau observed in the raw data. We discuss the possible bias introduced by the quasi-linear assumption.",
+    "published": "2014-07-12 14:32:20+00:00",
+    "entry_id": "http://arxiv.org/abs/1407.3390v1",
+    "pdf_url": "https://arxiv.org/pdf/1407.3390v1",
+    "categories": [
+      "q-fin.TR",
+      "cond-mat.stat-mech"
+    ],
+    "query": "scientific publishing market signaling Spence"
+  },
+  {
+    "title": "The $hp$-FEM applied to the Helmholtz equation with PML truncation does not suffer from the pollution effect",
+    "authors": [
+      "Jeffrey Galkowski",
+      "David Lafontaine",
+      "Euan A. Spence",
+      "Jared Wunsch"
+    ],
+    "summary": "We consider approximation of the variable-coefficient Helmholtz equation in the exterior of a Dirichlet obstacle using perfectly-matched-layer (PML) truncation; it is well known that this approximation is exponentially accurate in the PML width and the scaling angle, and the approximation was recently proved to be exponentially accurate in the wavenumber $k$ in [Galkowski, Lafontaine, Spence, 2021].\n  We show that the $hp$-FEM applied to this problem does not suffer from the pollution effect, in that there exist $C_1,C_2>0$ such that if $hk/p\\leq C_1$ and $p \\geq C_2 \\log k$ then the Galerkin solutions are quasioptimal (with constant independent of $k$), under the following two conditions (i) the solution operator of the original Helmholtz problem is polynomially bounded in $k$ (which occurs for \"most\" $k$ by [Lafontaine, Spence, Wunsch, 2021]), and (ii) either there is no obstacle and the coefficients are smooth or the obstacle is analytic and the coefficients are analytic in a neighbourhood of the obstacle and smooth elsewhere.\n  This $hp$-FEM result is obtained via a decomposition of the PML solution into \"high-\" and \"low-frequency\" components, analogous to the decomposition for the original Helmholtz solution recently proved in [Galkowski, Lafontaine, Spence, Wunsch, 2022]. The decomposition is obtained using tools from semiclassical analysis (i.e., the PDE techniques specifically designed for studying Helmholtz problems with large $k$).",
+    "published": "2022-07-12 14:06:25+00:00",
+    "entry_id": "http://arxiv.org/abs/2207.05542v5",
+    "pdf_url": "https://arxiv.org/pdf/2207.05542v5",
+    "categories": [
+      "math.AP",
+      "math.NA"
+    ],
+    "query": "scientific publishing market signaling Spence"
+  },
+  {
+    "title": "Could AI change the scientific publishing market once and for all?",
+    "authors": [
+      "Wadim Strielkowski"
+    ],
+    "summary": "Artificial-intelligence tools in research like ChatGPT are playing an increasingly transformative role in revolutionizing scientific publishing and re-shaping its economic background. They can help academics to tackle such issues as limited space in academic journals, accessibility of knowledge, delayed dissemination, or the exponential growth of academic output. Moreover, AI tools could potentially change scientific communication and academic publishing market as we know them. They can help to promote Open Access (OA) in the form of preprints, dethrone the entrenched journals and publishers, as well as introduce novel approaches to the assessment of research output. It is also imperative that they should do just that, once and for all.",
+    "published": "2024-01-26 15:36:15+00:00",
+    "entry_id": "http://arxiv.org/abs/2401.14952v1",
+    "pdf_url": "https://arxiv.org/pdf/2401.14952v1",
+    "categories": [
+      "econ.TH",
+      "cs.DL"
+    ],
+    "query": "scientific publishing market signaling Spence"
+  },
+  {
+    "title": "Eigenvalues of the truncated Helmholtz solution operator under strong trapping",
+    "authors": [
+      "Jeffrey Galkowski",
+      "Pierre Marchand",
+      "Euan A. Spence"
+    ],
+    "summary": "For the Helmholtz equation posed in the exterior of a Dirichlet obstacle, we prove that if there exists a family of quasimodes (as is the case when the exterior of the obstacle has stable trapped rays), then there exist near-zero eigenvalues of the standard variational formulation of the exterior Dirichlet problem (recall that this formulation involves truncating the exterior domain and applying the exterior Dirichlet-to-Neumann map on the truncation boundary).\n  Our motivation for proving this result is that a) the finite-element method for computing approximations to solutions of the Helmholtz equation is based on the standard variational formulation, and b) the location of eigenvalues, and especially near-zero ones, plays a key role in understanding how iterative solvers such as the generalised minimum residual method (GMRES) behave when used to solve linear systems, in particular those arising from the finite-element method. The result proved in this paper is thus the first step towards rigorously understanding how GMRES behaves when applied to discretisations of high-frequency Helmholtz problems under strong trapping (the subject of the companion paper [Marchand, Galkowski, Spence, Spence, 2021]).",
+    "published": "2021-01-06 16:15:50+00:00",
+    "entry_id": "http://arxiv.org/abs/2101.02116v3",
+    "pdf_url": "https://arxiv.org/pdf/2101.02116v3",
+    "categories": [
+      "math.AP",
+      "math.NA"
+    ],
+    "query": "scientific publishing market signaling Spence"
+  },
+  {
+    "title": "A simple proof that the $hp$-FEM does not suffer from the pollution effect for the constant-coefficient full-space Helmholtz equation",
+    "authors": [
+      "Euan A. Spence"
+    ],
+    "summary": "In $d$ dimensions, approximating an arbitrary function oscillating with frequency $\\lesssim k$ requires $\\sim k^d$ degrees of freedom. A numerical method for solving the Helmholtz equation (with wavenumber $k$) suffers from the pollution effect if, as $k\\to \\infty$, the total number of degrees of freedom needed to maintain accuracy grows faster than this natural threshold.\n  While the $h$-version of the finite element method (FEM) (where accuracy is increased by decreasing the meshwidth $h$ and keeping the polynomial degree $p$ fixed) suffers from the pollution effect, the celebrated papers [Melenk, Sauter 2010], [Melenk, Sauter 2011], [Esterhazy, Melenk 2012], and [Melenk, Parsania, Sauter 2013] showed that the $hp$-FEM (where accuracy is increased by decreasing the meshwidth $h$ and increasing the polynomial degree $p$) applied to a variety of constant-coefficient Helmholtz problems does not suffer from the pollution effect.\n  The heart of the proofs of these results is a PDE result splitting the solution of the Helmholtz equation into \"high\" and \"low\" frequency components. In this expository paper we prove this splitting for the constant-coefficient Helmholtz equation in full space (i.e., in $\\mathbb{R}^d$) using only integration by parts and elementary properties of the Fourier transform; this is in contrast to the proof for this set-up in [Melenk, Sauter 2010] which uses somewhat-involved bounds on Bessel and Hankel functions. The proof in this paper is motivated by the recent proof in [Lafontaine, Spence, Wunsch 2022] of this splitting for the variable-coefficient Helmholtz equation in full space; indeed, the proof in [Lafontaine, Spence, Wunsch 2022] uses more-sophisticated tools that reduce to the elementary ones above for constant coefficients.",
+    "published": "2022-02-14 18:55:20+00:00",
+    "entry_id": "http://arxiv.org/abs/2202.06939v4",
+    "pdf_url": "https://arxiv.org/pdf/2202.06939v4",
+    "categories": [
+      "math.NA"
+    ],
+    "query": "scientific publishing market signaling Spence"
+  },
+  {
+    "title": "Empirical comparison of three models for determining market clearing prices in Turkish day-ahead electricity market",
+    "authors": [
+      "G\u00f6khan Ceyhan",
+      "Nermin Elif Kurt",
+      "H. Bahadir Sahin",
+      "K\u00fcr\u015fad Derinkuyu"
+    ],
+    "summary": "Bidders in day-ahead electricity markets want to sell/buy electricity when their bids generate positive surplus and not to take an action when the reverse holds. However, non-convexities in these markets cause conflicts between the actions that the bidders want to take and the actual market results. In this work, we investigate the non-convex market clearing problem of Turkish market operator and propose three different rule sets. The first rule set allows both rejection of bids with positive surplus and acceptance of bids with negative surplus. The second and the third sets only allow one of these conflicted cases. By using total surplus maximization as the objective, we formulate three models and statistically explore their performance with the real data taken from Turkish market operator.",
+    "published": "2017-12-01 09:01:16+00:00",
+    "entry_id": "http://arxiv.org/abs/1712.00235v1",
+    "pdf_url": "https://arxiv.org/pdf/1712.00235v1",
+    "categories": [
+      "q-fin.TR"
+    ],
+    "query": "scientific publishing market signaling Spence"
+  },
+  {
+    "title": "An Optimal Execution Problem with Market Impact",
+    "authors": [
+      "Takashi Kato"
+    ],
+    "summary": "We study an optimal execution problem in a continuous-time market model that considers market impact. We formulate the problem as a stochastic control problem and investigate properties of the corresponding value function. We find that right-continuity at the time origin is associated with the strength of market impact for large sales, otherwise the value function is continuous. Moreover, we show the semi-group property (Bellman principle) and characterise the value function as a viscosity solution of the corresponding Hamilton-Jacobi-Bellman equation. We introduce some examples where the forms of the optimal strategies change completely, depending on the amount of the trader's security holdings and where optimal strategies in the Black-Scholes type market with nonlinear market impact are not block liquidation but gradual liquidation, even when the trader is risk-neutral.",
+    "published": "2009-07-20 09:56:35+00:00",
+    "entry_id": "http://arxiv.org/abs/0907.3282v8",
+    "pdf_url": "https://arxiv.org/pdf/0907.3282v8",
+    "categories": [
+      "q-fin.TR",
+      "math.OC",
+      "math.PR"
+    ],
+    "query": "scientific publishing market signaling Spence"
+  },
+  {
+    "title": "Wavenumber-explicit regularity estimates on the acoustic single- and double-layer operators",
+    "authors": [
+      "Jeffrey Galkowski",
+      "Euan A. Spence"
+    ],
+    "summary": "We prove new, sharp, wavenumber-explicit bounds on the norms of the Helmholtz single- and double-layer boundary-integral operators as mappings from $L^2(\\partial \u03a9)\\rightarrow H^1(\\partial \u03a9)$ (where $\\partial\u03a9$ is the boundary of the obstacle). The new bounds are obtained using estimates on the restriction to the boundary of quasimodes of the Laplacian, building on recent work by the first author and collaborators.\n  Our main motivation for considering these operators is that they appear in the standard second-kind boundary-integral formulations, posed in $L^2(\\partial \u03a9)$, of the exterior Dirichlet problem for the Helmholtz equation. Our new wavenumber-explicit $L^2(\\partial \u03a9)\\rightarrow H^1(\\partial \u03a9)$ bounds can then be used in a wavenumber-explicit version of the classic compact-perturbation analysis of Galerkin discretisations of these second-kind equations; this is done in the companion paper [Galkowski, M\u00fcller, Spence, arXiv 1608.01035].",
+    "published": "2018-07-25 16:47:40+00:00",
+    "entry_id": "http://arxiv.org/abs/1807.09719v1",
+    "pdf_url": "https://arxiv.org/pdf/1807.09719v1",
+    "categories": [
+      "math.AP"
+    ],
+    "query": "scientific publishing market signaling Spence"
+  },
+  {
+    "title": "Frequency-Explicit Shape Holomorphy in Uncertainty Quantification for Acoustic Scattering",
+    "authors": [
+      "Ralf Hiptmair",
+      "Christoph Schwab",
+      "Euan A. Spence"
+    ],
+    "summary": "We consider frequency-domain acoustic scattering at a homogeneous star-shaped penetrable obstacle, whose shape is uncertain and modelled via a radial spectral parameterization with random coefficients. Using recent results on the stability of Helmholtz transmission problems with piecewise constant coefficients from [A. Moiola and E. A. Spence, Acoustic transmission problems: wavenumber-explicit bounds and resonance-free regions, Mathematical Models and Methods in Applied Sciences, 29 (2019), pp. 317-354] we obtain frequency-explicit statements on the holomorphic dependence of the scattered field and the far-field pattern on the stochastic shape parameters. This paves the way for applying general results on the efficient construction of high-dimensional surrogate models. We also take into account the effect of domain truncation by means of perfectly matched layers (PML). In addition, spatial regularity estimates which are explicit in terms of the wavenumber $k$ permit us to quantify the impact of finite-element Galerkin discretization using high-order Lagrangian finite-element spaces.",
+    "published": "2024-08-02 11:24:08+00:00",
+    "entry_id": "http://arxiv.org/abs/2408.01194v2",
+    "pdf_url": "https://arxiv.org/pdf/2408.01194v2",
+    "categories": [
+      "math.NA"
+    ],
+    "query": "scientific publishing market signaling Spence"
+  },
+  {
+    "title": "Sharp bounds on Helmholtz impedance-to-impedance maps and application to overlapping domain decomposition",
+    "authors": [
+      "David Lafontaine",
+      "Euan A. Spence"
+    ],
+    "summary": "We prove sharp bounds on certain impedance-to-impedance maps (and their compositions) for the Helmholtz equation with large wavenumber (i.e., at high-frequency) using semiclassical defect measures. The paper [GGGLS] (Gong-Gander-Graham-Lafontaine-Spence, 2022) recently showed that the behaviour of these impedance-to-impedance maps (and their compositions) dictates the convergence of the parallel overlapping Schwarz domain-decomposition method with impedance boundary conditions on the subdomain boundaries. For a model decomposition with two subdomains and sufficiently-large overlap, the results of this paper combined with those in [GGGLS] show that the parallel Schwarz method is power contractive, independent of the wavenumber. For strip-type decompositions with many subdomains, the results of this paper show that the composite impedance-to-impedance maps, in general, behave \"badly\" with respect to the wavenumber; nevertheless, by proving results about the composite maps applied to a restricted class of data, we give insight into the wavenumber-robustness of the parallel Schwarz method observed in the numerical experiments in [GGGLS].",
+    "published": "2022-11-26 20:37:33+00:00",
+    "entry_id": "http://arxiv.org/abs/2211.14659v2",
+    "pdf_url": "https://arxiv.org/pdf/2211.14659v2",
+    "categories": [
+      "math.AP",
+      "math.NA"
+    ],
+    "query": "scientific publishing market signaling Spence"
+  },
+  {
+    "title": "An Adaptive Tabu Search Algorithm for Market Clearing Problem in Turkish Day-Ahead Market",
+    "authors": [
+      "Nermin Elif Kurt",
+      "H. Bahadir Sahin",
+      "K\u00fcr\u015fad Derinkuyu"
+    ],
+    "summary": "In this study, we focus on the market clearing problem of Turkish day-ahead electricity market. We propose a mathematical model by extending the variety of bid types for different price regions. The commercial solvers may not find any feasible solution for the proposed problem in some instances within the given time limits. Hence, we design an adaptive tabu search (ATS) algorithm to solve the problem. ATS discretizes continuous search space arising from the flow variables. Our method has adaptive radius and it achieves backtracking by a commercial solver. Then, we compare the performance of ATS with a heuristic decomposition method from the literature by using synthetic data sets. We evaluate the performances of the algorithms with respect to their solution times and surplus differences. ATS performs better in most of the sets.",
+    "published": "2018-09-26 11:37:52+00:00",
+    "entry_id": "http://arxiv.org/abs/1809.10554v1",
+    "pdf_url": "https://arxiv.org/pdf/1809.10554v1",
+    "categories": [
+      "q-fin.TR",
+      "math.OC"
+    ],
+    "query": "scientific publishing market signaling Spence"
+  },
+  {
+    "title": "Coercive second-kind boundary integral equations for the Laplace Dirichlet problem on Lipschitz domains",
+    "authors": [
+      "Simon N. Chandler-Wilde",
+      "Euan A. Spence"
+    ],
+    "summary": "We present new second-kind integral-equation formulations of the interior and exterior Dirichlet problems for Laplace's equation. The operators in these formulations are both continuous and coercive on general Lipschitz domains in $\\mathbb{R}^d$, $d\\geq 2$, in the space $L^2(\u0393)$, where $\u0393$ denotes the boundary of the domain. These properties of continuity and coercivity immediately imply that (i) the Galerkin method converges when applied to these formulations; and (ii) the Galerkin matrices are well-conditioned as the discretisation is refined, without the need for operator preconditioning (and we prove a corresponding result about the convergence of GMRES). The main significance of these results is that it was recently proved (see Chandler-Wilde and Spence, Numer. Math., 150(2):299-271, 2022) that there exist 2- and 3-d Lipschitz domains and 3-d starshaped Lipschitz polyhedra for which the operators in the standard second-kind integral-equation formulations for Laplace's equation (involving the double-layer potential and its adjoint) $\\textit{cannot}$ be written as the sum of a coercive operator and a compact operator in the space $L^2(\u0393)$. Therefore there exist 2- and 3-d Lipschitz domains and 3-d starshaped Lipschitz polyhedra for which Galerkin methods in $L^2(\u0393)$ do $\\textit{not}$ converge when applied to the standard second-kind formulations, but $\\textit{do}$ converge for the new formulations.",
+    "published": "2022-10-05 17:51:57+00:00",
+    "entry_id": "http://arxiv.org/abs/2210.02432v3",
+    "pdf_url": "https://arxiv.org/pdf/2210.02432v3",
+    "categories": [
+      "math.NA",
+      "math.AP"
+    ],
+    "query": "scientific publishing market signaling Spence"
+  },
+  {
+    "title": "The Three Axes of Success: A Three-Dimensional Framework for Career Decision-Making",
+    "authors": [
+      "Meng-Chi Chen"
+    ],
+    "summary": "Career decision-making is a socio-technical problem: individuals exercise bounded agency while navigating labor market institutions, organizational incentive structures, and information asymmetries that shape feasible trajectories. Existing frameworks optimize along single dimensions - financial returns, work-life balance, or mission alignment - without explicit models for inter-dimensional tradeoffs or temporal dynamics. We propose The Three Axes of Success, a normative decision framework decomposing career trajectories into Wealth (career capital accumulation and economic optionality), Autonomy (control over task selection, temporal allocation, and strategic direction), and Meaning (counterfactual social impact scaled by problem importance and personal replaceability). We formalize coupling dynamics between axes: the adjacent possible mechanism by which skill frontiers enable mission discovery, creating nonlinear Wealth -> Meaning transitions; autonomy prerequisites where insufficient career capital triggers control traps; and dual-career household constraints that yield Pareto-suboptimal Nash equilibria under independent optimization. We operationalize each axis through measurable proxies, analyze prototypical career archetypes - industrial R&D, academia, entrepreneurship - as points in (W, A, M)-space, and derive sequential versus simultaneous optimization strategies under uncertainty. The framework converts implicit career anxiety into explicit multi-objective optimization problems with satisficing thresholds, structuring the human-system interaction between individual deliberation and institutional constraints. This provides the first unified decision-theoretic treatment of career success, integrating insights from human capital theory, self-determination theory, and effective altruism into a coherent architecture for rational career design.",
+    "published": "2026-01-16 16:54:56+00:00",
+    "entry_id": "http://arxiv.org/abs/2601.17023v1",
+    "pdf_url": "https://arxiv.org/pdf/2601.17023v1",
+    "categories": [
+      "cs.CY"
+    ],
+    "query": "career incentives academic publishing peer review"
+  },
+  {
+    "title": "Liberata -- Graph Scientometrics for a Share Based System of Academic Publishing",
+    "authors": [
+      "Han Zhang",
+      "Anshuman Sabath",
+      "Timothy W. Dunn",
+      "L. Catherine Brinson"
+    ],
+    "summary": "Contemporary scientometric indicators remain anchored in paradigms and axioms from when academic research was conducted in small scholarly communities. With the global proliferation of scientific research, academia is now organized in large communities with high rates of information incompleteness regarding work impact and individual contributions. This has significant implications for how research output is measured and quality controlled, especially as the rate of academic publishing continues to rise. Exploits of complex systems are typically found at discrete transition points where rules turn on or off, and academia is not immune to this pattern. Exploitative career boosting strategies are a growing problem, largely enabled by misaligned incentives and traditional metrics that force discretization of credit to authors and prior works despite their fundamentally continuous nature.\n  This article introduces Liberata's scientometrics, a share based framework for academic publishing and quality control. In this system, authorship positions are replaced with contribution shares that sum to unity and encode both ordinality and relative contribution distances. These shares can be traded on Liberata's academic marketplaces for quality control services such as peer review and replication, rewarding contributors based on the long term success of the work. Citations are weighted to guard against frivolous referencing and credit inflation, and modular correction factors allow multiple measures of impact. Liberata's metrics are formalized through two fundamental graphs, Shares and References, from which the system constructs academic capital and derives scientometrics capturing impact, risk, collaboration, collusion, value of quality control, and diversification. These metrics represent academic contributions and extend naturally to institutions, regions, time periods, and research fields.",
+    "published": "2026-05-04 01:17:17+00:00",
+    "entry_id": "http://arxiv.org/abs/2605.02128v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02128v1",
+    "categories": [
+      "cs.DL",
+      "cs.DM",
+      "cs.GT"
+    ],
+    "query": "career incentives academic publishing peer review"
+  },
+  {
+    "title": "Evaluating Generative Models for Tabular Data: Novel Metrics and Benchmarking",
+    "authors": [
+      "Dayananda Herurkar",
+      "Ahmad Ali",
+      "Andreas Dengel"
+    ],
+    "summary": "Generative models have revolutionized multiple domains, yet their application to tabular data remains underexplored. Evaluating generative models for tabular data presents unique challenges due to structural complexity, large-scale variability, and mixed data types, making it difficult to intuitively capture intricate patterns. Existing evaluation metrics offer only partial insights, lacking a comprehensive measure of generative performance. To address this limitation, we propose three novel evaluation metrics: FAED, FPCAD, and RFIS. Our extensive experimental analysis, conducted on three standard network intrusion detection datasets, compares these metrics with established evaluation methods such as Fidelity, Utility, TSTR, and TRTS. Our results demonstrate that FAED effectively captures generative modeling issues overlooked by existing metrics. While FPCAD exhibits promising performance, further refinements are necessary to enhance its reliability. Our proposed framework provides a robust and practical approach for assessing generative models in tabular data applications.",
+    "published": "2025-04-29 16:16:51+00:00",
+    "entry_id": "http://arxiv.org/abs/2504.20900v1",
+    "pdf_url": "https://arxiv.org/pdf/2504.20900v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "query": "evaluation of researchers publication metrics"
+  },
+  {
+    "title": "Normalization of peer-evaluation measures of group research quality across academic disciplines",
+    "authors": [
+      "Ralph Kenna",
+      "Bertrand Berche"
+    ],
+    "summary": "Peer-evaluation based measures of group research quality such as the UK's Research Assessment Exercise (RAE), which do not employ bibliometric analyses, cannot directly avail of such methods to normalize research impact across disciplines. This is seen as a conspicuous flaw of such exercises and calls have been made to find a remedy. Here a simple, systematic solution is proposed based upon a mathematical model for the relationship between research quality and group quantity. This model manifests both the Matthew effect and a phenomenon akin to the Ringelmann effect and reveals the existence of two critical masses for each academic discipline: a lower value, below which groups are vulnerable, and an upper value beyond which the dependency of quality on quantity reduces and plateaus appear when the critical masses are large. A possible normalization procedure is then to pitch these plateaus at similar levels. We examine the consequences of this procedure at RAE for a multitude of academic disciplines, corresponding to a range of critical masses.",
+    "published": "2010-06-19 12:36:42+00:00",
+    "entry_id": "http://arxiv.org/abs/1006.3863v2",
+    "pdf_url": "https://arxiv.org/pdf/1006.3863v2",
+    "categories": [
+      "physics.soc-ph",
+      "cs.DL"
+    ],
+    "query": "evaluation of researchers publication metrics"
+  },
+  {
+    "title": "Evaluation of Software Product Quality Metrics",
+    "authors": [
+      "Arthur-Jozsef Molnar",
+      "Alexandra Neam\u0163u",
+      "Simona Motogna"
+    ],
+    "summary": "Computing devices and associated software govern everyday life, and form the backbone of safety critical systems in banking, healthcare, automotive and other fields. Increasing system complexity, quickly evolving technologies and paradigm shifts have kept software quality research at the forefront. Standards such as ISO's 25010 express it in terms of sub-characteristics such as maintainability, reliability and security. A significant body of literature attempts to link these subcharacteristics with software metric values, with the end goal of creating a metric-based model of software product quality. However, research also identifies the most important existing barriers. Among them we mention the diversity of software application types, development platforms and languages. Additionally, unified definitions to make software metrics truly language-agnostic do not exist, and would be difficult to implement given programming language levels of variety. This is compounded by the fact that many existing studies do not detail their methodology and tooling, which precludes researchers from creating surveys to enable data analysis on a larger scale. In our paper, we propose a comprehensive study of metric values in the context of three complex, open-source applications. We align our methodology and tooling with that of existing research, and present it in detail in order to facilitate comparative evaluation. We study metric values during the entire 18-year development history of our target applications, in order to capture the longitudinal view that we found lacking in existing literature. We identify metric dependencies and check their consistency across applications and their versions. At each step, we carry out comparative evaluation with existing research and present our results.",
+    "published": "2020-09-03 10:06:25+00:00",
+    "entry_id": "http://arxiv.org/abs/2009.01557v1",
+    "pdf_url": "https://arxiv.org/pdf/2009.01557v1",
+    "categories": [
+      "cs.SE"
+    ],
+    "query": "evaluation of researchers publication metrics"
+  },
+  {
+    "title": "Better Late Than Never: Meta-Evaluation of Latency Metrics for Simultaneous Speech-to-Text Translation",
+    "authors": [
+      "Peter Pol\u00e1k",
+      "Sara Papi",
+      "Luisa Bentivogli",
+      "Ond\u0159ej Bojar"
+    ],
+    "summary": "Simultaneous speech-to-text translation systems must balance translation quality with latency. Although quality evaluation is well established, latency measurement remains a challenge. Existing metrics produce inconsistent results, especially in short-form settings with artificial presegmentation. We present the first comprehensive meta-evaluation of latency metrics across language pairs and systems. We uncover a structural bias in current metrics related to segmentation. We introduce YAAL (Yet Another Average Lagging) for a more accurate short-form evaluation and LongYAAL for unsegmented audio. We propose SoftSegmenter, a resegmentation tool based on soft word-level alignment. We show that YAAL and LongYAAL, together with SoftSegmenter, outperform popular latency metrics, enabling more reliable assessments of short- and long-form simultaneous speech translation systems. We implement all artifacts within the OmniSTEval toolkit: https://github.com/pe-trik/OmniSTEval.",
+    "published": "2025-09-22 04:21:19+00:00",
+    "entry_id": "http://arxiv.org/abs/2509.17349v2",
+    "pdf_url": "https://arxiv.org/pdf/2509.17349v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "query": "evaluation of researchers publication metrics"
+  },
+  {
+    "title": "Toward Efficient Evaluation of Logic Encryption Schemes: Models and Metrics",
+    "authors": [
+      "Yinghua Hu",
+      "Vivek V. Menon",
+      "Andrew Schmidt",
+      "Joshua Monson",
+      "Matthew French",
+      "Pierluigi Nuzzo"
+    ],
+    "summary": "Research in logic encryption over the last decade has resulted in various techniques to prevent different security threats such as Trojan insertion, intellectual property leakage, and reverse engineering. However, there is little agreement on a uniform set of metrics and models to efficiently assess the achieved security level and the trade-offs between security and overhead. This paper addresses the above challenges by relying on a general logic encryption model that can encompass all the existing techniques, and a uniform set of metrics that can capture multiple, possibly conflicting, security concerns. We apply our modeling approach to four state-of-the-art encryption techniques, showing that it enables fast and accurate evaluation of design trade-offs, average prediction errors that are at least 2X smaller than previous approaches, and the evaluation of compound encryption methods.",
+    "published": "2019-09-13 06:18:58+00:00",
+    "entry_id": "http://arxiv.org/abs/1909.07917v2",
+    "pdf_url": "https://arxiv.org/pdf/1909.07917v2",
+    "categories": [
+      "cs.CR",
+      "eess.SY"
+    ],
+    "query": "evaluation of researchers publication metrics"
+  },
+  {
+    "title": "Reflecting on Motivations: How Reasons to Publish affect Research Behaviour in Astronomy",
+    "authors": [
+      "Julia Heuritsch"
+    ],
+    "summary": "Recent research in the field of reflexive metrics have studied the emergence and consequences of evaluation gaps in science. The concept of evaluation gaps captures potential discrepancies between what researchers value about their research, in particular research quality, and what metrics measure. As a result, scientists may experience anomie and adopt innovative ways to cope. These often value quantity over quality and may even compromise research integrity. A consequence of such gaps may therefore be research misconduct and a decrease in research quality. In the language of rational choice theory, an evaluation gap persists if motivational factors arising out of the internal component of an actors situation are incongruent with those arising out of the external components. The aim of this research is therefore to study and compare autonomous and controlled motivations to become an astronomer, to do research in astronomy and to publish scientific papers. Moreover, we study how these different motivational factors affect publication pressure, the experience of organisational justice and the observation of research misconduct. In summary, we find evidence for an evaluation gap and that controlled motivational factors arising from evaluation procedures based on publication record drives up publication pressure, which, in turn, was found to increase the likelihood of perceived frequency of misbehaviour.",
+    "published": "2021-11-30 16:22:51+00:00",
+    "entry_id": "http://arxiv.org/abs/2111.15532v2",
+    "pdf_url": "https://arxiv.org/pdf/2111.15532v2",
+    "categories": [
+      "physics.soc-ph",
+      "astro-ph.IM"
+    ],
+    "query": "evaluation of researchers publication metrics"
+  },
+  {
+    "title": "FFT: Towards Harmlessness Evaluation and Analysis for LLMs with Factuality, Fairness, Toxicity",
+    "authors": [
+      "Shiyao Cui",
+      "Zhenyu Zhang",
+      "Yilong Chen",
+      "Wenyuan Zhang",
+      "Tianyun Liu",
+      "Siqi Wang",
+      "Tingwen Liu"
+    ],
+    "summary": "The widespread of generative artificial intelligence has heightened concerns about the potential harms posed by AI-generated texts, primarily stemming from factoid, unfair, and toxic content. Previous researchers have invested much effort in assessing the harmlessness of generative language models. However, existing benchmarks are struggling in the era of large language models (LLMs), due to the stronger language generation and instruction following capabilities, as well as wider applications. In this paper, we propose FFT, a new benchmark with 2116 elaborated-designed instances, for LLM harmlessness evaluation with factuality, fairness, and toxicity. To investigate the potential harms of LLMs, we evaluate 9 representative LLMs covering various parameter scales, training stages, and creators. Experiments show that the harmlessness of LLMs is still under-satisfactory, and extensive analysis derives some insightful findings that could inspire future research for harmless LLM research.",
+    "published": "2023-11-30 14:18:47+00:00",
+    "entry_id": "http://arxiv.org/abs/2311.18580v2",
+    "pdf_url": "https://arxiv.org/pdf/2311.18580v2",
+    "categories": [
+      "cs.CL",
+      "cs.CR"
+    ],
+    "query": "evaluation of researchers publication metrics"
+  },
+  {
+    "title": "Adapting Binary Information Retrieval Evaluation Metrics for Segment-based Retrieval Tasks",
+    "authors": [
+      "Robin Aly",
+      "Maria Eskevich",
+      "Roeland Ordelman",
+      "Gareth J. F. Jones"
+    ],
+    "summary": "This report describes metrics for the evaluation of the effectiveness of segment-based retrieval based on existing binary information retrieval metrics. This metrics are described in the context of a task for the hyperlinking of video segments. This evaluation approach re-uses existing evaluation measures from the standard Cranfield evaluation paradigm. Our adaptation approach can in principle be used with any kind of effectiveness measure that uses binary relevance, and for other segment-baed retrieval tasks. In our video hyperlinking setting, we use precision at a cut-off rank n and mean average precision.",
+    "published": "2013-12-06 16:34:14+00:00",
+    "entry_id": "http://arxiv.org/abs/1312.1913v1",
+    "pdf_url": "https://arxiv.org/pdf/1312.1913v1",
+    "categories": [
+      "cs.IR"
+    ],
+    "query": "evaluation of researchers publication metrics"
+  },
+  {
+    "title": "HOTA: A Higher Order Metric for Evaluating Multi-Object Tracking",
+    "authors": [
+      "Jonathon Luiten",
+      "Aljosa Osep",
+      "Patrick Dendorfer",
+      "Philip Torr",
+      "Andreas Geiger",
+      "Laura Leal-Taixe",
+      "Bastian Leibe"
+    ],
+    "summary": "Multi-Object Tracking (MOT) has been notoriously difficult to evaluate. Previous metrics overemphasize the importance of either detection or association. To address this, we present a novel MOT evaluation metric, HOTA (Higher Order Tracking Accuracy), which explicitly balances the effect of performing accurate detection, association and localization into a single unified metric for comparing trackers. HOTA decomposes into a family of sub-metrics which are able to evaluate each of five basic error types separately, which enables clear analysis of tracking performance. We evaluate the effectiveness of HOTA on the MOTChallenge benchmark, and show that it is able to capture important aspects of MOT performance not previously taken into account by established metrics. Furthermore, we show HOTA scores better align with human visual evaluation of tracking performance.",
+    "published": "2020-09-16 15:11:30+00:00",
+    "entry_id": "http://arxiv.org/abs/2009.07736v2",
+    "pdf_url": "https://arxiv.org/pdf/2009.07736v2",
+    "categories": [
+      "cs.CV"
+    ],
+    "query": "evaluation of researchers publication metrics"
+  },
+  {
+    "title": "Comparison and Adaptation of Automatic Evaluation Metrics for Quality Assessment of Re-Speaking",
+    "authors": [
+      "Krzysztof Wo\u0142k",
+      "Danijel Kor\u017einek"
+    ],
+    "summary": "Re-speaking is a mechanism for obtaining high quality subtitles for use in live broadcast and other public events. Because it relies on humans performing the actual re-speaking, the task of estimating the quality of the results is non-trivial. Most organisations rely on humans to perform the actual quality assessment, but purely automatic methods have been developed for other similar problems, like Machine Translation. This paper will try to compare several of these methods: BLEU, EBLEU, NIST, METEOR, METEOR-PL, TER and RIBES. These will then be matched to the human-derived NER metric, commonly used in re-speaking.",
+    "published": "2016-01-12 10:06:52+00:00",
+    "entry_id": "http://arxiv.org/abs/1601.02789v1",
+    "pdf_url": "https://arxiv.org/pdf/1601.02789v1",
+    "categories": [
+      "cs.CL",
+      "stat.AP",
+      "stat.ML"
+    ],
+    "query": "evaluation of researchers publication metrics"
+  },
+  {
+    "title": "Social media metrics for new research evaluation",
+    "authors": [
+      "Paul Wouters",
+      "Zohreh Zahedi",
+      "Rodrigo Costas"
+    ],
+    "summary": "This chapter approaches, both from a theoretical and practical perspective, the most important principles and conceptual frameworks that can be considered in the application of social media metrics for scientific evaluation. We propose conceptually valid uses for social media metrics in research evaluation. The chapter discusses frameworks and uses of these metrics as well as principles and recommendations for the consideration and application of current (and potentially new) metrics in research evaluation.",
+    "published": "2018-06-27 15:50:05+00:00",
+    "entry_id": "http://arxiv.org/abs/1806.10541v1",
+    "pdf_url": "https://arxiv.org/pdf/1806.10541v1",
+    "categories": [
+      "cs.DL",
+      "cs.IT",
+      "cs.SI"
+    ],
+    "query": "evaluation of researchers publication metrics"
+  },
+  {
+    "title": "Detecting the historical roots of research fields by reference publication year spectroscopy (RPYS)",
+    "authors": [
+      "Werner Marx",
+      "Lutz Bornmann",
+      "Andreas Barth",
+      "Loet Leydesdorff"
+    ],
+    "summary": "We introduce the quantitative method named \"reference publication year spectroscopy\" (RPYS). With this method one can determine the historical roots of research fields and quantify their impact on current research. RPYS is based on the analysis of the frequency with which references are cited in the publications of a specific research field in terms of the publication years of these cited references. The origins show up in the form of more or less pronounced peaks mostly caused by individual publications which are cited particularly frequently. In this study, we use research on graphene and on solar cells to illustrate how RPYS functions, and what results it can deliver.",
+    "published": "2013-07-31 07:38:30+00:00",
+    "entry_id": "http://arxiv.org/abs/1307.8239v1",
+    "pdf_url": "https://arxiv.org/pdf/1307.8239v1",
+    "categories": [
+      "cs.DL"
+    ],
+    "query": "evaluation of researchers publication metrics"
+  },
+  {
+    "title": "Benchmarks and Metrics for Evaluations of Code Generation: A Critical Review",
+    "authors": [
+      "Debalina Ghosh Paul",
+      "Hong Zhu",
+      "Ian Bayley"
+    ],
+    "summary": "With the rapid development of Large Language Models (LLMs), a large number of machine learning models have been developed to assist programming tasks including the generation of program code from natural language input. However, how to evaluate such LLMs for this task is still an open problem despite of the great amount of research efforts that have been made and reported to evaluate and compare them. This paper provides a critical review of the existing work on the testing and evaluation of these tools with a focus on two key aspects: the benchmarks and the metrics used in the evaluations. Based on the review, further research directions are discussed.",
+    "published": "2024-06-18 14:25:34+00:00",
+    "entry_id": "http://arxiv.org/abs/2406.12655v1",
+    "pdf_url": "https://arxiv.org/pdf/2406.12655v1",
+    "categories": [
+      "cs.AI",
+      "cs.SE"
+    ],
+    "query": "evaluation of researchers publication metrics"
+  },
+  {
+    "title": "Comparative evaluation of future collider options",
+    "authors": [
+      "G. Arduini",
+      "M. Benedikt",
+      "F. Gianotti",
+      "K. Jakobs",
+      "M. Lamont",
+      "R. Losito",
+      "M. Meddahi",
+      "J. Mnich",
+      "N. Mounet",
+      "D. Schulte",
+      "F. Sonnemann",
+      "S. Stapnes",
+      "F. Zimmermann"
+    ],
+    "summary": "In anticipation of the completion of the High-Luminosity Large Hadron Collider (HL-LHC) programme by the end of 2041, CERN is preparing to launch a new major facility in the mid-2040s. According to the 2020 update of the European Strategy for Particle Physics (ESPP), the highest-priority next collider is an electron-positron Higgs factory, followed in the longer term by a hadron-hadron collider at the highest achievable energy. The CERN directorate established a Future Colliders Comparative Evaluation working group in June 2023. This group brings together project leaders and domain experts to conduct a consistent evaluation of the Future Circular Collider (FCC) and alternative scenarios based on shared assumptions and standardized criteria. This report presents a comparative evaluation of proposed future collider projects submitted as input for the Update of the European Strategy for Particle Physics. These proposals are compared considering main performance parameters, environmental impact and sustainability, technical maturity, cost of construction and operation, required human resources, and realistic implementation timelines. An overview of the international collider projects within a similar timeframe, notably the CEPC in China and the ILC in Japan is also presented, as well as a short review of the status and prospects of new accelerator techniques.",
+    "published": "2025-11-25 15:41:09+00:00",
+    "entry_id": "http://arxiv.org/abs/2511.20417v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.20417v2",
+    "categories": [
+      "physics.acc-ph",
+      "hep-ex"
+    ],
+    "query": "evaluation of researchers publication metrics"
+  },
+  {
+    "title": "When Reviewers Lock Horn: Finding Disagreement in Scientific Peer Reviews",
+    "authors": [
+      "Sandeep Kumar",
+      "Tirthankar Ghosal",
+      "Asif Ekbal"
+    ],
+    "summary": "To this date, the efficacy of the scientific publishing enterprise fundamentally rests on the strength of the peer review process. The journal editor or the conference chair primarily relies on the expert reviewers' assessment, identify points of agreement and disagreement and try to reach a consensus to make a fair and informed decision on whether to accept or reject a paper. However, with the escalating number of submissions requiring review, especially in top-tier Artificial Intelligence (AI) conferences, the editor/chair, among many other works, invests a significant, sometimes stressful effort to mitigate reviewer disagreements. Here in this work, we introduce a novel task of automatically identifying contradictions among reviewers on a given article. To this end, we introduce ContraSciView, a comprehensive review-pair contradiction dataset on around 8.5k papers (with around 28k review pairs containing nearly 50k review pair comments) from the open review-based ICLR and NeurIPS conferences. We further propose a baseline model that detects contradictory statements from the review pairs. To the best of our knowledge, we make the first attempt to identify disagreements among peer reviewers automatically. We make our dataset and code public for further investigations.",
+    "published": "2023-10-28 11:57:51+00:00",
+    "entry_id": "http://arxiv.org/abs/2310.18685v1",
+    "pdf_url": "https://arxiv.org/pdf/2310.18685v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "noise in peer review reviewer disagreement"
+  },
+  {
+    "title": "Aspect-Guided Multi-Level Perturbation Analysis of Large Language Models in Automated Peer Review",
+    "authors": [
+      "Jiatao Li",
+      "Yanheng Li",
+      "Xinyu Hu",
+      "Mingqi Gao",
+      "Xiaojun Wan"
+    ],
+    "summary": "We propose an aspect-guided, multi-level perturbation framework to evaluate the robustness of Large Language Models (LLMs) in automated peer review. Our framework explores perturbations in three key components of the peer review process-papers, reviews, and rebuttals-across several quality aspects, including contribution, soundness, presentation, tone, and completeness. By applying targeted perturbations and examining their effects on both LLM-as-Reviewer and LLM-as-Meta-Reviewer, we investigate how aspect-based manipulations, such as omitting methodological details from papers or altering reviewer conclusions, can introduce significant biases in the review process. We identify several potential vulnerabilities: review conclusions that recommend a strong reject may significantly influence meta-reviews, negative or misleading reviews may be wrongly interpreted as thorough, and incomplete or hostile rebuttals can unexpectedly lead to higher acceptance rates. Statistical tests show that these biases persist under various Chain-of-Thought prompting strategies, highlighting the lack of robust critical evaluation in current LLMs. Our framework offers a practical methodology for diagnosing these vulnerabilities, thereby contributing to the development of more reliable and robust automated reviewing systems.",
+    "published": "2025-02-18 03:50:06+00:00",
+    "entry_id": "http://arxiv.org/abs/2502.12510v1",
+    "pdf_url": "https://arxiv.org/pdf/2502.12510v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "noise in peer review reviewer disagreement"
+  },
+  {
+    "title": "Peer Review and the Diffusion of Ideas",
+    "authors": [
+      "Binglu Wang",
+      "Zhengnan Ma",
+      "Dashun Wang",
+      "Brian Uzzi"
+    ],
+    "summary": "This study examines a fundamental yet overlooked function of peer review: its role in exposing reviewers to new and unexpected ideas. Leveraging a natural experiment involving over half a million peer review invitations covering both accepted and rejected manuscripts, and integrating high-scale bibliographic and editorial records for 37,279 submitting authors, we find that exposure to a manuscript's core ideas significantly influences the future referencing behavior and knowledge of reviewer invitees who decline the review invite. Specifically, declining reviewer invitees who could view concise summaries of the manuscript's core ideas not only increase their citations to the manuscript itself but also demonstrate expanded breadth, depth, diversity, and prominence of citations to the submitting author's broader body of work. Overall, these results suggest peer review substantially influences the spread of scientific knowledge. Ironically, while the massive scale of peer review, entailing millions of reviews annually, often drives policy debates about its costs and burdens, our findings demonstrate that precisely because of this scale, peer review serves as a powerful yet previously unrecognized engine for idea diffusion, which is central to scientific advances and scholarly communication.",
+    "published": "2025-07-16 01:02:51+00:00",
+    "entry_id": "http://arxiv.org/abs/2507.11825v1",
+    "pdf_url": "https://arxiv.org/pdf/2507.11825v1",
+    "categories": [
+      "physics.soc-ph",
+      "cs.SI"
+    ],
+    "query": "noise in peer review reviewer disagreement"
+  },
+  {
+    "title": "What Drives Paper Acceptance? A Process-Centric Analysis of Modern Peer Review",
+    "authors": [
+      "Sangkeun Jung",
+      "Goun Pyeon",
+      "Inbum Heo",
+      "Hyungjin Ahn"
+    ],
+    "summary": "Peer review is the primary mechanism for evaluating scientific contributions, yet prior studies have mostly examined paper features or external metadata in isolation. The emergence of open platforms such as OpenReview has transformed peer review into a transparent and interactive process, recording not only scores and comments but also rebuttals, reviewer-author exchanges, reviewer disagreements, and meta-reviewer decisions. This provides unprecedented process-level data for understanding how modern peer review operates. In this paper, we present a large-scale empirical study of ICLR 2017-2025, encompassing over 28,000 submissions. Our analysis integrates four complementary dimensions, including the structure and language quality of papers (e.g., section patterns, figure/table ratios, clarity), submission strategies and external metadata (e.g., timing, arXiv posting, author count), the dynamics of author-reviewer interactions (e.g., rebuttal frequency, responsiveness), and the patterns of reviewer disagreement and meta-review mediation (e.g., score variance, confidence weighting). Our results show that factors beyond scientific novelty significantly shape acceptance outcomes. In particular, the rebuttal stage emerges as a decisive phase: timely, substantive, and interactive author-reviewer communication strongly increases the likelihood of acceptance, often outweighing initial reviewer skepticism. Alongside this, clearer writing, balanced visual presentation, earlier submission, and effective resolution of reviewer disagreement also correlate with higher acceptance probabilities. Based on these findings, we propose data-driven guidelines for authors, reviewers, and meta-reviewers to enhance transparency and fairness in peer review. Our study demonstrates that process-centric signals are essential for understanding and improving modern peer review.",
+    "published": "2025-09-30 03:00:10+00:00",
+    "entry_id": "http://arxiv.org/abs/2509.25701v2",
+    "pdf_url": "https://arxiv.org/pdf/2509.25701v2",
+    "categories": [
+      "cs.CY"
+    ],
+    "query": "noise in peer review reviewer disagreement"
+  },
+  {
+    "title": "Disparities in Peer Review Tone and the Role of Reviewer Anonymity",
+    "authors": [
+      "Maria Sahakyan",
+      "Bedoor AlShebli"
+    ],
+    "summary": "The peer review process is often regarded as the gatekeeper of scientific integrity, yet increasing evidence suggests that it is not immune to bias. Although structural inequities in peer review have been widely debated, much less attention has been paid to the subtle ways in which language itself may reinforce disparities. This study undertakes one of the most comprehensive linguistic analyses of peer review to date, examining more than 80,000 reviews in two major journals. Using natural language processing and large-scale statistical modeling, it uncovers how review tone, sentiment, and supportive language vary across author demographics, including gender, race, and institutional affiliation. Using a data set that includes both anonymous and signed reviews, this research also reveals how the disclosure of reviewer identity shapes the language of evaluation. The findings not only expose hidden biases in peer feedback, but also challenge conventional assumptions about anonymity's role in fairness. As academic publishing grapples with reform, these insights raise critical questions about how review policies shape career trajectories and scientific progress.",
+    "published": "2025-07-19 20:19:21+00:00",
+    "entry_id": "http://arxiv.org/abs/2507.14741v1",
+    "pdf_url": "https://arxiv.org/pdf/2507.14741v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "query": "noise in peer review reviewer disagreement"
+  }
+]

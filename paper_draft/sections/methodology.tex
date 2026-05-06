@@ -1,0 +1,55 @@
+\section{Methodology}
+\label{sec:method}
+
+We build a single model with three coupled layers. The {\bf paper layer} characterizes how informative an acceptance decision is about the underlying paper quality. The {\bf reader layer} asks whether the venue label, even if informative, helps a reader with finite time pick what to read. The {\bf researcher layer} asks whether a researcher's accumulated publication count remains a useful signal of ability. Each layer shares the same primitives ($\Nsub$, $\Kcap$, $\sigrev$) but produces a different output metric.
+
+\subsection{Paper layer: capacity-constrained Bayesian signaling}
+\label{sec:method-paper}
+
+A venue receives $\Nsub$ submissions in a year. Paper $i$ has latent quality $\quality_i \overset{\text{iid}}{\sim} F$, where $F$ is one of $\gN(0,1)$, log-normal($0,1$), or Pareto with shape $\alpha=2.5$. A reviewer produces a score
+\begin{equation}
+    \score_i = \quality_i + \varepsilon_i, \qquad \varepsilon_i \sim \gN(0,\sigrev^2),
+\end{equation}
+and the gatekeeper accepts the top-$\Kcap$ scoring papers. The acceptance indicator is $\acc_i = \1[\score_i \ge \score_{(\Kcap)}]$, where $\score_{(\Kcap)}$ is the $\Kcap$-th order statistic. The marginal acceptance rate is $\arate = \Kcap/\Nsub$.
+
+We focus on three properties of the joint distribution of $(\quality, \acc)$:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item the {\bf posterior contrast} $\contrast = \E[\quality\mid\acc{=}1] - \E[\quality\mid\acc{=}0]$, which measures how much average quality is communicated by an acceptance label;
+    \item the {\bf mutual information} $\miquant$, which measures the per-decision information content;
+    \item the {\bf tail recall} $\Pr(\acc{=}1\mid \quality \in \text{top-1\%})$, which measures whether genuinely excellent papers actually get through.
+\end{itemize}
+For Gaussian $F$ we evaluate these via $4001$-point numerical integration over the marginal acceptance threshold (\texttt{src/analytical\_signaling.py}); the same routine handles log-normal and Pareto by simply substituting the $F$ density. We sweep $\Nsub \in \{200, 400, \dots, 102{,}400\}$ and $\sigrev \in \{0.3, 0.7, 1.0, 1.5, 2.0\}$.
+
+\para{Capacity policies.} The signal-decay behavior depends critically on how $\Kcap$ scales with $\Nsub$. We compare three policies:
+\begin{equation}
+    \Kcap_{\text{const}} = 200, \qquad \Kcap_{\text{sub}} = 20\sqrt{\Nsub}, \qquad \Kcap_{\text{lin}} = 0.30\,\Nsub.
+\end{equation}
+The constant-$\Kcap$ policy is the historical journal model (fixed pages per year); the linear policy is the modern AI-conference model (constant accept rate near $25$--$35\%$); the sublinear policy is an intermediate hypothetical.
+
+\subsection{Reader layer: bounded-budget consumption}
+\label{sec:method-reader}
+
+Each of $M = 200$ readers has a budget of $\budget = 20$ papers per year for $T = 12$ years, with reviewer noise $\sigrev=1.5$. A strategy is a sampling rule over either the venue's accepted pool ($\acc_i = 1$) or the full submission pool. We track the total true quality $\sum_i \quality_i$ each reader consumes. To probe trust dynamics, we optionally implement a negative-experience feedback rule: a reader who consumes a paper with $\quality_i < \tau_{\text{bad}}$ stops sampling from the venue with probability $p_{\text{collapse}}$. We use $\tau_{\text{bad}} = -0.3$ and $p_{\text{collapse}} = 0.02$ in the main experiments. The simulator is in \texttt{src/consumption\_model.py}.
+
+\subsection{Researcher layer: bean counting and identifiability}
+\label{sec:method-researcher}
+
+Each of $M_r$ researchers has a latent ability $\ability_i \sim \gN(0, 0.5^2)$ and submits $S = 2$ papers per year for $T = 5$ years, where paper $j$'s quality is $\quality_{ij} = \ability_i + \nu_{ij}$ with $\nu_{ij} \sim \gN(0, 0.7^2)$. Submissions enter the gatekeeper at the paper layer; the researcher's publication count $c_i$ is the number of accepted papers across $T$ years. We measure (i) the Spearman correlation $\rho(\ability, c)$, (ii) the recall on the top decile of researchers by $\ability$, and (iii) the fraction of researchers with $c_i = 0$. We run $5$ Monte Carlo trials per $(M_r, \text{capacity policy})$ cell with seeds $\{0,\dots,4\}$, sweeping $M_r \in \{200, 500, 1000, 2000, 5000, 10000, 20000\}$. The simulator is in \texttt{src/researcher\_bean\_counting.py}.
+
+\subsection{Empirical pipeline}
+\label{sec:method-empirical}
+
+We use the open \papercopilot dataset~\citep{yang2025papercopilot} (cloned in \texttt{code/paperlists/}). Where reviewer-rating fields exist, we extract per-paper rating means $\bar r_i$ and per-paper rating SD $s_i$, then compute the empirical analogue of the posterior contrast,
+\begin{equation}
+    \hcontrast \;=\; \E[\bar r_i \mid \acc_i{=}1] - \E[\bar r_i \mid \acc_i{=}0], \qquad \stdrating = \mathrm{SD}(\bar r_i),
+\end{equation}
+yielding the standardized signal $\hcontrast / \stdrating$. We complement this with mean per-paper reviewer SD $\bar s$ as a load-induced-noise proxy. Extraction code is in \texttt{src/empirical\_extraction.py}; statistical tests (Kendall trend, OLS on $\log \Nsub$, Mann--Whitney) are in \texttt{src/statistical\_tests.py}. \iclr 2017--2026 is the only AI venue with rating data in $8$+ years that span the volume range of interest, so it serves as the primary empirical anchor.
+
+\subsection{Baselines}
+\label{sec:method-baselines}
+
+Our analytical results are checked against three reference points: (i) the no-capacity-constraint Spence--Akerlof--Long limit, in which acceptance is calibrated only by reviewer noise and the signal is invariant in $\Nsub$ (recovered as the green flat line in \figref{fig:capacity}); (ii) the Cortes--Lawrence \neurips 2014 noise floor of $\sim 50\%$ disagreement, used to anchor a plausible $\sigrev$; and (iii) the \citet{heckman2019tyranny} observation that the top-tier captures $\sim 50\%$ of the most influential articles, which we should reproduce as the tail-recall metric in a moderate-$\Nsub$/moderate-$\sigrev$ cell.
+
+\subsection{Implementation and reproducibility}
+
+All code is Python 3.12 with \texttt{numpy 2.x}, \texttt{scipy 1.17}, \texttt{pandas 2.x}, and \texttt{matplotlib}. Random seeds are explicit (\texttt{np.random.default\_rng(0)} for analytical experiments, $\{0,\dots,4\}$ for Monte Carlo trials). Total wall-clock to reproduce every experiment and figure is under $60$~seconds on a single CPU; no GPUs are used.

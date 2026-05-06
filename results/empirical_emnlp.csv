@@ -1,0 +1,5 @@
+venue,year,n_total,n_accept,n_reject,accept_rate,n_with_rating,mean_rating,mean_rating_std,mean_rating_range,delta_accept_reject,n_accepted_with_rating,n_rejected_with_rating
+emnlp,2021,1312,0,0,0.0,0,,,,,0,0
+emnlp,2022,1439,0,0,0.0,0,,,,,0,0
+emnlp,2023,2020,0,9,0.0,2015,3.798511166253102,0.0,0.0,,0,8
+emnlp,2024,2379,0,0,0.0,0,,,,,0,0

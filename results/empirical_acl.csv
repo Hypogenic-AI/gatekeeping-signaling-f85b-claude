@@ -1,0 +1,6 @@
+venue,year,n_total,n_accept,n_reject,accept_rate,n_with_rating,mean_rating,mean_rating_std,mean_rating_range,delta_accept_reject,n_accepted_with_rating,n_rejected_with_rating
+acl,2021,710,0,0,0.0,0,,,,,0,0
+acl,2022,1031,0,0,0.0,0,,,,,0,0
+acl,2023,2052,0,0,0.0,0,,,,,0,0
+acl,2024,1931,0,0,0.0,0,,,,,0,0
+acl,2025,3086,0,0,0.0,0,,,,,0,0

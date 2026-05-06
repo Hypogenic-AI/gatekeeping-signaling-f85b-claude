@@ -1,0 +1,72 @@
+{
+  "iclr": {
+    "n_years": 12,
+    "year_range": [
+      2013,
+      2026
+    ],
+    "n_submissions_first": 67,
+    "n_submissions_last": 19814,
+    "growth_factor": 295.7313432835821
+  },
+  "nips": {
+    "n_years": 39,
+    "year_range": [
+      1987,
+      2025
+    ],
+    "n_submissions_first": 90,
+    "n_submissions_last": 6212,
+    "growth_factor": 69.02222222222223
+  },
+  "icml": {
+    "n_years": 13,
+    "year_range": [
+      2013,
+      2025
+    ],
+    "n_submissions_first": 283,
+    "n_submissions_last": 3527,
+    "growth_factor": 12.462897526501767
+  },
+  "aaai": {
+    "n_years": 5,
+    "year_range": [
+      2021,
+      2025
+    ],
+    "n_submissions_first": 1654,
+    "n_submissions_last": 3486,
+    "growth_factor": 2.1076178960096734
+  },
+  "cvpr": {
+    "n_years": 13,
+    "year_range": [
+      2013,
+      2025
+    ],
+    "n_submissions_first": 471,
+    "n_submissions_last": 2872,
+    "growth_factor": 6.097664543524417
+  },
+  "emnlp": {
+    "n_years": 4,
+    "year_range": [
+      2021,
+      2024
+    ],
+    "n_submissions_first": 1312,
+    "n_submissions_last": 2379,
+    "growth_factor": 1.8132621951219512
+  },
+  "acl": {
+    "n_years": 5,
+    "year_range": [
+      2021,
+      2025
+    ],
+    "n_submissions_first": 710,
+    "n_submissions_last": 3086,
+    "growth_factor": 4.346478873239437
+  }
+}

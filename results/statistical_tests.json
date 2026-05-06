@@ -1,0 +1,181 @@
+{
+  "H1_analytical": {
+    "gaussian": {
+      "sigma=0.3": {
+        "MI_kendall_tau": -0.6,
+        "MI_p": 0.016666115520282188,
+        "tail_kendall_tau": -0.9999999999999999,
+        "tail_p": 5.511463844797178e-07,
+        "MI_slope_in_logN": -0.07173708020571458
+      },
+      "sigma=0.7": {
+        "MI_kendall_tau": -0.6,
+        "MI_p": 0.016666115520282188,
+        "tail_kendall_tau": -0.9999999999999999,
+        "tail_p": 5.511463844797178e-07,
+        "MI_slope_in_logN": -0.04190391052296456
+      },
+      "sigma=1.0": {
+        "MI_kendall_tau": -0.6,
+        "MI_p": 0.016666115520282188,
+        "tail_kendall_tau": -0.9999999999999999,
+        "tail_p": 5.511463844797178e-07,
+        "MI_slope_in_logN": -0.02836666026765246
+      },
+      "sigma=1.5": {
+        "MI_kendall_tau": -0.6,
+        "MI_p": 0.016666115520282188,
+        "tail_kendall_tau": -0.9999999999999999,
+        "tail_p": 5.511463844797178e-07,
+        "MI_slope_in_logN": -0.016021641220076044
+      },
+      "sigma=2.0": {
+        "MI_kendall_tau": -0.6,
+        "MI_p": 0.016666115520282188,
+        "tail_kendall_tau": -0.9999999999999999,
+        "tail_p": 5.511463844797178e-07,
+        "MI_slope_in_logN": -0.009988645287193754
+      }
+    },
+    "lognormal": {
+      "sigma=0.3": {
+        "MI_kendall_tau": -0.5555555555555555,
+        "MI_p": 0.02860945767195767,
+        "tail_kendall_tau": -0.9309493362512626,
+        "tail_p": 0.0002993433429267429,
+        "MI_slope_in_logN": -0.06439134460013314
+      },
+      "sigma=0.7": {
+        "MI_kendall_tau": -0.5111111111111111,
+        "MI_p": 0.04662257495590829,
+        "tail_kendall_tau": -0.9999999999999999,
+        "tail_p": 5.511463844797178e-07,
+        "MI_slope_in_logN": -0.03239190338486626
+      },
+      "sigma=1.0": {
+        "MI_kendall_tau": -0.5111111111111111,
+        "MI_p": 0.04662257495590829,
+        "tail_kendall_tau": -0.9999999999999999,
+        "tail_p": 5.511463844797178e-07,
+        "MI_slope_in_logN": -0.02012721621834997
+      },
+      "sigma=1.5": {
+        "MI_kendall_tau": -0.5111111111111111,
+        "MI_p": 0.04662257495590829,
+        "tail_kendall_tau": -0.9999999999999999,
+        "tail_p": 5.511463844797178e-07,
+        "MI_slope_in_logN": -0.010244066500756134
+      },
+      "sigma=2.0": {
+        "MI_kendall_tau": -0.5111111111111111,
+        "MI_p": 0.04662257495590829,
+        "tail_kendall_tau": -0.9999999999999999,
+        "tail_p": 5.511463844797178e-07,
+        "MI_slope_in_logN": -0.006175351421978848
+      }
+    },
+    "pareto": {
+      "sigma=0.3": {
+        "MI_kendall_tau": -0.5111111111111111,
+        "MI_p": 0.04662257495590829,
+        "tail_kendall_tau": -0.9309493362512626,
+        "tail_p": 0.0002993433429267429,
+        "MI_slope_in_logN": -0.03592340986077655
+      },
+      "sigma=0.7": {
+        "MI_kendall_tau": -0.37777777777777777,
+        "MI_p": 0.1557418430335097,
+        "tail_kendall_tau": -0.9999999999999999,
+        "tail_p": 5.511463844797178e-07,
+        "MI_slope_in_logN": -0.011303007579921651
+      },
+      "sigma=1.0": {
+        "MI_kendall_tau": -0.3333333333333333,
+        "MI_p": 0.21637345679012346,
+        "tail_kendall_tau": -0.9999999999999999,
+        "tail_p": 5.511463844797178e-07,
+        "MI_slope_in_logN": -0.005177548404416082
+      },
+      "sigma=1.5": {
+        "MI_kendall_tau": -0.37777777777777777,
+        "MI_p": 0.1557418430335097,
+        "tail_kendall_tau": -0.9999999999999999,
+        "tail_p": 5.511463844797178e-07,
+        "MI_slope_in_logN": -0.0015035103459720923
+      },
+      "sigma=2.0": {
+        "MI_kendall_tau": -0.37777777777777777,
+        "MI_p": 0.1557418430335097,
+        "tail_kendall_tau": -0.9999999999999999,
+        "tail_p": 5.511463844797178e-07,
+        "MI_slope_in_logN": -0.0005661161123257037
+      }
+    }
+  },
+  "H3_bean_counting": {
+    "fixed_K": {
+      "kendall_tau_rho_vs_M": -1.0,
+      "p_rho": 0.0003968253968253968,
+      "kendall_tau_recall_vs_M": -0.9047619047619049,
+      "p_recall": 0.002777777777777778,
+      "mannwhitney_rho_smallM_vs_largeM": {
+        "U": 25.0,
+        "p_one_sided": 0.003968253968253968,
+        "rho_smallM_mean": 0.7748896975681283,
+        "rho_largeM_mean": 0.25632690548979137
+      }
+    },
+    "linear_K": {
+      "kendall_tau_rho_vs_M": 0.33333333333333337,
+      "p_rho": 0.3813492063492063,
+      "kendall_tau_recall_vs_M": -0.33333333333333337,
+      "p_recall": 0.3813492063492063,
+      "mannwhitney_rho_smallM_vs_largeM": {
+        "U": 5.0,
+        "p_one_sided": 0.9523809523809524,
+        "rho_smallM_mean": 0.7487651583380077,
+        "rho_largeM_mean": 0.7753310457267061
+      }
+    }
+  },
+  "H4_empirical_iclr": {
+    "n_years_with_ratings": 8,
+    "rating_SD_kendall_tau_vs_year": 0.6428571428571428,
+    "rating_SD_p_vs_year": 0.03115079365079365,
+    "rating_SD_kendall_tau_vs_N": 0.6428571428571428,
+    "rating_SD_p_vs_N": 0.03115079365079365,
+    "delta_kendall_tau_vs_year": -0.3571428571428571,
+    "delta_p_vs_year": 0.27509920634920637,
+    "delta_kendall_tau_vs_N": -0.3571428571428571,
+    "delta_p_vs_N": 0.27509920634920637,
+    "delta_normalized_slope_in_logN": -0.3177552273388999,
+    "delta_normalized_slope_p": 0.0011370932083611242,
+    "delta_normalized_R2": 0.849255895310127,
+    "first_year_summary": {
+      "year": 2017,
+      "N": 490,
+      "rating_SD": 0.85655433583068,
+      "delta_normalized": 2.551716355164913
+    },
+    "last_year_summary": {
+      "year": 2026,
+      "N": 19814,
+      "rating_SD": 1.525523855704825,
+      "delta_normalized": 1.0816719162744017
+    }
+  },
+  "H2_consumption": {
+    "fixed_K": {
+      "gap_slope_in_logN": 69.40695867000879,
+      "gap_slope_p": 1.0465656014392972e-05,
+      "gap_first_N": 13.007539449552484,
+      "gap_last_N": 368.4993609018541
+    },
+    "linear_K": {
+      "gap_slope_in_logN": 2.6277890788877847,
+      "gap_slope_p": 0.12645729114800347,
+      "gap_first_N": 135.95092648231415,
+      "gap_last_N": 154.63198646975954
+    }
+  }
+}

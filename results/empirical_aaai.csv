@@ -1,0 +1,6 @@
+venue,year,n_total,n_accept,n_reject,accept_rate,n_with_rating,mean_rating,mean_rating_std,mean_rating_range,delta_accept_reject,n_accepted_with_rating,n_rejected_with_rating
+aaai,2021,1654,0,0,0.0,0,,,,,0,0
+aaai,2022,1319,0,0,0.0,0,,,,,0,0
+aaai,2023,2023,0,0,0.0,0,,,,,0,0
+aaai,2024,2865,0,0,0.0,0,,,,,0,0
+aaai,2025,3486,0,0,0.0,0,,,,,0,0

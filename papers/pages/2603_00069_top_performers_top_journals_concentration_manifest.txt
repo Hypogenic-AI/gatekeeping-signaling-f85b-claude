@@ -1,0 +1,14 @@
+PDF: papers/2603_00069_top_performers_top_journals_concentration.pdf
+Total pages: 43
+Pages per chunk: 5
+
+Chunks:
+  2603_00069_top_performers_top_journals_concentration_chunk_001.pdf: pages 1-5
+  2603_00069_top_performers_top_journals_concentration_chunk_002.pdf: pages 6-10
+  2603_00069_top_performers_top_journals_concentration_chunk_003.pdf: pages 11-15
+  2603_00069_top_performers_top_journals_concentration_chunk_004.pdf: pages 16-20
+  2603_00069_top_performers_top_journals_concentration_chunk_005.pdf: pages 21-25
+  2603_00069_top_performers_top_journals_concentration_chunk_006.pdf: pages 26-30
+  2603_00069_top_performers_top_journals_concentration_chunk_007.pdf: pages 31-35
+  2603_00069_top_performers_top_journals_concentration_chunk_008.pdf: pages 36-40
+  2603_00069_top_performers_top_journals_concentration_chunk_009.pdf: pages 41-43

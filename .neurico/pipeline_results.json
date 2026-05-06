@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/workspaces/gatekeeping-signaling-f85b-claude/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/workspaces/gatekeeping-signaling-f85b-claude/literature_review.md",
+        "resources_catalog": "/workspaces/gatekeeping-signaling-f85b-claude/resources.md",
+        "papers_dir": "/workspaces/gatekeeping-signaling-f85b-claude/papers",
+        "datasets_dir": "/workspaces/gatekeeping-signaling-f85b-claude/datasets",
+        "code_dir": "/workspaces/gatekeeping-signaling-f85b-claude/code"
+      },
+      "log_file": "/workspaces/gatekeeping-signaling-f85b-claude/logs/resource_finder_claude.log",
+      "transcript_file": "/workspaces/gatekeeping-signaling-f85b-claude/logs/resource_finder_claude_transcript.jsonl",
+      "elapsed_time": 1453.707755804062
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 863.1043717861176,
+      "log_file": "/workspaces/gatekeeping-signaling-f85b-claude/logs/execution_claude.log",
+      "transcript_file": "/workspaces/gatekeeping-signaling-f85b-claude/logs/execution_claude_transcript.jsonl"
+    }
+  },
+  "work_dir": "/workspaces/gatekeeping-signaling-f85b-claude"
+}

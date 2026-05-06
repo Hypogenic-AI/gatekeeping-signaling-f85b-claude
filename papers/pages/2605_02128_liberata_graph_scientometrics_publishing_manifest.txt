@@ -1,0 +1,16 @@
+PDF: papers/2605_02128_liberata_graph_scientometrics_publishing.pdf
+Total pages: 41
+Pages per chunk: 4
+
+Chunks:
+  2605_02128_liberata_graph_scientometrics_publishing_chunk_001.pdf: pages 1-4
+  2605_02128_liberata_graph_scientometrics_publishing_chunk_002.pdf: pages 5-8
+  2605_02128_liberata_graph_scientometrics_publishing_chunk_003.pdf: pages 9-12
+  2605_02128_liberata_graph_scientometrics_publishing_chunk_004.pdf: pages 13-16
+  2605_02128_liberata_graph_scientometrics_publishing_chunk_005.pdf: pages 17-20
+  2605_02128_liberata_graph_scientometrics_publishing_chunk_006.pdf: pages 21-24
+  2605_02128_liberata_graph_scientometrics_publishing_chunk_007.pdf: pages 25-28
+  2605_02128_liberata_graph_scientometrics_publishing_chunk_008.pdf: pages 29-32
+  2605_02128_liberata_graph_scientometrics_publishing_chunk_009.pdf: pages 33-36
+  2605_02128_liberata_graph_scientometrics_publishing_chunk_010.pdf: pages 37-40
+  2605_02128_liberata_graph_scientometrics_publishing_chunk_011.pdf: page 41
