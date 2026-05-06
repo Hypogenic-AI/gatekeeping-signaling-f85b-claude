@@ -1,0 +1,33 @@
+idea:
+  title: Signaling effect of Gate-keeping in the Publication System
+  domain: theory
+  hypothesis: 'As the number of papers increases in prestigious journals and conferences,
+    the signaling effect of gate-keeping diminishes, making it increasingly difficult
+    for researchers to assess paper quality or researcher ability based solely on
+    acceptance, ultimately reducing the effectiveness of the publication system as
+    a signal of research quality.
+
+    '
+  background:
+    description: 'Current scientific processes rely on gate keeping: papers are accepted
+      with a low acceptance rate at prestigious journals and conferences. But this
+      signaling effect will reduce as the number of papers go up. The goal here is
+      to devise a mathematical model to explain how the signaling effect diminishes.
+      First, at the paper level, assuming a certain consumption model of researchers,
+      it is impossible for researchers to decide whether to read a paper simply based
+      on acceptance. This interaction can worsen also due to negative experiences
+      in reading bad papers from venues, which is inevitable. Second, at the researcher
+      level, the system will provide no signal about whether a researcher is good
+      as it reduces to bean counting and bean counting does not surface actually good
+      researchers.
+
+      '
+  metadata:
+    author: Chenhao Tan
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/goxacTgrZkessg8BQ3c8
+    idea_id: signaling_effect_of_gate_keepi_20260506_195550_5e0b892a
+    created_at: '2026-05-06T19:55:50.704406'
+    status: submitted
+    github_repo_name: gatekeeping-signaling-f85b-claude
+    github_repo_url: https://github.com/Hypogenic-AI/gatekeeping-signaling-f85b-claude
